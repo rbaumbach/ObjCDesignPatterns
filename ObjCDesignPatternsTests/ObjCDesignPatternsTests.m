@@ -19,7 +19,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in ObjCDesignPatternsTests");
+    
 }
 
 @end

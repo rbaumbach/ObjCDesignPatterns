@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70CA11F3E6194100B20D4630 /* libPods-ObjCDesignPatternsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BCF2278D19440D87CF93F9 /* libPods-ObjCDesignPatternsTests.a */; };
 		AFA9245E17D53C600005E39B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9245D17D53C600005E39B /* UIKit.framework */; };
 		AFA9246017D53C600005E39B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9245F17D53C600005E39B /* Foundation.framework */; };
 		AFA9246217D53C600005E39B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9246117D53C600005E39B /* CoreGraphics.framework */; };
@@ -23,6 +24,7 @@
 		AFA9248417D53C610005E39B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9245F17D53C600005E39B /* Foundation.framework */; };
 		AFA9248C17D53C610005E39B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFA9248A17D53C610005E39B /* InfoPlist.strings */; };
 		AFA9248F17D53C610005E39B /* ObjCDesignPatternsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA9248E17D53C610005E39B /* ObjCDesignPatternsTests.m */; };
+		AFCA101217D545ED00ADF1C8 /* SampleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA101117D545ED00ADF1C8 /* SampleSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47BCF2278D19440D87CF93F9 /* libPods-ObjCDesignPatternsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjCDesignPatternsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A4AF10CF194DE0A8C61994 /* Pods-ObjCDesignPatternsTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCDesignPatternsTests.xcconfig"; path = "Pods/Pods-ObjCDesignPatternsTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		AFA9245A17D53C600005E39B /* ObjCDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA9245D17D53C600005E39B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AFA9245F17D53C600005E39B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +62,7 @@
 		AFA9248B17D53C610005E39B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AFA9248D17D53C610005E39B /* ObjCDesignPatternsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCDesignPatternsTests.h; sourceTree = "<group>"; };
 		AFA9248E17D53C610005E39B /* ObjCDesignPatternsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCDesignPatternsTests.m; sourceTree = "<group>"; };
+		AFCA101117D545ED00ADF1C8 /* SampleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +83,7 @@
 				AFA9248217D53C610005E39B /* SenTestingKit.framework in Frameworks */,
 				AFA9248317D53C610005E39B /* UIKit.framework in Frameworks */,
 				AFA9248417D53C610005E39B /* Foundation.framework in Frameworks */,
+				70CA11F3E6194100B20D4630 /* libPods-ObjCDesignPatternsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +97,7 @@
 				AFA9248717D53C610005E39B /* ObjCDesignPatternsTests */,
 				AFA9245C17D53C600005E39B /* Frameworks */,
 				AFA9245B17D53C600005E39B /* Products */,
+				68A4AF10CF194DE0A8C61994 /* Pods-ObjCDesignPatternsTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +117,7 @@
 				AFA9245F17D53C600005E39B /* Foundation.framework */,
 				AFA9246117D53C600005E39B /* CoreGraphics.framework */,
 				AFA9248117D53C610005E39B /* SenTestingKit.framework */,
+				47BCF2278D19440D87CF93F9 /* libPods-ObjCDesignPatternsTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,11 +125,7 @@
 		AFA9246317D53C600005E39B /* ObjCDesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
-				AFA9246C17D53C600005E39B /* AppDelegate.h */,
-				AFA9246D17D53C600005E39B /* AppDelegate.m */,
-				AFA9247517D53C600005E39B /* ViewController.h */,
-				AFA9247617D53C600005E39B /* ViewController.m */,
-				AFA9247817D53C600005E39B /* ViewController.xib */,
+				AFCA100F17D5430F00ADF1C8 /* App */,
 				AFA9246417D53C600005E39B /* Supporting Files */,
 			);
 			path = ObjCDesignPatterns;
@@ -146,6 +150,7 @@
 			children = (
 				AFA9248D17D53C610005E39B /* ObjCDesignPatternsTests.h */,
 				AFA9248E17D53C610005E39B /* ObjCDesignPatternsTests.m */,
+				AFCA101117D545ED00ADF1C8 /* SampleSpec.m */,
 				AFA9248817D53C610005E39B /* Supporting Files */,
 			);
 			path = ObjCDesignPatternsTests;
@@ -158,6 +163,18 @@
 				AFA9248A17D53C610005E39B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFCA100F17D5430F00ADF1C8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AFA9246C17D53C600005E39B /* AppDelegate.h */,
+				AFA9246D17D53C600005E39B /* AppDelegate.m */,
+				AFA9247517D53C600005E39B /* ViewController.h */,
+				AFA9247617D53C600005E39B /* ViewController.m */,
+				AFA9247817D53C600005E39B /* ViewController.xib */,
+			);
+			name = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,10 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFA9249517D53C610005E39B /* Build configuration list for PBXNativeTarget "ObjCDesignPatternsTests" */;
 			buildPhases = (
+				7F62DAF3B7B04259BF7656AD /* Check Pods Manifest.lock */,
 				AFA9247B17D53C610005E39B /* Sources */,
 				AFA9247C17D53C610005E39B /* Frameworks */,
 				AFA9247D17D53C610005E39B /* Resources */,
 				AFA9247E17D53C610005E39B /* ShellScript */,
+				ABA8A1F363EF4F4295E6240E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +269,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		7F62DAF3B7B04259BF7656AD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ABA8A1F363EF4F4295E6240E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ObjCDesignPatternsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		AFA9247E17D53C610005E39B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -281,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFA9248F17D53C610005E39B /* ObjCDesignPatternsTests.m in Sources */,
+				AFCA101217D545ED00ADF1C8 /* SampleSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +452,7 @@
 		};
 		AFA9249617D53C610005E39B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68A4AF10CF194DE0A8C61994 /* Pods-ObjCDesignPatternsTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ObjCDesignPatterns.app/ObjCDesignPatterns";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -419,6 +470,7 @@
 		};
 		AFA9249717D53C610005E39B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68A4AF10CF194DE0A8C61994 /* Pods-ObjCDesignPatternsTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ObjCDesignPatterns.app/ObjCDesignPatterns";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -453,6 +505,7 @@
 				AFA9249417D53C610005E39B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFA9249517D53C610005E39B /* Build configuration list for PBXNativeTarget "ObjCDesignPatternsTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +514,7 @@
 				AFA9249717D53C610005E39B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
