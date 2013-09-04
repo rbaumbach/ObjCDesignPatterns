@@ -23,8 +23,12 @@
 		AFA9248317D53C610005E39B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9245D17D53C600005E39B /* UIKit.framework */; };
 		AFA9248417D53C610005E39B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9245F17D53C600005E39B /* Foundation.framework */; };
 		AFA9248C17D53C610005E39B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFA9248A17D53C610005E39B /* InfoPlist.strings */; };
-		AFA9248F17D53C610005E39B /* ObjCDesignPatternsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA9248E17D53C610005E39B /* ObjCDesignPatternsTests.m */; };
-		AFCA101217D545ED00ADF1C8 /* SampleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA101117D545ED00ADF1C8 /* SampleSpec.m */; };
+		AFCA101517D5528200ADF1C8 /* BeverageSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA101417D5528200ADF1C8 /* BeverageSpec.m */; };
+		AFCA101A17D5538800ADF1C8 /* Beverage.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA101917D5538800ADF1C8 /* Beverage.m */; };
+		AFCA101B17D5538800ADF1C8 /* Beverage.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA101917D5538800ADF1C8 /* Beverage.m */; };
+		AFCA101E17D5575F00ADF1C8 /* BarSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA101D17D5575F00ADF1C8 /* BarSpec.m */; };
+		AFCA102117D5581F00ADF1C8 /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA102017D5581F00ADF1C8 /* Bar.m */; };
+		AFCA102217D5581F00ADF1C8 /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA102017D5581F00ADF1C8 /* Bar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,9 +64,12 @@
 		AFA9248117D53C610005E39B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		AFA9248917D53C610005E39B /* ObjCDesignPatternsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjCDesignPatternsTests-Info.plist"; sourceTree = "<group>"; };
 		AFA9248B17D53C610005E39B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AFA9248D17D53C610005E39B /* ObjCDesignPatternsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCDesignPatternsTests.h; sourceTree = "<group>"; };
-		AFA9248E17D53C610005E39B /* ObjCDesignPatternsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCDesignPatternsTests.m; sourceTree = "<group>"; };
-		AFCA101117D545ED00ADF1C8 /* SampleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleSpec.m; sourceTree = "<group>"; };
+		AFCA101417D5528200ADF1C8 /* BeverageSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeverageSpec.m; sourceTree = "<group>"; };
+		AFCA101817D5538800ADF1C8 /* Beverage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beverage.h; sourceTree = "<group>"; };
+		AFCA101917D5538800ADF1C8 /* Beverage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beverage.m; sourceTree = "<group>"; };
+		AFCA101D17D5575F00ADF1C8 /* BarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarSpec.m; sourceTree = "<group>"; };
+		AFCA101F17D5581F00ADF1C8 /* Bar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bar.h; sourceTree = "<group>"; };
+		AFCA102017D5581F00ADF1C8 /* Bar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +132,7 @@
 		AFA9246317D53C600005E39B /* ObjCDesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				AFCA101617D5531600ADF1C8 /* Factory */,
 				AFCA100F17D5430F00ADF1C8 /* App */,
 				AFA9246417D53C600005E39B /* Supporting Files */,
 			);
@@ -148,10 +156,9 @@
 		AFA9248717D53C610005E39B /* ObjCDesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
-				AFA9248D17D53C610005E39B /* ObjCDesignPatternsTests.h */,
-				AFA9248E17D53C610005E39B /* ObjCDesignPatternsTests.m */,
-				AFCA101117D545ED00ADF1C8 /* SampleSpec.m */,
 				AFA9248817D53C610005E39B /* Supporting Files */,
+				AFCA101417D5528200ADF1C8 /* BeverageSpec.m */,
+				AFCA101D17D5575F00ADF1C8 /* BarSpec.m */,
 			);
 			path = ObjCDesignPatternsTests;
 			sourceTree = "<group>";
@@ -175,6 +182,25 @@
 				AFA9247817D53C600005E39B /* ViewController.xib */,
 			);
 			name = App;
+			sourceTree = "<group>";
+		};
+		AFCA101617D5531600ADF1C8 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				AFCA101717D5535300ADF1C8 /* FactoryMethod */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		AFCA101717D5535300ADF1C8 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				AFCA101817D5538800ADF1C8 /* Beverage.h */,
+				AFCA101917D5538800ADF1C8 /* Beverage.m */,
+				AFCA101F17D5581F00ADF1C8 /* Bar.h */,
+				AFCA102017D5581F00ADF1C8 /* Bar.m */,
+			);
+			name = FactoryMethod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +348,8 @@
 				AFA9246A17D53C600005E39B /* main.m in Sources */,
 				AFA9246E17D53C600005E39B /* AppDelegate.m in Sources */,
 				AFA9247717D53C600005E39B /* ViewController.m in Sources */,
+				AFCA101A17D5538800ADF1C8 /* Beverage.m in Sources */,
+				AFCA102117D5581F00ADF1C8 /* Bar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,8 +357,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFA9248F17D53C610005E39B /* ObjCDesignPatternsTests.m in Sources */,
-				AFCA101217D545ED00ADF1C8 /* SampleSpec.m in Sources */,
+				AFCA101517D5528200ADF1C8 /* BeverageSpec.m in Sources */,
+				AFCA101B17D5538800ADF1C8 /* Beverage.m in Sources */,
+				AFCA101E17D5575F00ADF1C8 /* BarSpec.m in Sources */,
+				AFCA102217D5581F00ADF1C8 /* Bar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
