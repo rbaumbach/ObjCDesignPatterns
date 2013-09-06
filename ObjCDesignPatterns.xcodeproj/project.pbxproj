@@ -8,6 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		70CA11F3E6194100B20D4630 /* libPods-ObjCDesignPatternsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BCF2278D19440D87CF93F9 /* libPods-ObjCDesignPatternsTests.a */; };
+		AF56ECF917D962230020F9C4 /* MixedDrinksBarSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF56ECF817D962230020F9C4 /* MixedDrinksBarSpec.m */; };
+		AF56ECFC17D963290020F9C4 /* MixedDrinksBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF56ECFB17D963290020F9C4 /* MixedDrinksBar.m */; };
+		AF56ECFD17D963290020F9C4 /* MixedDrinksBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF56ECFB17D963290020F9C4 /* MixedDrinksBar.m */; };
+		AF70E96C17D8CEBF001E7911 /* LagerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E96B17D8CEBF001E7911 /* LagerSpec.m */; };
+		AF70E96F17D8CEDD001E7911 /* StoutSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E96E17D8CEDD001E7911 /* StoutSpec.m */; };
+		AF70E97217D8CEF6001E7911 /* AleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E97117D8CEF6001E7911 /* AleSpec.m */; };
+		AF70E97517D8D0FB001E7911 /* RumAndCoke.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E97417D8D0FB001E7911 /* RumAndCoke.m */; };
+		AF70E97617D8D0FB001E7911 /* RumAndCoke.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E97417D8D0FB001E7911 /* RumAndCoke.m */; };
+		AF70E97917D8D11F001E7911 /* WhiskeySour.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E97817D8D11F001E7911 /* WhiskeySour.m */; };
+		AF70E97A17D8D11F001E7911 /* WhiskeySour.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E97817D8D11F001E7911 /* WhiskeySour.m */; };
+		AF70E97D17D8D160001E7911 /* JagerBomb.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E97C17D8D15F001E7911 /* JagerBomb.m */; };
+		AF70E97E17D8D160001E7911 /* JagerBomb.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E97C17D8D15F001E7911 /* JagerBomb.m */; };
+		AF70E98417D8D1B2001E7911 /* RumAndCokeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E98317D8D1B2001E7911 /* RumAndCokeSpec.m */; };
+		AF70E98717D8D1C7001E7911 /* WhiskeySour.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E98617D8D1C7001E7911 /* WhiskeySour.m */; };
+		AF70E98A17D8D1D8001E7911 /* JagerBomb.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E98917D8D1D8001E7911 /* JagerBomb.m */; };
+		AF70E98D17D8D2A9001E7911 /* ChardonnaySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E98C17D8D2A9001E7911 /* ChardonnaySpec.m */; };
+		AF70E99017D8D2C0001E7911 /* MerlotSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E98F17D8D2C0001E7911 /* MerlotSpec.m */; };
+		AF70E99317D8D387001E7911 /* CabernetSauvignonSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E99217D8D387001E7911 /* CabernetSauvignonSpec.m */; };
+		AF70E99617D8D3D4001E7911 /* Chardonnay.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E99517D8D3D4001E7911 /* Chardonnay.m */; };
+		AF70E99717D8D3D4001E7911 /* Chardonnay.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E99517D8D3D4001E7911 /* Chardonnay.m */; };
+		AF70E99A17D8D409001E7911 /* Merlot.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E99917D8D409001E7911 /* Merlot.m */; };
+		AF70E99B17D8D409001E7911 /* Merlot.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E99917D8D409001E7911 /* Merlot.m */; };
+		AF70E99E17D8D42E001E7911 /* CabernetSauvignon.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E99D17D8D42E001E7911 /* CabernetSauvignon.m */; };
+		AF70E99F17D8D42E001E7911 /* CabernetSauvignon.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E99D17D8D42E001E7911 /* CabernetSauvignon.m */; };
+		AF70E9A217D8D4E7001E7911 /* WineBarSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E9A117D8D4E7001E7911 /* WineBarSpec.m */; };
+		AF70E9A517D8D545001E7911 /* WineBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E9A417D8D545001E7911 /* WineBar.m */; };
+		AF70E9A617D8D545001E7911 /* WineBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E9A417D8D545001E7911 /* WineBar.m */; };
 		AFA9245E17D53C600005E39B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9245D17D53C600005E39B /* UIKit.framework */; };
 		AFA9246017D53C600005E39B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9245F17D53C600005E39B /* Foundation.framework */; };
 		AFA9246217D53C600005E39B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9246117D53C600005E39B /* CoreGraphics.framework */; };
@@ -29,6 +56,15 @@
 		AFCA101E17D5575F00ADF1C8 /* BarSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA101D17D5575F00ADF1C8 /* BarSpec.m */; };
 		AFCA102117D5581F00ADF1C8 /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA102017D5581F00ADF1C8 /* Bar.m */; };
 		AFCA102217D5581F00ADF1C8 /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA102017D5581F00ADF1C8 /* Bar.m */; };
+		AFCA102517D77DA100ADF1C8 /* BeerBarSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA102417D77DA100ADF1C8 /* BeerBarSpec.m */; };
+		AFCA102817D77E1600ADF1C8 /* BeerBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA102717D77E1600ADF1C8 /* BeerBar.m */; };
+		AFCA102917D77E1600ADF1C8 /* BeerBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA102717D77E1600ADF1C8 /* BeerBar.m */; };
+		AFCA102C17D77F8500ADF1C8 /* Lager.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA102B17D77F8500ADF1C8 /* Lager.m */; };
+		AFCA102D17D77F8500ADF1C8 /* Lager.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA102B17D77F8500ADF1C8 /* Lager.m */; };
+		AFCA103017D77FA400ADF1C8 /* Stout.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA102F17D77FA400ADF1C8 /* Stout.m */; };
+		AFCA103117D77FA400ADF1C8 /* Stout.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA102F17D77FA400ADF1C8 /* Stout.m */; };
+		AFCA103417D77FC100ADF1C8 /* Ale.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA103317D77FC100ADF1C8 /* Ale.m */; };
+		AFCA103517D77FC100ADF1C8 /* Ale.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA103317D77FC100ADF1C8 /* Ale.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +80,33 @@
 /* Begin PBXFileReference section */
 		47BCF2278D19440D87CF93F9 /* libPods-ObjCDesignPatternsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjCDesignPatternsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68A4AF10CF194DE0A8C61994 /* Pods-ObjCDesignPatternsTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCDesignPatternsTests.xcconfig"; path = "Pods/Pods-ObjCDesignPatternsTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		AF56ECF817D962230020F9C4 /* MixedDrinksBarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixedDrinksBarSpec.m; sourceTree = "<group>"; };
+		AF56ECFA17D963290020F9C4 /* MixedDrinksBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixedDrinksBar.h; sourceTree = "<group>"; };
+		AF56ECFB17D963290020F9C4 /* MixedDrinksBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixedDrinksBar.m; sourceTree = "<group>"; };
+		AF70E96B17D8CEBF001E7911 /* LagerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LagerSpec.m; sourceTree = "<group>"; };
+		AF70E96E17D8CEDD001E7911 /* StoutSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoutSpec.m; sourceTree = "<group>"; };
+		AF70E97117D8CEF6001E7911 /* AleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AleSpec.m; sourceTree = "<group>"; };
+		AF70E97317D8D0FB001E7911 /* RumAndCoke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RumAndCoke.h; sourceTree = "<group>"; };
+		AF70E97417D8D0FB001E7911 /* RumAndCoke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RumAndCoke.m; sourceTree = "<group>"; };
+		AF70E97717D8D11F001E7911 /* WhiskeySour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskeySour.h; sourceTree = "<group>"; };
+		AF70E97817D8D11F001E7911 /* WhiskeySour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeySour.m; sourceTree = "<group>"; };
+		AF70E97B17D8D15F001E7911 /* JagerBomb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JagerBomb.h; sourceTree = "<group>"; };
+		AF70E97C17D8D15F001E7911 /* JagerBomb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JagerBomb.m; sourceTree = "<group>"; };
+		AF70E98317D8D1B2001E7911 /* RumAndCokeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RumAndCokeSpec.m; sourceTree = "<group>"; };
+		AF70E98617D8D1C7001E7911 /* WhiskeySour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeySour.m; sourceTree = "<group>"; };
+		AF70E98917D8D1D8001E7911 /* JagerBomb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JagerBomb.m; sourceTree = "<group>"; };
+		AF70E98C17D8D2A9001E7911 /* ChardonnaySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChardonnaySpec.m; sourceTree = "<group>"; };
+		AF70E98F17D8D2C0001E7911 /* MerlotSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MerlotSpec.m; sourceTree = "<group>"; };
+		AF70E99217D8D387001E7911 /* CabernetSauvignonSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CabernetSauvignonSpec.m; sourceTree = "<group>"; };
+		AF70E99417D8D3D4001E7911 /* Chardonnay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chardonnay.h; sourceTree = "<group>"; };
+		AF70E99517D8D3D4001E7911 /* Chardonnay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chardonnay.m; sourceTree = "<group>"; };
+		AF70E99817D8D409001E7911 /* Merlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Merlot.h; sourceTree = "<group>"; };
+		AF70E99917D8D409001E7911 /* Merlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Merlot.m; sourceTree = "<group>"; };
+		AF70E99C17D8D42E001E7911 /* CabernetSauvignon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CabernetSauvignon.h; sourceTree = "<group>"; };
+		AF70E99D17D8D42E001E7911 /* CabernetSauvignon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CabernetSauvignon.m; sourceTree = "<group>"; };
+		AF70E9A117D8D4E7001E7911 /* WineBarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WineBarSpec.m; sourceTree = "<group>"; };
+		AF70E9A317D8D545001E7911 /* WineBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WineBar.h; sourceTree = "<group>"; };
+		AF70E9A417D8D545001E7911 /* WineBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WineBar.m; sourceTree = "<group>"; };
 		AFA9245A17D53C600005E39B /* ObjCDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA9245D17D53C600005E39B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AFA9245F17D53C600005E39B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -70,6 +133,15 @@
 		AFCA101D17D5575F00ADF1C8 /* BarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarSpec.m; sourceTree = "<group>"; };
 		AFCA101F17D5581F00ADF1C8 /* Bar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bar.h; sourceTree = "<group>"; };
 		AFCA102017D5581F00ADF1C8 /* Bar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bar.m; sourceTree = "<group>"; };
+		AFCA102417D77DA100ADF1C8 /* BeerBarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerBarSpec.m; sourceTree = "<group>"; };
+		AFCA102617D77E1600ADF1C8 /* BeerBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerBar.h; sourceTree = "<group>"; };
+		AFCA102717D77E1600ADF1C8 /* BeerBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerBar.m; sourceTree = "<group>"; };
+		AFCA102A17D77F8500ADF1C8 /* Lager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lager.h; sourceTree = "<group>"; };
+		AFCA102B17D77F8500ADF1C8 /* Lager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lager.m; sourceTree = "<group>"; };
+		AFCA102E17D77FA400ADF1C8 /* Stout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stout.h; sourceTree = "<group>"; };
+		AFCA102F17D77FA400ADF1C8 /* Stout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stout.m; sourceTree = "<group>"; };
+		AFCA103217D77FC100ADF1C8 /* Ale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ale.h; sourceTree = "<group>"; };
+		AFCA103317D77FC100ADF1C8 /* Ale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ale.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +169,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF56ECFF17D964C80020F9C4 /* Factory Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				AF70E97F17D8D178001E7911 /* Factory Method */,
+			);
+			name = "Factory Patterns";
+			sourceTree = "<group>";
+		};
+		AF70E96817D8CE81001E7911 /* Beverages */ = {
+			isa = PBXGroup;
+			children = (
+				AFCA101817D5538800ADF1C8 /* Beverage.h */,
+				AFCA101917D5538800ADF1C8 /* Beverage.m */,
+				AFCA102A17D77F8500ADF1C8 /* Lager.h */,
+				AFCA102B17D77F8500ADF1C8 /* Lager.m */,
+				AFCA102E17D77FA400ADF1C8 /* Stout.h */,
+				AFCA102F17D77FA400ADF1C8 /* Stout.m */,
+				AFCA103217D77FC100ADF1C8 /* Ale.h */,
+				AFCA103317D77FC100ADF1C8 /* Ale.m */,
+				AF70E97317D8D0FB001E7911 /* RumAndCoke.h */,
+				AF70E97417D8D0FB001E7911 /* RumAndCoke.m */,
+				AF70E97717D8D11F001E7911 /* WhiskeySour.h */,
+				AF70E97817D8D11F001E7911 /* WhiskeySour.m */,
+				AF70E97B17D8D15F001E7911 /* JagerBomb.h */,
+				AF70E97C17D8D15F001E7911 /* JagerBomb.m */,
+				AF70E99417D8D3D4001E7911 /* Chardonnay.h */,
+				AF70E99517D8D3D4001E7911 /* Chardonnay.m */,
+				AF70E99817D8D409001E7911 /* Merlot.h */,
+				AF70E99917D8D409001E7911 /* Merlot.m */,
+				AF70E99C17D8D42E001E7911 /* CabernetSauvignon.h */,
+				AF70E99D17D8D42E001E7911 /* CabernetSauvignon.m */,
+			);
+			name = Beverages;
+			sourceTree = "<group>";
+		};
+		AF70E96917D8CE92001E7911 /* Bars */ = {
+			isa = PBXGroup;
+			children = (
+				AFCA101F17D5581F00ADF1C8 /* Bar.h */,
+				AFCA102017D5581F00ADF1C8 /* Bar.m */,
+				AFCA102617D77E1600ADF1C8 /* BeerBar.h */,
+				AFCA102717D77E1600ADF1C8 /* BeerBar.m */,
+				AF70E9A317D8D545001E7911 /* WineBar.h */,
+				AF70E9A417D8D545001E7911 /* WineBar.m */,
+				AF56ECFA17D963290020F9C4 /* MixedDrinksBar.h */,
+				AF56ECFB17D963290020F9C4 /* MixedDrinksBar.m */,
+			);
+			name = Bars;
+			sourceTree = "<group>";
+		};
+		AF70E97F17D8D178001E7911 /* Factory Method */ = {
+			isa = PBXGroup;
+			children = (
+				AF70E98017D8D184001E7911 /* Beverages */,
+				AF70E98117D8D192001E7911 /* Bars */,
+			);
+			name = "Factory Method";
+			sourceTree = "<group>";
+		};
+		AF70E98017D8D184001E7911 /* Beverages */ = {
+			isa = PBXGroup;
+			children = (
+				AFCA101417D5528200ADF1C8 /* BeverageSpec.m */,
+				AF70E96B17D8CEBF001E7911 /* LagerSpec.m */,
+				AF70E96E17D8CEDD001E7911 /* StoutSpec.m */,
+				AF70E97117D8CEF6001E7911 /* AleSpec.m */,
+				AF70E98317D8D1B2001E7911 /* RumAndCokeSpec.m */,
+				AF70E98617D8D1C7001E7911 /* WhiskeySour.m */,
+				AF70E98917D8D1D8001E7911 /* JagerBomb.m */,
+				AF70E98C17D8D2A9001E7911 /* ChardonnaySpec.m */,
+				AF70E98F17D8D2C0001E7911 /* MerlotSpec.m */,
+				AF70E99217D8D387001E7911 /* CabernetSauvignonSpec.m */,
+			);
+			name = Beverages;
+			sourceTree = "<group>";
+		};
+		AF70E98117D8D192001E7911 /* Bars */ = {
+			isa = PBXGroup;
+			children = (
+				AFCA101D17D5575F00ADF1C8 /* BarSpec.m */,
+				AFCA102417D77DA100ADF1C8 /* BeerBarSpec.m */,
+				AF56ECF817D962230020F9C4 /* MixedDrinksBarSpec.m */,
+				AF70E9A117D8D4E7001E7911 /* WineBarSpec.m */,
+			);
+			name = Bars;
+			sourceTree = "<group>";
+		};
 		AFA9245117D53C600005E39B = {
 			isa = PBXGroup;
 			children = (
@@ -132,7 +291,7 @@
 		AFA9246317D53C600005E39B /* ObjCDesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
-				AFCA101617D5531600ADF1C8 /* Factory */,
+				AFCA101617D5531600ADF1C8 /* Factory Patterns */,
 				AFCA100F17D5430F00ADF1C8 /* App */,
 				AFA9246417D53C600005E39B /* Supporting Files */,
 			);
@@ -156,9 +315,8 @@
 		AFA9248717D53C610005E39B /* ObjCDesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
+				AF56ECFF17D964C80020F9C4 /* Factory Patterns */,
 				AFA9248817D53C610005E39B /* Supporting Files */,
-				AFCA101417D5528200ADF1C8 /* BeverageSpec.m */,
-				AFCA101D17D5575F00ADF1C8 /* BarSpec.m */,
 			);
 			path = ObjCDesignPatternsTests;
 			sourceTree = "<group>";
@@ -184,23 +342,21 @@
 			name = App;
 			sourceTree = "<group>";
 		};
-		AFCA101617D5531600ADF1C8 /* Factory */ = {
+		AFCA101617D5531600ADF1C8 /* Factory Patterns */ = {
 			isa = PBXGroup;
 			children = (
-				AFCA101717D5535300ADF1C8 /* FactoryMethod */,
+				AFCA101717D5535300ADF1C8 /* Factory Method */,
 			);
-			name = Factory;
+			name = "Factory Patterns";
 			sourceTree = "<group>";
 		};
-		AFCA101717D5535300ADF1C8 /* FactoryMethod */ = {
+		AFCA101717D5535300ADF1C8 /* Factory Method */ = {
 			isa = PBXGroup;
 			children = (
-				AFCA101817D5538800ADF1C8 /* Beverage.h */,
-				AFCA101917D5538800ADF1C8 /* Beverage.m */,
-				AFCA101F17D5581F00ADF1C8 /* Bar.h */,
-				AFCA102017D5581F00ADF1C8 /* Bar.m */,
+				AF70E96817D8CE81001E7911 /* Beverages */,
+				AF70E96917D8CE92001E7911 /* Bars */,
 			);
-			name = FactoryMethod;
+			name = "Factory Method";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,6 +506,18 @@
 				AFA9247717D53C600005E39B /* ViewController.m in Sources */,
 				AFCA101A17D5538800ADF1C8 /* Beverage.m in Sources */,
 				AFCA102117D5581F00ADF1C8 /* Bar.m in Sources */,
+				AFCA102817D77E1600ADF1C8 /* BeerBar.m in Sources */,
+				AFCA102C17D77F8500ADF1C8 /* Lager.m in Sources */,
+				AFCA103017D77FA400ADF1C8 /* Stout.m in Sources */,
+				AFCA103417D77FC100ADF1C8 /* Ale.m in Sources */,
+				AF70E97517D8D0FB001E7911 /* RumAndCoke.m in Sources */,
+				AF70E97917D8D11F001E7911 /* WhiskeySour.m in Sources */,
+				AF70E97D17D8D160001E7911 /* JagerBomb.m in Sources */,
+				AF70E99617D8D3D4001E7911 /* Chardonnay.m in Sources */,
+				AF70E99A17D8D409001E7911 /* Merlot.m in Sources */,
+				AF70E99E17D8D42E001E7911 /* CabernetSauvignon.m in Sources */,
+				AF70E9A517D8D545001E7911 /* WineBar.m in Sources */,
+				AF56ECFC17D963290020F9C4 /* MixedDrinksBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +529,30 @@
 				AFCA101B17D5538800ADF1C8 /* Beverage.m in Sources */,
 				AFCA101E17D5575F00ADF1C8 /* BarSpec.m in Sources */,
 				AFCA102217D5581F00ADF1C8 /* Bar.m in Sources */,
+				AFCA102517D77DA100ADF1C8 /* BeerBarSpec.m in Sources */,
+				AFCA102917D77E1600ADF1C8 /* BeerBar.m in Sources */,
+				AFCA102D17D77F8500ADF1C8 /* Lager.m in Sources */,
+				AFCA103117D77FA400ADF1C8 /* Stout.m in Sources */,
+				AFCA103517D77FC100ADF1C8 /* Ale.m in Sources */,
+				AF70E96C17D8CEBF001E7911 /* LagerSpec.m in Sources */,
+				AF70E96F17D8CEDD001E7911 /* StoutSpec.m in Sources */,
+				AF70E97217D8CEF6001E7911 /* AleSpec.m in Sources */,
+				AF70E97617D8D0FB001E7911 /* RumAndCoke.m in Sources */,
+				AF70E97A17D8D11F001E7911 /* WhiskeySour.m in Sources */,
+				AF70E97E17D8D160001E7911 /* JagerBomb.m in Sources */,
+				AF70E98417D8D1B2001E7911 /* RumAndCokeSpec.m in Sources */,
+				AF70E98717D8D1C7001E7911 /* WhiskeySour.m in Sources */,
+				AF70E98A17D8D1D8001E7911 /* JagerBomb.m in Sources */,
+				AF70E98D17D8D2A9001E7911 /* ChardonnaySpec.m in Sources */,
+				AF70E99017D8D2C0001E7911 /* MerlotSpec.m in Sources */,
+				AF70E99317D8D387001E7911 /* CabernetSauvignonSpec.m in Sources */,
+				AF70E99717D8D3D4001E7911 /* Chardonnay.m in Sources */,
+				AF70E99B17D8D409001E7911 /* Merlot.m in Sources */,
+				AF70E99F17D8D42E001E7911 /* CabernetSauvignon.m in Sources */,
+				AF70E9A217D8D4E7001E7911 /* WineBarSpec.m in Sources */,
+				AF70E9A617D8D545001E7911 /* WineBar.m in Sources */,
+				AF56ECF917D962230020F9C4 /* MixedDrinksBarSpec.m in Sources */,
+				AF56ECFD17D963290020F9C4 /* MixedDrinksBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
