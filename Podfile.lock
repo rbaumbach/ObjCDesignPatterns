@@ -4,11 +4,14 @@ PODS:
     - Kiwi/NonARC
   - Kiwi/ARC (2.2.1)
   - Kiwi/NonARC (2.2.1)
+  - Swizzlean (0.1.0)
 
 DEPENDENCIES:
   - Kiwi
+  - Swizzlean (~> 0.1.0)
 
 SPEC CHECKSUMS:
   Kiwi: e6524ba0eaa1b28af7af146bdee5314b32aa3edb
+  Swizzlean: 3790ebac1a463de1e031ded20f58dc633d2f1a39
 
 COCOAPODS: 0.22.3
