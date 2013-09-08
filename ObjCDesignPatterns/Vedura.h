@@ -1,0 +1,5 @@
+
+
+@interface Vedura : NSObject
+
+@end
