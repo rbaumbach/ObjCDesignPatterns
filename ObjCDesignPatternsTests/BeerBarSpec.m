@@ -19,24 +19,21 @@ describe(@"BeerBar", ^{
         context(@"Lager", ^{
             it(@"creates a lager", ^{
                 Beverage *lager = [bar orderBeverage:@"Lager"];
-                BOOL isLager = [lager isKindOfClass:[Lager class]];
-                [[theValue(isLager) should] beYes];
+                [[lager should] beKindOfClass:[Lager class]];
             });
         });
         
         context(@"Stout", ^{
             it(@"creates a stout", ^{
                 Beverage *stout = [bar orderBeverage:@"Stout"];
-                BOOL isStout = [stout isKindOfClass:[Stout class]];
-                [[theValue(isStout) should] beYes];
+                [[stout should] beKindOfClass:[Stout class]];
             });
         });
         
         context(@"Ale", ^{
             it(@"creates an ale", ^{
                 Beverage *ale = [bar orderBeverage:@"Ale"];
-                BOOL isAle = [ale isKindOfClass:[Ale class]];
-                [[theValue(isAle) should] beYes];
+                [[ale should] beKindOfClass:[Ale class]];
             });
         });
         

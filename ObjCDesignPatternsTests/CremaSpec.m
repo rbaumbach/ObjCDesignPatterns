@@ -12,9 +12,7 @@ describe(@"Crema", ^{
     });
     
     it(@"is a subclass of extra", ^{
-        BOOL isExtra = [extra isKindOfClass:[Extra class]];
-        [[theValue(isExtra) should] beYes];
-        
+        [[extra should] beKindOfClass:[Crema class]];
     });
     
     it(@"is not nil", ^{

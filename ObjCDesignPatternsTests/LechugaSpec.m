@@ -12,9 +12,7 @@ describe(@"Lechuga", ^{
     });
     
     it(@"is a subclass of vedura", ^{
-        BOOL isVedura = [vedura isKindOfClass:[Vedura class]];
-        [[theValue(isVedura) should] beYes];
-        
+        [[vedura should] beKindOfClass:[Lechuga class]];
     });
     
     it(@"is not nil", ^{

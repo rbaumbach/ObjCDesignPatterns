@@ -22,8 +22,7 @@ describe(@"CrunchyTacoContentsFactory", ^{
     });
     
     it(@"conforms to TacoContentsFactory protocol", ^{
-        BOOL conformsToProtocol = [tacoFactory conformsToProtocol:@protocol(TacoContentsFactory)];
-        [[theValue(conformsToProtocol) should] beYes];
+        [[tacoFactory should] conformToProtocol:@protocol(TacoContentsFactory)];
     });
     
     context(@"#createTortilla", ^{
@@ -34,8 +33,7 @@ describe(@"CrunchyTacoContentsFactory", ^{
         });
         
         it(@"creates maiz tortilla", ^{
-            BOOL isMaiz = [tortilla isKindOfClass:[Maiz class]];
-            [[theValue(isMaiz) should] beYes];
+            [[tortilla should] beKindOfClass:[Maiz class]];
         });
     });
     
@@ -47,8 +45,7 @@ describe(@"CrunchyTacoContentsFactory", ^{
         });
         
         it(@"creates carne molida", ^{
-            BOOL isMolida = [carne isKindOfClass:[Molida class]];
-            [[theValue(isMolida) should] beYes];
+            [[carne should] beKindOfClass:[Molida class]];
         });
     });
     
@@ -60,8 +57,7 @@ describe(@"CrunchyTacoContentsFactory", ^{
         });
         
         it(@"creates queso cheddar", ^{
-            BOOL isCheddar = [queso isKindOfClass:[Cheddar class]];
-            [[theValue(isCheddar) should] beYes];
+            [[queso should] beKindOfClass:[Cheddar class]];
         });
     });
     
@@ -73,8 +69,7 @@ describe(@"CrunchyTacoContentsFactory", ^{
         });
         
         it(@"creates salsa mild", ^{
-            BOOL isMild = [salsa isKindOfClass:[Mild class]];
-            [[theValue(isMild) should] beYes];
+            [[salsa should] beKindOfClass:[Mild class]];
         });
     });
     
@@ -86,12 +81,9 @@ describe(@"CrunchyTacoContentsFactory", ^{
         });
         
         it(@"has cebollas, tomates and lechuga", ^{
-            BOOL hasCebollas = [veduras[0] isKindOfClass:[Cebolla class]];
-            BOOL hasTomates = [veduras[1] isKindOfClass:[Tomate class]];
-            BOOL hasLechuga = [veduras[2] isKindOfClass:[Lechuga class]];
-            [[theValue(hasCebollas) should] beYes];
-            [[theValue(hasTomates) should] beYes];
-            [[theValue(hasLechuga) should] beYes];
+            [[veduras[0] should] beKindOfClass:[Cebolla class]];
+            [[veduras[1] should] beKindOfClass:[Tomate class]];
+            [[veduras[2] should] beKindOfClass:[Lechuga class]];
         });
     });
     
@@ -103,10 +95,8 @@ describe(@"CrunchyTacoContentsFactory", ^{
         });
         
         it(@"has crema and guacamole", ^{
-            BOOL hasCreama = [extras[0] isKindOfClass:[Crema class]];
-            BOOL hasGuacamole = [extras[1] isKindOfClass:[Guacamole class]];
-            [[theValue(hasCreama) should] beYes];
-            [[theValue(hasGuacamole) should] beYes];
+            [[extras[0] should] beKindOfClass:[Crema class]];
+            [[extras[1] should] beKindOfClass:[Guacamole class]];
         });
     });
 });

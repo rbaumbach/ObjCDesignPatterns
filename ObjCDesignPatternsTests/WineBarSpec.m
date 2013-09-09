@@ -19,24 +19,21 @@ describe(@"WineBar", ^{
         context(@"Chardonnay", ^{
             it(@"creates a chardonnay", ^{
                 Beverage *chardonnay = [bar orderBeverage:@"Chardonnay"];
-                BOOL isChardonnay = [chardonnay isKindOfClass:[Chardonnay class]];
-                [[theValue(isChardonnay) should] beYes];
+                [[chardonnay should] beKindOfClass:[Chardonnay class]];
             });
         });
         
         context(@"Merlot", ^{
             it(@"creates a merlot", ^{
                 Beverage *merlot = [bar orderBeverage:@"Merlot"];
-                BOOL isMerlot = [merlot isKindOfClass:[Merlot class]];
-                [[theValue(isMerlot) should] beYes];
+                [[merlot should] beKindOfClass:[Merlot class]];
             });
         });
         
         context(@"CabernetSauvignon", ^{
             it(@"creates an cabernetSauvignon", ^{
                 Beverage *cabernetSauvignon = [bar orderBeverage:@"CabernetSauvignon"];
-                BOOL isCabernetSauvignon = [cabernetSauvignon isKindOfClass:[CabernetSauvignon class]];
-                [[theValue(isCabernetSauvignon) should] beYes];
+                [[cabernetSauvignon should] beKindOfClass:[CabernetSauvignon class]];
             });
         });
         

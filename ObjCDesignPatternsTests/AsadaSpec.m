@@ -12,9 +12,7 @@ describe(@"Asada", ^{
     });
     
     it(@"is a subclass of carne", ^{
-        BOOL isCarne = [carne isKindOfClass:[Carne class]];
-        [[theValue(isCarne) should] beYes];
-        
+        [[carne should] beKindOfClass:[Carne class]];
     });
     
     it(@"is not nil", ^{

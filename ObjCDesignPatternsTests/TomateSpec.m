@@ -12,8 +12,7 @@ describe(@"Tomate", ^{
     });
     
     it(@"is a subclass of vedura", ^{
-        BOOL isVedura = [vedura isKindOfClass:[Vedura class]];
-        [[theValue(isVedura) should] beYes];
+        [[vedura should] beKindOfClass:[Tomate class]];
         
     });
     

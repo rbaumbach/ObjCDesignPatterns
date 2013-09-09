@@ -12,9 +12,7 @@ describe(@"Maiz", ^{
     });
     
     it(@"is a subclass of tortilla", ^{
-        BOOL isTortilla = [tortilla isKindOfClass:[Tortilla class]];
-        [[theValue(isTortilla) should] beYes];
-        
+        [[tortilla should] beKindOfClass:[Tortilla class]];
     });
     
     it(@"is not nil", ^{

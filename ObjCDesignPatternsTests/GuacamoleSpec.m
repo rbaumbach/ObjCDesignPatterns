@@ -12,9 +12,7 @@ describe(@"Guacamole", ^{
     });
     
     it(@"is a subclass of extra", ^{
-        BOOL isExtra = [extra isKindOfClass:[Extra class]];
-        [[theValue(isExtra) should] beYes];
-        
+        [[extra should] beKindOfClass:[Guacamole class]];
     });
     
     it(@"is not nil", ^{

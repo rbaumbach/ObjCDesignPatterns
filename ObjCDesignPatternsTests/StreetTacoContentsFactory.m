@@ -20,8 +20,7 @@ describe(@"StreetTacoContentsFactory", ^{
     });
     
     it(@"conforms to TacoContentsFactory protocol", ^{
-        BOOL conformsToProtocol = [tacoFactory conformsToProtocol:@protocol(TacoContentsFactory)];
-        [[theValue(conformsToProtocol) should] beYes];
+        [[tacoFactory should] conformToProtocol:@protocol(TacoContentsFactory)];
     });
     
     context(@"#createTortilla", ^{
@@ -32,8 +31,7 @@ describe(@"StreetTacoContentsFactory", ^{
         });
         
         it(@"creates maiz tortilla", ^{
-            BOOL isMaiz = [tortilla isKindOfClass:[Maiz class]];
-            [[theValue(isMaiz) should] beYes];
+            [[tortilla should] beKindOfClass:[Maiz class]];
         });
     });
     
@@ -45,8 +43,7 @@ describe(@"StreetTacoContentsFactory", ^{
         });
         
         it(@"creates carne asada", ^{
-            BOOL isAsada = [carne isKindOfClass:[Asada class]];
-            [[theValue(isAsada) should] beYes];
+            [[carne should] beKindOfClass:[Asada class]];
         });
     });
     
@@ -58,8 +55,7 @@ describe(@"StreetTacoContentsFactory", ^{
         });
         
         it(@"creates queso fresco", ^{
-            BOOL isFresco = [queso isKindOfClass:[Fresco class]];
-            [[theValue(isFresco) should] beYes];
+            [[queso should] beKindOfClass:[Fresco class]];
         });
     });
     
@@ -71,8 +67,7 @@ describe(@"StreetTacoContentsFactory", ^{
         });
         
         it(@"creates salsa picante", ^{
-            BOOL isPicante = [salsa isKindOfClass:[Picante class]];
-            [[theValue(isPicante) should] beYes];
+            [[salsa should] beKindOfClass:[Picante class]];
         });
     });
     
@@ -84,10 +79,8 @@ describe(@"StreetTacoContentsFactory", ^{
         });
         
         it(@"has cebollas and cilantro", ^{
-            BOOL hasCebollas = [veduras[0] isKindOfClass:[Cebolla class]];
-            BOOL hasCilantro = [veduras[1] isKindOfClass:[Cilantro class]];
-            [[theValue(hasCebollas) should] beYes];
-            [[theValue(hasCilantro) should] beYes];
+            [[veduras[0] should] beKindOfClass:[Cebolla class]];
+            [[veduras[1] should] beKindOfClass:[Cilantro class]];
         });
     });
     
@@ -99,10 +92,8 @@ describe(@"StreetTacoContentsFactory", ^{
         });
         
         it(@"has crema and guacamole", ^{
-            BOOL hasCreama = [extras[0] isKindOfClass:[Crema class]];
-            BOOL hasGuacamole = [extras[1] isKindOfClass:[Guacamole class]];
-            [[theValue(hasCreama) should] beYes];
-            [[theValue(hasGuacamole) should] beYes];
+            [[extras[0] should] beKindOfClass:[Crema class]];
+            [[extras[1] should] beKindOfClass:[Guacamole class]];
         });
     });
 });

@@ -17,13 +17,11 @@ describe(@"Beverage", ^{
     });
     
     it(@"has a prepare method", ^{
-        BOOL hasPrepareMethod = [beverage respondsToSelector:@selector(prepare)];
-        [[theValue(hasPrepareMethod) should] beYes];
+        [[beverage should] respondToSelector:@selector(prepare)];
     });
     
     it(@"has a pour method", ^{
-        BOOL hasPourMethod = [beverage respondsToSelector:@selector(pour)];
-        [[theValue(hasPourMethod) should] beYes];
+        [[beverage should] respondToSelector:@selector(pour)];
     });
 });
 

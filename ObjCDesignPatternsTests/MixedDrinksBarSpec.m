@@ -18,24 +18,21 @@ describe(@"MixedDrinksBar", ^{
         context(@"RumAndCoke", ^{
             it(@"creates a rumAndCoke", ^{
                 Beverage *rumAndCoke = [bar orderBeverage:@"RumAndCoke"];
-                BOOL isRumAndCoke = [rumAndCoke isKindOfClass:[RumAndCoke class]];
-                [[theValue(isRumAndCoke) should] beYes];
+                [[rumAndCoke should] beKindOfClass:[RumAndCoke class]];
             });
         });
         
         context(@"WhiskeySour", ^{
             it(@"creates a whiskeySour", ^{
                 Beverage *whiskeySour = [bar orderBeverage:@"WhiskeySour"];
-                BOOL isWhiskeySour = [whiskeySour isKindOfClass:[WhiskeySour class]];
-                [[theValue(isWhiskeySour) should] beYes];
+                [[whiskeySour should] beKindOfClass:[WhiskeySour class]];
             });
         });
         
         context(@"JagerBomb", ^{
             it(@"creates an jagerBomb", ^{
                 Beverage *jagerBomb = [bar orderBeverage:@"JagerBomb"];
-                BOOL isJagerBomb = [jagerBomb isKindOfClass:[JagerBomb class]];
-                [[theValue(isJagerBomb) should] beYes];
+                [[jagerBomb should] beKindOfClass:[JagerBomb class]];
             });
         });
         

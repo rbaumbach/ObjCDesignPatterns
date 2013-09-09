@@ -12,9 +12,7 @@ describe(@"Picante", ^{
     });
     
     it(@"is a subclass of salsa", ^{
-        BOOL isSalsa = [salsa isKindOfClass:[Salsa class]];
-        [[theValue(isSalsa) should] beYes];
-        
+        [[salsa should] beKindOfClass:[Salsa class]];
     });
     
     it(@"is not nil", ^{

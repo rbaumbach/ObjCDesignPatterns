@@ -12,9 +12,7 @@ describe(@"Cheddar", ^{
     });
     
     it(@"is a subclass of queso", ^{
-        BOOL isQueso = [queso isKindOfClass:[Queso class]];
-        [[theValue(isQueso) should] beYes];
-        
+        [[queso should] beKindOfClass:[Queso class]];
     });
     
     it(@"is not nil", ^{
