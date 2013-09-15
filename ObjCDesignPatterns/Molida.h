@@ -1,6 +1,6 @@
-#import "Carne.h"
+#import "Beef.h"
 
 
-@interface Molida : Carne
+@interface Molida : Beef
 
 @end

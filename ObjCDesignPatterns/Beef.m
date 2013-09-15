@@ -1,6 +1,6 @@
 #import "Beef.h"
 
 
-@interface Asada : Beef
+@implementation Beef
 
 @end

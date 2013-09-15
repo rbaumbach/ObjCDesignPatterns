@@ -1,5 +1,0 @@
-
-
-@interface Carne : NSObject
-
-@end

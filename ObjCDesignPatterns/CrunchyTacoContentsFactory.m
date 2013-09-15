@@ -1,6 +1,7 @@
 #import "CrunchyTacoContentsFactory.h"
 #import "Maiz.h"
 #import "Molida.h"
+#import "ChileVerde.h"
 #import "Cheddar.h"
 #import "Mild.h"
 #import "Cebolla.h"
@@ -17,9 +18,14 @@
     return [[Maiz alloc] init];
 }
 
-- (Carne *)createCarne
+- (Beef *)createBeef
 {
     return [[Molida alloc] init];
+}
+
+- (Pork *)createPork
+{
+    return [[ChileVerde alloc] init];
 }
 
 - (Queso *)createQueso

@@ -1,0 +1,5 @@
+
+
+@interface Beef : NSObject
+
+@end

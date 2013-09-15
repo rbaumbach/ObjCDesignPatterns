@@ -5,18 +5,18 @@
 SPEC_BEGIN(AsadaSpec)
 
 describe(@"Asada", ^{
-    __block Asada *carne;
+    __block Asada *asada;
     
     beforeEach(^{
-        carne = [[Asada alloc] init];
+        asada = [[Asada alloc] init];
     });
     
-    it(@"is a subclass of carne", ^{
-        [[carne should] beKindOfClass:[Carne class]];
+    it(@"is a subclass of beef", ^{
+        [[asada should] beKindOfClass:[Beef class]];
     });
     
     it(@"is not nil", ^{
-        [carne shouldNotBeNil];
+        [asada shouldNotBeNil];
     });
 });
 

@@ -15,6 +15,10 @@ describe(@"WineBar", ^{
         bar = [[WineBar alloc] init];
     });
     
+    it(@"is a subclass of Bar", ^{
+        [[bar should] beKindOfClass:[Bar class]];
+    });
+    
     context(@"#createBeverage:", ^{
         context(@"Chardonnay", ^{
             it(@"creates a chardonnay", ^{

@@ -3,6 +3,7 @@
 #import "CrunchyTacoContentsFactory.h"
 #import "Maiz.h"
 #import "Molida.h"
+#import "ChileVerde.h"
 #import "Cheddar.h"
 #import "Mild.h"
 #import "Cebolla.h"
@@ -37,15 +38,27 @@ describe(@"CrunchyTacoContentsFactory", ^{
         });
     });
     
-    context(@"#createCarne", ^{
-        __block Carne *carne;
+    context(@"#createBeef", ^{
+        __block Beef *beef;
         
         beforeEach(^{
-            carne = [tacoFactory createCarne];
+            beef = [tacoFactory createBeef];
         });
         
         it(@"creates carne molida", ^{
-            [[carne should] beKindOfClass:[Molida class]];
+            [[beef should] beKindOfClass:[Molida class]];
+        });
+    });
+    
+    context(@"#createPork", ^{
+        __block Pork *pork;
+        
+        beforeEach(^{
+            pork = [tacoFactory createPork];
+        });
+        
+        it(@"creates chile verde", ^{
+            [[pork should] beKindOfClass:[ChileVerde class]];
         });
     });
     

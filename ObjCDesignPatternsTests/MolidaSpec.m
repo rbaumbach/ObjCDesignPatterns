@@ -5,18 +5,18 @@
 SPEC_BEGIN(MolidaSpec)
 
 describe(@"Molida", ^{
-    __block Molida *carne;
+    __block Molida *molida;
     
     beforeEach(^{
-        carne = [[Molida alloc] init];
+        molida = [[Molida alloc] init];
     });
     
-    it(@"is a subclass of carne", ^{
-        [[carne should] beKindOfClass:[Carne class]];
+    it(@"is a subclass of beef", ^{
+        [[molida should] beKindOfClass:[Beef class]];
     });
     
     it(@"is not nil", ^{
-        [carne shouldNotBeNil];
+        [molida shouldNotBeNil];
     });
 });
 

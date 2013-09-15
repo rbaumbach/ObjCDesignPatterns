@@ -1,5 +1,6 @@
 #import "Tortilla.h"
-#import "Carne.h"
+#import "Beef.h"
+#import "Pork.h"
 #import "Queso.h"
 #import "Salsa.h"
 
@@ -7,7 +8,8 @@
 @protocol TacoContentsFactory <NSObject>
 
 - (Tortilla *)createTortilla;
-- (Carne *)createCarne;
+- (Beef *)createBeef;
+- (Pork *)createPork;
 - (Queso *)createQueso;
 - (Salsa *)createSalsa;
 - (NSArray *)createVeduras;

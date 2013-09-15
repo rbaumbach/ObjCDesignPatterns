@@ -1,12 +1,14 @@
 #import "StreetTacoContentsFactory.h"
 #import "Maiz.h"
 #import "Asada.h"
+#import "Carnitas.h"
 #import "Fresco.h"
 #import "Picante.h"
 #import "Cebolla.h"
 #import "Cilantro.h"
 #import "Crema.h"
 #import "Guacamole.h"
+
 
 @implementation StreetTacoContentsFactory
 
@@ -15,9 +17,14 @@
     return [[Maiz alloc] init];
 }
 
-- (Carne *)createCarne
+- (Beef *)createBeef
 {
     return [[Asada alloc] init];
+}
+
+- (Pork *)createPork
+{
+    return [[Carnitas alloc] init];
 }
 
 - (Queso *)createQueso

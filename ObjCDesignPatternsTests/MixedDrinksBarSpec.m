@@ -14,6 +14,10 @@ describe(@"MixedDrinksBar", ^{
         bar = [[MixedDrinksBar alloc] init];
     });
     
+    it(@"is a subclass of Bar", ^{
+        [[bar should] beKindOfClass:[Bar class]];
+    });
+    
     context(@"#createBeverage:", ^{
         context(@"RumAndCoke", ^{
             it(@"creates a rumAndCoke", ^{
