@@ -8,60 +8,96 @@
 
 /* Begin PBXBuildFile section */
 		70CA11F3E6194100B20D4630 /* libPods-ObjCDesignPatternsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BCF2278D19440D87CF93F9 /* libPods-ObjCDesignPatternsTests.a */; };
-		AF0FCD7917E534FC00F5DB0E /* PorkSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0FCD7817E534FC00F5DB0E /* PorkSpec.m */; };
-		AF0FCD7C17E5353300F5DB0E /* Pork.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0FCD7B17E5353300F5DB0E /* Pork.m */; };
-		AF0FCD7D17E5353300F5DB0E /* Pork.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0FCD7B17E5353300F5DB0E /* Pork.m */; };
-		AF0FCD8017E5356000F5DB0E /* CarnitasSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0FCD7F17E5356000F5DB0E /* CarnitasSpec.m */; };
-		AF0FCD8317E535BB00F5DB0E /* Carnitas.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0FCD8217E535BB00F5DB0E /* Carnitas.m */; };
-		AF0FCD8417E535BB00F5DB0E /* Carnitas.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0FCD8217E535BB00F5DB0E /* Carnitas.m */; };
-		AF0FCD8717E5363700F5DB0E /* ChileVerdeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0FCD8617E5363700F5DB0E /* ChileVerdeSpec.m */; };
-		AF0FCD8A17E5367F00F5DB0E /* ChileVerde.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0FCD8917E5367F00F5DB0E /* ChileVerde.m */; };
-		AF0FCD8B17E5367F00F5DB0E /* ChileVerde.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0FCD8917E5367F00F5DB0E /* ChileVerde.m */; };
-		AF0FCD8E17E5387400F5DB0E /* PorkTacoSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0FCD8D17E5387400F5DB0E /* PorkTacoSpec.m */; };
-		AF0FCD9117E5392400F5DB0E /* PorkTaco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0FCD9017E5392400F5DB0E /* PorkTaco.m */; };
-		AF0FCD9217E5392400F5DB0E /* PorkTaco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0FCD9017E5392400F5DB0E /* PorkTaco.m */; };
-		AF0FCD9517E53D9A00F5DB0E /* CrunchyTacoStoreSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0FCD9417E53D9A00F5DB0E /* CrunchyTacoStoreSpec.m */; };
-		AF0FCD9817E53E1600F5DB0E /* CrunchyTacoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0FCD9717E53E1600F5DB0E /* CrunchyTacoStore.m */; };
-		AF0FCD9917E53E1600F5DB0E /* CrunchyTacoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0FCD9717E53E1600F5DB0E /* CrunchyTacoStore.m */; };
-		AF13F0DF17DF9B6D00A9A0E2 /* TacoStoreSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF13F0DE17DF9B6D00A9A0E2 /* TacoStoreSpec.m */; };
-		AF13F0E317DF9C3200A9A0E2 /* TacoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AF13F0E217DF9C3200A9A0E2 /* TacoStore.m */; };
-		AF13F0E417DF9C3200A9A0E2 /* TacoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AF13F0E217DF9C3200A9A0E2 /* TacoStore.m */; };
-		AF13F0E717E0410D00A9A0E2 /* StreetTacoStoreSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF13F0E617E0410D00A9A0E2 /* StreetTacoStoreSpec.m */; };
-		AF13F0EA17E041D300A9A0E2 /* StreetTacoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AF13F0E917E041D300A9A0E2 /* StreetTacoStore.m */; };
-		AF13F0EB17E041D300A9A0E2 /* StreetTacoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AF13F0E917E041D300A9A0E2 /* StreetTacoStore.m */; };
-		AF13F0EE17E2531300A9A0E2 /* BeefTacoSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF13F0ED17E2531300A9A0E2 /* BeefTacoSpec.m */; };
-		AF13F0F117E2541700A9A0E2 /* BeefTaco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF13F0F017E2541600A9A0E2 /* BeefTaco.m */; };
-		AF13F0F217E2541700A9A0E2 /* BeefTaco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF13F0F017E2541600A9A0E2 /* BeefTaco.m */; };
-		AF56ECF917D962230020F9C4 /* MixedDrinksBarSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF56ECF817D962230020F9C4 /* MixedDrinksBarSpec.m */; };
-		AF56ECFC17D963290020F9C4 /* MixedDrinksBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF56ECFB17D963290020F9C4 /* MixedDrinksBar.m */; };
-		AF56ECFD17D963290020F9C4 /* MixedDrinksBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF56ECFB17D963290020F9C4 /* MixedDrinksBar.m */; };
-		AF59C02F17E5212F004992DF /* BeefSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF59C02E17E5212F004992DF /* BeefSpec.m */; };
-		AF59C03417E521C7004992DF /* Beef.m in Sources */ = {isa = PBXBuildFile; fileRef = AF59C03317E521C7004992DF /* Beef.m */; };
-		AF59C03517E521C7004992DF /* Beef.m in Sources */ = {isa = PBXBuildFile; fileRef = AF59C03317E521C7004992DF /* Beef.m */; };
-		AF70E96C17D8CEBF001E7911 /* LagerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E96B17D8CEBF001E7911 /* LagerSpec.m */; };
-		AF70E96F17D8CEDD001E7911 /* StoutSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E96E17D8CEDD001E7911 /* StoutSpec.m */; };
-		AF70E97217D8CEF6001E7911 /* AleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E97117D8CEF6001E7911 /* AleSpec.m */; };
-		AF70E97517D8D0FB001E7911 /* RumAndCoke.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E97417D8D0FB001E7911 /* RumAndCoke.m */; };
-		AF70E97617D8D0FB001E7911 /* RumAndCoke.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E97417D8D0FB001E7911 /* RumAndCoke.m */; };
-		AF70E97917D8D11F001E7911 /* WhiskeySour.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E97817D8D11F001E7911 /* WhiskeySour.m */; };
-		AF70E97A17D8D11F001E7911 /* WhiskeySour.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E97817D8D11F001E7911 /* WhiskeySour.m */; };
-		AF70E97D17D8D160001E7911 /* JagerBomb.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E97C17D8D15F001E7911 /* JagerBomb.m */; };
-		AF70E97E17D8D160001E7911 /* JagerBomb.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E97C17D8D15F001E7911 /* JagerBomb.m */; };
-		AF70E98417D8D1B2001E7911 /* RumAndCokeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E98317D8D1B2001E7911 /* RumAndCokeSpec.m */; };
-		AF70E98717D8D1C7001E7911 /* WhiskeySour.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E98617D8D1C7001E7911 /* WhiskeySour.m */; };
-		AF70E98A17D8D1D8001E7911 /* JagerBomb.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E98917D8D1D8001E7911 /* JagerBomb.m */; };
-		AF70E98D17D8D2A9001E7911 /* ChardonnaySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E98C17D8D2A9001E7911 /* ChardonnaySpec.m */; };
-		AF70E99017D8D2C0001E7911 /* MerlotSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E98F17D8D2C0001E7911 /* MerlotSpec.m */; };
-		AF70E99317D8D387001E7911 /* CabernetSauvignonSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E99217D8D387001E7911 /* CabernetSauvignonSpec.m */; };
-		AF70E99617D8D3D4001E7911 /* Chardonnay.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E99517D8D3D4001E7911 /* Chardonnay.m */; };
-		AF70E99717D8D3D4001E7911 /* Chardonnay.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E99517D8D3D4001E7911 /* Chardonnay.m */; };
-		AF70E99A17D8D409001E7911 /* Merlot.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E99917D8D409001E7911 /* Merlot.m */; };
-		AF70E99B17D8D409001E7911 /* Merlot.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E99917D8D409001E7911 /* Merlot.m */; };
-		AF70E99E17D8D42E001E7911 /* CabernetSauvignon.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E99D17D8D42E001E7911 /* CabernetSauvignon.m */; };
-		AF70E99F17D8D42E001E7911 /* CabernetSauvignon.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E99D17D8D42E001E7911 /* CabernetSauvignon.m */; };
-		AF70E9A217D8D4E7001E7911 /* WineBarSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E9A117D8D4E7001E7911 /* WineBarSpec.m */; };
-		AF70E9A517D8D545001E7911 /* WineBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E9A417D8D545001E7911 /* WineBar.m */; };
-		AF70E9A617D8D545001E7911 /* WineBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF70E9A417D8D545001E7911 /* WineBar.m */; };
+		AF0C4D2817E5F5A10038AF36 /* Beverage.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D2717E5F5A10038AF36 /* Beverage.m */; };
+		AF0C4D2917E5F5A10038AF36 /* Beverage.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D2717E5F5A10038AF36 /* Beverage.m */; };
+		AF0C4D3C17E5F5FD0038AF36 /* Ale.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D2B17E5F5FD0038AF36 /* Ale.m */; };
+		AF0C4D3D17E5F5FD0038AF36 /* Ale.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D2B17E5F5FD0038AF36 /* Ale.m */; };
+		AF0C4D3E17E5F5FD0038AF36 /* CabernetSauvignon.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D2D17E5F5FD0038AF36 /* CabernetSauvignon.m */; };
+		AF0C4D3F17E5F5FD0038AF36 /* CabernetSauvignon.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D2D17E5F5FD0038AF36 /* CabernetSauvignon.m */; };
+		AF0C4D4017E5F5FD0038AF36 /* Chardonnay.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D2F17E5F5FD0038AF36 /* Chardonnay.m */; };
+		AF0C4D4117E5F5FD0038AF36 /* Chardonnay.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D2F17E5F5FD0038AF36 /* Chardonnay.m */; };
+		AF0C4D4217E5F5FD0038AF36 /* JagerBomb.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D3117E5F5FD0038AF36 /* JagerBomb.m */; };
+		AF0C4D4317E5F5FD0038AF36 /* JagerBomb.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D3117E5F5FD0038AF36 /* JagerBomb.m */; };
+		AF0C4D4417E5F5FD0038AF36 /* Lager.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D3317E5F5FD0038AF36 /* Lager.m */; };
+		AF0C4D4517E5F5FD0038AF36 /* Lager.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D3317E5F5FD0038AF36 /* Lager.m */; };
+		AF0C4D4617E5F5FD0038AF36 /* Merlot.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D3517E5F5FD0038AF36 /* Merlot.m */; };
+		AF0C4D4717E5F5FD0038AF36 /* Merlot.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D3517E5F5FD0038AF36 /* Merlot.m */; };
+		AF0C4D4817E5F5FD0038AF36 /* RumAndCoke.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D3717E5F5FD0038AF36 /* RumAndCoke.m */; };
+		AF0C4D4917E5F5FD0038AF36 /* RumAndCoke.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D3717E5F5FD0038AF36 /* RumAndCoke.m */; };
+		AF0C4D4A17E5F5FD0038AF36 /* Stout.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D3917E5F5FD0038AF36 /* Stout.m */; };
+		AF0C4D4B17E5F5FD0038AF36 /* Stout.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D3917E5F5FD0038AF36 /* Stout.m */; };
+		AF0C4D4C17E5F5FD0038AF36 /* WhiskeySour.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D3B17E5F5FD0038AF36 /* WhiskeySour.m */; };
+		AF0C4D4D17E5F5FD0038AF36 /* WhiskeySour.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D3B17E5F5FD0038AF36 /* WhiskeySour.m */; };
+		AF0C4D5617E5F6400038AF36 /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D4F17E5F6400038AF36 /* Bar.m */; };
+		AF0C4D5717E5F6400038AF36 /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D4F17E5F6400038AF36 /* Bar.m */; };
+		AF0C4D5817E5F6400038AF36 /* BeerBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D5117E5F6400038AF36 /* BeerBar.m */; };
+		AF0C4D5917E5F6400038AF36 /* BeerBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D5117E5F6400038AF36 /* BeerBar.m */; };
+		AF0C4D5A17E5F6400038AF36 /* MixedDrinksBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D5317E5F6400038AF36 /* MixedDrinksBar.m */; };
+		AF0C4D5B17E5F6400038AF36 /* MixedDrinksBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D5317E5F6400038AF36 /* MixedDrinksBar.m */; };
+		AF0C4D5C17E5F6400038AF36 /* WineBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D5517E5F6400038AF36 /* WineBar.m */; };
+		AF0C4D5D17E5F6400038AF36 /* WineBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D5517E5F6400038AF36 /* WineBar.m */; };
+		AF0C4D6417E5F67D0038AF36 /* CrunchyTacoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D5F17E5F67D0038AF36 /* CrunchyTacoStore.m */; };
+		AF0C4D6517E5F67D0038AF36 /* CrunchyTacoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D5F17E5F67D0038AF36 /* CrunchyTacoStore.m */; };
+		AF0C4D6617E5F67D0038AF36 /* StreetTacoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D6117E5F67D0038AF36 /* StreetTacoStore.m */; };
+		AF0C4D6717E5F67D0038AF36 /* StreetTacoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D6117E5F67D0038AF36 /* StreetTacoStore.m */; };
+		AF0C4D6817E5F67D0038AF36 /* TacoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D6317E5F67D0038AF36 /* TacoStore.m */; };
+		AF0C4D6917E5F67D0038AF36 /* TacoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D6317E5F67D0038AF36 /* TacoStore.m */; };
+		AF0C4D7017E5F6CC0038AF36 /* BeefTaco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D6B17E5F6CC0038AF36 /* BeefTaco.m */; };
+		AF0C4D7117E5F6CC0038AF36 /* BeefTaco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D6B17E5F6CC0038AF36 /* BeefTaco.m */; };
+		AF0C4D7417E5F6CC0038AF36 /* Taco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D6F17E5F6CC0038AF36 /* Taco.m */; };
+		AF0C4D7517E5F6CC0038AF36 /* Taco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D6F17E5F6CC0038AF36 /* Taco.m */; };
+		AF0C4D7B17E5F6FF0038AF36 /* CrunchyTacoContentsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D7717E5F6FF0038AF36 /* CrunchyTacoContentsFactory.m */; };
+		AF0C4D7C17E5F6FF0038AF36 /* CrunchyTacoContentsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D7717E5F6FF0038AF36 /* CrunchyTacoContentsFactory.m */; };
+		AF0C4D7D17E5F6FF0038AF36 /* StreetTacoContentsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D7917E5F6FF0038AF36 /* StreetTacoContentsFactory.m */; };
+		AF0C4D7E17E5F6FF0038AF36 /* StreetTacoContentsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D7917E5F6FF0038AF36 /* StreetTacoContentsFactory.m */; };
+		AF0C4D8317E5F7250038AF36 /* Maiz.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D8017E5F7250038AF36 /* Maiz.m */; };
+		AF0C4D8417E5F7250038AF36 /* Maiz.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D8017E5F7250038AF36 /* Maiz.m */; };
+		AF0C4D8517E5F7250038AF36 /* Tortilla.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D8217E5F7250038AF36 /* Tortilla.m */; };
+		AF0C4D8617E5F7250038AF36 /* Tortilla.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D8217E5F7250038AF36 /* Tortilla.m */; };
+		AF0C4D8D17E5F7400038AF36 /* Asada.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D8817E5F7400038AF36 /* Asada.m */; };
+		AF0C4D8E17E5F7400038AF36 /* Asada.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D8817E5F7400038AF36 /* Asada.m */; };
+		AF0C4D8F17E5F7400038AF36 /* Beef.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D8A17E5F7400038AF36 /* Beef.m */; };
+		AF0C4D9017E5F7400038AF36 /* Beef.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D8A17E5F7400038AF36 /* Beef.m */; };
+		AF0C4D9117E5F7400038AF36 /* Molida.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D8C17E5F7400038AF36 /* Molida.m */; };
+		AF0C4D9217E5F7400038AF36 /* Molida.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D8C17E5F7400038AF36 /* Molida.m */; };
+		AF0C4D9917E5F7620038AF36 /* Carnitas.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D9417E5F7620038AF36 /* Carnitas.m */; };
+		AF0C4D9A17E5F7620038AF36 /* Carnitas.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D9417E5F7620038AF36 /* Carnitas.m */; };
+		AF0C4D9B17E5F7620038AF36 /* ChileVerde.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D9617E5F7620038AF36 /* ChileVerde.m */; };
+		AF0C4D9C17E5F7620038AF36 /* ChileVerde.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D9617E5F7620038AF36 /* ChileVerde.m */; };
+		AF0C4D9D17E5F7620038AF36 /* Pork.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D9817E5F7620038AF36 /* Pork.m */; };
+		AF0C4D9E17E5F7620038AF36 /* Pork.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D9817E5F7620038AF36 /* Pork.m */; };
+		AF0C4DA517E5F7920038AF36 /* Cheddar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DA017E5F7920038AF36 /* Cheddar.m */; };
+		AF0C4DA617E5F7920038AF36 /* Cheddar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DA017E5F7920038AF36 /* Cheddar.m */; };
+		AF0C4DA717E5F7920038AF36 /* Fresco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DA217E5F7920038AF36 /* Fresco.m */; };
+		AF0C4DA817E5F7920038AF36 /* Fresco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DA217E5F7920038AF36 /* Fresco.m */; };
+		AF0C4DA917E5F7920038AF36 /* Queso.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DA417E5F7920038AF36 /* Queso.m */; };
+		AF0C4DAA17E5F7920038AF36 /* Queso.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DA417E5F7920038AF36 /* Queso.m */; };
+		AF0C4DB117E5F7AC0038AF36 /* Mild.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DAC17E5F7AC0038AF36 /* Mild.m */; };
+		AF0C4DB217E5F7AC0038AF36 /* Mild.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DAC17E5F7AC0038AF36 /* Mild.m */; };
+		AF0C4DB317E5F7AC0038AF36 /* Picante.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DAE17E5F7AC0038AF36 /* Picante.m */; };
+		AF0C4DB417E5F7AC0038AF36 /* Picante.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DAE17E5F7AC0038AF36 /* Picante.m */; };
+		AF0C4DB517E5F7AC0038AF36 /* Salsa.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DB017E5F7AC0038AF36 /* Salsa.m */; };
+		AF0C4DB617E5F7AC0038AF36 /* Salsa.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DB017E5F7AC0038AF36 /* Salsa.m */; };
+		AF0C4DC117E5F80E0038AF36 /* Cebolla.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DB817E5F80E0038AF36 /* Cebolla.m */; };
+		AF0C4DC217E5F80E0038AF36 /* Cebolla.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DB817E5F80E0038AF36 /* Cebolla.m */; };
+		AF0C4DC317E5F80E0038AF36 /* Cilantro.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DBA17E5F80E0038AF36 /* Cilantro.m */; };
+		AF0C4DC417E5F80E0038AF36 /* Cilantro.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DBA17E5F80E0038AF36 /* Cilantro.m */; };
+		AF0C4DC517E5F80E0038AF36 /* Lechuga.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DBC17E5F80E0038AF36 /* Lechuga.m */; };
+		AF0C4DC617E5F80E0038AF36 /* Lechuga.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DBC17E5F80E0038AF36 /* Lechuga.m */; };
+		AF0C4DC717E5F80E0038AF36 /* Tomate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DBE17E5F80E0038AF36 /* Tomate.m */; };
+		AF0C4DC817E5F80E0038AF36 /* Tomate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DBE17E5F80E0038AF36 /* Tomate.m */; };
+		AF0C4DC917E5F80E0038AF36 /* Vedura.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DC017E5F80E0038AF36 /* Vedura.m */; };
+		AF0C4DCA17E5F80E0038AF36 /* Vedura.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DC017E5F80E0038AF36 /* Vedura.m */; };
+		AF0C4DD117E5F8310038AF36 /* Crema.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DCC17E5F8310038AF36 /* Crema.m */; };
+		AF0C4DD217E5F8310038AF36 /* Crema.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DCC17E5F8310038AF36 /* Crema.m */; };
+		AF0C4DD317E5F8310038AF36 /* Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DCE17E5F8310038AF36 /* Extra.m */; };
+		AF0C4DD417E5F8310038AF36 /* Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DCE17E5F8310038AF36 /* Extra.m */; };
+		AF0C4DD517E5F8310038AF36 /* Guacamole.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DD017E5F8310038AF36 /* Guacamole.m */; };
+		AF0C4DD617E5F8310038AF36 /* Guacamole.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DD017E5F8310038AF36 /* Guacamole.m */; };
+		AF0C4DD917E5F91F0038AF36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DD817E5F91F0038AF36 /* ViewController.m */; };
+		AF0C4DDA17E5F91F0038AF36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DD817E5F91F0038AF36 /* ViewController.m */; };
+		AF0C4DDD17E5F9F30038AF36 /* PorkTaco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DDC17E5F9F30038AF36 /* PorkTaco.m */; };
+		AF0C4DDE17E5F9F30038AF36 /* PorkTaco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DDC17E5F9F30038AF36 /* PorkTaco.m */; };
 		AFA9245E17D53C600005E39B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9245D17D53C600005E39B /* UIKit.framework */; };
 		AFA9246017D53C600005E39B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9245F17D53C600005E39B /* Foundation.framework */; };
 		AFA9246217D53C600005E39B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9246117D53C600005E39B /* CoreGraphics.framework */; };
@@ -71,90 +107,54 @@
 		AFA9247017D53C600005E39B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA9246F17D53C600005E39B /* Default.png */; };
 		AFA9247217D53C600005E39B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA9247117D53C600005E39B /* Default@2x.png */; };
 		AFA9247417D53C600005E39B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA9247317D53C600005E39B /* Default-568h@2x.png */; };
-		AFA9247717D53C600005E39B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA9247617D53C600005E39B /* ViewController.m */; };
 		AFA9247A17D53C600005E39B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFA9247817D53C600005E39B /* ViewController.xib */; };
 		AFA9248217D53C610005E39B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9248117D53C610005E39B /* SenTestingKit.framework */; };
 		AFA9248317D53C610005E39B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9245D17D53C600005E39B /* UIKit.framework */; };
 		AFA9248417D53C610005E39B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9245F17D53C600005E39B /* Foundation.framework */; };
 		AFA9248C17D53C610005E39B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFA9248A17D53C610005E39B /* InfoPlist.strings */; };
-		AFCA101517D5528200ADF1C8 /* BeverageSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA101417D5528200ADF1C8 /* BeverageSpec.m */; };
-		AFCA101A17D5538800ADF1C8 /* Beverage.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA101917D5538800ADF1C8 /* Beverage.m */; };
-		AFCA101B17D5538800ADF1C8 /* Beverage.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA101917D5538800ADF1C8 /* Beverage.m */; };
-		AFCA101E17D5575F00ADF1C8 /* BarSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA101D17D5575F00ADF1C8 /* BarSpec.m */; };
-		AFCA102117D5581F00ADF1C8 /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA102017D5581F00ADF1C8 /* Bar.m */; };
-		AFCA102217D5581F00ADF1C8 /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA102017D5581F00ADF1C8 /* Bar.m */; };
-		AFCA102517D77DA100ADF1C8 /* BeerBarSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA102417D77DA100ADF1C8 /* BeerBarSpec.m */; };
-		AFCA102817D77E1600ADF1C8 /* BeerBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA102717D77E1600ADF1C8 /* BeerBar.m */; };
-		AFCA102917D77E1600ADF1C8 /* BeerBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA102717D77E1600ADF1C8 /* BeerBar.m */; };
-		AFCA102C17D77F8500ADF1C8 /* Lager.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA102B17D77F8500ADF1C8 /* Lager.m */; };
-		AFCA102D17D77F8500ADF1C8 /* Lager.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA102B17D77F8500ADF1C8 /* Lager.m */; };
-		AFCA103017D77FA400ADF1C8 /* Stout.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA102F17D77FA400ADF1C8 /* Stout.m */; };
-		AFCA103117D77FA400ADF1C8 /* Stout.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA102F17D77FA400ADF1C8 /* Stout.m */; };
-		AFCA103417D77FC100ADF1C8 /* Ale.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA103317D77FC100ADF1C8 /* Ale.m */; };
-		AFCA103517D77FC100ADF1C8 /* Ale.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA103317D77FC100ADF1C8 /* Ale.m */; };
-		AFE8F5C317DC12BA00D00E2B /* CrunchyTacoContentsFactorySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F5C217DC12BA00D00E2B /* CrunchyTacoContentsFactorySpec.m */; };
-		AFE8F5C617DC136E00D00E2B /* Molida.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F5C517DC136E00D00E2B /* Molida.m */; };
-		AFE8F5C717DC136E00D00E2B /* Molida.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F5C517DC136E00D00E2B /* Molida.m */; };
-		AFE8F5CF17DC15BA00D00E2B /* CrunchyTacoContentsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F5CE17DC15BA00D00E2B /* CrunchyTacoContentsFactory.m */; };
-		AFE8F5D017DC15BA00D00E2B /* CrunchyTacoContentsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F5CE17DC15BA00D00E2B /* CrunchyTacoContentsFactory.m */; };
-		AFE8F5D317DC17AB00D00E2B /* Cheddar.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F5D217DC17AB00D00E2B /* Cheddar.m */; };
-		AFE8F5D417DC17AB00D00E2B /* Cheddar.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F5D217DC17AB00D00E2B /* Cheddar.m */; };
-		AFE8F5D717DC17C600D00E2B /* Mild.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F5D617DC17C600D00E2B /* Mild.m */; };
-		AFE8F5D817DC17C600D00E2B /* Mild.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F5D617DC17C600D00E2B /* Mild.m */; };
-		AFE8F5DB17DC17E100D00E2B /* Lechuga.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F5DA17DC17E100D00E2B /* Lechuga.m */; };
-		AFE8F5DC17DC17E100D00E2B /* Lechuga.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F5DA17DC17E100D00E2B /* Lechuga.m */; };
-		AFE8F5E017DC184D00D00E2B /* Tortilla.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F5DF17DC184D00D00E2B /* Tortilla.m */; };
-		AFE8F5E117DC184D00D00E2B /* Tortilla.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F5DF17DC184D00D00E2B /* Tortilla.m */; };
-		AFE8F5E417DC186300D00E2B /* Maiz.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F5E317DC186300D00E2B /* Maiz.m */; };
-		AFE8F5E517DC186300D00E2B /* Maiz.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F5E317DC186300D00E2B /* Maiz.m */; };
-		AFE8F5EC17DC18EA00D00E2B /* Tomate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F5EB17DC18EA00D00E2B /* Tomate.m */; };
-		AFE8F5ED17DC18EA00D00E2B /* Tomate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F5EB17DC18EA00D00E2B /* Tomate.m */; };
-		AFE8F5F717DCF08C00D00E2B /* MaizSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F5F617DCF08C00D00E2B /* MaizSpec.m */; };
-		AFE8F5FA17DCF1B400D00E2B /* TortillaSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F5F917DCF1B300D00E2B /* TortillaSpec.m */; };
-		AFE8F60017DCF25300D00E2B /* AsadaSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F5FF17DCF25300D00E2B /* AsadaSpec.m */; };
-		AFE8F60317DCF46900D00E2B /* MolidaSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F60217DCF46900D00E2B /* MolidaSpec.m */; };
-		AFE8F60617DCF4C000D00E2B /* QuesoSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F60517DCF4C000D00E2B /* QuesoSpec.m */; };
-		AFE8F60917DCF55500D00E2B /* FrescoSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F60817DCF55500D00E2B /* FrescoSpec.m */; };
-		AFE8F60C17DCF61900D00E2B /* CheddarSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F60B17DCF61900D00E2B /* CheddarSpec.m */; };
-		AFE8F60F17DCF67800D00E2B /* SalsaSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F60E17DCF67800D00E2B /* SalsaSpec.m */; };
-		AFE8F61217DCF6D000D00E2B /* PicanteSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F61117DCF6D000D00E2B /* PicanteSpec.m */; };
-		AFE8F61517DCF72D00D00E2B /* MildSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F61417DCF72D00D00E2B /* MildSpec.m */; };
-		AFE8F61817DCF77500D00E2B /* VeduraSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F61717DCF77500D00E2B /* VeduraSpec.m */; };
-		AFE8F61B17DCF7B200D00E2B /* CebollaSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F61A17DCF7B200D00E2B /* CebollaSpec.m */; };
-		AFE8F61E17DCF83000D00E2B /* CilantroSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F61D17DCF83000D00E2B /* CilantroSpec.m */; };
-		AFE8F62117DCF87500D00E2B /* TomateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F62017DCF87400D00E2B /* TomateSpec.m */; };
-		AFE8F62417DCF8A400D00E2B /* LechugaSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F62317DCF8A400D00E2B /* LechugaSpec.m */; };
-		AFE8F62717DCF8EC00D00E2B /* ExtraSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F62617DCF8EC00D00E2B /* ExtraSpec.m */; };
-		AFE8F62A17DCF93300D00E2B /* CremaSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F62917DCF93300D00E2B /* CremaSpec.m */; };
-		AFE8F62D17DCF98900D00E2B /* GuacamoleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F62C17DCF98900D00E2B /* GuacamoleSpec.m */; };
-		AFE8F63417DD532600D00E2B /* Taco.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F63317DD532600D00E2B /* Taco.m */; };
-		AFE8F63517DD532600D00E2B /* Taco.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F63317DD532600D00E2B /* Taco.m */; };
-		AFE8F63A17DD535600D00E2B /* TacoSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F63917DD535600D00E2B /* TacoSpec.m */; };
-		AFFD5D6A17DBC7EC0015FC0A /* StreetTacoContentsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5D6917DBC7EC0015FC0A /* StreetTacoContentsFactory.m */; };
-		AFFD5D6B17DBC7EC0015FC0A /* StreetTacoContentsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5D6917DBC7EC0015FC0A /* StreetTacoContentsFactory.m */; };
-		AFFD5D6E17DBC8500015FC0A /* StreetTacoContentsFactorySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5D6D17DBC8500015FC0A /* StreetTacoContentsFactorySpec.m */; };
-		AFFD5D7217DBC9A50015FC0A /* Asada.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5D7117DBC9A50015FC0A /* Asada.m */; };
-		AFFD5D7317DBC9A50015FC0A /* Asada.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5D7117DBC9A50015FC0A /* Asada.m */; };
-		AFFD5D7617DBC9B10015FC0A /* Queso.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5D7517DBC9B10015FC0A /* Queso.m */; };
-		AFFD5D7717DBC9B10015FC0A /* Queso.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5D7517DBC9B10015FC0A /* Queso.m */; };
-		AFFD5D7A17DBC9C10015FC0A /* Salsa.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5D7917DBC9C10015FC0A /* Salsa.m */; };
-		AFFD5D7B17DBC9C10015FC0A /* Salsa.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5D7917DBC9C10015FC0A /* Salsa.m */; };
-		AFFD5D8217DBFFB10015FC0A /* Fresco.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5D8117DBFFB00015FC0A /* Fresco.m */; };
-		AFFD5D8317DBFFB10015FC0A /* Fresco.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5D8117DBFFB00015FC0A /* Fresco.m */; };
-		AFFD5D8617DBFFFE0015FC0A /* Picante.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5D8517DBFFFE0015FC0A /* Picante.m */; };
-		AFFD5D8717DBFFFE0015FC0A /* Picante.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5D8517DBFFFE0015FC0A /* Picante.m */; };
-		AFFD5D8A17DC00470015FC0A /* Vedura.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5D8917DC00470015FC0A /* Vedura.m */; };
-		AFFD5D8B17DC00470015FC0A /* Vedura.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5D8917DC00470015FC0A /* Vedura.m */; };
-		AFFD5D8E17DC007C0015FC0A /* Cebolla.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5D8D17DC007B0015FC0A /* Cebolla.m */; };
-		AFFD5D8F17DC007C0015FC0A /* Cebolla.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5D8D17DC007B0015FC0A /* Cebolla.m */; };
-		AFFD5D9217DC009B0015FC0A /* Cilantro.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5D9117DC009A0015FC0A /* Cilantro.m */; };
-		AFFD5D9317DC009B0015FC0A /* Cilantro.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5D9117DC009A0015FC0A /* Cilantro.m */; };
-		AFFD5D9617DC013F0015FC0A /* Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5D9517DC013E0015FC0A /* Extra.m */; };
-		AFFD5D9717DC013F0015FC0A /* Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5D9517DC013E0015FC0A /* Extra.m */; };
-		AFFD5D9A17DC01680015FC0A /* Crema.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5D9917DC01670015FC0A /* Crema.m */; };
-		AFFD5D9B17DC01680015FC0A /* Crema.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5D9917DC01670015FC0A /* Crema.m */; };
-		AFFD5D9E17DC01930015FC0A /* Guacamole.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5D9D17DC01920015FC0A /* Guacamole.m */; };
-		AFFD5D9F17DC01930015FC0A /* Guacamole.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5D9D17DC01920015FC0A /* Guacamole.m */; };
+		AFADEABE17E612D20080708D /* AleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAB417E612D20080708D /* AleSpec.m */; };
+		AFADEABF17E612D20080708D /* BeverageSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAB517E612D20080708D /* BeverageSpec.m */; };
+		AFADEAC017E612D20080708D /* CabernetSauvignonSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAB617E612D20080708D /* CabernetSauvignonSpec.m */; };
+		AFADEAC117E612D20080708D /* ChardonnaySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAB717E612D20080708D /* ChardonnaySpec.m */; };
+		AFADEAC217E612D20080708D /* JagerBomb.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAB817E612D20080708D /* JagerBomb.m */; };
+		AFADEAC317E612D20080708D /* LagerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAB917E612D20080708D /* LagerSpec.m */; };
+		AFADEAC417E612D20080708D /* MerlotSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEABA17E612D20080708D /* MerlotSpec.m */; };
+		AFADEAC517E612D20080708D /* RumAndCokeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEABB17E612D20080708D /* RumAndCokeSpec.m */; };
+		AFADEAC617E612D20080708D /* StoutSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEABC17E612D20080708D /* StoutSpec.m */; };
+		AFADEAC717E612D20080708D /* WhiskeySour.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEABD17E612D20080708D /* WhiskeySour.m */; };
+		AFADEACC17E613080080708D /* BarSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAC817E613080080708D /* BarSpec.m */; };
+		AFADEACD17E613080080708D /* BeerBarSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAC917E613080080708D /* BeerBarSpec.m */; };
+		AFADEACE17E613080080708D /* MixedDrinksBarSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEACA17E613080080708D /* MixedDrinksBarSpec.m */; };
+		AFADEACF17E613080080708D /* WineBarSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEACB17E613080080708D /* WineBarSpec.m */; };
+		AFADEAD317E613430080708D /* CrunchyTacoStoreSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAD017E613430080708D /* CrunchyTacoStoreSpec.m */; };
+		AFADEAD417E613430080708D /* StreetTacoStoreSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAD117E613430080708D /* StreetTacoStoreSpec.m */; };
+		AFADEAD517E613430080708D /* TacoStoreSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAD217E613430080708D /* TacoStoreSpec.m */; };
+		AFADEAD917E613700080708D /* BeefTacoSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAD617E613700080708D /* BeefTacoSpec.m */; };
+		AFADEADA17E613700080708D /* PorkTacoSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAD717E613700080708D /* PorkTacoSpec.m */; };
+		AFADEADB17E613700080708D /* TacoSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAD817E613700080708D /* TacoSpec.m */; };
+		AFADEADE17E613860080708D /* CrunchyTacoContentsFactorySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEADC17E613860080708D /* CrunchyTacoContentsFactorySpec.m */; };
+		AFADEADF17E613860080708D /* StreetTacoContentsFactorySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEADD17E613860080708D /* StreetTacoContentsFactorySpec.m */; };
+		AFADEAE317E613AD0080708D /* AsadaSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAE017E613AD0080708D /* AsadaSpec.m */; };
+		AFADEAE417E613AD0080708D /* BeefSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAE117E613AD0080708D /* BeefSpec.m */; };
+		AFADEAE517E613AD0080708D /* MolidaSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAE217E613AD0080708D /* MolidaSpec.m */; };
+		AFADEAE917E613CD0080708D /* CarnitasSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAE617E613CD0080708D /* CarnitasSpec.m */; };
+		AFADEAEA17E613CD0080708D /* ChileVerdeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAE717E613CD0080708D /* ChileVerdeSpec.m */; };
+		AFADEAED17E613E70080708D /* MaizSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAEB17E613E70080708D /* MaizSpec.m */; };
+		AFADEAEE17E613E70080708D /* TortillaSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAEC17E613E70080708D /* TortillaSpec.m */; };
+		AFADEAF217E6144B0080708D /* CheddarSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAEF17E6144B0080708D /* CheddarSpec.m */; };
+		AFADEAF317E6144B0080708D /* FrescoSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAF017E6144B0080708D /* FrescoSpec.m */; };
+		AFADEAF417E6144B0080708D /* QuesoSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAF117E6144B0080708D /* QuesoSpec.m */; };
+		AFADEAF817E614740080708D /* MildSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAF517E614740080708D /* MildSpec.m */; };
+		AFADEAF917E614740080708D /* PicanteSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAF617E614740080708D /* PicanteSpec.m */; };
+		AFADEAFA17E614740080708D /* SalsaSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAF717E614740080708D /* SalsaSpec.m */; };
+		AFADEB0017E614A60080708D /* CebollaSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAFB17E614A60080708D /* CebollaSpec.m */; };
+		AFADEB0117E614A60080708D /* CilantroSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAFC17E614A60080708D /* CilantroSpec.m */; };
+		AFADEB0217E614A60080708D /* LechugaSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAFD17E614A60080708D /* LechugaSpec.m */; };
+		AFADEB0317E614A60080708D /* TomateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAFE17E614A60080708D /* TomateSpec.m */; };
+		AFADEB0417E614A60080708D /* VeduraSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEAFF17E614A60080708D /* VeduraSpec.m */; };
+		AFADEB0817E614D20080708D /* CremaSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB0517E614D20080708D /* CremaSpec.m */; };
+		AFADEB0917E614D20080708D /* ExtraSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB0617E614D20080708D /* ExtraSpec.m */; };
+		AFADEB0A17E614D20080708D /* GuacamoleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB0717E614D20080708D /* GuacamoleSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -170,60 +170,97 @@
 /* Begin PBXFileReference section */
 		47BCF2278D19440D87CF93F9 /* libPods-ObjCDesignPatternsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjCDesignPatternsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68A4AF10CF194DE0A8C61994 /* Pods-ObjCDesignPatternsTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCDesignPatternsTests.xcconfig"; path = "Pods/Pods-ObjCDesignPatternsTests.xcconfig"; sourceTree = SOURCE_ROOT; };
-		AF0FCD7817E534FC00F5DB0E /* PorkSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PorkSpec.m; sourceTree = "<group>"; };
-		AF0FCD7A17E5353300F5DB0E /* Pork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pork.h; sourceTree = "<group>"; };
-		AF0FCD7B17E5353300F5DB0E /* Pork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pork.m; sourceTree = "<group>"; };
-		AF0FCD7F17E5356000F5DB0E /* CarnitasSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarnitasSpec.m; sourceTree = "<group>"; };
-		AF0FCD8117E535BB00F5DB0E /* Carnitas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Carnitas.h; sourceTree = "<group>"; };
-		AF0FCD8217E535BB00F5DB0E /* Carnitas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Carnitas.m; sourceTree = "<group>"; };
-		AF0FCD8617E5363700F5DB0E /* ChileVerdeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChileVerdeSpec.m; sourceTree = "<group>"; };
-		AF0FCD8817E5367F00F5DB0E /* ChileVerde.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChileVerde.h; sourceTree = "<group>"; };
-		AF0FCD8917E5367F00F5DB0E /* ChileVerde.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChileVerde.m; sourceTree = "<group>"; };
-		AF0FCD8D17E5387400F5DB0E /* PorkTacoSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PorkTacoSpec.m; sourceTree = "<group>"; };
-		AF0FCD8F17E5392300F5DB0E /* PorkTaco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PorkTaco.h; sourceTree = "<group>"; };
-		AF0FCD9017E5392400F5DB0E /* PorkTaco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PorkTaco.m; sourceTree = "<group>"; };
-		AF0FCD9417E53D9A00F5DB0E /* CrunchyTacoStoreSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrunchyTacoStoreSpec.m; sourceTree = "<group>"; };
-		AF0FCD9617E53E1600F5DB0E /* CrunchyTacoStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrunchyTacoStore.h; sourceTree = "<group>"; };
-		AF0FCD9717E53E1600F5DB0E /* CrunchyTacoStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrunchyTacoStore.m; sourceTree = "<group>"; };
-		AF13F0DE17DF9B6D00A9A0E2 /* TacoStoreSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TacoStoreSpec.m; sourceTree = "<group>"; };
-		AF13F0E117DF9C3200A9A0E2 /* TacoStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TacoStore.h; sourceTree = "<group>"; };
-		AF13F0E217DF9C3200A9A0E2 /* TacoStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TacoStore.m; sourceTree = "<group>"; };
-		AF13F0E617E0410D00A9A0E2 /* StreetTacoStoreSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreetTacoStoreSpec.m; sourceTree = "<group>"; };
-		AF13F0E817E041D300A9A0E2 /* StreetTacoStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreetTacoStore.h; sourceTree = "<group>"; };
-		AF13F0E917E041D300A9A0E2 /* StreetTacoStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreetTacoStore.m; sourceTree = "<group>"; };
-		AF13F0ED17E2531300A9A0E2 /* BeefTacoSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeefTacoSpec.m; sourceTree = "<group>"; };
-		AF13F0EF17E2541600A9A0E2 /* BeefTaco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeefTaco.h; sourceTree = "<group>"; };
-		AF13F0F017E2541600A9A0E2 /* BeefTaco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeefTaco.m; sourceTree = "<group>"; };
-		AF56ECF817D962230020F9C4 /* MixedDrinksBarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixedDrinksBarSpec.m; sourceTree = "<group>"; };
-		AF56ECFA17D963290020F9C4 /* MixedDrinksBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixedDrinksBar.h; sourceTree = "<group>"; };
-		AF56ECFB17D963290020F9C4 /* MixedDrinksBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixedDrinksBar.m; sourceTree = "<group>"; };
-		AF59C02E17E5212F004992DF /* BeefSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeefSpec.m; sourceTree = "<group>"; };
-		AF59C03217E521C7004992DF /* Beef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beef.h; sourceTree = "<group>"; };
-		AF59C03317E521C7004992DF /* Beef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beef.m; sourceTree = "<group>"; };
-		AF70E96B17D8CEBF001E7911 /* LagerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LagerSpec.m; sourceTree = "<group>"; };
-		AF70E96E17D8CEDD001E7911 /* StoutSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoutSpec.m; sourceTree = "<group>"; };
-		AF70E97117D8CEF6001E7911 /* AleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AleSpec.m; sourceTree = "<group>"; };
-		AF70E97317D8D0FB001E7911 /* RumAndCoke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RumAndCoke.h; sourceTree = "<group>"; };
-		AF70E97417D8D0FB001E7911 /* RumAndCoke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RumAndCoke.m; sourceTree = "<group>"; };
-		AF70E97717D8D11F001E7911 /* WhiskeySour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskeySour.h; sourceTree = "<group>"; };
-		AF70E97817D8D11F001E7911 /* WhiskeySour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeySour.m; sourceTree = "<group>"; };
-		AF70E97B17D8D15F001E7911 /* JagerBomb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JagerBomb.h; sourceTree = "<group>"; };
-		AF70E97C17D8D15F001E7911 /* JagerBomb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JagerBomb.m; sourceTree = "<group>"; };
-		AF70E98317D8D1B2001E7911 /* RumAndCokeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RumAndCokeSpec.m; sourceTree = "<group>"; };
-		AF70E98617D8D1C7001E7911 /* WhiskeySour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeySour.m; sourceTree = "<group>"; };
-		AF70E98917D8D1D8001E7911 /* JagerBomb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JagerBomb.m; sourceTree = "<group>"; };
-		AF70E98C17D8D2A9001E7911 /* ChardonnaySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChardonnaySpec.m; sourceTree = "<group>"; };
-		AF70E98F17D8D2C0001E7911 /* MerlotSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MerlotSpec.m; sourceTree = "<group>"; };
-		AF70E99217D8D387001E7911 /* CabernetSauvignonSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CabernetSauvignonSpec.m; sourceTree = "<group>"; };
-		AF70E99417D8D3D4001E7911 /* Chardonnay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chardonnay.h; sourceTree = "<group>"; };
-		AF70E99517D8D3D4001E7911 /* Chardonnay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chardonnay.m; sourceTree = "<group>"; };
-		AF70E99817D8D409001E7911 /* Merlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Merlot.h; sourceTree = "<group>"; };
-		AF70E99917D8D409001E7911 /* Merlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Merlot.m; sourceTree = "<group>"; };
-		AF70E99C17D8D42E001E7911 /* CabernetSauvignon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CabernetSauvignon.h; sourceTree = "<group>"; };
-		AF70E99D17D8D42E001E7911 /* CabernetSauvignon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CabernetSauvignon.m; sourceTree = "<group>"; };
-		AF70E9A117D8D4E7001E7911 /* WineBarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WineBarSpec.m; sourceTree = "<group>"; };
-		AF70E9A317D8D545001E7911 /* WineBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WineBar.h; sourceTree = "<group>"; };
-		AF70E9A417D8D545001E7911 /* WineBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WineBar.m; sourceTree = "<group>"; };
+		AF0C4D2617E5F5A10038AF36 /* Beverage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Beverage.h; path = FactoryPatterns/FactoryMethod/Beverage.h; sourceTree = "<group>"; };
+		AF0C4D2717E5F5A10038AF36 /* Beverage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Beverage.m; path = FactoryPatterns/FactoryMethod/Beverage.m; sourceTree = "<group>"; };
+		AF0C4D2A17E5F5FD0038AF36 /* Ale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ale.h; path = FactoryPatterns/FactoryMethod/Ale.h; sourceTree = "<group>"; };
+		AF0C4D2B17E5F5FD0038AF36 /* Ale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Ale.m; path = FactoryPatterns/FactoryMethod/Ale.m; sourceTree = "<group>"; };
+		AF0C4D2C17E5F5FD0038AF36 /* CabernetSauvignon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CabernetSauvignon.h; path = FactoryPatterns/FactoryMethod/CabernetSauvignon.h; sourceTree = "<group>"; };
+		AF0C4D2D17E5F5FD0038AF36 /* CabernetSauvignon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CabernetSauvignon.m; path = FactoryPatterns/FactoryMethod/CabernetSauvignon.m; sourceTree = "<group>"; };
+		AF0C4D2E17E5F5FD0038AF36 /* Chardonnay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Chardonnay.h; path = FactoryPatterns/FactoryMethod/Chardonnay.h; sourceTree = "<group>"; };
+		AF0C4D2F17E5F5FD0038AF36 /* Chardonnay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Chardonnay.m; path = FactoryPatterns/FactoryMethod/Chardonnay.m; sourceTree = "<group>"; };
+		AF0C4D3017E5F5FD0038AF36 /* JagerBomb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JagerBomb.h; path = FactoryPatterns/FactoryMethod/JagerBomb.h; sourceTree = "<group>"; };
+		AF0C4D3117E5F5FD0038AF36 /* JagerBomb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JagerBomb.m; path = FactoryPatterns/FactoryMethod/JagerBomb.m; sourceTree = "<group>"; };
+		AF0C4D3217E5F5FD0038AF36 /* Lager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Lager.h; path = FactoryPatterns/FactoryMethod/Lager.h; sourceTree = "<group>"; };
+		AF0C4D3317E5F5FD0038AF36 /* Lager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Lager.m; path = FactoryPatterns/FactoryMethod/Lager.m; sourceTree = "<group>"; };
+		AF0C4D3417E5F5FD0038AF36 /* Merlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Merlot.h; path = FactoryPatterns/FactoryMethod/Merlot.h; sourceTree = "<group>"; };
+		AF0C4D3517E5F5FD0038AF36 /* Merlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Merlot.m; path = FactoryPatterns/FactoryMethod/Merlot.m; sourceTree = "<group>"; };
+		AF0C4D3617E5F5FD0038AF36 /* RumAndCoke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RumAndCoke.h; path = FactoryPatterns/FactoryMethod/RumAndCoke.h; sourceTree = "<group>"; };
+		AF0C4D3717E5F5FD0038AF36 /* RumAndCoke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RumAndCoke.m; path = FactoryPatterns/FactoryMethod/RumAndCoke.m; sourceTree = "<group>"; };
+		AF0C4D3817E5F5FD0038AF36 /* Stout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stout.h; path = FactoryPatterns/FactoryMethod/Stout.h; sourceTree = "<group>"; };
+		AF0C4D3917E5F5FD0038AF36 /* Stout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stout.m; path = FactoryPatterns/FactoryMethod/Stout.m; sourceTree = "<group>"; };
+		AF0C4D3A17E5F5FD0038AF36 /* WhiskeySour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WhiskeySour.h; path = FactoryPatterns/FactoryMethod/WhiskeySour.h; sourceTree = "<group>"; };
+		AF0C4D3B17E5F5FD0038AF36 /* WhiskeySour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WhiskeySour.m; path = FactoryPatterns/FactoryMethod/WhiskeySour.m; sourceTree = "<group>"; };
+		AF0C4D4E17E5F6400038AF36 /* Bar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bar.h; path = FactoryPatterns/FactoryMethod/Bar.h; sourceTree = "<group>"; };
+		AF0C4D4F17E5F6400038AF36 /* Bar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bar.m; path = FactoryPatterns/FactoryMethod/Bar.m; sourceTree = "<group>"; };
+		AF0C4D5017E5F6400038AF36 /* BeerBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeerBar.h; path = FactoryPatterns/FactoryMethod/BeerBar.h; sourceTree = "<group>"; };
+		AF0C4D5117E5F6400038AF36 /* BeerBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeerBar.m; path = FactoryPatterns/FactoryMethod/BeerBar.m; sourceTree = "<group>"; };
+		AF0C4D5217E5F6400038AF36 /* MixedDrinksBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MixedDrinksBar.h; path = FactoryPatterns/FactoryMethod/MixedDrinksBar.h; sourceTree = "<group>"; };
+		AF0C4D5317E5F6400038AF36 /* MixedDrinksBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MixedDrinksBar.m; path = FactoryPatterns/FactoryMethod/MixedDrinksBar.m; sourceTree = "<group>"; };
+		AF0C4D5417E5F6400038AF36 /* WineBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WineBar.h; path = FactoryPatterns/FactoryMethod/WineBar.h; sourceTree = "<group>"; };
+		AF0C4D5517E5F6400038AF36 /* WineBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WineBar.m; path = FactoryPatterns/FactoryMethod/WineBar.m; sourceTree = "<group>"; };
+		AF0C4D5E17E5F67D0038AF36 /* CrunchyTacoStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CrunchyTacoStore.h; path = FactoryPatterns/AbstractFactory/CrunchyTacoStore.h; sourceTree = "<group>"; };
+		AF0C4D5F17E5F67D0038AF36 /* CrunchyTacoStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CrunchyTacoStore.m; path = FactoryPatterns/AbstractFactory/CrunchyTacoStore.m; sourceTree = "<group>"; };
+		AF0C4D6017E5F67D0038AF36 /* StreetTacoStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StreetTacoStore.h; path = FactoryPatterns/AbstractFactory/StreetTacoStore.h; sourceTree = "<group>"; };
+		AF0C4D6117E5F67D0038AF36 /* StreetTacoStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StreetTacoStore.m; path = FactoryPatterns/AbstractFactory/StreetTacoStore.m; sourceTree = "<group>"; };
+		AF0C4D6217E5F67D0038AF36 /* TacoStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TacoStore.h; path = FactoryPatterns/AbstractFactory/TacoStore.h; sourceTree = "<group>"; };
+		AF0C4D6317E5F67D0038AF36 /* TacoStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TacoStore.m; path = FactoryPatterns/AbstractFactory/TacoStore.m; sourceTree = "<group>"; };
+		AF0C4D6A17E5F6CC0038AF36 /* BeefTaco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeefTaco.h; path = FactoryPatterns/AbstractFactory/BeefTaco.h; sourceTree = "<group>"; };
+		AF0C4D6B17E5F6CC0038AF36 /* BeefTaco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeefTaco.m; path = FactoryPatterns/AbstractFactory/BeefTaco.m; sourceTree = "<group>"; };
+		AF0C4D6E17E5F6CC0038AF36 /* Taco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Taco.h; path = FactoryPatterns/AbstractFactory/Taco.h; sourceTree = "<group>"; };
+		AF0C4D6F17E5F6CC0038AF36 /* Taco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Taco.m; path = FactoryPatterns/AbstractFactory/Taco.m; sourceTree = "<group>"; };
+		AF0C4D7617E5F6FF0038AF36 /* CrunchyTacoContentsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CrunchyTacoContentsFactory.h; path = FactoryPatterns/AbstractFactory/CrunchyTacoContentsFactory.h; sourceTree = "<group>"; };
+		AF0C4D7717E5F6FF0038AF36 /* CrunchyTacoContentsFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CrunchyTacoContentsFactory.m; path = FactoryPatterns/AbstractFactory/CrunchyTacoContentsFactory.m; sourceTree = "<group>"; };
+		AF0C4D7817E5F6FF0038AF36 /* StreetTacoContentsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StreetTacoContentsFactory.h; path = FactoryPatterns/AbstractFactory/StreetTacoContentsFactory.h; sourceTree = "<group>"; };
+		AF0C4D7917E5F6FF0038AF36 /* StreetTacoContentsFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StreetTacoContentsFactory.m; path = FactoryPatterns/AbstractFactory/StreetTacoContentsFactory.m; sourceTree = "<group>"; };
+		AF0C4D7A17E5F6FF0038AF36 /* TacoContentsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TacoContentsFactory.h; path = FactoryPatterns/AbstractFactory/TacoContentsFactory.h; sourceTree = "<group>"; };
+		AF0C4D7F17E5F7250038AF36 /* Maiz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Maiz.h; path = FactoryPatterns/AbstractFactory/Maiz.h; sourceTree = "<group>"; };
+		AF0C4D8017E5F7250038AF36 /* Maiz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Maiz.m; path = FactoryPatterns/AbstractFactory/Maiz.m; sourceTree = "<group>"; };
+		AF0C4D8117E5F7250038AF36 /* Tortilla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tortilla.h; path = FactoryPatterns/AbstractFactory/Tortilla.h; sourceTree = "<group>"; };
+		AF0C4D8217E5F7250038AF36 /* Tortilla.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tortilla.m; path = FactoryPatterns/AbstractFactory/Tortilla.m; sourceTree = "<group>"; };
+		AF0C4D8717E5F7400038AF36 /* Asada.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Asada.h; path = FactoryPatterns/AbstractFactory/Asada.h; sourceTree = "<group>"; };
+		AF0C4D8817E5F7400038AF36 /* Asada.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Asada.m; path = FactoryPatterns/AbstractFactory/Asada.m; sourceTree = "<group>"; };
+		AF0C4D8917E5F7400038AF36 /* Beef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Beef.h; path = FactoryPatterns/AbstractFactory/Beef.h; sourceTree = "<group>"; };
+		AF0C4D8A17E5F7400038AF36 /* Beef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Beef.m; path = FactoryPatterns/AbstractFactory/Beef.m; sourceTree = "<group>"; };
+		AF0C4D8B17E5F7400038AF36 /* Molida.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Molida.h; path = FactoryPatterns/AbstractFactory/Molida.h; sourceTree = "<group>"; };
+		AF0C4D8C17E5F7400038AF36 /* Molida.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Molida.m; path = FactoryPatterns/AbstractFactory/Molida.m; sourceTree = "<group>"; };
+		AF0C4D9317E5F7620038AF36 /* Carnitas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Carnitas.h; path = FactoryPatterns/AbstractFactory/Carnitas.h; sourceTree = "<group>"; };
+		AF0C4D9417E5F7620038AF36 /* Carnitas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Carnitas.m; path = FactoryPatterns/AbstractFactory/Carnitas.m; sourceTree = "<group>"; };
+		AF0C4D9517E5F7620038AF36 /* ChileVerde.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChileVerde.h; path = FactoryPatterns/AbstractFactory/ChileVerde.h; sourceTree = "<group>"; };
+		AF0C4D9617E5F7620038AF36 /* ChileVerde.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChileVerde.m; path = FactoryPatterns/AbstractFactory/ChileVerde.m; sourceTree = "<group>"; };
+		AF0C4D9717E5F7620038AF36 /* Pork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pork.h; path = FactoryPatterns/AbstractFactory/Pork.h; sourceTree = "<group>"; };
+		AF0C4D9817E5F7620038AF36 /* Pork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pork.m; path = FactoryPatterns/AbstractFactory/Pork.m; sourceTree = "<group>"; };
+		AF0C4D9F17E5F7920038AF36 /* Cheddar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cheddar.h; path = FactoryPatterns/AbstractFactory/Cheddar.h; sourceTree = "<group>"; };
+		AF0C4DA017E5F7920038AF36 /* Cheddar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cheddar.m; path = FactoryPatterns/AbstractFactory/Cheddar.m; sourceTree = "<group>"; };
+		AF0C4DA117E5F7920038AF36 /* Fresco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fresco.h; path = FactoryPatterns/AbstractFactory/Fresco.h; sourceTree = "<group>"; };
+		AF0C4DA217E5F7920038AF36 /* Fresco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fresco.m; path = FactoryPatterns/AbstractFactory/Fresco.m; sourceTree = "<group>"; };
+		AF0C4DA317E5F7920038AF36 /* Queso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Queso.h; path = FactoryPatterns/AbstractFactory/Queso.h; sourceTree = "<group>"; };
+		AF0C4DA417E5F7920038AF36 /* Queso.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Queso.m; path = FactoryPatterns/AbstractFactory/Queso.m; sourceTree = "<group>"; };
+		AF0C4DAB17E5F7AC0038AF36 /* Mild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mild.h; path = FactoryPatterns/AbstractFactory/Mild.h; sourceTree = "<group>"; };
+		AF0C4DAC17E5F7AC0038AF36 /* Mild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Mild.m; path = FactoryPatterns/AbstractFactory/Mild.m; sourceTree = "<group>"; };
+		AF0C4DAD17E5F7AC0038AF36 /* Picante.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Picante.h; path = FactoryPatterns/AbstractFactory/Picante.h; sourceTree = "<group>"; };
+		AF0C4DAE17E5F7AC0038AF36 /* Picante.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Picante.m; path = FactoryPatterns/AbstractFactory/Picante.m; sourceTree = "<group>"; };
+		AF0C4DAF17E5F7AC0038AF36 /* Salsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Salsa.h; path = FactoryPatterns/AbstractFactory/Salsa.h; sourceTree = "<group>"; };
+		AF0C4DB017E5F7AC0038AF36 /* Salsa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Salsa.m; path = FactoryPatterns/AbstractFactory/Salsa.m; sourceTree = "<group>"; };
+		AF0C4DB717E5F80E0038AF36 /* Cebolla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cebolla.h; path = FactoryPatterns/AbstractFactory/Cebolla.h; sourceTree = "<group>"; };
+		AF0C4DB817E5F80E0038AF36 /* Cebolla.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cebolla.m; path = FactoryPatterns/AbstractFactory/Cebolla.m; sourceTree = "<group>"; };
+		AF0C4DB917E5F80E0038AF36 /* Cilantro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cilantro.h; path = FactoryPatterns/AbstractFactory/Cilantro.h; sourceTree = "<group>"; };
+		AF0C4DBA17E5F80E0038AF36 /* Cilantro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cilantro.m; path = FactoryPatterns/AbstractFactory/Cilantro.m; sourceTree = "<group>"; };
+		AF0C4DBB17E5F80E0038AF36 /* Lechuga.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Lechuga.h; path = FactoryPatterns/AbstractFactory/Lechuga.h; sourceTree = "<group>"; };
+		AF0C4DBC17E5F80E0038AF36 /* Lechuga.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Lechuga.m; path = FactoryPatterns/AbstractFactory/Lechuga.m; sourceTree = "<group>"; };
+		AF0C4DBD17E5F80E0038AF36 /* Tomate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tomate.h; path = FactoryPatterns/AbstractFactory/Tomate.h; sourceTree = "<group>"; };
+		AF0C4DBE17E5F80E0038AF36 /* Tomate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tomate.m; path = FactoryPatterns/AbstractFactory/Tomate.m; sourceTree = "<group>"; };
+		AF0C4DBF17E5F80E0038AF36 /* Vedura.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vedura.h; path = FactoryPatterns/AbstractFactory/Vedura.h; sourceTree = "<group>"; };
+		AF0C4DC017E5F80E0038AF36 /* Vedura.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Vedura.m; path = FactoryPatterns/AbstractFactory/Vedura.m; sourceTree = "<group>"; };
+		AF0C4DCB17E5F8310038AF36 /* Crema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Crema.h; path = FactoryPatterns/AbstractFactory/Crema.h; sourceTree = "<group>"; };
+		AF0C4DCC17E5F8310038AF36 /* Crema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Crema.m; path = FactoryPatterns/AbstractFactory/Crema.m; sourceTree = "<group>"; };
+		AF0C4DCD17E5F8310038AF36 /* Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Extra.h; path = FactoryPatterns/AbstractFactory/Extra.h; sourceTree = "<group>"; };
+		AF0C4DCE17E5F8310038AF36 /* Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Extra.m; path = FactoryPatterns/AbstractFactory/Extra.m; sourceTree = "<group>"; };
+		AF0C4DCF17E5F8310038AF36 /* Guacamole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Guacamole.h; path = FactoryPatterns/AbstractFactory/Guacamole.h; sourceTree = "<group>"; };
+		AF0C4DD017E5F8310038AF36 /* Guacamole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Guacamole.m; path = FactoryPatterns/AbstractFactory/Guacamole.m; sourceTree = "<group>"; };
+		AF0C4DD717E5F91F0038AF36 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = FactoryPatterns/ViewController.h; sourceTree = "<group>"; };
+		AF0C4DD817E5F91F0038AF36 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = FactoryPatterns/ViewController.m; sourceTree = "<group>"; };
+		AF0C4DDB17E5F9F30038AF36 /* PorkTaco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PorkTaco.h; path = FactoryPatterns/AbstractFactory/PorkTaco.h; sourceTree = "<group>"; };
+		AF0C4DDC17E5F9F30038AF36 /* PorkTaco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PorkTaco.m; path = FactoryPatterns/AbstractFactory/PorkTaco.m; sourceTree = "<group>"; };
 		AFA9245A17D53C600005E39B /* ObjCDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA9245D17D53C600005E39B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AFA9245F17D53C600005E39B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -237,92 +274,55 @@
 		AFA9246F17D53C600005E39B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		AFA9247117D53C600005E39B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		AFA9247317D53C600005E39B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		AFA9247517D53C600005E39B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AFA9247617D53C600005E39B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AFA9247917D53C600005E39B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		AFA9248017D53C610005E39B /* ObjCDesignPatternsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjCDesignPatternsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA9248117D53C610005E39B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		AFA9248917D53C610005E39B /* ObjCDesignPatternsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjCDesignPatternsTests-Info.plist"; sourceTree = "<group>"; };
 		AFA9248B17D53C610005E39B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AFCA101417D5528200ADF1C8 /* BeverageSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeverageSpec.m; sourceTree = "<group>"; };
-		AFCA101817D5538800ADF1C8 /* Beverage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beverage.h; sourceTree = "<group>"; };
-		AFCA101917D5538800ADF1C8 /* Beverage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beverage.m; sourceTree = "<group>"; };
-		AFCA101D17D5575F00ADF1C8 /* BarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarSpec.m; sourceTree = "<group>"; };
-		AFCA101F17D5581F00ADF1C8 /* Bar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bar.h; sourceTree = "<group>"; };
-		AFCA102017D5581F00ADF1C8 /* Bar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bar.m; sourceTree = "<group>"; };
-		AFCA102417D77DA100ADF1C8 /* BeerBarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerBarSpec.m; sourceTree = "<group>"; };
-		AFCA102617D77E1600ADF1C8 /* BeerBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerBar.h; sourceTree = "<group>"; };
-		AFCA102717D77E1600ADF1C8 /* BeerBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerBar.m; sourceTree = "<group>"; };
-		AFCA102A17D77F8500ADF1C8 /* Lager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lager.h; sourceTree = "<group>"; };
-		AFCA102B17D77F8500ADF1C8 /* Lager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lager.m; sourceTree = "<group>"; };
-		AFCA102E17D77FA400ADF1C8 /* Stout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stout.h; sourceTree = "<group>"; };
-		AFCA102F17D77FA400ADF1C8 /* Stout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stout.m; sourceTree = "<group>"; };
-		AFCA103217D77FC100ADF1C8 /* Ale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ale.h; sourceTree = "<group>"; };
-		AFCA103317D77FC100ADF1C8 /* Ale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ale.m; sourceTree = "<group>"; };
-		AFE8F5C217DC12BA00D00E2B /* CrunchyTacoContentsFactorySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrunchyTacoContentsFactorySpec.m; sourceTree = "<group>"; };
-		AFE8F5C417DC136E00D00E2B /* Molida.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Molida.h; sourceTree = "<group>"; };
-		AFE8F5C517DC136E00D00E2B /* Molida.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Molida.m; sourceTree = "<group>"; };
-		AFE8F5CD17DC15BA00D00E2B /* CrunchyTacoContentsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrunchyTacoContentsFactory.h; sourceTree = "<group>"; };
-		AFE8F5CE17DC15BA00D00E2B /* CrunchyTacoContentsFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrunchyTacoContentsFactory.m; sourceTree = "<group>"; };
-		AFE8F5D117DC17AB00D00E2B /* Cheddar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cheddar.h; sourceTree = "<group>"; };
-		AFE8F5D217DC17AB00D00E2B /* Cheddar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cheddar.m; sourceTree = "<group>"; };
-		AFE8F5D517DC17C600D00E2B /* Mild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mild.h; sourceTree = "<group>"; };
-		AFE8F5D617DC17C600D00E2B /* Mild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mild.m; sourceTree = "<group>"; };
-		AFE8F5D917DC17E100D00E2B /* Lechuga.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lechuga.h; sourceTree = "<group>"; };
-		AFE8F5DA17DC17E100D00E2B /* Lechuga.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lechuga.m; sourceTree = "<group>"; };
-		AFE8F5DE17DC184D00D00E2B /* Tortilla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tortilla.h; sourceTree = "<group>"; };
-		AFE8F5DF17DC184D00D00E2B /* Tortilla.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tortilla.m; sourceTree = "<group>"; };
-		AFE8F5E217DC186300D00E2B /* Maiz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Maiz.h; sourceTree = "<group>"; };
-		AFE8F5E317DC186300D00E2B /* Maiz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Maiz.m; sourceTree = "<group>"; };
-		AFE8F5EA17DC18EA00D00E2B /* Tomate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tomate.h; sourceTree = "<group>"; };
-		AFE8F5EB17DC18EA00D00E2B /* Tomate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tomate.m; sourceTree = "<group>"; };
-		AFE8F5F617DCF08C00D00E2B /* MaizSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaizSpec.m; sourceTree = "<group>"; };
-		AFE8F5F917DCF1B300D00E2B /* TortillaSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TortillaSpec.m; sourceTree = "<group>"; };
-		AFE8F5FF17DCF25300D00E2B /* AsadaSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsadaSpec.m; sourceTree = "<group>"; };
-		AFE8F60217DCF46900D00E2B /* MolidaSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MolidaSpec.m; sourceTree = "<group>"; };
-		AFE8F60517DCF4C000D00E2B /* QuesoSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuesoSpec.m; sourceTree = "<group>"; };
-		AFE8F60817DCF55500D00E2B /* FrescoSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrescoSpec.m; sourceTree = "<group>"; };
-		AFE8F60B17DCF61900D00E2B /* CheddarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheddarSpec.m; sourceTree = "<group>"; };
-		AFE8F60E17DCF67800D00E2B /* SalsaSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalsaSpec.m; sourceTree = "<group>"; };
-		AFE8F61117DCF6D000D00E2B /* PicanteSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicanteSpec.m; sourceTree = "<group>"; };
-		AFE8F61417DCF72D00D00E2B /* MildSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MildSpec.m; sourceTree = "<group>"; };
-		AFE8F61717DCF77500D00E2B /* VeduraSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeduraSpec.m; sourceTree = "<group>"; };
-		AFE8F61A17DCF7B200D00E2B /* CebollaSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CebollaSpec.m; sourceTree = "<group>"; };
-		AFE8F61D17DCF83000D00E2B /* CilantroSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CilantroSpec.m; sourceTree = "<group>"; };
-		AFE8F62017DCF87400D00E2B /* TomateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TomateSpec.m; sourceTree = "<group>"; };
-		AFE8F62317DCF8A400D00E2B /* LechugaSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LechugaSpec.m; sourceTree = "<group>"; };
-		AFE8F62617DCF8EC00D00E2B /* ExtraSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtraSpec.m; sourceTree = "<group>"; };
-		AFE8F62917DCF93300D00E2B /* CremaSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CremaSpec.m; sourceTree = "<group>"; };
-		AFE8F62C17DCF98900D00E2B /* GuacamoleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuacamoleSpec.m; sourceTree = "<group>"; };
-		AFE8F63217DD532600D00E2B /* Taco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Taco.h; sourceTree = "<group>"; };
-		AFE8F63317DD532600D00E2B /* Taco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Taco.m; sourceTree = "<group>"; };
-		AFE8F63917DD535600D00E2B /* TacoSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TacoSpec.m; sourceTree = "<group>"; };
-		AFFD5D6517DBC6440015FC0A /* TacoContentsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TacoContentsFactory.h; sourceTree = "<group>"; };
-		AFFD5D6817DBC7EC0015FC0A /* StreetTacoContentsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreetTacoContentsFactory.h; sourceTree = "<group>"; };
-		AFFD5D6917DBC7EC0015FC0A /* StreetTacoContentsFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreetTacoContentsFactory.m; sourceTree = "<group>"; };
-		AFFD5D6D17DBC8500015FC0A /* StreetTacoContentsFactorySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreetTacoContentsFactorySpec.m; sourceTree = "<group>"; };
-		AFFD5D7017DBC9A50015FC0A /* Asada.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asada.h; sourceTree = "<group>"; };
-		AFFD5D7117DBC9A50015FC0A /* Asada.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Asada.m; sourceTree = "<group>"; };
-		AFFD5D7417DBC9B10015FC0A /* Queso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queso.h; sourceTree = "<group>"; };
-		AFFD5D7517DBC9B10015FC0A /* Queso.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Queso.m; sourceTree = "<group>"; };
-		AFFD5D7817DBC9C10015FC0A /* Salsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Salsa.h; sourceTree = "<group>"; };
-		AFFD5D7917DBC9C10015FC0A /* Salsa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Salsa.m; sourceTree = "<group>"; };
-		AFFD5D8017DBFFB00015FC0A /* Fresco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fresco.h; sourceTree = "<group>"; };
-		AFFD5D8117DBFFB00015FC0A /* Fresco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fresco.m; sourceTree = "<group>"; };
-		AFFD5D8417DBFFFE0015FC0A /* Picante.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picante.h; sourceTree = "<group>"; };
-		AFFD5D8517DBFFFE0015FC0A /* Picante.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picante.m; sourceTree = "<group>"; };
-		AFFD5D8817DC00470015FC0A /* Vedura.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vedura.h; sourceTree = "<group>"; };
-		AFFD5D8917DC00470015FC0A /* Vedura.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vedura.m; sourceTree = "<group>"; };
-		AFFD5D8C17DC007B0015FC0A /* Cebolla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cebolla.h; sourceTree = "<group>"; };
-		AFFD5D8D17DC007B0015FC0A /* Cebolla.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cebolla.m; sourceTree = "<group>"; };
-		AFFD5D9017DC009A0015FC0A /* Cilantro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cilantro.h; sourceTree = "<group>"; };
-		AFFD5D9117DC009A0015FC0A /* Cilantro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cilantro.m; sourceTree = "<group>"; };
-		AFFD5D9417DC013D0015FC0A /* Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Extra.h; sourceTree = "<group>"; };
-		AFFD5D9517DC013E0015FC0A /* Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Extra.m; sourceTree = "<group>"; };
-		AFFD5D9817DC01660015FC0A /* Crema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crema.h; sourceTree = "<group>"; };
-		AFFD5D9917DC01670015FC0A /* Crema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Crema.m; sourceTree = "<group>"; };
-		AFFD5D9C17DC01910015FC0A /* Guacamole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Guacamole.h; sourceTree = "<group>"; };
-		AFFD5D9D17DC01920015FC0A /* Guacamole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Guacamole.m; sourceTree = "<group>"; };
+		AFADEAB417E612D20080708D /* AleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AleSpec.m; path = FactoryPatterns/FactoryMethod/AleSpec.m; sourceTree = "<group>"; };
+		AFADEAB517E612D20080708D /* BeverageSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeverageSpec.m; path = FactoryPatterns/FactoryMethod/BeverageSpec.m; sourceTree = "<group>"; };
+		AFADEAB617E612D20080708D /* CabernetSauvignonSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CabernetSauvignonSpec.m; path = FactoryPatterns/FactoryMethod/CabernetSauvignonSpec.m; sourceTree = "<group>"; };
+		AFADEAB717E612D20080708D /* ChardonnaySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChardonnaySpec.m; path = FactoryPatterns/FactoryMethod/ChardonnaySpec.m; sourceTree = "<group>"; };
+		AFADEAB817E612D20080708D /* JagerBomb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JagerBomb.m; path = FactoryPatterns/FactoryMethod/JagerBomb.m; sourceTree = "<group>"; };
+		AFADEAB917E612D20080708D /* LagerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LagerSpec.m; path = FactoryPatterns/FactoryMethod/LagerSpec.m; sourceTree = "<group>"; };
+		AFADEABA17E612D20080708D /* MerlotSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MerlotSpec.m; path = FactoryPatterns/FactoryMethod/MerlotSpec.m; sourceTree = "<group>"; };
+		AFADEABB17E612D20080708D /* RumAndCokeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RumAndCokeSpec.m; path = FactoryPatterns/FactoryMethod/RumAndCokeSpec.m; sourceTree = "<group>"; };
+		AFADEABC17E612D20080708D /* StoutSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StoutSpec.m; path = FactoryPatterns/FactoryMethod/StoutSpec.m; sourceTree = "<group>"; };
+		AFADEABD17E612D20080708D /* WhiskeySour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WhiskeySour.m; path = FactoryPatterns/FactoryMethod/WhiskeySour.m; sourceTree = "<group>"; };
+		AFADEAC817E613080080708D /* BarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BarSpec.m; path = FactoryPatterns/FactoryMethod/BarSpec.m; sourceTree = "<group>"; };
+		AFADEAC917E613080080708D /* BeerBarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeerBarSpec.m; path = FactoryPatterns/FactoryMethod/BeerBarSpec.m; sourceTree = "<group>"; };
+		AFADEACA17E613080080708D /* MixedDrinksBarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MixedDrinksBarSpec.m; path = FactoryPatterns/FactoryMethod/MixedDrinksBarSpec.m; sourceTree = "<group>"; };
+		AFADEACB17E613080080708D /* WineBarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WineBarSpec.m; path = FactoryPatterns/FactoryMethod/WineBarSpec.m; sourceTree = "<group>"; };
+		AFADEAD017E613430080708D /* CrunchyTacoStoreSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CrunchyTacoStoreSpec.m; path = FactoryPatterns/AbstractFactory/CrunchyTacoStoreSpec.m; sourceTree = "<group>"; };
+		AFADEAD117E613430080708D /* StreetTacoStoreSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StreetTacoStoreSpec.m; path = FactoryPatterns/AbstractFactory/StreetTacoStoreSpec.m; sourceTree = "<group>"; };
+		AFADEAD217E613430080708D /* TacoStoreSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TacoStoreSpec.m; path = FactoryPatterns/AbstractFactory/TacoStoreSpec.m; sourceTree = "<group>"; };
+		AFADEAD617E613700080708D /* BeefTacoSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeefTacoSpec.m; path = FactoryPatterns/AbstractFactory/BeefTacoSpec.m; sourceTree = "<group>"; };
+		AFADEAD717E613700080708D /* PorkTacoSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PorkTacoSpec.m; path = FactoryPatterns/AbstractFactory/PorkTacoSpec.m; sourceTree = "<group>"; };
+		AFADEAD817E613700080708D /* TacoSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TacoSpec.m; path = FactoryPatterns/AbstractFactory/TacoSpec.m; sourceTree = "<group>"; };
+		AFADEADC17E613860080708D /* CrunchyTacoContentsFactorySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CrunchyTacoContentsFactorySpec.m; path = FactoryPatterns/AbstractFactory/CrunchyTacoContentsFactorySpec.m; sourceTree = "<group>"; };
+		AFADEADD17E613860080708D /* StreetTacoContentsFactorySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StreetTacoContentsFactorySpec.m; path = FactoryPatterns/AbstractFactory/StreetTacoContentsFactorySpec.m; sourceTree = "<group>"; };
+		AFADEAE017E613AD0080708D /* AsadaSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsadaSpec.m; path = FactoryPatterns/AbstractFactory/AsadaSpec.m; sourceTree = "<group>"; };
+		AFADEAE117E613AD0080708D /* BeefSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeefSpec.m; path = FactoryPatterns/AbstractFactory/BeefSpec.m; sourceTree = "<group>"; };
+		AFADEAE217E613AD0080708D /* MolidaSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MolidaSpec.m; path = FactoryPatterns/AbstractFactory/MolidaSpec.m; sourceTree = "<group>"; };
+		AFADEAE617E613CD0080708D /* CarnitasSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CarnitasSpec.m; path = FactoryPatterns/AbstractFactory/CarnitasSpec.m; sourceTree = "<group>"; };
+		AFADEAE717E613CD0080708D /* ChileVerdeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChileVerdeSpec.m; path = FactoryPatterns/AbstractFactory/ChileVerdeSpec.m; sourceTree = "<group>"; };
+		AFADEAE817E613CD0080708D /* PorkSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PorkSpec.h; path = FactoryPatterns/AbstractFactory/PorkSpec.h; sourceTree = "<group>"; };
+		AFADEAEB17E613E70080708D /* MaizSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MaizSpec.m; path = FactoryPatterns/AbstractFactory/MaizSpec.m; sourceTree = "<group>"; };
+		AFADEAEC17E613E70080708D /* TortillaSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TortillaSpec.m; path = FactoryPatterns/AbstractFactory/TortillaSpec.m; sourceTree = "<group>"; };
+		AFADEAEF17E6144B0080708D /* CheddarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CheddarSpec.m; path = FactoryPatterns/AbstractFactory/CheddarSpec.m; sourceTree = "<group>"; };
+		AFADEAF017E6144B0080708D /* FrescoSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FrescoSpec.m; path = FactoryPatterns/AbstractFactory/FrescoSpec.m; sourceTree = "<group>"; };
+		AFADEAF117E6144B0080708D /* QuesoSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuesoSpec.m; path = FactoryPatterns/AbstractFactory/QuesoSpec.m; sourceTree = "<group>"; };
+		AFADEAF517E614740080708D /* MildSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MildSpec.m; path = FactoryPatterns/AbstractFactory/MildSpec.m; sourceTree = "<group>"; };
+		AFADEAF617E614740080708D /* PicanteSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PicanteSpec.m; path = FactoryPatterns/AbstractFactory/PicanteSpec.m; sourceTree = "<group>"; };
+		AFADEAF717E614740080708D /* SalsaSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SalsaSpec.m; path = FactoryPatterns/AbstractFactory/SalsaSpec.m; sourceTree = "<group>"; };
+		AFADEAFB17E614A60080708D /* CebollaSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CebollaSpec.m; path = FactoryPatterns/AbstractFactory/CebollaSpec.m; sourceTree = "<group>"; };
+		AFADEAFC17E614A60080708D /* CilantroSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CilantroSpec.m; path = FactoryPatterns/AbstractFactory/CilantroSpec.m; sourceTree = "<group>"; };
+		AFADEAFD17E614A60080708D /* LechugaSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LechugaSpec.m; path = FactoryPatterns/AbstractFactory/LechugaSpec.m; sourceTree = "<group>"; };
+		AFADEAFE17E614A60080708D /* TomateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TomateSpec.m; path = FactoryPatterns/AbstractFactory/TomateSpec.m; sourceTree = "<group>"; };
+		AFADEAFF17E614A60080708D /* VeduraSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VeduraSpec.m; path = FactoryPatterns/AbstractFactory/VeduraSpec.m; sourceTree = "<group>"; };
+		AFADEB0517E614D20080708D /* CremaSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CremaSpec.m; path = FactoryPatterns/AbstractFactory/CremaSpec.m; sourceTree = "<group>"; };
+		AFADEB0617E614D20080708D /* ExtraSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExtraSpec.m; path = FactoryPatterns/AbstractFactory/ExtraSpec.m; sourceTree = "<group>"; };
+		AFADEB0717E614D20080708D /* GuacamoleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GuacamoleSpec.m; path = FactoryPatterns/AbstractFactory/GuacamoleSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -353,12 +353,12 @@
 		AF0FCD7517E534CC00F5DB0E /* Pork */ = {
 			isa = PBXGroup;
 			children = (
-				AF0FCD7A17E5353300F5DB0E /* Pork.h */,
-				AF0FCD7B17E5353300F5DB0E /* Pork.m */,
-				AF0FCD8117E535BB00F5DB0E /* Carnitas.h */,
-				AF0FCD8217E535BB00F5DB0E /* Carnitas.m */,
-				AF0FCD8817E5367F00F5DB0E /* ChileVerde.h */,
-				AF0FCD8917E5367F00F5DB0E /* ChileVerde.m */,
+				AF0C4D9317E5F7620038AF36 /* Carnitas.h */,
+				AF0C4D9417E5F7620038AF36 /* Carnitas.m */,
+				AF0C4D9517E5F7620038AF36 /* ChileVerde.h */,
+				AF0C4D9617E5F7620038AF36 /* ChileVerde.m */,
+				AF0C4D9717E5F7620038AF36 /* Pork.h */,
+				AF0C4D9817E5F7620038AF36 /* Pork.m */,
 			);
 			name = Pork;
 			sourceTree = "<group>";
@@ -366,9 +366,9 @@
 		AF0FCD7617E534EB00F5DB0E /* Pork */ = {
 			isa = PBXGroup;
 			children = (
-				AF0FCD7817E534FC00F5DB0E /* PorkSpec.m */,
-				AF0FCD7F17E5356000F5DB0E /* CarnitasSpec.m */,
-				AF0FCD8617E5363700F5DB0E /* ChileVerdeSpec.m */,
+				AFADEAE617E613CD0080708D /* CarnitasSpec.m */,
+				AFADEAE717E613CD0080708D /* ChileVerdeSpec.m */,
+				AFADEAE817E613CD0080708D /* PorkSpec.h */,
 			);
 			name = Pork;
 			sourceTree = "<group>";
@@ -376,9 +376,9 @@
 		AF13F0DC17DF9ABF00A9A0E2 /* Taco Stores */ = {
 			isa = PBXGroup;
 			children = (
-				AF13F0DE17DF9B6D00A9A0E2 /* TacoStoreSpec.m */,
-				AF13F0E617E0410D00A9A0E2 /* StreetTacoStoreSpec.m */,
-				AF0FCD9417E53D9A00F5DB0E /* CrunchyTacoStoreSpec.m */,
+				AFADEAD017E613430080708D /* CrunchyTacoStoreSpec.m */,
+				AFADEAD117E613430080708D /* StreetTacoStoreSpec.m */,
+				AFADEAD217E613430080708D /* TacoStoreSpec.m */,
 			);
 			name = "Taco Stores";
 			sourceTree = "<group>";
@@ -386,12 +386,12 @@
 		AF13F0E017DF9C2200A9A0E2 /* Taco Stores */ = {
 			isa = PBXGroup;
 			children = (
-				AF13F0E117DF9C3200A9A0E2 /* TacoStore.h */,
-				AF13F0E217DF9C3200A9A0E2 /* TacoStore.m */,
-				AF13F0E817E041D300A9A0E2 /* StreetTacoStore.h */,
-				AF13F0E917E041D300A9A0E2 /* StreetTacoStore.m */,
-				AF0FCD9617E53E1600F5DB0E /* CrunchyTacoStore.h */,
-				AF0FCD9717E53E1600F5DB0E /* CrunchyTacoStore.m */,
+				AF0C4D5E17E5F67D0038AF36 /* CrunchyTacoStore.h */,
+				AF0C4D5F17E5F67D0038AF36 /* CrunchyTacoStore.m */,
+				AF0C4D6017E5F67D0038AF36 /* StreetTacoStore.h */,
+				AF0C4D6117E5F67D0038AF36 /* StreetTacoStore.m */,
+				AF0C4D6217E5F67D0038AF36 /* TacoStore.h */,
+				AF0C4D6317E5F67D0038AF36 /* TacoStore.m */,
 			);
 			name = "Taco Stores";
 			sourceTree = "<group>";
@@ -408,9 +408,9 @@
 		AF59C03017E52197004992DF /* Beef */ = {
 			isa = PBXGroup;
 			children = (
-				AF59C02E17E5212F004992DF /* BeefSpec.m */,
-				AFE8F5FF17DCF25300D00E2B /* AsadaSpec.m */,
-				AFE8F60217DCF46900D00E2B /* MolidaSpec.m */,
+				AFADEAE017E613AD0080708D /* AsadaSpec.m */,
+				AFADEAE117E613AD0080708D /* BeefSpec.m */,
+				AFADEAE217E613AD0080708D /* MolidaSpec.m */,
 			);
 			name = Beef;
 			sourceTree = "<group>";
@@ -418,12 +418,12 @@
 		AF59C03117E521AC004992DF /* Beef */ = {
 			isa = PBXGroup;
 			children = (
-				AF59C03217E521C7004992DF /* Beef.h */,
-				AF59C03317E521C7004992DF /* Beef.m */,
-				AFFD5D7017DBC9A50015FC0A /* Asada.h */,
-				AFFD5D7117DBC9A50015FC0A /* Asada.m */,
-				AFE8F5C417DC136E00D00E2B /* Molida.h */,
-				AFE8F5C517DC136E00D00E2B /* Molida.m */,
+				AF0C4D8717E5F7400038AF36 /* Asada.h */,
+				AF0C4D8817E5F7400038AF36 /* Asada.m */,
+				AF0C4D8917E5F7400038AF36 /* Beef.h */,
+				AF0C4D8A17E5F7400038AF36 /* Beef.m */,
+				AF0C4D8B17E5F7400038AF36 /* Molida.h */,
+				AF0C4D8C17E5F7400038AF36 /* Molida.m */,
 			);
 			name = Beef;
 			sourceTree = "<group>";
@@ -431,26 +431,26 @@
 		AF70E96817D8CE81001E7911 /* Beverages */ = {
 			isa = PBXGroup;
 			children = (
-				AFCA101817D5538800ADF1C8 /* Beverage.h */,
-				AFCA101917D5538800ADF1C8 /* Beverage.m */,
-				AFCA102A17D77F8500ADF1C8 /* Lager.h */,
-				AFCA102B17D77F8500ADF1C8 /* Lager.m */,
-				AFCA102E17D77FA400ADF1C8 /* Stout.h */,
-				AFCA102F17D77FA400ADF1C8 /* Stout.m */,
-				AFCA103217D77FC100ADF1C8 /* Ale.h */,
-				AFCA103317D77FC100ADF1C8 /* Ale.m */,
-				AF70E97317D8D0FB001E7911 /* RumAndCoke.h */,
-				AF70E97417D8D0FB001E7911 /* RumAndCoke.m */,
-				AF70E97717D8D11F001E7911 /* WhiskeySour.h */,
-				AF70E97817D8D11F001E7911 /* WhiskeySour.m */,
-				AF70E97B17D8D15F001E7911 /* JagerBomb.h */,
-				AF70E97C17D8D15F001E7911 /* JagerBomb.m */,
-				AF70E99417D8D3D4001E7911 /* Chardonnay.h */,
-				AF70E99517D8D3D4001E7911 /* Chardonnay.m */,
-				AF70E99817D8D409001E7911 /* Merlot.h */,
-				AF70E99917D8D409001E7911 /* Merlot.m */,
-				AF70E99C17D8D42E001E7911 /* CabernetSauvignon.h */,
-				AF70E99D17D8D42E001E7911 /* CabernetSauvignon.m */,
+				AF0C4D2A17E5F5FD0038AF36 /* Ale.h */,
+				AF0C4D2B17E5F5FD0038AF36 /* Ale.m */,
+				AF0C4D2617E5F5A10038AF36 /* Beverage.h */,
+				AF0C4D2717E5F5A10038AF36 /* Beverage.m */,
+				AF0C4D2C17E5F5FD0038AF36 /* CabernetSauvignon.h */,
+				AF0C4D2D17E5F5FD0038AF36 /* CabernetSauvignon.m */,
+				AF0C4D2E17E5F5FD0038AF36 /* Chardonnay.h */,
+				AF0C4D2F17E5F5FD0038AF36 /* Chardonnay.m */,
+				AF0C4D3017E5F5FD0038AF36 /* JagerBomb.h */,
+				AF0C4D3117E5F5FD0038AF36 /* JagerBomb.m */,
+				AF0C4D3217E5F5FD0038AF36 /* Lager.h */,
+				AF0C4D3317E5F5FD0038AF36 /* Lager.m */,
+				AF0C4D3417E5F5FD0038AF36 /* Merlot.h */,
+				AF0C4D3517E5F5FD0038AF36 /* Merlot.m */,
+				AF0C4D3617E5F5FD0038AF36 /* RumAndCoke.h */,
+				AF0C4D3717E5F5FD0038AF36 /* RumAndCoke.m */,
+				AF0C4D3817E5F5FD0038AF36 /* Stout.h */,
+				AF0C4D3917E5F5FD0038AF36 /* Stout.m */,
+				AF0C4D3A17E5F5FD0038AF36 /* WhiskeySour.h */,
+				AF0C4D3B17E5F5FD0038AF36 /* WhiskeySour.m */,
 			);
 			name = Beverages;
 			sourceTree = "<group>";
@@ -458,14 +458,14 @@
 		AF70E96917D8CE92001E7911 /* Bars */ = {
 			isa = PBXGroup;
 			children = (
-				AFCA101F17D5581F00ADF1C8 /* Bar.h */,
-				AFCA102017D5581F00ADF1C8 /* Bar.m */,
-				AFCA102617D77E1600ADF1C8 /* BeerBar.h */,
-				AFCA102717D77E1600ADF1C8 /* BeerBar.m */,
-				AF70E9A317D8D545001E7911 /* WineBar.h */,
-				AF70E9A417D8D545001E7911 /* WineBar.m */,
-				AF56ECFA17D963290020F9C4 /* MixedDrinksBar.h */,
-				AF56ECFB17D963290020F9C4 /* MixedDrinksBar.m */,
+				AF0C4D4E17E5F6400038AF36 /* Bar.h */,
+				AF0C4D4F17E5F6400038AF36 /* Bar.m */,
+				AF0C4D5017E5F6400038AF36 /* BeerBar.h */,
+				AF0C4D5117E5F6400038AF36 /* BeerBar.m */,
+				AF0C4D5217E5F6400038AF36 /* MixedDrinksBar.h */,
+				AF0C4D5317E5F6400038AF36 /* MixedDrinksBar.m */,
+				AF0C4D5417E5F6400038AF36 /* WineBar.h */,
+				AF0C4D5517E5F6400038AF36 /* WineBar.m */,
 			);
 			name = Bars;
 			sourceTree = "<group>";
@@ -482,16 +482,16 @@
 		AF70E98017D8D184001E7911 /* Beverages */ = {
 			isa = PBXGroup;
 			children = (
-				AFCA101417D5528200ADF1C8 /* BeverageSpec.m */,
-				AF70E96B17D8CEBF001E7911 /* LagerSpec.m */,
-				AF70E96E17D8CEDD001E7911 /* StoutSpec.m */,
-				AF70E97117D8CEF6001E7911 /* AleSpec.m */,
-				AF70E98317D8D1B2001E7911 /* RumAndCokeSpec.m */,
-				AF70E98617D8D1C7001E7911 /* WhiskeySour.m */,
-				AF70E98917D8D1D8001E7911 /* JagerBomb.m */,
-				AF70E98C17D8D2A9001E7911 /* ChardonnaySpec.m */,
-				AF70E98F17D8D2C0001E7911 /* MerlotSpec.m */,
-				AF70E99217D8D387001E7911 /* CabernetSauvignonSpec.m */,
+				AFADEAB417E612D20080708D /* AleSpec.m */,
+				AFADEAB517E612D20080708D /* BeverageSpec.m */,
+				AFADEAB617E612D20080708D /* CabernetSauvignonSpec.m */,
+				AFADEAB717E612D20080708D /* ChardonnaySpec.m */,
+				AFADEAB817E612D20080708D /* JagerBomb.m */,
+				AFADEAB917E612D20080708D /* LagerSpec.m */,
+				AFADEABA17E612D20080708D /* MerlotSpec.m */,
+				AFADEABB17E612D20080708D /* RumAndCokeSpec.m */,
+				AFADEABC17E612D20080708D /* StoutSpec.m */,
+				AFADEABD17E612D20080708D /* WhiskeySour.m */,
 			);
 			name = Beverages;
 			sourceTree = "<group>";
@@ -499,10 +499,10 @@
 		AF70E98117D8D192001E7911 /* Bars */ = {
 			isa = PBXGroup;
 			children = (
-				AFCA101D17D5575F00ADF1C8 /* BarSpec.m */,
-				AFCA102417D77DA100ADF1C8 /* BeerBarSpec.m */,
-				AF56ECF817D962230020F9C4 /* MixedDrinksBarSpec.m */,
-				AF70E9A117D8D4E7001E7911 /* WineBarSpec.m */,
+				AFADEAC817E613080080708D /* BarSpec.m */,
+				AFADEAC917E613080080708D /* BeerBarSpec.m */,
+				AFADEACA17E613080080708D /* MixedDrinksBarSpec.m */,
+				AFADEACB17E613080080708D /* WineBarSpec.m */,
 			);
 			name = Bars;
 			sourceTree = "<group>";
@@ -608,8 +608,8 @@
 			children = (
 				AFA9246C17D53C600005E39B /* AppDelegate.h */,
 				AFA9246D17D53C600005E39B /* AppDelegate.m */,
-				AFA9247517D53C600005E39B /* ViewController.h */,
-				AFA9247617D53C600005E39B /* ViewController.m */,
+				AF0C4DD717E5F91F0038AF36 /* ViewController.h */,
+				AF0C4DD817E5F91F0038AF36 /* ViewController.m */,
 				AFA9247817D53C600005E39B /* ViewController.xib */,
 			);
 			name = App;
@@ -636,12 +636,12 @@
 		AFE8F5C917DC13EA00D00E2B /* Queso */ = {
 			isa = PBXGroup;
 			children = (
-				AFFD5D7417DBC9B10015FC0A /* Queso.h */,
-				AFFD5D7517DBC9B10015FC0A /* Queso.m */,
-				AFFD5D8017DBFFB00015FC0A /* Fresco.h */,
-				AFFD5D8117DBFFB00015FC0A /* Fresco.m */,
-				AFE8F5D117DC17AB00D00E2B /* Cheddar.h */,
-				AFE8F5D217DC17AB00D00E2B /* Cheddar.m */,
+				AF0C4D9F17E5F7920038AF36 /* Cheddar.h */,
+				AF0C4DA017E5F7920038AF36 /* Cheddar.m */,
+				AF0C4DA117E5F7920038AF36 /* Fresco.h */,
+				AF0C4DA217E5F7920038AF36 /* Fresco.m */,
+				AF0C4DA317E5F7920038AF36 /* Queso.h */,
+				AF0C4DA417E5F7920038AF36 /* Queso.m */,
 			);
 			name = Queso;
 			sourceTree = "<group>";
@@ -649,12 +649,12 @@
 		AFE8F5CA17DC141A00D00E2B /* Salsa */ = {
 			isa = PBXGroup;
 			children = (
-				AFFD5D7817DBC9C10015FC0A /* Salsa.h */,
-				AFFD5D7917DBC9C10015FC0A /* Salsa.m */,
-				AFFD5D8417DBFFFE0015FC0A /* Picante.h */,
-				AFFD5D8517DBFFFE0015FC0A /* Picante.m */,
-				AFE8F5D517DC17C600D00E2B /* Mild.h */,
-				AFE8F5D617DC17C600D00E2B /* Mild.m */,
+				AF0C4DAB17E5F7AC0038AF36 /* Mild.h */,
+				AF0C4DAC17E5F7AC0038AF36 /* Mild.m */,
+				AF0C4DAD17E5F7AC0038AF36 /* Picante.h */,
+				AF0C4DAE17E5F7AC0038AF36 /* Picante.m */,
+				AF0C4DAF17E5F7AC0038AF36 /* Salsa.h */,
+				AF0C4DB017E5F7AC0038AF36 /* Salsa.m */,
 			);
 			name = Salsa;
 			sourceTree = "<group>";
@@ -662,16 +662,16 @@
 		AFE8F5CB17DC144600D00E2B /* Veduras */ = {
 			isa = PBXGroup;
 			children = (
-				AFFD5D8817DC00470015FC0A /* Vedura.h */,
-				AFFD5D8917DC00470015FC0A /* Vedura.m */,
-				AFFD5D8C17DC007B0015FC0A /* Cebolla.h */,
-				AFFD5D8D17DC007B0015FC0A /* Cebolla.m */,
-				AFFD5D9017DC009A0015FC0A /* Cilantro.h */,
-				AFFD5D9117DC009A0015FC0A /* Cilantro.m */,
-				AFE8F5EA17DC18EA00D00E2B /* Tomate.h */,
-				AFE8F5EB17DC18EA00D00E2B /* Tomate.m */,
-				AFE8F5D917DC17E100D00E2B /* Lechuga.h */,
-				AFE8F5DA17DC17E100D00E2B /* Lechuga.m */,
+				AF0C4DB717E5F80E0038AF36 /* Cebolla.h */,
+				AF0C4DB817E5F80E0038AF36 /* Cebolla.m */,
+				AF0C4DB917E5F80E0038AF36 /* Cilantro.h */,
+				AF0C4DBA17E5F80E0038AF36 /* Cilantro.m */,
+				AF0C4DBB17E5F80E0038AF36 /* Lechuga.h */,
+				AF0C4DBC17E5F80E0038AF36 /* Lechuga.m */,
+				AF0C4DBD17E5F80E0038AF36 /* Tomate.h */,
+				AF0C4DBE17E5F80E0038AF36 /* Tomate.m */,
+				AF0C4DBF17E5F80E0038AF36 /* Vedura.h */,
+				AF0C4DC017E5F80E0038AF36 /* Vedura.m */,
 			);
 			name = Veduras;
 			sourceTree = "<group>";
@@ -679,12 +679,12 @@
 		AFE8F5CC17DC148D00D00E2B /* Extras */ = {
 			isa = PBXGroup;
 			children = (
-				AFFD5D9417DC013D0015FC0A /* Extra.h */,
-				AFFD5D9517DC013E0015FC0A /* Extra.m */,
-				AFFD5D9817DC01660015FC0A /* Crema.h */,
-				AFFD5D9917DC01670015FC0A /* Crema.m */,
-				AFFD5D9C17DC01910015FC0A /* Guacamole.h */,
-				AFFD5D9D17DC01920015FC0A /* Guacamole.m */,
+				AF0C4DCB17E5F8310038AF36 /* Crema.h */,
+				AF0C4DCC17E5F8310038AF36 /* Crema.m */,
+				AF0C4DCD17E5F8310038AF36 /* Extra.h */,
+				AF0C4DCE17E5F8310038AF36 /* Extra.m */,
+				AF0C4DCF17E5F8310038AF36 /* Guacamole.h */,
+				AF0C4DD017E5F8310038AF36 /* Guacamole.m */,
 			);
 			name = Extras;
 			sourceTree = "<group>";
@@ -692,10 +692,10 @@
 		AFE8F5DD17DC180E00D00E2B /* Tortilla */ = {
 			isa = PBXGroup;
 			children = (
-				AFE8F5DE17DC184D00D00E2B /* Tortilla.h */,
-				AFE8F5DF17DC184D00D00E2B /* Tortilla.m */,
-				AFE8F5E217DC186300D00E2B /* Maiz.h */,
-				AFE8F5E317DC186300D00E2B /* Maiz.m */,
+				AF0C4D7F17E5F7250038AF36 /* Maiz.h */,
+				AF0C4D8017E5F7250038AF36 /* Maiz.m */,
+				AF0C4D8117E5F7250038AF36 /* Tortilla.h */,
+				AF0C4D8217E5F7250038AF36 /* Tortilla.m */,
 			);
 			name = Tortilla;
 			sourceTree = "<group>";
@@ -717,8 +717,8 @@
 		AFE8F5EF17DC1C9B00D00E2B /* Tortilla */ = {
 			isa = PBXGroup;
 			children = (
-				AFE8F5F917DCF1B300D00E2B /* TortillaSpec.m */,
-				AFE8F5F617DCF08C00D00E2B /* MaizSpec.m */,
+				AFADEAEB17E613E70080708D /* MaizSpec.m */,
+				AFADEAEC17E613E70080708D /* TortillaSpec.m */,
 			);
 			name = Tortilla;
 			sourceTree = "<group>";
@@ -726,9 +726,9 @@
 		AFE8F5F117DC1CAF00D00E2B /* Queso */ = {
 			isa = PBXGroup;
 			children = (
-				AFE8F60517DCF4C000D00E2B /* QuesoSpec.m */,
-				AFE8F60817DCF55500D00E2B /* FrescoSpec.m */,
-				AFE8F60B17DCF61900D00E2B /* CheddarSpec.m */,
+				AFADEAEF17E6144B0080708D /* CheddarSpec.m */,
+				AFADEAF017E6144B0080708D /* FrescoSpec.m */,
+				AFADEAF117E6144B0080708D /* QuesoSpec.m */,
 			);
 			name = Queso;
 			sourceTree = "<group>";
@@ -736,9 +736,9 @@
 		AFE8F5F217DC1CB500D00E2B /* Salsa */ = {
 			isa = PBXGroup;
 			children = (
-				AFE8F60E17DCF67800D00E2B /* SalsaSpec.m */,
-				AFE8F61117DCF6D000D00E2B /* PicanteSpec.m */,
-				AFE8F61417DCF72D00D00E2B /* MildSpec.m */,
+				AFADEAF517E614740080708D /* MildSpec.m */,
+				AFADEAF617E614740080708D /* PicanteSpec.m */,
+				AFADEAF717E614740080708D /* SalsaSpec.m */,
 			);
 			name = Salsa;
 			sourceTree = "<group>";
@@ -746,11 +746,11 @@
 		AFE8F5F317DC1CBA00D00E2B /* Venduras */ = {
 			isa = PBXGroup;
 			children = (
-				AFE8F61717DCF77500D00E2B /* VeduraSpec.m */,
-				AFE8F61A17DCF7B200D00E2B /* CebollaSpec.m */,
-				AFE8F61D17DCF83000D00E2B /* CilantroSpec.m */,
-				AFE8F62017DCF87400D00E2B /* TomateSpec.m */,
-				AFE8F62317DCF8A400D00E2B /* LechugaSpec.m */,
+				AFADEAFB17E614A60080708D /* CebollaSpec.m */,
+				AFADEAFC17E614A60080708D /* CilantroSpec.m */,
+				AFADEAFD17E614A60080708D /* LechugaSpec.m */,
+				AFADEAFE17E614A60080708D /* TomateSpec.m */,
+				AFADEAFF17E614A60080708D /* VeduraSpec.m */,
 			);
 			name = Venduras;
 			sourceTree = "<group>";
@@ -758,9 +758,9 @@
 		AFE8F5F417DC1CC200D00E2B /* Extras */ = {
 			isa = PBXGroup;
 			children = (
-				AFE8F62617DCF8EC00D00E2B /* ExtraSpec.m */,
-				AFE8F62917DCF93300D00E2B /* CremaSpec.m */,
-				AFE8F62C17DCF98900D00E2B /* GuacamoleSpec.m */,
+				AFADEB0517E614D20080708D /* CremaSpec.m */,
+				AFADEB0617E614D20080708D /* ExtraSpec.m */,
+				AFADEB0717E614D20080708D /* GuacamoleSpec.m */,
 			);
 			name = Extras;
 			sourceTree = "<group>";
@@ -768,8 +768,8 @@
 		AFE8F63017DD4FF000D00E2B /* Taco Content Factories */ = {
 			isa = PBXGroup;
 			children = (
-				AFFD5D6D17DBC8500015FC0A /* StreetTacoContentsFactorySpec.m */,
-				AFE8F5C217DC12BA00D00E2B /* CrunchyTacoContentsFactorySpec.m */,
+				AFADEADC17E613860080708D /* CrunchyTacoContentsFactorySpec.m */,
+				AFADEADD17E613860080708D /* StreetTacoContentsFactorySpec.m */,
 			);
 			name = "Taco Content Factories";
 			sourceTree = "<group>";
@@ -777,11 +777,11 @@
 		AFE8F63117DD500900D00E2B /* Taco Content Factories */ = {
 			isa = PBXGroup;
 			children = (
-				AFFD5D6517DBC6440015FC0A /* TacoContentsFactory.h */,
-				AFFD5D6817DBC7EC0015FC0A /* StreetTacoContentsFactory.h */,
-				AFFD5D6917DBC7EC0015FC0A /* StreetTacoContentsFactory.m */,
-				AFE8F5CD17DC15BA00D00E2B /* CrunchyTacoContentsFactory.h */,
-				AFE8F5CE17DC15BA00D00E2B /* CrunchyTacoContentsFactory.m */,
+				AF0C4D7617E5F6FF0038AF36 /* CrunchyTacoContentsFactory.h */,
+				AF0C4D7717E5F6FF0038AF36 /* CrunchyTacoContentsFactory.m */,
+				AF0C4D7817E5F6FF0038AF36 /* StreetTacoContentsFactory.h */,
+				AF0C4D7917E5F6FF0038AF36 /* StreetTacoContentsFactory.m */,
+				AF0C4D7A17E5F6FF0038AF36 /* TacoContentsFactory.h */,
 			);
 			name = "Taco Content Factories";
 			sourceTree = "<group>";
@@ -789,12 +789,12 @@
 		AFE8F63617DD532D00D00E2B /* Tacos */ = {
 			isa = PBXGroup;
 			children = (
-				AFE8F63217DD532600D00E2B /* Taco.h */,
-				AFE8F63317DD532600D00E2B /* Taco.m */,
-				AF13F0EF17E2541600A9A0E2 /* BeefTaco.h */,
-				AF13F0F017E2541600A9A0E2 /* BeefTaco.m */,
-				AF0FCD8F17E5392300F5DB0E /* PorkTaco.h */,
-				AF0FCD9017E5392400F5DB0E /* PorkTaco.m */,
+				AF0C4D6A17E5F6CC0038AF36 /* BeefTaco.h */,
+				AF0C4D6B17E5F6CC0038AF36 /* BeefTaco.m */,
+				AF0C4DDB17E5F9F30038AF36 /* PorkTaco.h */,
+				AF0C4DDC17E5F9F30038AF36 /* PorkTaco.m */,
+				AF0C4D6E17E5F6CC0038AF36 /* Taco.h */,
+				AF0C4D6F17E5F6CC0038AF36 /* Taco.m */,
 			);
 			name = Tacos;
 			sourceTree = "<group>";
@@ -802,9 +802,9 @@
 		AFE8F63717DD534600D00E2B /* Tacos */ = {
 			isa = PBXGroup;
 			children = (
-				AFE8F63917DD535600D00E2B /* TacoSpec.m */,
-				AF13F0ED17E2531300A9A0E2 /* BeefTacoSpec.m */,
-				AF0FCD8D17E5387400F5DB0E /* PorkTacoSpec.m */,
+				AFADEAD617E613700080708D /* BeefTacoSpec.m */,
+				AFADEAD717E613700080708D /* PorkTacoSpec.m */,
+				AFADEAD817E613700080708D /* TacoSpec.m */,
 			);
 			name = Tacos;
 			sourceTree = "<group>";
@@ -967,51 +967,51 @@
 			files = (
 				AFA9246A17D53C600005E39B /* main.m in Sources */,
 				AFA9246E17D53C600005E39B /* AppDelegate.m in Sources */,
-				AFA9247717D53C600005E39B /* ViewController.m in Sources */,
-				AFCA101A17D5538800ADF1C8 /* Beverage.m in Sources */,
-				AFCA102117D5581F00ADF1C8 /* Bar.m in Sources */,
-				AFCA102817D77E1600ADF1C8 /* BeerBar.m in Sources */,
-				AFCA102C17D77F8500ADF1C8 /* Lager.m in Sources */,
-				AFCA103017D77FA400ADF1C8 /* Stout.m in Sources */,
-				AFCA103417D77FC100ADF1C8 /* Ale.m in Sources */,
-				AF70E97517D8D0FB001E7911 /* RumAndCoke.m in Sources */,
-				AF70E97917D8D11F001E7911 /* WhiskeySour.m in Sources */,
-				AF70E97D17D8D160001E7911 /* JagerBomb.m in Sources */,
-				AF70E99617D8D3D4001E7911 /* Chardonnay.m in Sources */,
-				AF70E99A17D8D409001E7911 /* Merlot.m in Sources */,
-				AF70E99E17D8D42E001E7911 /* CabernetSauvignon.m in Sources */,
-				AF70E9A517D8D545001E7911 /* WineBar.m in Sources */,
-				AF56ECFC17D963290020F9C4 /* MixedDrinksBar.m in Sources */,
-				AFFD5D6A17DBC7EC0015FC0A /* StreetTacoContentsFactory.m in Sources */,
-				AFFD5D7217DBC9A50015FC0A /* Asada.m in Sources */,
-				AFFD5D7617DBC9B10015FC0A /* Queso.m in Sources */,
-				AFFD5D7A17DBC9C10015FC0A /* Salsa.m in Sources */,
-				AFFD5D8217DBFFB10015FC0A /* Fresco.m in Sources */,
-				AFFD5D8617DBFFFE0015FC0A /* Picante.m in Sources */,
-				AFFD5D8A17DC00470015FC0A /* Vedura.m in Sources */,
-				AFFD5D8E17DC007C0015FC0A /* Cebolla.m in Sources */,
-				AFFD5D9217DC009B0015FC0A /* Cilantro.m in Sources */,
-				AFFD5D9617DC013F0015FC0A /* Extra.m in Sources */,
-				AFFD5D9A17DC01680015FC0A /* Crema.m in Sources */,
-				AFFD5D9E17DC01930015FC0A /* Guacamole.m in Sources */,
-				AFE8F5C617DC136E00D00E2B /* Molida.m in Sources */,
-				AFE8F5CF17DC15BA00D00E2B /* CrunchyTacoContentsFactory.m in Sources */,
-				AFE8F5D317DC17AB00D00E2B /* Cheddar.m in Sources */,
-				AFE8F5D717DC17C600D00E2B /* Mild.m in Sources */,
-				AFE8F5DB17DC17E100D00E2B /* Lechuga.m in Sources */,
-				AFE8F5E017DC184D00D00E2B /* Tortilla.m in Sources */,
-				AFE8F5E417DC186300D00E2B /* Maiz.m in Sources */,
-				AFE8F5EC17DC18EA00D00E2B /* Tomate.m in Sources */,
-				AFE8F63417DD532600D00E2B /* Taco.m in Sources */,
-				AF13F0E317DF9C3200A9A0E2 /* TacoStore.m in Sources */,
-				AF13F0EA17E041D300A9A0E2 /* StreetTacoStore.m in Sources */,
-				AF13F0F117E2541700A9A0E2 /* BeefTaco.m in Sources */,
-				AF59C03417E521C7004992DF /* Beef.m in Sources */,
-				AF0FCD7C17E5353300F5DB0E /* Pork.m in Sources */,
-				AF0FCD8317E535BB00F5DB0E /* Carnitas.m in Sources */,
-				AF0FCD8A17E5367F00F5DB0E /* ChileVerde.m in Sources */,
-				AF0FCD9117E5392400F5DB0E /* PorkTaco.m in Sources */,
-				AF0FCD9817E53E1600F5DB0E /* CrunchyTacoStore.m in Sources */,
+				AF0C4D2817E5F5A10038AF36 /* Beverage.m in Sources */,
+				AF0C4D3C17E5F5FD0038AF36 /* Ale.m in Sources */,
+				AF0C4D3E17E5F5FD0038AF36 /* CabernetSauvignon.m in Sources */,
+				AF0C4D4017E5F5FD0038AF36 /* Chardonnay.m in Sources */,
+				AF0C4D4217E5F5FD0038AF36 /* JagerBomb.m in Sources */,
+				AF0C4D4417E5F5FD0038AF36 /* Lager.m in Sources */,
+				AF0C4D4617E5F5FD0038AF36 /* Merlot.m in Sources */,
+				AF0C4D4817E5F5FD0038AF36 /* RumAndCoke.m in Sources */,
+				AF0C4D4A17E5F5FD0038AF36 /* Stout.m in Sources */,
+				AF0C4D4C17E5F5FD0038AF36 /* WhiskeySour.m in Sources */,
+				AF0C4D5617E5F6400038AF36 /* Bar.m in Sources */,
+				AF0C4D5817E5F6400038AF36 /* BeerBar.m in Sources */,
+				AF0C4D5A17E5F6400038AF36 /* MixedDrinksBar.m in Sources */,
+				AF0C4D5C17E5F6400038AF36 /* WineBar.m in Sources */,
+				AF0C4D6417E5F67D0038AF36 /* CrunchyTacoStore.m in Sources */,
+				AF0C4D6617E5F67D0038AF36 /* StreetTacoStore.m in Sources */,
+				AF0C4D6817E5F67D0038AF36 /* TacoStore.m in Sources */,
+				AF0C4D7017E5F6CC0038AF36 /* BeefTaco.m in Sources */,
+				AF0C4D7417E5F6CC0038AF36 /* Taco.m in Sources */,
+				AF0C4D7B17E5F6FF0038AF36 /* CrunchyTacoContentsFactory.m in Sources */,
+				AF0C4D7D17E5F6FF0038AF36 /* StreetTacoContentsFactory.m in Sources */,
+				AF0C4D8317E5F7250038AF36 /* Maiz.m in Sources */,
+				AF0C4D8517E5F7250038AF36 /* Tortilla.m in Sources */,
+				AF0C4D8D17E5F7400038AF36 /* Asada.m in Sources */,
+				AF0C4D8F17E5F7400038AF36 /* Beef.m in Sources */,
+				AF0C4D9117E5F7400038AF36 /* Molida.m in Sources */,
+				AF0C4D9917E5F7620038AF36 /* Carnitas.m in Sources */,
+				AF0C4D9B17E5F7620038AF36 /* ChileVerde.m in Sources */,
+				AF0C4D9D17E5F7620038AF36 /* Pork.m in Sources */,
+				AF0C4DA517E5F7920038AF36 /* Cheddar.m in Sources */,
+				AF0C4DA717E5F7920038AF36 /* Fresco.m in Sources */,
+				AF0C4DA917E5F7920038AF36 /* Queso.m in Sources */,
+				AF0C4DB117E5F7AC0038AF36 /* Mild.m in Sources */,
+				AF0C4DB317E5F7AC0038AF36 /* Picante.m in Sources */,
+				AF0C4DB517E5F7AC0038AF36 /* Salsa.m in Sources */,
+				AF0C4DC117E5F80E0038AF36 /* Cebolla.m in Sources */,
+				AF0C4DC317E5F80E0038AF36 /* Cilantro.m in Sources */,
+				AF0C4DC517E5F80E0038AF36 /* Lechuga.m in Sources */,
+				AF0C4DC717E5F80E0038AF36 /* Tomate.m in Sources */,
+				AF0C4DC917E5F80E0038AF36 /* Vedura.m in Sources */,
+				AF0C4DD117E5F8310038AF36 /* Crema.m in Sources */,
+				AF0C4DD317E5F8310038AF36 /* Extra.m in Sources */,
+				AF0C4DD517E5F8310038AF36 /* Guacamole.m in Sources */,
+				AF0C4DD917E5F91F0038AF36 /* ViewController.m in Sources */,
+				AF0C4DDD17E5F9F30038AF36 /* PorkTaco.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1019,94 +1019,94 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFCA101517D5528200ADF1C8 /* BeverageSpec.m in Sources */,
-				AFCA101B17D5538800ADF1C8 /* Beverage.m in Sources */,
-				AFCA101E17D5575F00ADF1C8 /* BarSpec.m in Sources */,
-				AFCA102217D5581F00ADF1C8 /* Bar.m in Sources */,
-				AFCA102517D77DA100ADF1C8 /* BeerBarSpec.m in Sources */,
-				AFCA102917D77E1600ADF1C8 /* BeerBar.m in Sources */,
-				AFCA102D17D77F8500ADF1C8 /* Lager.m in Sources */,
-				AFCA103117D77FA400ADF1C8 /* Stout.m in Sources */,
-				AFCA103517D77FC100ADF1C8 /* Ale.m in Sources */,
-				AF70E96C17D8CEBF001E7911 /* LagerSpec.m in Sources */,
-				AF70E96F17D8CEDD001E7911 /* StoutSpec.m in Sources */,
-				AF70E97217D8CEF6001E7911 /* AleSpec.m in Sources */,
-				AF70E97617D8D0FB001E7911 /* RumAndCoke.m in Sources */,
-				AF70E97A17D8D11F001E7911 /* WhiskeySour.m in Sources */,
-				AF70E97E17D8D160001E7911 /* JagerBomb.m in Sources */,
-				AF70E98417D8D1B2001E7911 /* RumAndCokeSpec.m in Sources */,
-				AF70E98717D8D1C7001E7911 /* WhiskeySour.m in Sources */,
-				AF70E98A17D8D1D8001E7911 /* JagerBomb.m in Sources */,
-				AF70E98D17D8D2A9001E7911 /* ChardonnaySpec.m in Sources */,
-				AF70E99017D8D2C0001E7911 /* MerlotSpec.m in Sources */,
-				AF70E99317D8D387001E7911 /* CabernetSauvignonSpec.m in Sources */,
-				AF70E99717D8D3D4001E7911 /* Chardonnay.m in Sources */,
-				AF70E99B17D8D409001E7911 /* Merlot.m in Sources */,
-				AF70E99F17D8D42E001E7911 /* CabernetSauvignon.m in Sources */,
-				AF70E9A217D8D4E7001E7911 /* WineBarSpec.m in Sources */,
-				AF70E9A617D8D545001E7911 /* WineBar.m in Sources */,
-				AF56ECF917D962230020F9C4 /* MixedDrinksBarSpec.m in Sources */,
-				AF56ECFD17D963290020F9C4 /* MixedDrinksBar.m in Sources */,
-				AFFD5D6B17DBC7EC0015FC0A /* StreetTacoContentsFactory.m in Sources */,
-				AFFD5D6E17DBC8500015FC0A /* StreetTacoContentsFactorySpec.m in Sources */,
-				AFFD5D7317DBC9A50015FC0A /* Asada.m in Sources */,
-				AFFD5D7717DBC9B10015FC0A /* Queso.m in Sources */,
-				AFFD5D7B17DBC9C10015FC0A /* Salsa.m in Sources */,
-				AFFD5D8317DBFFB10015FC0A /* Fresco.m in Sources */,
-				AFFD5D8717DBFFFE0015FC0A /* Picante.m in Sources */,
-				AFFD5D8B17DC00470015FC0A /* Vedura.m in Sources */,
-				AFFD5D8F17DC007C0015FC0A /* Cebolla.m in Sources */,
-				AFFD5D9317DC009B0015FC0A /* Cilantro.m in Sources */,
-				AFFD5D9717DC013F0015FC0A /* Extra.m in Sources */,
-				AFFD5D9B17DC01680015FC0A /* Crema.m in Sources */,
-				AFFD5D9F17DC01930015FC0A /* Guacamole.m in Sources */,
-				AFE8F5C317DC12BA00D00E2B /* CrunchyTacoContentsFactorySpec.m in Sources */,
-				AFE8F5C717DC136E00D00E2B /* Molida.m in Sources */,
-				AFE8F5D017DC15BA00D00E2B /* CrunchyTacoContentsFactory.m in Sources */,
-				AFE8F5D417DC17AB00D00E2B /* Cheddar.m in Sources */,
-				AFE8F5D817DC17C600D00E2B /* Mild.m in Sources */,
-				AFE8F5DC17DC17E100D00E2B /* Lechuga.m in Sources */,
-				AFE8F5E117DC184D00D00E2B /* Tortilla.m in Sources */,
-				AFE8F5E517DC186300D00E2B /* Maiz.m in Sources */,
-				AFE8F5ED17DC18EA00D00E2B /* Tomate.m in Sources */,
-				AFE8F5F717DCF08C00D00E2B /* MaizSpec.m in Sources */,
-				AFE8F5FA17DCF1B400D00E2B /* TortillaSpec.m in Sources */,
-				AFE8F60017DCF25300D00E2B /* AsadaSpec.m in Sources */,
-				AFE8F60317DCF46900D00E2B /* MolidaSpec.m in Sources */,
-				AFE8F60617DCF4C000D00E2B /* QuesoSpec.m in Sources */,
-				AFE8F60917DCF55500D00E2B /* FrescoSpec.m in Sources */,
-				AFE8F60C17DCF61900D00E2B /* CheddarSpec.m in Sources */,
-				AFE8F60F17DCF67800D00E2B /* SalsaSpec.m in Sources */,
-				AFE8F61217DCF6D000D00E2B /* PicanteSpec.m in Sources */,
-				AFE8F61517DCF72D00D00E2B /* MildSpec.m in Sources */,
-				AFE8F61817DCF77500D00E2B /* VeduraSpec.m in Sources */,
-				AFE8F61B17DCF7B200D00E2B /* CebollaSpec.m in Sources */,
-				AFE8F61E17DCF83000D00E2B /* CilantroSpec.m in Sources */,
-				AFE8F62117DCF87500D00E2B /* TomateSpec.m in Sources */,
-				AFE8F62417DCF8A400D00E2B /* LechugaSpec.m in Sources */,
-				AFE8F62717DCF8EC00D00E2B /* ExtraSpec.m in Sources */,
-				AFE8F62A17DCF93300D00E2B /* CremaSpec.m in Sources */,
-				AFE8F62D17DCF98900D00E2B /* GuacamoleSpec.m in Sources */,
-				AFE8F63517DD532600D00E2B /* Taco.m in Sources */,
-				AFE8F63A17DD535600D00E2B /* TacoSpec.m in Sources */,
-				AF13F0DF17DF9B6D00A9A0E2 /* TacoStoreSpec.m in Sources */,
-				AF13F0E417DF9C3200A9A0E2 /* TacoStore.m in Sources */,
-				AF13F0E717E0410D00A9A0E2 /* StreetTacoStoreSpec.m in Sources */,
-				AF13F0EB17E041D300A9A0E2 /* StreetTacoStore.m in Sources */,
-				AF13F0EE17E2531300A9A0E2 /* BeefTacoSpec.m in Sources */,
-				AF13F0F217E2541700A9A0E2 /* BeefTaco.m in Sources */,
-				AF59C02F17E5212F004992DF /* BeefSpec.m in Sources */,
-				AF59C03517E521C7004992DF /* Beef.m in Sources */,
-				AF0FCD7917E534FC00F5DB0E /* PorkSpec.m in Sources */,
-				AF0FCD7D17E5353300F5DB0E /* Pork.m in Sources */,
-				AF0FCD8017E5356000F5DB0E /* CarnitasSpec.m in Sources */,
-				AF0FCD8417E535BB00F5DB0E /* Carnitas.m in Sources */,
-				AF0FCD8717E5363700F5DB0E /* ChileVerdeSpec.m in Sources */,
-				AF0FCD8B17E5367F00F5DB0E /* ChileVerde.m in Sources */,
-				AF0FCD8E17E5387400F5DB0E /* PorkTacoSpec.m in Sources */,
-				AF0FCD9217E5392400F5DB0E /* PorkTaco.m in Sources */,
-				AF0FCD9517E53D9A00F5DB0E /* CrunchyTacoStoreSpec.m in Sources */,
-				AF0FCD9917E53E1600F5DB0E /* CrunchyTacoStore.m in Sources */,
+				AF0C4D2917E5F5A10038AF36 /* Beverage.m in Sources */,
+				AF0C4D3D17E5F5FD0038AF36 /* Ale.m in Sources */,
+				AF0C4D3F17E5F5FD0038AF36 /* CabernetSauvignon.m in Sources */,
+				AF0C4D4117E5F5FD0038AF36 /* Chardonnay.m in Sources */,
+				AF0C4D4317E5F5FD0038AF36 /* JagerBomb.m in Sources */,
+				AF0C4D4517E5F5FD0038AF36 /* Lager.m in Sources */,
+				AF0C4D4717E5F5FD0038AF36 /* Merlot.m in Sources */,
+				AF0C4D4917E5F5FD0038AF36 /* RumAndCoke.m in Sources */,
+				AF0C4D4B17E5F5FD0038AF36 /* Stout.m in Sources */,
+				AF0C4D4D17E5F5FD0038AF36 /* WhiskeySour.m in Sources */,
+				AF0C4D5717E5F6400038AF36 /* Bar.m in Sources */,
+				AF0C4D5917E5F6400038AF36 /* BeerBar.m in Sources */,
+				AF0C4D5B17E5F6400038AF36 /* MixedDrinksBar.m in Sources */,
+				AF0C4D5D17E5F6400038AF36 /* WineBar.m in Sources */,
+				AF0C4D6517E5F67D0038AF36 /* CrunchyTacoStore.m in Sources */,
+				AF0C4D6717E5F67D0038AF36 /* StreetTacoStore.m in Sources */,
+				AF0C4D6917E5F67D0038AF36 /* TacoStore.m in Sources */,
+				AF0C4D7117E5F6CC0038AF36 /* BeefTaco.m in Sources */,
+				AF0C4D7517E5F6CC0038AF36 /* Taco.m in Sources */,
+				AF0C4D7C17E5F6FF0038AF36 /* CrunchyTacoContentsFactory.m in Sources */,
+				AF0C4D7E17E5F6FF0038AF36 /* StreetTacoContentsFactory.m in Sources */,
+				AF0C4D8417E5F7250038AF36 /* Maiz.m in Sources */,
+				AF0C4D8617E5F7250038AF36 /* Tortilla.m in Sources */,
+				AF0C4D8E17E5F7400038AF36 /* Asada.m in Sources */,
+				AF0C4D9017E5F7400038AF36 /* Beef.m in Sources */,
+				AF0C4D9217E5F7400038AF36 /* Molida.m in Sources */,
+				AF0C4D9A17E5F7620038AF36 /* Carnitas.m in Sources */,
+				AF0C4D9C17E5F7620038AF36 /* ChileVerde.m in Sources */,
+				AF0C4D9E17E5F7620038AF36 /* Pork.m in Sources */,
+				AF0C4DA617E5F7920038AF36 /* Cheddar.m in Sources */,
+				AF0C4DA817E5F7920038AF36 /* Fresco.m in Sources */,
+				AF0C4DAA17E5F7920038AF36 /* Queso.m in Sources */,
+				AF0C4DB217E5F7AC0038AF36 /* Mild.m in Sources */,
+				AF0C4DB417E5F7AC0038AF36 /* Picante.m in Sources */,
+				AF0C4DB617E5F7AC0038AF36 /* Salsa.m in Sources */,
+				AF0C4DC217E5F80E0038AF36 /* Cebolla.m in Sources */,
+				AF0C4DC417E5F80E0038AF36 /* Cilantro.m in Sources */,
+				AF0C4DC617E5F80E0038AF36 /* Lechuga.m in Sources */,
+				AF0C4DC817E5F80E0038AF36 /* Tomate.m in Sources */,
+				AF0C4DCA17E5F80E0038AF36 /* Vedura.m in Sources */,
+				AF0C4DD217E5F8310038AF36 /* Crema.m in Sources */,
+				AF0C4DD417E5F8310038AF36 /* Extra.m in Sources */,
+				AF0C4DD617E5F8310038AF36 /* Guacamole.m in Sources */,
+				AF0C4DDA17E5F91F0038AF36 /* ViewController.m in Sources */,
+				AF0C4DDE17E5F9F30038AF36 /* PorkTaco.m in Sources */,
+				AFADEABE17E612D20080708D /* AleSpec.m in Sources */,
+				AFADEABF17E612D20080708D /* BeverageSpec.m in Sources */,
+				AFADEAC017E612D20080708D /* CabernetSauvignonSpec.m in Sources */,
+				AFADEAC117E612D20080708D /* ChardonnaySpec.m in Sources */,
+				AFADEAC217E612D20080708D /* JagerBomb.m in Sources */,
+				AFADEAC317E612D20080708D /* LagerSpec.m in Sources */,
+				AFADEAC417E612D20080708D /* MerlotSpec.m in Sources */,
+				AFADEAC517E612D20080708D /* RumAndCokeSpec.m in Sources */,
+				AFADEAC617E612D20080708D /* StoutSpec.m in Sources */,
+				AFADEAC717E612D20080708D /* WhiskeySour.m in Sources */,
+				AFADEACC17E613080080708D /* BarSpec.m in Sources */,
+				AFADEACD17E613080080708D /* BeerBarSpec.m in Sources */,
+				AFADEACE17E613080080708D /* MixedDrinksBarSpec.m in Sources */,
+				AFADEACF17E613080080708D /* WineBarSpec.m in Sources */,
+				AFADEAD317E613430080708D /* CrunchyTacoStoreSpec.m in Sources */,
+				AFADEAD417E613430080708D /* StreetTacoStoreSpec.m in Sources */,
+				AFADEAD517E613430080708D /* TacoStoreSpec.m in Sources */,
+				AFADEAD917E613700080708D /* BeefTacoSpec.m in Sources */,
+				AFADEADA17E613700080708D /* PorkTacoSpec.m in Sources */,
+				AFADEADB17E613700080708D /* TacoSpec.m in Sources */,
+				AFADEADE17E613860080708D /* CrunchyTacoContentsFactorySpec.m in Sources */,
+				AFADEADF17E613860080708D /* StreetTacoContentsFactorySpec.m in Sources */,
+				AFADEAE317E613AD0080708D /* AsadaSpec.m in Sources */,
+				AFADEAE417E613AD0080708D /* BeefSpec.m in Sources */,
+				AFADEAE517E613AD0080708D /* MolidaSpec.m in Sources */,
+				AFADEAE917E613CD0080708D /* CarnitasSpec.m in Sources */,
+				AFADEAEA17E613CD0080708D /* ChileVerdeSpec.m in Sources */,
+				AFADEAED17E613E70080708D /* MaizSpec.m in Sources */,
+				AFADEAEE17E613E70080708D /* TortillaSpec.m in Sources */,
+				AFADEAF217E6144B0080708D /* CheddarSpec.m in Sources */,
+				AFADEAF317E6144B0080708D /* FrescoSpec.m in Sources */,
+				AFADEAF417E6144B0080708D /* QuesoSpec.m in Sources */,
+				AFADEAF817E614740080708D /* MildSpec.m in Sources */,
+				AFADEAF917E614740080708D /* PicanteSpec.m in Sources */,
+				AFADEAFA17E614740080708D /* SalsaSpec.m in Sources */,
+				AFADEB0017E614A60080708D /* CebollaSpec.m in Sources */,
+				AFADEB0117E614A60080708D /* CilantroSpec.m in Sources */,
+				AFADEB0217E614A60080708D /* LechugaSpec.m in Sources */,
+				AFADEB0317E614A60080708D /* TomateSpec.m in Sources */,
+				AFADEB0417E614A60080708D /* VeduraSpec.m in Sources */,
+				AFADEB0817E614D20080708D /* CremaSpec.m in Sources */,
+				AFADEB0917E614D20080708D /* ExtraSpec.m in Sources */,
+				AFADEB0A17E614D20080708D /* GuacamoleSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
