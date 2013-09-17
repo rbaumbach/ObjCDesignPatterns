@@ -155,6 +155,10 @@
 		AFADEB0817E614D20080708D /* CremaSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB0517E614D20080708D /* CremaSpec.m */; };
 		AFADEB0917E614D20080708D /* ExtraSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB0617E614D20080708D /* ExtraSpec.m */; };
 		AFADEB0A17E614D20080708D /* GuacamoleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB0717E614D20080708D /* GuacamoleSpec.m */; };
+		AFADEB0E17E61AE00080708D /* AppWindowSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB0D17E61AE00080708D /* AppWindowSpec.m */; };
+		AFADEB1117E74D9B0080708D /* AppWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB1017E74D9B0080708D /* AppWindow.m */; };
+		AFADEB1217E74D9B0080708D /* AppWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB1017E74D9B0080708D /* AppWindow.m */; };
+		AFADEB1517E8A0E70080708D /* AppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB1417E8A0E70080708D /* AppDelegateSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -323,6 +327,10 @@
 		AFADEB0517E614D20080708D /* CremaSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CremaSpec.m; path = FactoryPatterns/AbstractFactory/CremaSpec.m; sourceTree = "<group>"; };
 		AFADEB0617E614D20080708D /* ExtraSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExtraSpec.m; path = FactoryPatterns/AbstractFactory/ExtraSpec.m; sourceTree = "<group>"; };
 		AFADEB0717E614D20080708D /* GuacamoleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GuacamoleSpec.m; path = FactoryPatterns/AbstractFactory/GuacamoleSpec.m; sourceTree = "<group>"; };
+		AFADEB0D17E61AE00080708D /* AppWindowSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppWindowSpec.m; sourceTree = "<group>"; };
+		AFADEB0F17E74D9B0080708D /* AppWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppWindow.h; sourceTree = "<group>"; };
+		AFADEB1017E74D9B0080708D /* AppWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppWindow.m; sourceTree = "<group>"; };
+		AFADEB1417E8A0E70080708D /* AppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -588,6 +596,7 @@
 		AFA9248717D53C610005E39B /* ObjCDesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
+				AFADEB0B17E61ACE0080708D /* App */,
 				AF56ECFF17D964C80020F9C4 /* Factory Patterns */,
 				AFA9248817D53C610005E39B /* Supporting Files */,
 			);
@@ -603,6 +612,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		AFADEB0B17E61ACE0080708D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AFADEB1417E8A0E70080708D /* AppDelegateSpec.m */,
+				AFADEB0D17E61AE00080708D /* AppWindowSpec.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
 		AFCA100F17D5430F00ADF1C8 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -611,6 +629,8 @@
 				AF0C4DD717E5F91F0038AF36 /* ViewController.h */,
 				AF0C4DD817E5F91F0038AF36 /* ViewController.m */,
 				AFA9247817D53C600005E39B /* ViewController.xib */,
+				AFADEB0F17E74D9B0080708D /* AppWindow.h */,
+				AFADEB1017E74D9B0080708D /* AppWindow.m */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -1012,6 +1032,7 @@
 				AF0C4DD517E5F8310038AF36 /* Guacamole.m in Sources */,
 				AF0C4DD917E5F91F0038AF36 /* ViewController.m in Sources */,
 				AF0C4DDD17E5F9F30038AF36 /* PorkTaco.m in Sources */,
+				AFADEB1117E74D9B0080708D /* AppWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1107,6 +1128,9 @@
 				AFADEB0817E614D20080708D /* CremaSpec.m in Sources */,
 				AFADEB0917E614D20080708D /* ExtraSpec.m in Sources */,
 				AFADEB0A17E614D20080708D /* GuacamoleSpec.m in Sources */,
+				AFADEB0E17E61AE00080708D /* AppWindowSpec.m in Sources */,
+				AFADEB1217E74D9B0080708D /* AppWindow.m in Sources */,
+				AFADEB1517E8A0E70080708D /* AppDelegateSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
