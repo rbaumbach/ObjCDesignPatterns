@@ -94,10 +94,13 @@
 		AF0C4DD417E5F8310038AF36 /* Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DCE17E5F8310038AF36 /* Extra.m */; };
 		AF0C4DD517E5F8310038AF36 /* Guacamole.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DD017E5F8310038AF36 /* Guacamole.m */; };
 		AF0C4DD617E5F8310038AF36 /* Guacamole.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DD017E5F8310038AF36 /* Guacamole.m */; };
-		AF0C4DD917E5F91F0038AF36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DD817E5F91F0038AF36 /* ViewController.m */; };
-		AF0C4DDA17E5F91F0038AF36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DD817E5F91F0038AF36 /* ViewController.m */; };
 		AF0C4DDD17E5F9F30038AF36 /* PorkTaco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DDC17E5F9F30038AF36 /* PorkTaco.m */; };
 		AF0C4DDE17E5F9F30038AF36 /* PorkTaco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DDC17E5F9F30038AF36 /* PorkTaco.m */; };
+		AF1A10B517E93BC300EA60F2 /* FactoryPatternsViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1A10B417E93BC300EA60F2 /* FactoryPatternsViewControllerSpec.m */; };
+		AF1A10B917E93C0500EA60F2 /* FactoryPatternsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1A10B717E93C0500EA60F2 /* FactoryPatternsViewController.m */; };
+		AF1A10BA17E93C0500EA60F2 /* FactoryPatternsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1A10B717E93C0500EA60F2 /* FactoryPatternsViewController.m */; };
+		AF1A10BB17E93C0500EA60F2 /* FactoryPatternsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF1A10B817E93C0500EA60F2 /* FactoryPatternsViewController.xib */; };
+		AF1A10BC17E93C0500EA60F2 /* FactoryPatternsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF1A10B817E93C0500EA60F2 /* FactoryPatternsViewController.xib */; };
 		AFA9245E17D53C600005E39B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9245D17D53C600005E39B /* UIKit.framework */; };
 		AFA9246017D53C600005E39B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9245F17D53C600005E39B /* Foundation.framework */; };
 		AFA9246217D53C600005E39B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9246117D53C600005E39B /* CoreGraphics.framework */; };
@@ -107,7 +110,6 @@
 		AFA9247017D53C600005E39B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA9246F17D53C600005E39B /* Default.png */; };
 		AFA9247217D53C600005E39B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA9247117D53C600005E39B /* Default@2x.png */; };
 		AFA9247417D53C600005E39B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA9247317D53C600005E39B /* Default-568h@2x.png */; };
-		AFA9247A17D53C600005E39B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFA9247817D53C600005E39B /* ViewController.xib */; };
 		AFA9248217D53C610005E39B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9248117D53C610005E39B /* SenTestingKit.framework */; };
 		AFA9248317D53C610005E39B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9245D17D53C600005E39B /* UIKit.framework */; };
 		AFA9248417D53C610005E39B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9245F17D53C600005E39B /* Foundation.framework */; };
@@ -261,10 +263,12 @@
 		AF0C4DCE17E5F8310038AF36 /* Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Extra.m; path = FactoryPatterns/AbstractFactory/Extra.m; sourceTree = "<group>"; };
 		AF0C4DCF17E5F8310038AF36 /* Guacamole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Guacamole.h; path = FactoryPatterns/AbstractFactory/Guacamole.h; sourceTree = "<group>"; };
 		AF0C4DD017E5F8310038AF36 /* Guacamole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Guacamole.m; path = FactoryPatterns/AbstractFactory/Guacamole.m; sourceTree = "<group>"; };
-		AF0C4DD717E5F91F0038AF36 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = FactoryPatterns/ViewController.h; sourceTree = "<group>"; };
-		AF0C4DD817E5F91F0038AF36 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = FactoryPatterns/ViewController.m; sourceTree = "<group>"; };
 		AF0C4DDB17E5F9F30038AF36 /* PorkTaco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PorkTaco.h; path = FactoryPatterns/AbstractFactory/PorkTaco.h; sourceTree = "<group>"; };
 		AF0C4DDC17E5F9F30038AF36 /* PorkTaco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PorkTaco.m; path = FactoryPatterns/AbstractFactory/PorkTaco.m; sourceTree = "<group>"; };
+		AF1A10B417E93BC300EA60F2 /* FactoryPatternsViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryPatternsViewControllerSpec.m; sourceTree = "<group>"; };
+		AF1A10B617E93C0500EA60F2 /* FactoryPatternsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryPatternsViewController.h; sourceTree = "<group>"; };
+		AF1A10B717E93C0500EA60F2 /* FactoryPatternsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryPatternsViewController.m; sourceTree = "<group>"; };
+		AF1A10B817E93C0500EA60F2 /* FactoryPatternsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FactoryPatternsViewController.xib; sourceTree = "<group>"; };
 		AFA9245A17D53C600005E39B /* ObjCDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA9245D17D53C600005E39B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AFA9245F17D53C600005E39B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -278,7 +282,6 @@
 		AFA9246F17D53C600005E39B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		AFA9247117D53C600005E39B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		AFA9247317D53C600005E39B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		AFA9247917D53C600005E39B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		AFA9248017D53C610005E39B /* ObjCDesignPatternsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjCDesignPatternsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA9248117D53C610005E39B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		AFA9248917D53C610005E39B /* ObjCDesignPatternsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjCDesignPatternsTests-Info.plist"; sourceTree = "<group>"; };
@@ -617,6 +620,7 @@
 			children = (
 				AFADEB1417E8A0E70080708D /* AppDelegateSpec.m */,
 				AFADEB0D17E61AE00080708D /* AppWindowSpec.m */,
+				AF1A10B417E93BC300EA60F2 /* FactoryPatternsViewControllerSpec.m */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -626,11 +630,11 @@
 			children = (
 				AFA9246C17D53C600005E39B /* AppDelegate.h */,
 				AFA9246D17D53C600005E39B /* AppDelegate.m */,
-				AF0C4DD717E5F91F0038AF36 /* ViewController.h */,
-				AF0C4DD817E5F91F0038AF36 /* ViewController.m */,
-				AFA9247817D53C600005E39B /* ViewController.xib */,
 				AFADEB0F17E74D9B0080708D /* AppWindow.h */,
 				AFADEB1017E74D9B0080708D /* AppWindow.m */,
+				AF1A10B617E93C0500EA60F2 /* FactoryPatternsViewController.h */,
+				AF1A10B717E93C0500EA60F2 /* FactoryPatternsViewController.m */,
+				AF1A10B817E93C0500EA60F2 /* FactoryPatternsViewController.xib */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -920,7 +924,7 @@
 				AFA9247017D53C600005E39B /* Default.png in Resources */,
 				AFA9247217D53C600005E39B /* Default@2x.png in Resources */,
 				AFA9247417D53C600005E39B /* Default-568h@2x.png in Resources */,
-				AFA9247A17D53C600005E39B /* ViewController.xib in Resources */,
+				AF1A10BB17E93C0500EA60F2 /* FactoryPatternsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -929,6 +933,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFA9248C17D53C610005E39B /* InfoPlist.strings in Resources */,
+				AF1A10BC17E93C0500EA60F2 /* FactoryPatternsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1030,9 +1035,9 @@
 				AF0C4DD117E5F8310038AF36 /* Crema.m in Sources */,
 				AF0C4DD317E5F8310038AF36 /* Extra.m in Sources */,
 				AF0C4DD517E5F8310038AF36 /* Guacamole.m in Sources */,
-				AF0C4DD917E5F91F0038AF36 /* ViewController.m in Sources */,
 				AF0C4DDD17E5F9F30038AF36 /* PorkTaco.m in Sources */,
 				AFADEB1117E74D9B0080708D /* AppWindow.m in Sources */,
+				AF1A10B917E93C0500EA60F2 /* FactoryPatternsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1083,7 +1088,6 @@
 				AF0C4DD217E5F8310038AF36 /* Crema.m in Sources */,
 				AF0C4DD417E5F8310038AF36 /* Extra.m in Sources */,
 				AF0C4DD617E5F8310038AF36 /* Guacamole.m in Sources */,
-				AF0C4DDA17E5F91F0038AF36 /* ViewController.m in Sources */,
 				AF0C4DDE17E5F9F30038AF36 /* PorkTaco.m in Sources */,
 				AFADEABE17E612D20080708D /* AleSpec.m in Sources */,
 				AFADEABF17E612D20080708D /* BeverageSpec.m in Sources */,
@@ -1131,6 +1135,8 @@
 				AFADEB0E17E61AE00080708D /* AppWindowSpec.m in Sources */,
 				AFADEB1217E74D9B0080708D /* AppWindow.m in Sources */,
 				AFADEB1517E8A0E70080708D /* AppDelegateSpec.m in Sources */,
+				AF1A10B517E93BC300EA60F2 /* FactoryPatternsViewControllerSpec.m in Sources */,
+				AF1A10BA17E93C0500EA60F2 /* FactoryPatternsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1151,14 +1157,6 @@
 				AFA9246717D53C600005E39B /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		AFA9247817D53C600005E39B /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AFA9247917D53C600005E39B /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 		AFA9248A17D53C610005E39B /* InfoPlist.strings */ = {

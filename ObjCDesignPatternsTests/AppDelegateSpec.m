@@ -1,11 +1,13 @@
 #import "Kiwi.h"
 #import "AppDelegate.h"
 #import "AppWindow.h"
+#import "FactoryPatternsViewController.h"
 
 @interface AppDelegate ()
 
 @property (strong, nonatomic) AppWindow *appWindow;
-@property (strong, nonatomic) UIViewController *viewController;
+@property (strong, nonatomic) UITabBarController *tabBarController;
+@property (strong, nonatomic) FactoryPatternsViewController *factoryPatternsViewController;
 
 @end
 
@@ -31,23 +33,31 @@ describe(@"AppDelegate", ^{
         [appDelegate.appWindow shouldNotBeNil];
     });
     
-    it(@"has a UIViewController", ^{
-        [appDelegate.viewController shouldNotBeNil];
+    it(@"has a tabBarController", ^{
+        [appDelegate.tabBarController shouldNotBeNil];
+    });
+    
+    it(@"has a FactoryPatternsViewController", ^{
+        [appDelegate.factoryPatternsViewController shouldNotBeNil];
     });
     
     context(@"#application:didFinishLaunchingWithOptions:", ^{
         __block BOOL isFinished;
         __block AppWindow *fakeAppWindow;
-        __block UIViewController *fakeViewController;
+        __block UITabBarController *fakeTabBarController;
+        __block FactoryPatternsViewController *fakeFactoryPatternsViewController;
         
         beforeEach(^{
             isFinished = NO;
             fakeAppWindow = [AppWindow mock];
+            fakeTabBarController = [UITabBarController mock];
+            fakeFactoryPatternsViewController = [FactoryPatternsViewController mock];
             appDelegate.appWindow = fakeAppWindow;
-            fakeViewController = [UIViewController mock];
-            appDelegate.viewController = fakeViewController;
+            appDelegate.tabBarController = fakeTabBarController;
+            appDelegate.factoryPatternsViewController = fakeFactoryPatternsViewController;
             
-            [[fakeAppWindow should] receive:@selector(initializeWithRootViewController:) withArguments:appDelegate.viewController];
+            [[fakeTabBarController should] receive:@selector(setViewControllers:) withArguments:@[appDelegate.factoryPatternsViewController]];
+            [[fakeAppWindow should] receive:@selector(initializeWithRootViewController:) withArguments:appDelegate.tabBarController];
             isFinished = [appDelegate application:nil didFinishLaunchingWithOptions:nil];
         });
         
