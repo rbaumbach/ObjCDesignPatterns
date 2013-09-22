@@ -5,18 +5,22 @@
 SPEC_BEGIN(CilantroSpec)
 
 describe(@"Cilantro", ^{
-    __block Cilantro *vedura;
+    __block Cilantro *cilantro;
     
     beforeEach(^{
-        vedura = [[Cilantro alloc] init];
+        cilantro = [[Cilantro alloc] init];
     });
     
     it(@"is a subclass of vedura", ^{
-        [[vedura should] beKindOfClass:[Vedura class]];
+        [[cilantro should] beKindOfClass:[Vedura class]];
     });
     
     it(@"is not nil", ^{
-        [vedura shouldNotBeNil];
+        [cilantro shouldNotBeNil];
+    });
+    
+    it(@"is called 'Cilantro'", ^{
+        cilantro.name = @"Cilantro";
     });
 });
 

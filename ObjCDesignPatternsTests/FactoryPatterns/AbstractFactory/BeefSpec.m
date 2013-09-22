@@ -9,10 +9,15 @@ describe(@"Beef", ^{
     
     beforeEach(^{
         beef = [[Beef alloc] init];
+        beef.name = @"0xBBADBEEF";
     });
     
     it(@"is not nil", ^{
         [beef shouldNotBeNil];
+    });
+    
+    it(@"has a name property", ^{
+        [[beef.name should] equal:@"0xBBADBEEF"];
     });
 });
 

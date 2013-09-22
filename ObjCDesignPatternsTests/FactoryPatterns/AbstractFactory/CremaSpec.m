@@ -5,18 +5,22 @@
 SPEC_BEGIN(CremaSpec)
 
 describe(@"Crema", ^{
-    __block Crema *extra;
+    __block Crema *crema;
     
     beforeEach(^{
-        extra = [[Crema alloc] init];
+        crema = [[Crema alloc] init];
     });
     
     it(@"is a subclass of extra", ^{
-        [[extra should] beKindOfClass:[Crema class]];
+        [[crema should] beKindOfClass:[Crema class]];
     });
     
-    it(@"is not nil", ^{
-        [extra shouldNotBeNil];
+    it(@"is crema nil", ^{
+        [crema shouldNotBeNil];
+    });
+    
+    it(@"is called 'Crema'", ^{
+        [[crema.name should] equal:@"Crema"];
     });
 });
 

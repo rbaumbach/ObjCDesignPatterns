@@ -6,6 +6,15 @@
 
 @implementation MixedDrinksBar
 
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        self.name = @"Mixed Drinks Bar";
+    }
+    return self;
+}
+
 - (Beverage *)createBeverage:(NSString *)beverageType
 {
     Beverage *beverage;

@@ -47,6 +47,10 @@ describe(@"CrunchyTacoStore", ^{
         [[(NSObject *)tacoStore.tacoContentsFactory should] equal:fakeTacoContentsFactory];
     });
     
+    it(@"is called 'Crunchy Taco Store'", ^{
+        [[tacoStore.name should] equal:@"Crunchy Taco Store"];
+    });
+    
     context(@"#createTaco:", ^{
         context(@"BeefTaco", ^{
             __block Taco *taco;

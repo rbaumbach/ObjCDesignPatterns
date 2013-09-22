@@ -5,18 +5,22 @@
 SPEC_BEGIN(LechugaSpec)
 
 describe(@"Lechuga", ^{
-    __block Lechuga *vedura;
+    __block Lechuga *lechuga;
     
     beforeEach(^{
-        vedura = [[Lechuga alloc] init];
+        lechuga = [[Lechuga alloc] init];
     });
     
     it(@"is a subclass of vedura", ^{
-        [[vedura should] beKindOfClass:[Lechuga class]];
+        [[lechuga should] beKindOfClass:[Lechuga class]];
     });
     
     it(@"is not nil", ^{
-        [vedura shouldNotBeNil];
+        [lechuga shouldNotBeNil];
+    });
+    
+    it(@"is called 'Lechuga'", ^{
+        lechuga.name = @"Lechuga";
     });
 });
 

@@ -5,18 +5,22 @@
 SPEC_BEGIN(MaizSpec)
 
 describe(@"Maiz", ^{
-    __block Maiz *tortilla;
+    __block Maiz *maiz;
     
     beforeEach(^{
-        tortilla = [[Maiz alloc] init];
+        maiz = [[Maiz alloc] init];
     });
     
     it(@"is a subclass of tortilla", ^{
-        [[tortilla should] beKindOfClass:[Tortilla class]];
+        [[maiz should] beKindOfClass:[Tortilla class]];
     });
     
     it(@"is not nil", ^{
-        [tortilla shouldNotBeNil];
+        [maiz shouldNotBeNil];
+    });
+    
+    it(@"is called 'Maiz'", ^{
+        maiz.name = @"Maiz";
     });
 });
 

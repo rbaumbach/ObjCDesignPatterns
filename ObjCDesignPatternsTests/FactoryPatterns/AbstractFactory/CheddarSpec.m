@@ -5,18 +5,22 @@
 SPEC_BEGIN(CheddarSpec)
 
 describe(@"Cheddar", ^{
-    __block Cheddar *queso;
+    __block Cheddar *cheddar;
     
     beforeEach(^{
-        queso = [[Cheddar alloc] init];
+        cheddar = [[Cheddar alloc] init];
     });
     
     it(@"is a subclass of queso", ^{
-        [[queso should] beKindOfClass:[Queso class]];
+        [[cheddar should] beKindOfClass:[Queso class]];
     });
     
     it(@"is not nil", ^{
-        [queso shouldNotBeNil];
+        [cheddar shouldNotBeNil];
+    });
+    
+    it(@"is called 'Cheddar'", ^{
+        [[cheddar.name should] equal:@"Cheddar"];
     });
 });
 

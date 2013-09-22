@@ -5,18 +5,22 @@
 SPEC_BEGIN(CebollaSpec)
 
 describe(@"Cebolla", ^{
-    __block Cebolla *vedura;
+    __block Cebolla *cebolla;
     
     beforeEach(^{
-        vedura = [[Cebolla alloc] init];
+        cebolla = [[Cebolla alloc] init];
     });
     
     it(@"is a subclass of vedura", ^{
-        [[vedura should] beKindOfClass:[Vedura class]];
+        [[cebolla should] beKindOfClass:[Vedura class]];
     });
     
     it(@"is not nil", ^{
-        [vedura shouldNotBeNil];
+        [cebolla shouldNotBeNil];
+    });
+    
+    it(@"is called 'Cebolla'", ^{
+        [[cebolla.name should] equal:@"Cebolla"];
     });
 });
 

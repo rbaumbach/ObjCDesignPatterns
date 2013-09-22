@@ -17,6 +17,11 @@ describe(@"Bar", ^{
     
     beforeEach(^{
         bar = [[Bar alloc] init];
+        bar.name = @"Bar";
+    });
+    
+    it(@"has a name property", ^{
+        [[bar.name should] equal:@"Bar"];
     });
     
     context(@"#orderBeverage:", ^{

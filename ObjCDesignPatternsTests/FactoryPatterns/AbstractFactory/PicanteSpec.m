@@ -5,18 +5,22 @@
 SPEC_BEGIN(PicanteSpec)
 
 describe(@"Picante", ^{
-    __block Picante *salsa;
+    __block Picante *picante;
     
     beforeEach(^{
-        salsa = [[Picante alloc] init];
+        picante = [[Picante alloc] init];
     });
     
     it(@"is a subclass of salsa", ^{
-        [[salsa should] beKindOfClass:[Salsa class]];
+        [[picante should] beKindOfClass:[Salsa class]];
     });
     
     it(@"is not nil", ^{
-        [salsa shouldNotBeNil];
+        [picante shouldNotBeNil];
+    });
+    
+    it(@"is called 'Picante'", ^{
+        [[picante.name should] equal:@"Picante"];
     });
 });
 

@@ -3,13 +3,6 @@
 
 @interface BeefTaco ()
 
-@property (strong, nonatomic) Tortilla *tortilla;
-@property (strong, nonatomic) Beef *beef;
-@property (strong, nonatomic) Queso *queso;
-@property (strong, nonatomic) Salsa *salsa;
-@property (strong, nonatomic) NSArray *veduras;
-@property (strong, nonatomic) NSArray *extras;
-
 @property (strong, nonatomic) id<TacoContentsFactory> tacoContentsFactory;
 
 @end
@@ -21,6 +14,7 @@
 {
     self = [super init];
     if (self) {
+        self.name = @"Beef Taco";
         self.tacoContentsFactory = tacoContentsFactory;
     }
     return self;

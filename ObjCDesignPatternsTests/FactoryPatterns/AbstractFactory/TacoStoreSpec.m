@@ -17,6 +17,11 @@ describe(@"TacoStore", ^{
     
     beforeEach(^{
         tacoStore = [[TacoStore alloc] init];
+        tacoStore.name = @"Pancho Chihuahua";
+    });
+    
+    it(@"has a name property", ^{
+        tacoStore.name = @"Pancho Chihuahua";
     });
     
     context(@"#orderTaco:", ^{

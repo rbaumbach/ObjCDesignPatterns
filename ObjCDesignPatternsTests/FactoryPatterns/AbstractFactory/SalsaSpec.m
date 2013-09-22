@@ -9,10 +9,15 @@ describe(@"Salsa", ^{
     
     beforeEach(^{
         salsa = [[Salsa alloc] init];
+        salsa.name = @"Hot Sauuuuce";
     });
     
     it(@"is not nil", ^{
         [salsa shouldNotBeNil];
+    });
+    
+    it(@"has a name property", ^{
+        salsa.name = @"Hot Sauuuuce";
     });
 });
 

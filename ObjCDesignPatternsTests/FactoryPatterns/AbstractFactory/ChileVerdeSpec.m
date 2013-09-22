@@ -18,6 +18,10 @@ describe(@"ChileVerde", ^{
     it(@"is not nil", ^{
         [chileVerde shouldNotBeNil];
     });
+    
+    it(@"is called 'Chile Verde'", ^{
+        [[chileVerde.name should] equal:@"Chile Verde"];
+    });
 });
 
 SPEC_END

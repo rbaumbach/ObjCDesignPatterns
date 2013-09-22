@@ -18,6 +18,10 @@ describe(@"MixedDrinksBar", ^{
         [[bar should] beKindOfClass:[Bar class]];
     });
     
+    it(@"is called 'Mixed Drinks Bar'", ^{
+        [[bar.name should] equal:@"Mixed Drinks Bar"];
+    });
+    
     context(@"#createBeverage:", ^{
         context(@"RumAndCoke", ^{
             it(@"creates a rumAndCoke", ^{

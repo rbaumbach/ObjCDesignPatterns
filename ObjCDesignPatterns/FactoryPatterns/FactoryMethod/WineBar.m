@@ -3,7 +3,17 @@
 #import "Merlot.h"
 #import "CabernetSauvignon.h"
 
+
 @implementation WineBar
+
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        self.name = @"Wine Bar";
+    }
+    return self;
+}
 
 - (Beverage *)createBeverage:(NSString *)beverageType
 {

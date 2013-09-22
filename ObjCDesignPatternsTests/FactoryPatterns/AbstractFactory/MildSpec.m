@@ -5,18 +5,22 @@
 SPEC_BEGIN(MildSpec)
 
 describe(@"Mild", ^{
-    __block Mild *salsa;
+    __block Mild *mild;
     
     beforeEach(^{
-        salsa = [[Mild alloc] init];
+        mild = [[Mild alloc] init];
     });
     
     it(@"is a subclass of salsa", ^{
-        [[salsa should] beKindOfClass:[Salsa class]];
+        [[mild should] beKindOfClass:[Salsa class]];
     });
     
     it(@"is not nil", ^{
-        [salsa shouldNotBeNil];
+        [mild shouldNotBeNil];
+    });
+    
+    it(@"is called 'Mild'", ^{
+        mild.name = @"Mild";
     });
 });
 

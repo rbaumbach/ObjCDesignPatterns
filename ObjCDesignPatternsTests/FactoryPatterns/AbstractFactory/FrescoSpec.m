@@ -5,18 +5,22 @@
 SPEC_BEGIN(FrescoSpec)
 
 describe(@"Fresco", ^{
-    __block Fresco *queso;
+    __block Fresco *fresco;
     
     beforeEach(^{
-        queso = [[Fresco alloc] init];
+        fresco = [[Fresco alloc] init];
     });
     
     it(@"is a subclass of queso", ^{
-        [[queso should] beKindOfClass:[Queso class]];
+        [[fresco should] beKindOfClass:[Queso class]];
     });
     
     it(@"is not nil", ^{
-        [queso shouldNotBeNil];
+        [fresco shouldNotBeNil];
+    });
+    
+    it(@"is called 'Fresco'", ^{
+        [[fresco.name should] equal:@"Fresco"];
     });
 });
 

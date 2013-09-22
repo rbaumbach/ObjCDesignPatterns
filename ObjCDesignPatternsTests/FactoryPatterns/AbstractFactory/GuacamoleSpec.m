@@ -5,18 +5,22 @@
 SPEC_BEGIN(GuacamoleSpec)
 
 describe(@"Guacamole", ^{
-    __block Guacamole *extra;
+    __block Guacamole *guacamole;
     
     beforeEach(^{
-        extra = [[Guacamole alloc] init];
+        guacamole = [[Guacamole alloc] init];
     });
     
     it(@"is a subclass of extra", ^{
-        [[extra should] beKindOfClass:[Guacamole class]];
+        [[guacamole should] beKindOfClass:[Guacamole class]];
     });
     
     it(@"is not nil", ^{
-        [extra shouldNotBeNil];
+        [guacamole shouldNotBeNil];
+    });
+    
+    it(@"is called 'Guacamole'", ^{
+        [[guacamole.name should] equal:@"Guacamole"];
     });
 });
 

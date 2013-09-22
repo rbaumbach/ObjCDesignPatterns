@@ -101,6 +101,9 @@
 		AF1A10BA17E93C0500EA60F2 /* FactoryPatternsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1A10B717E93C0500EA60F2 /* FactoryPatternsViewController.m */; };
 		AF1A10BB17E93C0500EA60F2 /* FactoryPatternsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF1A10B817E93C0500EA60F2 /* FactoryPatternsViewController.xib */; };
 		AF1A10BC17E93C0500EA60F2 /* FactoryPatternsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF1A10B817E93C0500EA60F2 /* FactoryPatternsViewController.xib */; };
+		AF57AB8017ECD5AB00C9E153 /* NSLogWrapperSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF57AB7F17ECD5AB00C9E153 /* NSLogWrapperSpec.m */; };
+		AF57AB8317ECD75A00C9E153 /* NSLogWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF57AB8217ECD75A00C9E153 /* NSLogWrapper.m */; };
+		AF57AB8417ECD75A00C9E153 /* NSLogWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF57AB8217ECD75A00C9E153 /* NSLogWrapper.m */; };
 		AFA9245E17D53C600005E39B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9245D17D53C600005E39B /* UIKit.framework */; };
 		AFA9246017D53C600005E39B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9245F17D53C600005E39B /* Foundation.framework */; };
 		AFA9246217D53C600005E39B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9246117D53C600005E39B /* CoreGraphics.framework */; };
@@ -269,6 +272,9 @@
 		AF1A10B617E93C0500EA60F2 /* FactoryPatternsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryPatternsViewController.h; sourceTree = "<group>"; };
 		AF1A10B717E93C0500EA60F2 /* FactoryPatternsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryPatternsViewController.m; sourceTree = "<group>"; };
 		AF1A10B817E93C0500EA60F2 /* FactoryPatternsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FactoryPatternsViewController.xib; sourceTree = "<group>"; };
+		AF57AB7F17ECD5AB00C9E153 /* NSLogWrapperSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLogWrapperSpec.m; sourceTree = "<group>"; };
+		AF57AB8117ECD75A00C9E153 /* NSLogWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLogWrapper.h; sourceTree = "<group>"; };
+		AF57AB8217ECD75A00C9E153 /* NSLogWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLogWrapper.m; sourceTree = "<group>"; };
 		AFA9245A17D53C600005E39B /* ObjCDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA9245D17D53C600005E39B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AFA9245F17D53C600005E39B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -313,7 +319,7 @@
 		AFADEAE217E613AD0080708D /* MolidaSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MolidaSpec.m; path = FactoryPatterns/AbstractFactory/MolidaSpec.m; sourceTree = "<group>"; };
 		AFADEAE617E613CD0080708D /* CarnitasSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CarnitasSpec.m; path = FactoryPatterns/AbstractFactory/CarnitasSpec.m; sourceTree = "<group>"; };
 		AFADEAE717E613CD0080708D /* ChileVerdeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChileVerdeSpec.m; path = FactoryPatterns/AbstractFactory/ChileVerdeSpec.m; sourceTree = "<group>"; };
-		AFADEAE817E613CD0080708D /* PorkSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PorkSpec.h; path = FactoryPatterns/AbstractFactory/PorkSpec.h; sourceTree = "<group>"; };
+		AFADEAE817E613CD0080708D /* PorkSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PorkSpec.m; path = FactoryPatterns/AbstractFactory/PorkSpec.m; sourceTree = "<group>"; };
 		AFADEAEB17E613E70080708D /* MaizSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MaizSpec.m; path = FactoryPatterns/AbstractFactory/MaizSpec.m; sourceTree = "<group>"; };
 		AFADEAEC17E613E70080708D /* TortillaSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TortillaSpec.m; path = FactoryPatterns/AbstractFactory/TortillaSpec.m; sourceTree = "<group>"; };
 		AFADEAEF17E6144B0080708D /* CheddarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CheddarSpec.m; path = FactoryPatterns/AbstractFactory/CheddarSpec.m; sourceTree = "<group>"; };
@@ -379,7 +385,7 @@
 			children = (
 				AFADEAE617E613CD0080708D /* CarnitasSpec.m */,
 				AFADEAE717E613CD0080708D /* ChileVerdeSpec.m */,
-				AFADEAE817E613CD0080708D /* PorkSpec.h */,
+				AFADEAE817E613CD0080708D /* PorkSpec.m */,
 			);
 			name = Pork;
 			sourceTree = "<group>";
@@ -620,6 +626,7 @@
 			children = (
 				AFADEB1417E8A0E70080708D /* AppDelegateSpec.m */,
 				AFADEB0D17E61AE00080708D /* AppWindowSpec.m */,
+				AF57AB7F17ECD5AB00C9E153 /* NSLogWrapperSpec.m */,
 				AF1A10B417E93BC300EA60F2 /* FactoryPatternsViewControllerSpec.m */,
 			);
 			name = App;
@@ -632,6 +639,8 @@
 				AFA9246D17D53C600005E39B /* AppDelegate.m */,
 				AFADEB0F17E74D9B0080708D /* AppWindow.h */,
 				AFADEB1017E74D9B0080708D /* AppWindow.m */,
+				AF57AB8117ECD75A00C9E153 /* NSLogWrapper.h */,
+				AF57AB8217ECD75A00C9E153 /* NSLogWrapper.m */,
 				AF1A10B617E93C0500EA60F2 /* FactoryPatternsViewController.h */,
 				AF1A10B717E93C0500EA60F2 /* FactoryPatternsViewController.m */,
 				AF1A10B817E93C0500EA60F2 /* FactoryPatternsViewController.xib */,
@@ -728,12 +737,12 @@
 			isa = PBXGroup;
 			children = (
 				AF59C03017E52197004992DF /* Beef */,
+				AFE8F5F417DC1CC200D00E2B /* Extras */,
 				AF0FCD7617E534EB00F5DB0E /* Pork */,
-				AFE8F5EF17DC1C9B00D00E2B /* Tortilla */,
 				AFE8F5F117DC1CAF00D00E2B /* Queso */,
 				AFE8F5F217DC1CB500D00E2B /* Salsa */,
+				AFE8F5EF17DC1C9B00D00E2B /* Tortilla */,
 				AFE8F5F317DC1CBA00D00E2B /* Venduras */,
-				AFE8F5F417DC1CC200D00E2B /* Extras */,
 			);
 			name = "Taco Contents";
 			sourceTree = "<group>";
@@ -836,13 +845,13 @@
 		AFFD5D6F17DBC98F0015FC0A /* Taco Contents */ = {
 			isa = PBXGroup;
 			children = (
-				AFE8F5DD17DC180E00D00E2B /* Tortilla */,
 				AF59C03117E521AC004992DF /* Beef */,
+				AFE8F5CC17DC148D00D00E2B /* Extras */,
 				AF0FCD7517E534CC00F5DB0E /* Pork */,
 				AFE8F5C917DC13EA00D00E2B /* Queso */,
 				AFE8F5CA17DC141A00D00E2B /* Salsa */,
+				AFE8F5DD17DC180E00D00E2B /* Tortilla */,
 				AFE8F5CB17DC144600D00E2B /* Veduras */,
-				AFE8F5CC17DC148D00D00E2B /* Extras */,
 			);
 			name = "Taco Contents";
 			sourceTree = "<group>";
@@ -1031,6 +1040,7 @@
 				AF0C4DC317E5F80E0038AF36 /* Cilantro.m in Sources */,
 				AF0C4DC517E5F80E0038AF36 /* Lechuga.m in Sources */,
 				AF0C4DC717E5F80E0038AF36 /* Tomate.m in Sources */,
+				AF57AB8317ECD75A00C9E153 /* NSLogWrapper.m in Sources */,
 				AF0C4DC917E5F80E0038AF36 /* Vedura.m in Sources */,
 				AF0C4DD117E5F8310038AF36 /* Crema.m in Sources */,
 				AF0C4DD317E5F8310038AF36 /* Extra.m in Sources */,
@@ -1059,6 +1069,7 @@
 				AF0C4D5917E5F6400038AF36 /* BeerBar.m in Sources */,
 				AF0C4D5B17E5F6400038AF36 /* MixedDrinksBar.m in Sources */,
 				AF0C4D5D17E5F6400038AF36 /* WineBar.m in Sources */,
+				AF57AB8017ECD5AB00C9E153 /* NSLogWrapperSpec.m in Sources */,
 				AF0C4D6517E5F67D0038AF36 /* CrunchyTacoStore.m in Sources */,
 				AF0C4D6717E5F67D0038AF36 /* StreetTacoStore.m in Sources */,
 				AF0C4D6917E5F67D0038AF36 /* TacoStore.m in Sources */,
@@ -1089,6 +1100,7 @@
 				AF0C4DD417E5F8310038AF36 /* Extra.m in Sources */,
 				AF0C4DD617E5F8310038AF36 /* Guacamole.m in Sources */,
 				AF0C4DDE17E5F9F30038AF36 /* PorkTaco.m in Sources */,
+				AF57AB8417ECD75A00C9E153 /* NSLogWrapper.m in Sources */,
 				AFADEABE17E612D20080708D /* AleSpec.m in Sources */,
 				AFADEABF17E612D20080708D /* BeverageSpec.m in Sources */,
 				AFADEAC017E612D20080708D /* CabernetSauvignonSpec.m in Sources */,
@@ -1198,6 +1210,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -1223,6 +1236,7 @@
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};

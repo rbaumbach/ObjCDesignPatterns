@@ -3,7 +3,17 @@
 #import "Stout.h"
 #import "Ale.h"
 
+
 @implementation BeerBar
+
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        self.name = @"Beer Bar";
+    }
+    return self;
+}
 
 - (Beverage *)createBeverage:(NSString *)beverageType
 {

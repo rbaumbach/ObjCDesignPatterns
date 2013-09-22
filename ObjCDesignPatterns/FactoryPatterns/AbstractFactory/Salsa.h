@@ -1,6 +1,7 @@
-#import <Foundation/Foundation.h>
 
 
 @interface Salsa : NSObject
+
+@property (strong, nonatomic) NSString *name;
 
 @end

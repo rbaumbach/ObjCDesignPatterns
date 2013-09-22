@@ -5,19 +5,22 @@
 SPEC_BEGIN(TomateSpec)
 
 describe(@"Tomate", ^{
-    __block Tomate *vedura;
+    __block Tomate *tomate;
     
     beforeEach(^{
-        vedura = [[Tomate alloc] init];
+        tomate = [[Tomate alloc] init];
     });
     
     it(@"is a subclass of vedura", ^{
-        [[vedura should] beKindOfClass:[Tomate class]];
-        
+        [[tomate should] beKindOfClass:[Tomate class]];
     });
     
     it(@"is not nil", ^{
-        [vedura shouldNotBeNil];
+        [tomate shouldNotBeNil];
+    });
+    
+    it(@"is called 'Tomate'", ^{
+        tomate.name = @"Tomate";
     });
 });
 

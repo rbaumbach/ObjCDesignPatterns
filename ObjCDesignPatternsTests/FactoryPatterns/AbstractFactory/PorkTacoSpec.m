@@ -9,13 +9,6 @@
 
 @interface PorkTaco ()
 
-@property (strong, nonatomic) Tortilla *tortilla;
-@property (strong, nonatomic) Pork *pork;
-@property (strong, nonatomic) Queso *queso;
-@property (strong, nonatomic) Salsa *salsa;
-@property (strong, nonatomic) NSArray *veduras;
-@property (strong, nonatomic) NSArray *extras;
-
 @property (strong, nonatomic) id<TacoContentsFactory> tacoContentsFactory;
 
 - (void)prepare;
@@ -36,6 +29,10 @@ describe(@"PorkTaco", ^{
     
     it(@"is a subclass of taco", ^{
         [[taco should] beKindOfClass:[Taco class]];
+    });
+    
+    it(@"is called 'Pork Taco'", ^{
+        [[taco.name should] equal:@"Pork Taco"];
     });
     
     it(@"has TacoContentsFactory", ^{

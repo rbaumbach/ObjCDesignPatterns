@@ -17,6 +17,7 @@
 {
     self = [super init];
     if (self) {
+        self.name = @"Street Taco Store";
         self.tacoContentsFactory = [[StreetTacoContentsFactory alloc] init];
     }
     return self;
