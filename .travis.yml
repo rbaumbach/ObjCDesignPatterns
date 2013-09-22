@@ -1,2 +1,1 @@
 language: objective-c
-script: xctool -workspace ObjCDesignPatterns.xcworkspace -scheme ObjCDesignPatterns -configuration Release -sdk iphonesimulator -arch i386 build
