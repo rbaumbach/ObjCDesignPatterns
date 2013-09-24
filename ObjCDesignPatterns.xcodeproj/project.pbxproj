@@ -96,6 +96,9 @@
 		AF0C4DD617E5F8310038AF36 /* Guacamole.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DD017E5F8310038AF36 /* Guacamole.m */; };
 		AF0C4DDD17E5F9F30038AF36 /* PorkTaco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DDC17E5F9F30038AF36 /* PorkTaco.m */; };
 		AF0C4DDE17E5F9F30038AF36 /* PorkTaco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DDC17E5F9F30038AF36 /* PorkTaco.m */; };
+		AF14606E17EFD4ED002B5A20 /* FancyLookupTableSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF14606D17EFD4ED002B5A20 /* FancyLookupTableSpec.m */; };
+		AF14607217EFD75F002B5A20 /* FancyLookupTable.m in Sources */ = {isa = PBXBuildFile; fileRef = AF14607117EFD75F002B5A20 /* FancyLookupTable.m */; };
+		AF14607317EFD75F002B5A20 /* FancyLookupTable.m in Sources */ = {isa = PBXBuildFile; fileRef = AF14607117EFD75F002B5A20 /* FancyLookupTable.m */; };
 		AF1A10B517E93BC300EA60F2 /* FactoryPatternsViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1A10B417E93BC300EA60F2 /* FactoryPatternsViewControllerSpec.m */; };
 		AF1A10B917E93C0500EA60F2 /* FactoryPatternsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1A10B717E93C0500EA60F2 /* FactoryPatternsViewController.m */; };
 		AF1A10BA17E93C0500EA60F2 /* FactoryPatternsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1A10B717E93C0500EA60F2 /* FactoryPatternsViewController.m */; };
@@ -268,6 +271,9 @@
 		AF0C4DD017E5F8310038AF36 /* Guacamole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Guacamole.m; path = FactoryPatterns/AbstractFactory/Guacamole.m; sourceTree = "<group>"; };
 		AF0C4DDB17E5F9F30038AF36 /* PorkTaco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PorkTaco.h; path = FactoryPatterns/AbstractFactory/PorkTaco.h; sourceTree = "<group>"; };
 		AF0C4DDC17E5F9F30038AF36 /* PorkTaco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PorkTaco.m; path = FactoryPatterns/AbstractFactory/PorkTaco.m; sourceTree = "<group>"; };
+		AF14606D17EFD4ED002B5A20 /* FancyLookupTableSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FancyLookupTableSpec.m; path = SingletonPattern/FancyLookupTableSpec.m; sourceTree = "<group>"; };
+		AF14607017EFD75F002B5A20 /* FancyLookupTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FancyLookupTable.h; sourceTree = "<group>"; };
+		AF14607117EFD75F002B5A20 /* FancyLookupTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FancyLookupTable.m; sourceTree = "<group>"; };
 		AF1A10B417E93BC300EA60F2 /* FactoryPatternsViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryPatternsViewControllerSpec.m; sourceTree = "<group>"; };
 		AF1A10B617E93C0500EA60F2 /* FactoryPatternsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryPatternsViewController.h; sourceTree = "<group>"; };
 		AF1A10B717E93C0500EA60F2 /* FactoryPatternsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryPatternsViewController.m; sourceTree = "<group>"; };
@@ -411,6 +417,23 @@
 				AF0C4D6317E5F67D0038AF36 /* TacoStore.m */,
 			);
 			name = "Taco Stores";
+			sourceTree = "<group>";
+		};
+		AF14606B17EFD43D002B5A20 /* Singleton Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				AF14606D17EFD4ED002B5A20 /* FancyLookupTableSpec.m */,
+			);
+			name = "Singleton Pattern";
+			sourceTree = "<group>";
+		};
+		AF14606F17EFD742002B5A20 /* Singleton Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				AF14607017EFD75F002B5A20 /* FancyLookupTable.h */,
+				AF14607117EFD75F002B5A20 /* FancyLookupTable.m */,
+			);
+			name = "Singleton Pattern";
 			sourceTree = "<group>";
 		};
 		AF56ECFF17D964C80020F9C4 /* Factory Patterns */ = {
@@ -581,6 +604,7 @@
 		AFA9246317D53C600005E39B /* ObjCDesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				AF14606F17EFD742002B5A20 /* Singleton Pattern */,
 				AFCA101617D5531600ADF1C8 /* Factory Patterns */,
 				AFCA100F17D5430F00ADF1C8 /* App */,
 				AFA9246417D53C600005E39B /* Supporting Files */,
@@ -605,6 +629,7 @@
 		AFA9248717D53C610005E39B /* ObjCDesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
+				AF14606B17EFD43D002B5A20 /* Singleton Pattern */,
 				AFADEB0B17E61ACE0080708D /* App */,
 				AF56ECFF17D964C80020F9C4 /* Factory Patterns */,
 				AFA9248817D53C610005E39B /* Supporting Files */,
@@ -1027,6 +1052,7 @@
 				AF0C4D8D17E5F7400038AF36 /* Asada.m in Sources */,
 				AF0C4D8F17E5F7400038AF36 /* Beef.m in Sources */,
 				AF0C4D9117E5F7400038AF36 /* Molida.m in Sources */,
+				AF14607217EFD75F002B5A20 /* FancyLookupTable.m in Sources */,
 				AF0C4D9917E5F7620038AF36 /* Carnitas.m in Sources */,
 				AF0C4D9B17E5F7620038AF36 /* ChileVerde.m in Sources */,
 				AF0C4D9D17E5F7620038AF36 /* Pork.m in Sources */,
@@ -1104,6 +1130,7 @@
 				AFADEABE17E612D20080708D /* AleSpec.m in Sources */,
 				AFADEABF17E612D20080708D /* BeverageSpec.m in Sources */,
 				AFADEAC017E612D20080708D /* CabernetSauvignonSpec.m in Sources */,
+				AF14606E17EFD4ED002B5A20 /* FancyLookupTableSpec.m in Sources */,
 				AFADEAC117E612D20080708D /* ChardonnaySpec.m in Sources */,
 				AFADEAC217E612D20080708D /* JagerBomb.m in Sources */,
 				AFADEAC317E612D20080708D /* LagerSpec.m in Sources */,
@@ -1118,6 +1145,7 @@
 				AFADEAD317E613430080708D /* CrunchyTacoStoreSpec.m in Sources */,
 				AFADEAD417E613430080708D /* StreetTacoStoreSpec.m in Sources */,
 				AFADEAD517E613430080708D /* TacoStoreSpec.m in Sources */,
+				AF14607317EFD75F002B5A20 /* FancyLookupTable.m in Sources */,
 				AFADEAD917E613700080708D /* BeefTacoSpec.m in Sources */,
 				AFADEADA17E613700080708D /* PorkTacoSpec.m in Sources */,
 				AFADEADB17E613700080708D /* TacoSpec.m in Sources */,
