@@ -97,16 +97,18 @@
 		AF0C4DDD17E5F9F30038AF36 /* PorkTaco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DDC17E5F9F30038AF36 /* PorkTaco.m */; };
 		AF0C4DDE17E5F9F30038AF36 /* PorkTaco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DDC17E5F9F30038AF36 /* PorkTaco.m */; };
 		AF14606E17EFD4ED002B5A20 /* FancyLookupTableSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF14606D17EFD4ED002B5A20 /* FancyLookupTableSpec.m */; };
-		AF14607217EFD75F002B5A20 /* FancyLookupTable.m in Sources */ = {isa = PBXBuildFile; fileRef = AF14607117EFD75F002B5A20 /* FancyLookupTable.m */; };
-		AF14607317EFD75F002B5A20 /* FancyLookupTable.m in Sources */ = {isa = PBXBuildFile; fileRef = AF14607117EFD75F002B5A20 /* FancyLookupTable.m */; };
 		AF1A10B517E93BC300EA60F2 /* FactoryPatternsViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1A10B417E93BC300EA60F2 /* FactoryPatternsViewControllerSpec.m */; };
 		AF1A10B917E93C0500EA60F2 /* FactoryPatternsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1A10B717E93C0500EA60F2 /* FactoryPatternsViewController.m */; };
 		AF1A10BA17E93C0500EA60F2 /* FactoryPatternsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1A10B717E93C0500EA60F2 /* FactoryPatternsViewController.m */; };
 		AF1A10BB17E93C0500EA60F2 /* FactoryPatternsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF1A10B817E93C0500EA60F2 /* FactoryPatternsViewController.xib */; };
 		AF1A10BC17E93C0500EA60F2 /* FactoryPatternsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF1A10B817E93C0500EA60F2 /* FactoryPatternsViewController.xib */; };
 		AF57AB8017ECD5AB00C9E153 /* NSLogWrapperSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF57AB7F17ECD5AB00C9E153 /* NSLogWrapperSpec.m */; };
-		AF57AB8317ECD75A00C9E153 /* NSLogWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF57AB8217ECD75A00C9E153 /* NSLogWrapper.m */; };
-		AF57AB8417ECD75A00C9E153 /* NSLogWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF57AB8217ECD75A00C9E153 /* NSLogWrapper.m */; };
+		AF65186317F37AF20001ECD5 /* FancyLookupTable.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186217F37AF20001ECD5 /* FancyLookupTable.m */; };
+		AF65186417F37AF20001ECD5 /* FancyLookupTable.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186217F37AF20001ECD5 /* FancyLookupTable.m */; };
+		AF65186A17F37B2C0001ECD5 /* AppWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186717F37B2C0001ECD5 /* AppWindow.m */; };
+		AF65186B17F37B2C0001ECD5 /* AppWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186717F37B2C0001ECD5 /* AppWindow.m */; };
+		AF65186C17F37B2C0001ECD5 /* NSLogWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186917F37B2C0001ECD5 /* NSLogWrapper.m */; };
+		AF65186D17F37B2C0001ECD5 /* NSLogWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186917F37B2C0001ECD5 /* NSLogWrapper.m */; };
 		AFA9245E17D53C600005E39B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9245D17D53C600005E39B /* UIKit.framework */; };
 		AFA9246017D53C600005E39B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9245F17D53C600005E39B /* Foundation.framework */; };
 		AFA9246217D53C600005E39B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9246117D53C600005E39B /* CoreGraphics.framework */; };
@@ -164,8 +166,6 @@
 		AFADEB0917E614D20080708D /* ExtraSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB0617E614D20080708D /* ExtraSpec.m */; };
 		AFADEB0A17E614D20080708D /* GuacamoleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB0717E614D20080708D /* GuacamoleSpec.m */; };
 		AFADEB0E17E61AE00080708D /* AppWindowSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB0D17E61AE00080708D /* AppWindowSpec.m */; };
-		AFADEB1117E74D9B0080708D /* AppWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB1017E74D9B0080708D /* AppWindow.m */; };
-		AFADEB1217E74D9B0080708D /* AppWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB1017E74D9B0080708D /* AppWindow.m */; };
 		AFADEB1517E8A0E70080708D /* AppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB1417E8A0E70080708D /* AppDelegateSpec.m */; };
 /* End PBXBuildFile section */
 
@@ -272,15 +272,17 @@
 		AF0C4DDB17E5F9F30038AF36 /* PorkTaco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PorkTaco.h; path = FactoryPatterns/AbstractFactory/PorkTaco.h; sourceTree = "<group>"; };
 		AF0C4DDC17E5F9F30038AF36 /* PorkTaco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PorkTaco.m; path = FactoryPatterns/AbstractFactory/PorkTaco.m; sourceTree = "<group>"; };
 		AF14606D17EFD4ED002B5A20 /* FancyLookupTableSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FancyLookupTableSpec.m; path = SingletonPattern/FancyLookupTableSpec.m; sourceTree = "<group>"; };
-		AF14607017EFD75F002B5A20 /* FancyLookupTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FancyLookupTable.h; sourceTree = "<group>"; };
-		AF14607117EFD75F002B5A20 /* FancyLookupTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FancyLookupTable.m; sourceTree = "<group>"; };
 		AF1A10B417E93BC300EA60F2 /* FactoryPatternsViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryPatternsViewControllerSpec.m; sourceTree = "<group>"; };
 		AF1A10B617E93C0500EA60F2 /* FactoryPatternsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryPatternsViewController.h; sourceTree = "<group>"; };
 		AF1A10B717E93C0500EA60F2 /* FactoryPatternsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryPatternsViewController.m; sourceTree = "<group>"; };
 		AF1A10B817E93C0500EA60F2 /* FactoryPatternsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FactoryPatternsViewController.xib; sourceTree = "<group>"; };
 		AF57AB7F17ECD5AB00C9E153 /* NSLogWrapperSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLogWrapperSpec.m; sourceTree = "<group>"; };
-		AF57AB8117ECD75A00C9E153 /* NSLogWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLogWrapper.h; sourceTree = "<group>"; };
-		AF57AB8217ECD75A00C9E153 /* NSLogWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLogWrapper.m; sourceTree = "<group>"; };
+		AF65186117F37AF20001ECD5 /* FancyLookupTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FancyLookupTable.h; path = SingletonPattern/FancyLookupTable.h; sourceTree = "<group>"; };
+		AF65186217F37AF20001ECD5 /* FancyLookupTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FancyLookupTable.m; path = SingletonPattern/FancyLookupTable.m; sourceTree = "<group>"; };
+		AF65186617F37B2C0001ECD5 /* AppWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppWindow.h; path = Utilities/AppWindow.h; sourceTree = "<group>"; };
+		AF65186717F37B2C0001ECD5 /* AppWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppWindow.m; path = Utilities/AppWindow.m; sourceTree = "<group>"; };
+		AF65186817F37B2C0001ECD5 /* NSLogWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSLogWrapper.h; path = Utilities/NSLogWrapper.h; sourceTree = "<group>"; };
+		AF65186917F37B2C0001ECD5 /* NSLogWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSLogWrapper.m; path = Utilities/NSLogWrapper.m; sourceTree = "<group>"; };
 		AFA9245A17D53C600005E39B /* ObjCDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA9245D17D53C600005E39B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AFA9245F17D53C600005E39B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -343,8 +345,6 @@
 		AFADEB0617E614D20080708D /* ExtraSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExtraSpec.m; path = FactoryPatterns/AbstractFactory/ExtraSpec.m; sourceTree = "<group>"; };
 		AFADEB0717E614D20080708D /* GuacamoleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GuacamoleSpec.m; path = FactoryPatterns/AbstractFactory/GuacamoleSpec.m; sourceTree = "<group>"; };
 		AFADEB0D17E61AE00080708D /* AppWindowSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppWindowSpec.m; sourceTree = "<group>"; };
-		AFADEB0F17E74D9B0080708D /* AppWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppWindow.h; sourceTree = "<group>"; };
-		AFADEB1017E74D9B0080708D /* AppWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppWindow.m; sourceTree = "<group>"; };
 		AFADEB1417E8A0E70080708D /* AppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -430,8 +430,8 @@
 		AF14606F17EFD742002B5A20 /* Singleton Pattern */ = {
 			isa = PBXGroup;
 			children = (
-				AF14607017EFD75F002B5A20 /* FancyLookupTable.h */,
-				AF14607117EFD75F002B5A20 /* FancyLookupTable.m */,
+				AF65186117F37AF20001ECD5 /* FancyLookupTable.h */,
+				AF65186217F37AF20001ECD5 /* FancyLookupTable.m */,
 			);
 			name = "Singleton Pattern";
 			sourceTree = "<group>";
@@ -466,6 +466,17 @@
 				AF0C4D8C17E5F7400038AF36 /* Molida.m */,
 			);
 			name = Beef;
+			sourceTree = "<group>";
+		};
+		AF65186517F37AFC0001ECD5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AF65186617F37B2C0001ECD5 /* AppWindow.h */,
+				AF65186717F37B2C0001ECD5 /* AppWindow.m */,
+				AF65186817F37B2C0001ECD5 /* NSLogWrapper.h */,
+				AF65186917F37B2C0001ECD5 /* NSLogWrapper.m */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 		AF70E96817D8CE81001E7911 /* Beverages */ = {
@@ -607,6 +618,7 @@
 				AF14606F17EFD742002B5A20 /* Singleton Pattern */,
 				AFCA101617D5531600ADF1C8 /* Factory Patterns */,
 				AFCA100F17D5430F00ADF1C8 /* App */,
+				AF65186517F37AFC0001ECD5 /* Utilities */,
 				AFA9246417D53C600005E39B /* Supporting Files */,
 			);
 			path = ObjCDesignPatterns;
@@ -662,10 +674,6 @@
 			children = (
 				AFA9246C17D53C600005E39B /* AppDelegate.h */,
 				AFA9246D17D53C600005E39B /* AppDelegate.m */,
-				AFADEB0F17E74D9B0080708D /* AppWindow.h */,
-				AFADEB1017E74D9B0080708D /* AppWindow.m */,
-				AF57AB8117ECD75A00C9E153 /* NSLogWrapper.h */,
-				AF57AB8217ECD75A00C9E153 /* NSLogWrapper.m */,
 				AF1A10B617E93C0500EA60F2 /* FactoryPatternsViewController.h */,
 				AF1A10B717E93C0500EA60F2 /* FactoryPatternsViewController.m */,
 				AF1A10B817E93C0500EA60F2 /* FactoryPatternsViewController.xib */,
@@ -1030,6 +1038,7 @@
 				AF0C4D3C17E5F5FD0038AF36 /* Ale.m in Sources */,
 				AF0C4D3E17E5F5FD0038AF36 /* CabernetSauvignon.m in Sources */,
 				AF0C4D4017E5F5FD0038AF36 /* Chardonnay.m in Sources */,
+				AF65186A17F37B2C0001ECD5 /* AppWindow.m in Sources */,
 				AF0C4D4217E5F5FD0038AF36 /* JagerBomb.m in Sources */,
 				AF0C4D4417E5F5FD0038AF36 /* Lager.m in Sources */,
 				AF0C4D4617E5F5FD0038AF36 /* Merlot.m in Sources */,
@@ -1052,7 +1061,8 @@
 				AF0C4D8D17E5F7400038AF36 /* Asada.m in Sources */,
 				AF0C4D8F17E5F7400038AF36 /* Beef.m in Sources */,
 				AF0C4D9117E5F7400038AF36 /* Molida.m in Sources */,
-				AF14607217EFD75F002B5A20 /* FancyLookupTable.m in Sources */,
+				AF65186C17F37B2C0001ECD5 /* NSLogWrapper.m in Sources */,
+				AF65186317F37AF20001ECD5 /* FancyLookupTable.m in Sources */,
 				AF0C4D9917E5F7620038AF36 /* Carnitas.m in Sources */,
 				AF0C4D9B17E5F7620038AF36 /* ChileVerde.m in Sources */,
 				AF0C4D9D17E5F7620038AF36 /* Pork.m in Sources */,
@@ -1066,13 +1076,11 @@
 				AF0C4DC317E5F80E0038AF36 /* Cilantro.m in Sources */,
 				AF0C4DC517E5F80E0038AF36 /* Lechuga.m in Sources */,
 				AF0C4DC717E5F80E0038AF36 /* Tomate.m in Sources */,
-				AF57AB8317ECD75A00C9E153 /* NSLogWrapper.m in Sources */,
 				AF0C4DC917E5F80E0038AF36 /* Vedura.m in Sources */,
 				AF0C4DD117E5F8310038AF36 /* Crema.m in Sources */,
 				AF0C4DD317E5F8310038AF36 /* Extra.m in Sources */,
 				AF0C4DD517E5F8310038AF36 /* Guacamole.m in Sources */,
 				AF0C4DDD17E5F9F30038AF36 /* PorkTaco.m in Sources */,
-				AFADEB1117E74D9B0080708D /* AppWindow.m in Sources */,
 				AF1A10B917E93C0500EA60F2 /* FactoryPatternsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1122,12 +1130,13 @@
 				AF0C4DC617E5F80E0038AF36 /* Lechuga.m in Sources */,
 				AF0C4DC817E5F80E0038AF36 /* Tomate.m in Sources */,
 				AF0C4DCA17E5F80E0038AF36 /* Vedura.m in Sources */,
+				AF65186D17F37B2C0001ECD5 /* NSLogWrapper.m in Sources */,
 				AF0C4DD217E5F8310038AF36 /* Crema.m in Sources */,
 				AF0C4DD417E5F8310038AF36 /* Extra.m in Sources */,
 				AF0C4DD617E5F8310038AF36 /* Guacamole.m in Sources */,
 				AF0C4DDE17E5F9F30038AF36 /* PorkTaco.m in Sources */,
-				AF57AB8417ECD75A00C9E153 /* NSLogWrapper.m in Sources */,
 				AFADEABE17E612D20080708D /* AleSpec.m in Sources */,
+				AF65186B17F37B2C0001ECD5 /* AppWindow.m in Sources */,
 				AFADEABF17E612D20080708D /* BeverageSpec.m in Sources */,
 				AFADEAC017E612D20080708D /* CabernetSauvignonSpec.m in Sources */,
 				AF14606E17EFD4ED002B5A20 /* FancyLookupTableSpec.m in Sources */,
@@ -1145,7 +1154,7 @@
 				AFADEAD317E613430080708D /* CrunchyTacoStoreSpec.m in Sources */,
 				AFADEAD417E613430080708D /* StreetTacoStoreSpec.m in Sources */,
 				AFADEAD517E613430080708D /* TacoStoreSpec.m in Sources */,
-				AF14607317EFD75F002B5A20 /* FancyLookupTable.m in Sources */,
+				AF65186417F37AF20001ECD5 /* FancyLookupTable.m in Sources */,
 				AFADEAD917E613700080708D /* BeefTacoSpec.m in Sources */,
 				AFADEADA17E613700080708D /* PorkTacoSpec.m in Sources */,
 				AFADEADB17E613700080708D /* TacoSpec.m in Sources */,
@@ -1173,7 +1182,6 @@
 				AFADEB0917E614D20080708D /* ExtraSpec.m in Sources */,
 				AFADEB0A17E614D20080708D /* GuacamoleSpec.m in Sources */,
 				AFADEB0E17E61AE00080708D /* AppWindowSpec.m in Sources */,
-				AFADEB1217E74D9B0080708D /* AppWindow.m in Sources */,
 				AFADEB1517E8A0E70080708D /* AppDelegateSpec.m in Sources */,
 				AF1A10B517E93BC300EA60F2 /* FactoryPatternsViewControllerSpec.m in Sources */,
 				AF1A10BA17E93C0500EA60F2 /* FactoryPatternsViewController.m in Sources */,
