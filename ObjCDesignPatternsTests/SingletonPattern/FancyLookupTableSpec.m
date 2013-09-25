@@ -4,7 +4,10 @@
 
 @interface FancyLookupTable ()
 
+@property (strong, nonatomic) NSMutableDictionary *lookupTable;
+
 - (id)initSingleton;
+- (void)setupLookupTable;
 
 @end
 
@@ -21,13 +24,6 @@ describe(@"FancyLookupTable", ^{
         });
     });
     
-    context(@"#initSingleton", ^{
-        it(@"initalizes singleton", ^{
-            id singleton = [[FancyLookupTable alloc] initSingleton];
-            [[singleton should] beKindOfClass:[FancyLookupTable class]];
-        });
-    });
-    
     context(@"#sharedInstance", ^{
         __block FancyLookupTable *fancyLookupTable;
         
@@ -38,7 +34,17 @@ describe(@"FancyLookupTable", ^{
         context(@"instance does not exist", ^{
             it(@"creates an instance", ^{
                 [[fancyLookupTable should] beKindOfClass:[FancyLookupTable class]];
-            });;
+            });
+            
+            it(@"adds default fancy items to FancyLookupTable", ^{
+                NSDictionary *lookupDict = @{ @"fancyDish"   : @"platinum dish",
+                                              @"fancyKnife"  : @"platinum knife",
+                                              @"fancyFork"   : @"platinum fork",
+                                              @"fancySpoon"  : @"platinum spoon",
+                                              @"fancyGoblet" : @"platinum goblet" };
+                
+                [[fancyLookupTable.lookupTable should] equal:lookupDict];
+            });
         });
         
         context(@"instance already exists", ^{
@@ -52,6 +58,40 @@ describe(@"FancyLookupTable", ^{
             it(@"returns previously created instance", ^{
                 [[previousInstance should] equal:fancyLookupTable];
             });
+        });
+    });
+    
+    context(@"#getFancyItem", ^{
+        __block FancyLookupTable *singleton;
+        __block NSString *fancyItem;
+        
+        beforeEach(^{
+            singleton = [FancyLookupTable sharedInstance];
+        });
+        
+        it(@"gets a fancy item from the fancy lookup table", ^{
+            [[singleton.lookupTable should] receive:@selector(objectForKey:) withArguments:@"fancyGoblet"];
+            fancyItem = [singleton getFancyItem:@"fancyGoblet"];
+        });
+    });
+    
+    context(@"#addFancyItem", ^{
+        __block FancyLookupTable *singleton;
+        
+        beforeEach(^{
+            singleton = [FancyLookupTable sharedInstance];
+        });
+        
+        it(@"gets a fancy item from the fancy lookup table", ^{
+            [[singleton.lookupTable should] receive:@selector(setObject:forKey:) withArguments:@"golden dog", @"fancyDog"];
+            [singleton addFancyItem:@"golden dog" withKey:@"fancyDog"];
+        });
+    });
+    
+    context(@"#initSingleton", ^{
+        it(@"initalizes singleton", ^{
+            id singleton = [[FancyLookupTable alloc] initSingleton];
+            [[singleton should] beKindOfClass:[FancyLookupTable class]];
         });
     });
 });
