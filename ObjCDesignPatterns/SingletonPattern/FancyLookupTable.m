@@ -1,6 +1,5 @@
 #import "FancyLookupTable.h"
 
-
 @interface FancyLookupTable ()
 
 @property (strong, nonatomic) NSMutableDictionary *lookupTable;
@@ -21,12 +20,13 @@
 
 + (id)sharedInstance
 {
+    static dispatch_once_t once;
     static FancyLookupTable *instance;
-    
-    if (!instance) {
+
+    dispatch_once(&once, ^{
         instance = [[FancyLookupTable alloc] initSingleton];
         [instance setupLookupTable];
-    }
+    });
     
     return instance;
 }

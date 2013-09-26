@@ -102,7 +102,8 @@
 		AF1A10BA17E93C0500EA60F2 /* FactoryPatternsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1A10B717E93C0500EA60F2 /* FactoryPatternsViewController.m */; };
 		AF1A10BB17E93C0500EA60F2 /* FactoryPatternsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF1A10B817E93C0500EA60F2 /* FactoryPatternsViewController.xib */; };
 		AF1A10BC17E93C0500EA60F2 /* FactoryPatternsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF1A10B817E93C0500EA60F2 /* FactoryPatternsViewController.xib */; };
-		AF57AB8017ECD5AB00C9E153 /* NSLogWrapperSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF57AB7F17ECD5AB00C9E153 /* NSLogWrapperSpec.m */; };
+		AF4FCAD117F3DB1200EF0A47 /* AppWindowSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4FCACF17F3DB1200EF0A47 /* AppWindowSpec.m */; };
+		AF4FCAD217F3DB1200EF0A47 /* NSLogWrapperSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4FCAD017F3DB1200EF0A47 /* NSLogWrapperSpec.m */; };
 		AF65186317F37AF20001ECD5 /* FancyLookupTable.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186217F37AF20001ECD5 /* FancyLookupTable.m */; };
 		AF65186417F37AF20001ECD5 /* FancyLookupTable.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186217F37AF20001ECD5 /* FancyLookupTable.m */; };
 		AF65186A17F37B2C0001ECD5 /* AppWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186717F37B2C0001ECD5 /* AppWindow.m */; };
@@ -165,7 +166,6 @@
 		AFADEB0817E614D20080708D /* CremaSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB0517E614D20080708D /* CremaSpec.m */; };
 		AFADEB0917E614D20080708D /* ExtraSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB0617E614D20080708D /* ExtraSpec.m */; };
 		AFADEB0A17E614D20080708D /* GuacamoleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB0717E614D20080708D /* GuacamoleSpec.m */; };
-		AFADEB0E17E61AE00080708D /* AppWindowSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB0D17E61AE00080708D /* AppWindowSpec.m */; };
 		AFADEB1517E8A0E70080708D /* AppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB1417E8A0E70080708D /* AppDelegateSpec.m */; };
 /* End PBXBuildFile section */
 
@@ -276,7 +276,8 @@
 		AF1A10B617E93C0500EA60F2 /* FactoryPatternsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryPatternsViewController.h; sourceTree = "<group>"; };
 		AF1A10B717E93C0500EA60F2 /* FactoryPatternsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryPatternsViewController.m; sourceTree = "<group>"; };
 		AF1A10B817E93C0500EA60F2 /* FactoryPatternsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FactoryPatternsViewController.xib; sourceTree = "<group>"; };
-		AF57AB7F17ECD5AB00C9E153 /* NSLogWrapperSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLogWrapperSpec.m; sourceTree = "<group>"; };
+		AF4FCACF17F3DB1200EF0A47 /* AppWindowSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppWindowSpec.m; path = Utilities/AppWindowSpec.m; sourceTree = "<group>"; };
+		AF4FCAD017F3DB1200EF0A47 /* NSLogWrapperSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSLogWrapperSpec.m; path = Utilities/NSLogWrapperSpec.m; sourceTree = "<group>"; };
 		AF65186117F37AF20001ECD5 /* FancyLookupTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FancyLookupTable.h; path = SingletonPattern/FancyLookupTable.h; sourceTree = "<group>"; };
 		AF65186217F37AF20001ECD5 /* FancyLookupTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FancyLookupTable.m; path = SingletonPattern/FancyLookupTable.m; sourceTree = "<group>"; };
 		AF65186617F37B2C0001ECD5 /* AppWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppWindow.h; path = Utilities/AppWindow.h; sourceTree = "<group>"; };
@@ -344,7 +345,6 @@
 		AFADEB0517E614D20080708D /* CremaSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CremaSpec.m; path = FactoryPatterns/AbstractFactory/CremaSpec.m; sourceTree = "<group>"; };
 		AFADEB0617E614D20080708D /* ExtraSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExtraSpec.m; path = FactoryPatterns/AbstractFactory/ExtraSpec.m; sourceTree = "<group>"; };
 		AFADEB0717E614D20080708D /* GuacamoleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GuacamoleSpec.m; path = FactoryPatterns/AbstractFactory/GuacamoleSpec.m; sourceTree = "<group>"; };
-		AFADEB0D17E61AE00080708D /* AppWindowSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppWindowSpec.m; sourceTree = "<group>"; };
 		AFADEB1417E8A0E70080708D /* AppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -475,6 +475,15 @@
 				AF65186717F37B2C0001ECD5 /* AppWindow.m */,
 				AF65186817F37B2C0001ECD5 /* NSLogWrapper.h */,
 				AF65186917F37B2C0001ECD5 /* NSLogWrapper.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		AF65186E17F3BF380001ECD5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AF4FCACF17F3DB1200EF0A47 /* AppWindowSpec.m */,
+				AF4FCAD017F3DB1200EF0A47 /* NSLogWrapperSpec.m */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -615,8 +624,8 @@
 		AFA9246317D53C600005E39B /* ObjCDesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
-				AF14606F17EFD742002B5A20 /* Singleton Pattern */,
 				AFCA101617D5531600ADF1C8 /* Factory Patterns */,
+				AF14606F17EFD742002B5A20 /* Singleton Pattern */,
 				AFCA100F17D5430F00ADF1C8 /* App */,
 				AF65186517F37AFC0001ECD5 /* Utilities */,
 				AFA9246417D53C600005E39B /* Supporting Files */,
@@ -641,9 +650,10 @@
 		AFA9248717D53C610005E39B /* ObjCDesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
+				AF56ECFF17D964C80020F9C4 /* Factory Patterns */,
 				AF14606B17EFD43D002B5A20 /* Singleton Pattern */,
 				AFADEB0B17E61ACE0080708D /* App */,
-				AF56ECFF17D964C80020F9C4 /* Factory Patterns */,
+				AF65186E17F3BF380001ECD5 /* Utilities */,
 				AFA9248817D53C610005E39B /* Supporting Files */,
 			);
 			path = ObjCDesignPatternsTests;
@@ -662,8 +672,6 @@
 			isa = PBXGroup;
 			children = (
 				AFADEB1417E8A0E70080708D /* AppDelegateSpec.m */,
-				AFADEB0D17E61AE00080708D /* AppWindowSpec.m */,
-				AF57AB7F17ECD5AB00C9E153 /* NSLogWrapperSpec.m */,
 				AF1A10B417E93BC300EA60F2 /* FactoryPatternsViewControllerSpec.m */,
 			);
 			name = App;
@@ -1101,9 +1109,9 @@
 				AF0C4D4D17E5F5FD0038AF36 /* WhiskeySour.m in Sources */,
 				AF0C4D5717E5F6400038AF36 /* Bar.m in Sources */,
 				AF0C4D5917E5F6400038AF36 /* BeerBar.m in Sources */,
+				AF4FCAD117F3DB1200EF0A47 /* AppWindowSpec.m in Sources */,
 				AF0C4D5B17E5F6400038AF36 /* MixedDrinksBar.m in Sources */,
 				AF0C4D5D17E5F6400038AF36 /* WineBar.m in Sources */,
-				AF57AB8017ECD5AB00C9E153 /* NSLogWrapperSpec.m in Sources */,
 				AF0C4D6517E5F67D0038AF36 /* CrunchyTacoStore.m in Sources */,
 				AF0C4D6717E5F67D0038AF36 /* StreetTacoStore.m in Sources */,
 				AF0C4D6917E5F67D0038AF36 /* TacoStore.m in Sources */,
@@ -1181,7 +1189,7 @@
 				AFADEB0817E614D20080708D /* CremaSpec.m in Sources */,
 				AFADEB0917E614D20080708D /* ExtraSpec.m in Sources */,
 				AFADEB0A17E614D20080708D /* GuacamoleSpec.m in Sources */,
-				AFADEB0E17E61AE00080708D /* AppWindowSpec.m in Sources */,
+				AF4FCAD217F3DB1200EF0A47 /* NSLogWrapperSpec.m in Sources */,
 				AFADEB1517E8A0E70080708D /* AppDelegateSpec.m in Sources */,
 				AF1A10B517E93BC300EA60F2 /* FactoryPatternsViewControllerSpec.m in Sources */,
 				AF1A10BA17E93C0500EA60F2 /* FactoryPatternsViewController.m in Sources */,
