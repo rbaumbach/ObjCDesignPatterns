@@ -1,5 +1,6 @@
 #import "FancyLookupTable.h"
 
+
 @interface FancyLookupTable ()
 
 @property (strong, nonatomic) NSMutableDictionary *lookupTable;
@@ -15,6 +16,13 @@
 {
     [NSException raise:@"FancyLookupTable"
                 format:@"Cannot instantiate singleton using init method, sharedInstance must be used"];
+    return nil;
+}
+
+- (id)copyWithZone:(NSZone *)zone
+{
+    [NSException raise:@"FancyLookupTable"
+                format:@"Cannot copy singleton using copy method, sharedInstance must be used"];
     return nil;
 }
 
