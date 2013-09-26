@@ -3,6 +3,8 @@
 
 @implementation Taco
 
+#pragma mark - Public Methods
+
 - (void)prepare
 {
     NSLog(@"Preparing taco...");

@@ -3,6 +3,8 @@
 
 @implementation TacoStore
 
+#pragma mark - Public Methods
+
 - (Taco *)orderTaco:(NSString *)tacoType
 {
     Taco *taco;
@@ -14,6 +16,8 @@
     
     return taco;
 }
+
+#pragma mark - Private Methods
 
 - (Taco *)createTaco:(NSString *)tacoType
 {

@@ -10,6 +10,8 @@
 
 @implementation BeefTaco
 
+#pragma mark - Public Methods
+
 - (id)initWithTacoContentsFactory:(id<TacoContentsFactory>)tacoContentsFactory
 {
     self = [super init];
@@ -19,6 +21,8 @@
     }
     return self;
 }
+
+#pragma mark - Taco Methods
 
 - (void)prepare
 {

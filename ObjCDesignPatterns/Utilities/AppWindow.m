@@ -11,12 +11,16 @@
 
 @implementation AppWindow
 
+#pragma mark - Public Methods
+
 - (void)initializeWithRootViewController:(UIViewController *)rootViewController
 {
     self.screenBounds = [self createMainScreenBounds];
     self.uiWindow = [self createUIWindowWithBounds];
     [self setupWindow:rootViewController];
 }
+
+#pragma mark - Private Methods
 
 - (CGRect)createMainScreenBounds
 {

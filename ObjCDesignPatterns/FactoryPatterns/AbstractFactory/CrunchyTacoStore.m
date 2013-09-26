@@ -12,6 +12,8 @@
 
 @implementation CrunchyTacoStore
 
+#pragma mark - Init Methods
+
 - (id)init
 {
     self = [super init];
@@ -21,6 +23,8 @@
     }
     return self;
 }
+
+#pragma mark - TacoStore Methods
 
 - (Taco *)createTaco:(NSString *)tacoType
 {

@@ -4,6 +4,8 @@
 
 @implementation Bar
 
+#pragma mark - Public Methods
+
 - (Beverage *)orderBeverage:(NSString *)beverageType
 {
     Beverage *beverage = [self createBeverage:beverageType];
@@ -13,6 +15,8 @@
     
     return beverage;
 }
+
+#pragma mark - Private Methods
 
 - (Beverage *)createBeverage:(NSString *)beverageType
 {

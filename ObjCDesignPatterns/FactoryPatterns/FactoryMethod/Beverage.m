@@ -11,6 +11,8 @@
 
 @implementation Beverage
 
+#pragma mark - Init Methods
+
 - (id)init
 {
     self = [super init];
@@ -19,6 +21,8 @@
     }
     return self;
 }
+
+#pragma mark - Public Methods
 
 - (void)prepare
 {

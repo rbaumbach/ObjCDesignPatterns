@@ -6,6 +6,8 @@
 
 @implementation WineBar
 
+#pragma mark - Init Methods
+
 - (id)init
 {
     self = [super init];
@@ -14,6 +16,8 @@
     }
     return self;
 }
+
+#pragma mark - Bar Methods
 
 - (Beverage *)createBeverage:(NSString *)beverageType
 {

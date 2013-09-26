@@ -3,6 +3,8 @@
 
 @implementation Guacamole
 
+#pragma mark - Init Methods
+
 - (id)init
 {
     self = [super init];

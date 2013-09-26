@@ -12,6 +12,8 @@
 
 @implementation StreetTacoContentsFactory
 
+#pragma mark - <TacoContentsFactory> Methods
+
 - (Tortilla *)createTortilla
 {
     return [[Maiz alloc] init];

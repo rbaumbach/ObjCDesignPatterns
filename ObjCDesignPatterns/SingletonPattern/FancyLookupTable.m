@@ -9,7 +9,7 @@
 
 @implementation FancyLookupTable
 
-#pragma mark - Public Methods
+#pragma mark - Init Methods
 
 - (id)init
 {
@@ -17,6 +17,8 @@
                 format:@"Cannot instantiate singleton using init method, sharedInstance must be used"];
     return nil;
 }
+
+#pragma mark - Public Methods
 
 + (id)sharedInstance
 {

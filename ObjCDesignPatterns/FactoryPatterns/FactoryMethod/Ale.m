@@ -10,6 +10,8 @@
 
 @implementation Ale
 
+#pragma mark - Init Methods
+
 - (id)init
 {
     self = [super init];
@@ -18,6 +20,8 @@
     }
     return self;
 }
+
+#pragma mark - Beverage Methods
 
 - (void)prepare
 {

@@ -36,12 +36,16 @@
     return self;
 }
 
+#pragma mark - View Lifecycle
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
     [self setupTextView];
 }
+
+#pragma mark - Private Methods
 
 - (void)setupTextView
 {
