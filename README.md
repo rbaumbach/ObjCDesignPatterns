@@ -5,6 +5,7 @@ Design pattern samples in Objective-C.
 ## Current Design Pattern Samples
 
 1.  Factory Patterns - Factory Method and Abstract Factory
+2.  Singleton Pattern
 
 *Many more patterns to follow in the near future.
 
