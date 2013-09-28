@@ -4,6 +4,7 @@
 #import "FactoryPatternsViewController.h"
 #import "SingletonPatternViewController.h"
 
+
 @interface AppDelegate ()
 
 @property (strong, nonatomic) AppWindow *appWindow;

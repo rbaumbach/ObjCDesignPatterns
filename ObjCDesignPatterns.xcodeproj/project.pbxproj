@@ -97,18 +97,8 @@
 		AF0C4DDD17E5F9F30038AF36 /* PorkTaco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DDC17E5F9F30038AF36 /* PorkTaco.m */; };
 		AF0C4DDE17E5F9F30038AF36 /* PorkTaco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DDC17E5F9F30038AF36 /* PorkTaco.m */; };
 		AF14606E17EFD4ED002B5A20 /* FancyLookupTableSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF14606D17EFD4ED002B5A20 /* FancyLookupTableSpec.m */; };
-		AF1A10B517E93BC300EA60F2 /* FactoryPatternsViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1A10B417E93BC300EA60F2 /* FactoryPatternsViewControllerSpec.m */; };
-		AF1A10B917E93C0500EA60F2 /* FactoryPatternsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1A10B717E93C0500EA60F2 /* FactoryPatternsViewController.m */; };
-		AF1A10BA17E93C0500EA60F2 /* FactoryPatternsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1A10B717E93C0500EA60F2 /* FactoryPatternsViewController.m */; };
-		AF1A10BB17E93C0500EA60F2 /* FactoryPatternsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF1A10B817E93C0500EA60F2 /* FactoryPatternsViewController.xib */; };
-		AF1A10BC17E93C0500EA60F2 /* FactoryPatternsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF1A10B817E93C0500EA60F2 /* FactoryPatternsViewController.xib */; };
 		AF4FCAD117F3DB1200EF0A47 /* AppWindowSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4FCACF17F3DB1200EF0A47 /* AppWindowSpec.m */; };
 		AF4FCAD217F3DB1200EF0A47 /* NSLogWrapperSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4FCAD017F3DB1200EF0A47 /* NSLogWrapperSpec.m */; };
-		AF4FCAD517F4811F00EF0A47 /* SingletonPatternViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4FCAD417F4811F00EF0A47 /* SingletonPatternViewControllerSpec.m */; };
-		AF4FCAD917F481B100EF0A47 /* SingletonPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4FCAD717F481B100EF0A47 /* SingletonPatternViewController.m */; };
-		AF4FCADA17F481B100EF0A47 /* SingletonPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4FCAD717F481B100EF0A47 /* SingletonPatternViewController.m */; };
-		AF4FCADB17F481B100EF0A47 /* SingletonPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF4FCAD817F481B100EF0A47 /* SingletonPatternViewController.xib */; };
-		AF4FCADC17F481B100EF0A47 /* SingletonPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF4FCAD817F481B100EF0A47 /* SingletonPatternViewController.xib */; };
 		AF65186317F37AF20001ECD5 /* FancyLookupTable.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186217F37AF20001ECD5 /* FancyLookupTable.m */; };
 		AF65186417F37AF20001ECD5 /* FancyLookupTable.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186217F37AF20001ECD5 /* FancyLookupTable.m */; };
 		AF65186A17F37B2C0001ECD5 /* AppWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186717F37B2C0001ECD5 /* AppWindow.m */; };
@@ -120,7 +110,6 @@
 		AFA9246217D53C600005E39B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9246117D53C600005E39B /* CoreGraphics.framework */; };
 		AFA9246817D53C600005E39B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFA9246617D53C600005E39B /* InfoPlist.strings */; };
 		AFA9246A17D53C600005E39B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA9246917D53C600005E39B /* main.m */; };
-		AFA9246E17D53C600005E39B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA9246D17D53C600005E39B /* AppDelegate.m */; };
 		AFA9247017D53C600005E39B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA9246F17D53C600005E39B /* Default.png */; };
 		AFA9247217D53C600005E39B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA9247117D53C600005E39B /* Default@2x.png */; };
 		AFA9247417D53C600005E39B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA9247317D53C600005E39B /* Default-568h@2x.png */; };
@@ -171,7 +160,19 @@
 		AFADEB0817E614D20080708D /* CremaSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB0517E614D20080708D /* CremaSpec.m */; };
 		AFADEB0917E614D20080708D /* ExtraSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB0617E614D20080708D /* ExtraSpec.m */; };
 		AFADEB0A17E614D20080708D /* GuacamoleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB0717E614D20080708D /* GuacamoleSpec.m */; };
-		AFADEB1517E8A0E70080708D /* AppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB1417E8A0E70080708D /* AppDelegateSpec.m */; };
+		AFBF95E317F66B2B008054FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF95DB17F66B2B008054FC /* AppDelegate.m */; };
+		AFBF95E417F66B2B008054FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF95DB17F66B2B008054FC /* AppDelegate.m */; };
+		AFBF95E517F66B2B008054FC /* FactoryPatternsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF95DD17F66B2B008054FC /* FactoryPatternsViewController.m */; };
+		AFBF95E617F66B2B008054FC /* FactoryPatternsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF95DD17F66B2B008054FC /* FactoryPatternsViewController.m */; };
+		AFBF95E717F66B2B008054FC /* FactoryPatternsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFBF95DE17F66B2B008054FC /* FactoryPatternsViewController.xib */; };
+		AFBF95E817F66B2B008054FC /* FactoryPatternsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFBF95DE17F66B2B008054FC /* FactoryPatternsViewController.xib */; };
+		AFBF95EB17F66B2B008054FC /* SingletonPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF95E117F66B2B008054FC /* SingletonPatternViewController.m */; };
+		AFBF95EC17F66B2B008054FC /* SingletonPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF95E117F66B2B008054FC /* SingletonPatternViewController.m */; };
+		AFBF95ED17F66B2B008054FC /* SingletonPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFBF95E217F66B2B008054FC /* SingletonPatternViewController.xib */; };
+		AFBF95EE17F66B2B008054FC /* SingletonPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFBF95E217F66B2B008054FC /* SingletonPatternViewController.xib */; };
+		AFBF95F217F66B99008054FC /* AppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF95EF17F66B99008054FC /* AppDelegateSpec.m */; };
+		AFBF95F317F66B99008054FC /* FactoryPatternsViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF95F017F66B99008054FC /* FactoryPatternsViewControllerSpec.m */; };
+		AFBF95F417F66B99008054FC /* SingletonPatternViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF95F117F66B99008054FC /* SingletonPatternViewControllerSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -277,16 +278,8 @@
 		AF0C4DDB17E5F9F30038AF36 /* PorkTaco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PorkTaco.h; path = FactoryPatterns/AbstractFactory/PorkTaco.h; sourceTree = "<group>"; };
 		AF0C4DDC17E5F9F30038AF36 /* PorkTaco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PorkTaco.m; path = FactoryPatterns/AbstractFactory/PorkTaco.m; sourceTree = "<group>"; };
 		AF14606D17EFD4ED002B5A20 /* FancyLookupTableSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FancyLookupTableSpec.m; path = SingletonPattern/FancyLookupTableSpec.m; sourceTree = "<group>"; };
-		AF1A10B417E93BC300EA60F2 /* FactoryPatternsViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryPatternsViewControllerSpec.m; sourceTree = "<group>"; };
-		AF1A10B617E93C0500EA60F2 /* FactoryPatternsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryPatternsViewController.h; sourceTree = "<group>"; };
-		AF1A10B717E93C0500EA60F2 /* FactoryPatternsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryPatternsViewController.m; sourceTree = "<group>"; };
-		AF1A10B817E93C0500EA60F2 /* FactoryPatternsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FactoryPatternsViewController.xib; sourceTree = "<group>"; };
 		AF4FCACF17F3DB1200EF0A47 /* AppWindowSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppWindowSpec.m; path = Utilities/AppWindowSpec.m; sourceTree = "<group>"; };
 		AF4FCAD017F3DB1200EF0A47 /* NSLogWrapperSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSLogWrapperSpec.m; path = Utilities/NSLogWrapperSpec.m; sourceTree = "<group>"; };
-		AF4FCAD417F4811F00EF0A47 /* SingletonPatternViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonPatternViewControllerSpec.m; sourceTree = "<group>"; };
-		AF4FCAD617F481B100EF0A47 /* SingletonPatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonPatternViewController.h; sourceTree = "<group>"; };
-		AF4FCAD717F481B100EF0A47 /* SingletonPatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonPatternViewController.m; sourceTree = "<group>"; };
-		AF4FCAD817F481B100EF0A47 /* SingletonPatternViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingletonPatternViewController.xib; sourceTree = "<group>"; };
 		AF65186117F37AF20001ECD5 /* FancyLookupTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FancyLookupTable.h; path = SingletonPattern/FancyLookupTable.h; sourceTree = "<group>"; };
 		AF65186217F37AF20001ECD5 /* FancyLookupTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FancyLookupTable.m; path = SingletonPattern/FancyLookupTable.m; sourceTree = "<group>"; };
 		AF65186617F37B2C0001ECD5 /* AppWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppWindow.h; path = Utilities/AppWindow.h; sourceTree = "<group>"; };
@@ -301,8 +294,6 @@
 		AFA9246717D53C600005E39B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AFA9246917D53C600005E39B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AFA9246B17D53C600005E39B /* ObjCDesignPatterns-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjCDesignPatterns-Prefix.pch"; sourceTree = "<group>"; };
-		AFA9246C17D53C600005E39B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AFA9246D17D53C600005E39B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AFA9246F17D53C600005E39B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		AFA9247117D53C600005E39B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		AFA9247317D53C600005E39B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -354,7 +345,17 @@
 		AFADEB0517E614D20080708D /* CremaSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CremaSpec.m; path = FactoryPatterns/AbstractFactory/CremaSpec.m; sourceTree = "<group>"; };
 		AFADEB0617E614D20080708D /* ExtraSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExtraSpec.m; path = FactoryPatterns/AbstractFactory/ExtraSpec.m; sourceTree = "<group>"; };
 		AFADEB0717E614D20080708D /* GuacamoleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GuacamoleSpec.m; path = FactoryPatterns/AbstractFactory/GuacamoleSpec.m; sourceTree = "<group>"; };
-		AFADEB1417E8A0E70080708D /* AppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateSpec.m; sourceTree = "<group>"; };
+		AFBF95DA17F66B2B008054FC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = App/AppDelegate.h; sourceTree = "<group>"; };
+		AFBF95DB17F66B2B008054FC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = App/AppDelegate.m; sourceTree = "<group>"; };
+		AFBF95DC17F66B2B008054FC /* FactoryPatternsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FactoryPatternsViewController.h; path = App/FactoryPatternsViewController.h; sourceTree = "<group>"; };
+		AFBF95DD17F66B2B008054FC /* FactoryPatternsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FactoryPatternsViewController.m; path = App/FactoryPatternsViewController.m; sourceTree = "<group>"; };
+		AFBF95DE17F66B2B008054FC /* FactoryPatternsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FactoryPatternsViewController.xib; path = App/FactoryPatternsViewController.xib; sourceTree = "<group>"; };
+		AFBF95E017F66B2B008054FC /* SingletonPatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SingletonPatternViewController.h; path = App/SingletonPatternViewController.h; sourceTree = "<group>"; };
+		AFBF95E117F66B2B008054FC /* SingletonPatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SingletonPatternViewController.m; path = App/SingletonPatternViewController.m; sourceTree = "<group>"; };
+		AFBF95E217F66B2B008054FC /* SingletonPatternViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SingletonPatternViewController.xib; path = App/SingletonPatternViewController.xib; sourceTree = "<group>"; };
+		AFBF95EF17F66B99008054FC /* AppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegateSpec.m; path = App/AppDelegateSpec.m; sourceTree = "<group>"; };
+		AFBF95F017F66B99008054FC /* FactoryPatternsViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FactoryPatternsViewControllerSpec.m; path = App/FactoryPatternsViewControllerSpec.m; sourceTree = "<group>"; };
+		AFBF95F117F66B99008054FC /* SingletonPatternViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SingletonPatternViewControllerSpec.m; path = App/SingletonPatternViewControllerSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -680,9 +681,9 @@
 		AFADEB0B17E61ACE0080708D /* App */ = {
 			isa = PBXGroup;
 			children = (
-				AFADEB1417E8A0E70080708D /* AppDelegateSpec.m */,
-				AF1A10B417E93BC300EA60F2 /* FactoryPatternsViewControllerSpec.m */,
-				AF4FCAD417F4811F00EF0A47 /* SingletonPatternViewControllerSpec.m */,
+				AFBF95EF17F66B99008054FC /* AppDelegateSpec.m */,
+				AFBF95F017F66B99008054FC /* FactoryPatternsViewControllerSpec.m */,
+				AFBF95F117F66B99008054FC /* SingletonPatternViewControllerSpec.m */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -690,14 +691,14 @@
 		AFCA100F17D5430F00ADF1C8 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				AFA9246C17D53C600005E39B /* AppDelegate.h */,
-				AFA9246D17D53C600005E39B /* AppDelegate.m */,
-				AF1A10B617E93C0500EA60F2 /* FactoryPatternsViewController.h */,
-				AF1A10B717E93C0500EA60F2 /* FactoryPatternsViewController.m */,
-				AF1A10B817E93C0500EA60F2 /* FactoryPatternsViewController.xib */,
-				AF4FCAD617F481B100EF0A47 /* SingletonPatternViewController.h */,
-				AF4FCAD717F481B100EF0A47 /* SingletonPatternViewController.m */,
-				AF4FCAD817F481B100EF0A47 /* SingletonPatternViewController.xib */,
+				AFBF95DA17F66B2B008054FC /* AppDelegate.h */,
+				AFBF95DB17F66B2B008054FC /* AppDelegate.m */,
+				AFBF95DC17F66B2B008054FC /* FactoryPatternsViewController.h */,
+				AFBF95DD17F66B2B008054FC /* FactoryPatternsViewController.m */,
+				AFBF95DE17F66B2B008054FC /* FactoryPatternsViewController.xib */,
+				AFBF95E017F66B2B008054FC /* SingletonPatternViewController.h */,
+				AFBF95E117F66B2B008054FC /* SingletonPatternViewController.m */,
+				AFBF95E217F66B2B008054FC /* SingletonPatternViewController.xib */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -984,11 +985,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFA9246817D53C600005E39B /* InfoPlist.strings in Resources */,
-				AF4FCADB17F481B100EF0A47 /* SingletonPatternViewController.xib in Resources */,
+				AFBF95E717F66B2B008054FC /* FactoryPatternsViewController.xib in Resources */,
 				AFA9247017D53C600005E39B /* Default.png in Resources */,
+				AFBF95ED17F66B2B008054FC /* SingletonPatternViewController.xib in Resources */,
 				AFA9247217D53C600005E39B /* Default@2x.png in Resources */,
 				AFA9247417D53C600005E39B /* Default-568h@2x.png in Resources */,
-				AF1A10BB17E93C0500EA60F2 /* FactoryPatternsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -996,9 +997,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFBF95E817F66B2B008054FC /* FactoryPatternsViewController.xib in Resources */,
 				AFA9248C17D53C610005E39B /* InfoPlist.strings in Resources */,
-				AF4FCADC17F481B100EF0A47 /* SingletonPatternViewController.xib in Resources */,
-				AF1A10BC17E93C0500EA60F2 /* FactoryPatternsViewController.xib in Resources */,
+				AFBF95EE17F66B2B008054FC /* SingletonPatternViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1056,7 +1057,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFA9246A17D53C600005E39B /* main.m in Sources */,
-				AFA9246E17D53C600005E39B /* AppDelegate.m in Sources */,
 				AF0C4D2817E5F5A10038AF36 /* Beverage.m in Sources */,
 				AF0C4D3C17E5F5FD0038AF36 /* Ale.m in Sources */,
 				AF0C4D3E17E5F5FD0038AF36 /* CabernetSauvignon.m in Sources */,
@@ -1076,6 +1076,7 @@
 				AF0C4D6617E5F67D0038AF36 /* StreetTacoStore.m in Sources */,
 				AF0C4D6817E5F67D0038AF36 /* TacoStore.m in Sources */,
 				AF0C4D7017E5F6CC0038AF36 /* BeefTaco.m in Sources */,
+				AFBF95E317F66B2B008054FC /* AppDelegate.m in Sources */,
 				AF0C4D7417E5F6CC0038AF36 /* Taco.m in Sources */,
 				AF0C4D7B17E5F6FF0038AF36 /* CrunchyTacoContentsFactory.m in Sources */,
 				AF0C4D7D17E5F6FF0038AF36 /* StreetTacoContentsFactory.m in Sources */,
@@ -1094,8 +1095,9 @@
 				AF0C4DA917E5F7920038AF36 /* Queso.m in Sources */,
 				AF0C4DB117E5F7AC0038AF36 /* Mild.m in Sources */,
 				AF0C4DB317E5F7AC0038AF36 /* Picante.m in Sources */,
-				AF4FCAD917F481B100EF0A47 /* SingletonPatternViewController.m in Sources */,
+				AFBF95EB17F66B2B008054FC /* SingletonPatternViewController.m in Sources */,
 				AF0C4DB517E5F7AC0038AF36 /* Salsa.m in Sources */,
+				AFBF95E517F66B2B008054FC /* FactoryPatternsViewController.m in Sources */,
 				AF0C4DC117E5F80E0038AF36 /* Cebolla.m in Sources */,
 				AF0C4DC317E5F80E0038AF36 /* Cilantro.m in Sources */,
 				AF0C4DC517E5F80E0038AF36 /* Lechuga.m in Sources */,
@@ -1105,7 +1107,6 @@
 				AF0C4DD317E5F8310038AF36 /* Extra.m in Sources */,
 				AF0C4DD517E5F8310038AF36 /* Guacamole.m in Sources */,
 				AF0C4DDD17E5F9F30038AF36 /* PorkTaco.m in Sources */,
-				AF1A10B917E93C0500EA60F2 /* FactoryPatternsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1125,6 +1126,7 @@
 				AF0C4D4D17E5F5FD0038AF36 /* WhiskeySour.m in Sources */,
 				AF0C4D5717E5F6400038AF36 /* Bar.m in Sources */,
 				AF0C4D5917E5F6400038AF36 /* BeerBar.m in Sources */,
+				AFBF95E417F66B2B008054FC /* AppDelegate.m in Sources */,
 				AF4FCAD117F3DB1200EF0A47 /* AppWindowSpec.m in Sources */,
 				AF0C4D5B17E5F6400038AF36 /* MixedDrinksBar.m in Sources */,
 				AF0C4D5D17E5F6400038AF36 /* WineBar.m in Sources */,
@@ -1133,7 +1135,6 @@
 				AF0C4D6917E5F67D0038AF36 /* TacoStore.m in Sources */,
 				AF0C4D7117E5F6CC0038AF36 /* BeefTaco.m in Sources */,
 				AF0C4D7517E5F6CC0038AF36 /* Taco.m in Sources */,
-				AF4FCADA17F481B100EF0A47 /* SingletonPatternViewController.m in Sources */,
 				AF0C4D7C17E5F6FF0038AF36 /* CrunchyTacoContentsFactory.m in Sources */,
 				AF0C4D7E17E5F6FF0038AF36 /* StreetTacoContentsFactory.m in Sources */,
 				AF0C4D8417E5F7250038AF36 /* Maiz.m in Sources */,
@@ -1143,12 +1144,15 @@
 				AF0C4D9217E5F7400038AF36 /* Molida.m in Sources */,
 				AF0C4D9A17E5F7620038AF36 /* Carnitas.m in Sources */,
 				AF0C4D9C17E5F7620038AF36 /* ChileVerde.m in Sources */,
+				AFBF95EC17F66B2B008054FC /* SingletonPatternViewController.m in Sources */,
 				AF0C4D9E17E5F7620038AF36 /* Pork.m in Sources */,
 				AF0C4DA617E5F7920038AF36 /* Cheddar.m in Sources */,
+				AFBF95F417F66B99008054FC /* SingletonPatternViewControllerSpec.m in Sources */,
 				AF0C4DA817E5F7920038AF36 /* Fresco.m in Sources */,
 				AF0C4DAA17E5F7920038AF36 /* Queso.m in Sources */,
 				AF0C4DB217E5F7AC0038AF36 /* Mild.m in Sources */,
 				AF0C4DB417E5F7AC0038AF36 /* Picante.m in Sources */,
+				AFBF95F317F66B99008054FC /* FactoryPatternsViewControllerSpec.m in Sources */,
 				AF0C4DB617E5F7AC0038AF36 /* Salsa.m in Sources */,
 				AF0C4DC217E5F80E0038AF36 /* Cebolla.m in Sources */,
 				AF0C4DC417E5F80E0038AF36 /* Cilantro.m in Sources */,
@@ -1161,7 +1165,6 @@
 				AF0C4DD617E5F8310038AF36 /* Guacamole.m in Sources */,
 				AF0C4DDE17E5F9F30038AF36 /* PorkTaco.m in Sources */,
 				AFADEABE17E612D20080708D /* AleSpec.m in Sources */,
-				AF4FCAD517F4811F00EF0A47 /* SingletonPatternViewControllerSpec.m in Sources */,
 				AF65186B17F37B2C0001ECD5 /* AppWindow.m in Sources */,
 				AFADEABF17E612D20080708D /* BeverageSpec.m in Sources */,
 				AFADEAC017E612D20080708D /* CabernetSauvignonSpec.m in Sources */,
@@ -1199,8 +1202,10 @@
 				AFADEAF817E614740080708D /* MildSpec.m in Sources */,
 				AFADEAF917E614740080708D /* PicanteSpec.m in Sources */,
 				AFADEAFA17E614740080708D /* SalsaSpec.m in Sources */,
+				AFBF95E617F66B2B008054FC /* FactoryPatternsViewController.m in Sources */,
 				AFADEB0017E614A60080708D /* CebollaSpec.m in Sources */,
 				AFADEB0117E614A60080708D /* CilantroSpec.m in Sources */,
+				AFBF95F217F66B99008054FC /* AppDelegateSpec.m in Sources */,
 				AFADEB0217E614A60080708D /* LechugaSpec.m in Sources */,
 				AFADEB0317E614A60080708D /* TomateSpec.m in Sources */,
 				AFADEB0417E614A60080708D /* VeduraSpec.m in Sources */,
@@ -1208,9 +1213,6 @@
 				AFADEB0917E614D20080708D /* ExtraSpec.m in Sources */,
 				AFADEB0A17E614D20080708D /* GuacamoleSpec.m in Sources */,
 				AF4FCAD217F3DB1200EF0A47 /* NSLogWrapperSpec.m in Sources */,
-				AFADEB1517E8A0E70080708D /* AppDelegateSpec.m in Sources */,
-				AF1A10B517E93BC300EA60F2 /* FactoryPatternsViewControllerSpec.m in Sources */,
-				AF1A10BA17E93C0500EA60F2 /* FactoryPatternsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
