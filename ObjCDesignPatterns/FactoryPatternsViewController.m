@@ -26,6 +26,8 @@
 
 @implementation FactoryPatternsViewController
 
+#pragma mark - Init Methods
+
 - (id)init
 {
     self = [super init];

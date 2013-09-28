@@ -2,12 +2,14 @@
 #import "AppDelegate.h"
 #import "AppWindow.h"
 #import "FactoryPatternsViewController.h"
+#import "SingletonPatternViewController.h"
 
 @interface AppDelegate ()
 
 @property (strong, nonatomic) AppWindow *appWindow;
 @property (strong, nonatomic) UITabBarController *tabBarController;
 @property (strong, nonatomic) FactoryPatternsViewController *factoryPatternsViewController;
+@property (strong, nonatomic) SingletonPatternViewController *singletonPatternViewController;
 
 @end
 
@@ -41,6 +43,10 @@ describe(@"AppDelegate", ^{
         [appDelegate.factoryPatternsViewController shouldNotBeNil];
     });
     
+    it(@"has a SingletonPatternViewController", ^{
+        [appDelegate.singletonPatternViewController shouldNotBeNil];
+    });
+    
     context(@"#application:didFinishLaunchingWithOptions:", ^{
         __block BOOL isFinished;
         __block AppWindow *fakeAppWindow;
@@ -56,7 +62,7 @@ describe(@"AppDelegate", ^{
             appDelegate.tabBarController = fakeTabBarController;
             appDelegate.factoryPatternsViewController = fakeFactoryPatternsViewController;
             
-            [[fakeTabBarController should] receive:@selector(setViewControllers:) withArguments:@[appDelegate.factoryPatternsViewController]];
+            [[fakeTabBarController should] receive:@selector(setViewControllers:) withArguments:@[appDelegate.factoryPatternsViewController, appDelegate.singletonPatternViewController]];
             [[fakeAppWindow should] receive:@selector(initializeWithRootViewController:) withArguments:appDelegate.tabBarController];
             isFinished = [appDelegate application:nil didFinishLaunchingWithOptions:nil];
         });

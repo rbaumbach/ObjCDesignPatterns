@@ -28,7 +28,8 @@ describe(@"FancyLookupTable", ^{
         __block id singleton;
         
         it(@"throws an exception since this is a singleton", ^{
-            [[theBlock(^{ singleton = [[FancyLookupTable alloc] copy]; }) should] raiseWithName:@"FancyLookupTable"
+            FancyLookupTable *lookupTable = [FancyLookupTable sharedInstance];
+            [[theBlock(^{ singleton = [lookupTable copy]; }) should] raiseWithName:@"FancyLookupTable"
                                                                                          reason:@"Cannot copy singleton using copy method, sharedInstance must be used"];
         });
     });

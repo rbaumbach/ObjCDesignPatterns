@@ -47,6 +47,16 @@ describe(@"FactoryPatternsViewController", ^{
         [controller.beerBar shouldNotBeNil];
     });
     
+    context(@"textView", ^{
+        it(@"has a textView", ^{
+            [controller.textView shouldNotBeNil];
+        });
+        
+        it(@"cannot be edited", ^{
+            [[theValue(controller.textView.editable) should] beNo];
+        });
+    });
+    
     context(@"#viewDidLoad", ^{
         __block Swizzlean *superViewDidLoadSwizz;
         __block BOOL superViewDidLoadCalled;
@@ -90,16 +100,6 @@ describe(@"FactoryPatternsViewController", ^{
         
         it(@"sets up textView with correct text", ^{
             [[controller.textView.text should] equal:textViewText];
-        });
-    });
-    
-    context(@"textView", ^{
-        it(@"has a textView", ^{
-            [controller.textView shouldNotBeNil];
-        });
-        
-        it(@"cannot be edited", ^{
-            [[theValue(controller.textView.editable) should] beNo];
         });
     });
     
