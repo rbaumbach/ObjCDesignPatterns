@@ -97,6 +97,15 @@
 		AF0C4DDD17E5F9F30038AF36 /* PorkTaco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DDC17E5F9F30038AF36 /* PorkTaco.m */; };
 		AF0C4DDE17E5F9F30038AF36 /* PorkTaco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DDC17E5F9F30038AF36 /* PorkTaco.m */; };
 		AF14606E17EFD4ED002B5A20 /* FancyLookupTableSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF14606D17EFD4ED002B5A20 /* FancyLookupTableSpec.m */; };
+		AF38B47D17FB0FA600512EDF /* SuperBurritoGazetteSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF38B47C17FB0FA600512EDF /* SuperBurritoGazetteSpec.m */; };
+		AF38B48017FB101600512EDF /* SuperBurritoGazette.m in Sources */ = {isa = PBXBuildFile; fileRef = AF38B47F17FB101600512EDF /* SuperBurritoGazette.m */; };
+		AF38B48117FB101600512EDF /* SuperBurritoGazette.m in Sources */ = {isa = PBXBuildFile; fileRef = AF38B47F17FB101600512EDF /* SuperBurritoGazette.m */; };
+		AF38B48417FB10C200512EDF /* BurritoSupremeBee.m in Sources */ = {isa = PBXBuildFile; fileRef = AF38B48317FB10C200512EDF /* BurritoSupremeBee.m */; };
+		AF38B48717FB116200512EDF /* BurritoSupremeBee.m in Sources */ = {isa = PBXBuildFile; fileRef = AF38B48617FB116200512EDF /* BurritoSupremeBee.m */; };
+		AF38B48817FB116200512EDF /* BurritoSupremeBee.m in Sources */ = {isa = PBXBuildFile; fileRef = AF38B48617FB116200512EDF /* BurritoSupremeBee.m */; };
+		AF4AED5717FA821F000B5B61 /* ChimichangaTimesSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4AED5617FA821F000B5B61 /* ChimichangaTimesSpec.m */; };
+		AF4AED5A17FA827E000B5B61 /* ChimichangaTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4AED5917FA827E000B5B61 /* ChimichangaTimes.m */; };
+		AF4AED5B17FA827E000B5B61 /* ChimichangaTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4AED5917FA827E000B5B61 /* ChimichangaTimes.m */; };
 		AF4FCAD117F3DB1200EF0A47 /* AppWindowSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4FCACF17F3DB1200EF0A47 /* AppWindowSpec.m */; };
 		AF4FCAD217F3DB1200EF0A47 /* NSLogWrapperSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4FCAD017F3DB1200EF0A47 /* NSLogWrapperSpec.m */; };
 		AF65186317F37AF20001ECD5 /* FancyLookupTable.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186217F37AF20001ECD5 /* FancyLookupTable.m */; };
@@ -105,6 +114,9 @@
 		AF65186B17F37B2C0001ECD5 /* AppWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186717F37B2C0001ECD5 /* AppWindow.m */; };
 		AF65186C17F37B2C0001ECD5 /* NSLogWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186917F37B2C0001ECD5 /* NSLogWrapper.m */; };
 		AF65186D17F37B2C0001ECD5 /* NSLogWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186917F37B2C0001ECD5 /* NSLogWrapper.m */; };
+		AF73398817F9C47E00DBA583 /* BurritoReporterSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF73398717F9C47E00DBA583 /* BurritoReporterSpec.m */; };
+		AF73398B17F9C53D00DBA583 /* BurritoReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = AF73398A17F9C53D00DBA583 /* BurritoReporter.m */; };
+		AF73398C17F9C53D00DBA583 /* BurritoReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = AF73398A17F9C53D00DBA583 /* BurritoReporter.m */; };
 		AFA9245E17D53C600005E39B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9245D17D53C600005E39B /* UIKit.framework */; };
 		AFA9246017D53C600005E39B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9245F17D53C600005E39B /* Foundation.framework */; };
 		AFA9246217D53C600005E39B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9246117D53C600005E39B /* CoreGraphics.framework */; };
@@ -278,6 +290,15 @@
 		AF0C4DDB17E5F9F30038AF36 /* PorkTaco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PorkTaco.h; path = FactoryPatterns/AbstractFactory/PorkTaco.h; sourceTree = "<group>"; };
 		AF0C4DDC17E5F9F30038AF36 /* PorkTaco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PorkTaco.m; path = FactoryPatterns/AbstractFactory/PorkTaco.m; sourceTree = "<group>"; };
 		AF14606D17EFD4ED002B5A20 /* FancyLookupTableSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FancyLookupTableSpec.m; path = SingletonPattern/FancyLookupTableSpec.m; sourceTree = "<group>"; };
+		AF38B47C17FB0FA600512EDF /* SuperBurritoGazetteSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SuperBurritoGazetteSpec.m; path = ObserverPattern/SuperBurritoGazetteSpec.m; sourceTree = "<group>"; };
+		AF38B47E17FB101600512EDF /* SuperBurritoGazette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SuperBurritoGazette.h; path = ObserverPattern/SuperBurritoGazette.h; sourceTree = "<group>"; };
+		AF38B47F17FB101600512EDF /* SuperBurritoGazette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SuperBurritoGazette.m; path = ObserverPattern/SuperBurritoGazette.m; sourceTree = "<group>"; };
+		AF38B48317FB10C200512EDF /* BurritoSupremeBee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BurritoSupremeBee.m; path = ObserverPattern/BurritoSupremeBee.m; sourceTree = "<group>"; };
+		AF38B48517FB116200512EDF /* BurritoSupremeBee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BurritoSupremeBee.h; path = ObserverPattern/BurritoSupremeBee.h; sourceTree = "<group>"; };
+		AF38B48617FB116200512EDF /* BurritoSupremeBee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BurritoSupremeBee.m; path = ObserverPattern/BurritoSupremeBee.m; sourceTree = "<group>"; };
+		AF4AED5617FA821F000B5B61 /* ChimichangaTimesSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChimichangaTimesSpec.m; path = ObserverPattern/ChimichangaTimesSpec.m; sourceTree = "<group>"; };
+		AF4AED5817FA827E000B5B61 /* ChimichangaTimes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChimichangaTimes.h; path = ObserverPattern/ChimichangaTimes.h; sourceTree = "<group>"; };
+		AF4AED5917FA827E000B5B61 /* ChimichangaTimes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChimichangaTimes.m; path = ObserverPattern/ChimichangaTimes.m; sourceTree = "<group>"; };
 		AF4FCACF17F3DB1200EF0A47 /* AppWindowSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppWindowSpec.m; path = Utilities/AppWindowSpec.m; sourceTree = "<group>"; };
 		AF4FCAD017F3DB1200EF0A47 /* NSLogWrapperSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSLogWrapperSpec.m; path = Utilities/NSLogWrapperSpec.m; sourceTree = "<group>"; };
 		AF65186117F37AF20001ECD5 /* FancyLookupTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FancyLookupTable.h; path = SingletonPattern/FancyLookupTable.h; sourceTree = "<group>"; };
@@ -286,6 +307,12 @@
 		AF65186717F37B2C0001ECD5 /* AppWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppWindow.m; path = Utilities/AppWindow.m; sourceTree = "<group>"; };
 		AF65186817F37B2C0001ECD5 /* NSLogWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSLogWrapper.h; path = Utilities/NSLogWrapper.h; sourceTree = "<group>"; };
 		AF65186917F37B2C0001ECD5 /* NSLogWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSLogWrapper.m; path = Utilities/NSLogWrapper.m; sourceTree = "<group>"; };
+		AF73398317F9C2B100DBA583 /* NewsReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsReporter.h; path = ObserverPattern/NewsReporter.h; sourceTree = "<group>"; };
+		AF73398417F9C2E000DBA583 /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Observer.h; path = ObserverPattern/Observer.h; sourceTree = "<group>"; };
+		AF73398517F9C3D600DBA583 /* Newspaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Newspaper.h; path = ObserverPattern/Newspaper.h; sourceTree = "<group>"; };
+		AF73398717F9C47E00DBA583 /* BurritoReporterSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BurritoReporterSpec.m; path = ObserverPattern/BurritoReporterSpec.m; sourceTree = "<group>"; };
+		AF73398917F9C53D00DBA583 /* BurritoReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BurritoReporter.h; path = ObserverPattern/BurritoReporter.h; sourceTree = "<group>"; };
+		AF73398A17F9C53D00DBA583 /* BurritoReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BurritoReporter.m; path = ObserverPattern/BurritoReporter.m; sourceTree = "<group>"; };
 		AFA9245A17D53C600005E39B /* ObjCDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA9245D17D53C600005E39B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AFA9245F17D53C600005E39B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -577,6 +604,35 @@
 			name = Bars;
 			sourceTree = "<group>";
 		};
+		AF73398017F9C1D800DBA583 /* Observer Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				AF73398317F9C2B100DBA583 /* NewsReporter.h */,
+				AF73398417F9C2E000DBA583 /* Observer.h */,
+				AF73398517F9C3D600DBA583 /* Newspaper.h */,
+				AF73398917F9C53D00DBA583 /* BurritoReporter.h */,
+				AF73398A17F9C53D00DBA583 /* BurritoReporter.m */,
+				AF4AED5817FA827E000B5B61 /* ChimichangaTimes.h */,
+				AF4AED5917FA827E000B5B61 /* ChimichangaTimes.m */,
+				AF38B47E17FB101600512EDF /* SuperBurritoGazette.h */,
+				AF38B47F17FB101600512EDF /* SuperBurritoGazette.m */,
+				AF38B48517FB116200512EDF /* BurritoSupremeBee.h */,
+				AF38B48617FB116200512EDF /* BurritoSupremeBee.m */,
+			);
+			name = "Observer Pattern";
+			sourceTree = "<group>";
+		};
+		AF73398117F9C1E100DBA583 /* Observer Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				AF73398717F9C47E00DBA583 /* BurritoReporterSpec.m */,
+				AF4AED5617FA821F000B5B61 /* ChimichangaTimesSpec.m */,
+				AF38B47C17FB0FA600512EDF /* SuperBurritoGazetteSpec.m */,
+				AF38B48317FB10C200512EDF /* BurritoSupremeBee.m */,
+			);
+			name = "Observer Pattern";
+			sourceTree = "<group>";
+		};
 		AFA82EB817DA25A000180B58 /* Abstract Factory */ = {
 			isa = PBXGroup;
 			children = (
@@ -636,6 +692,7 @@
 			children = (
 				AFCA101617D5531600ADF1C8 /* Factory Patterns */,
 				AF14606F17EFD742002B5A20 /* Singleton Pattern */,
+				AF73398017F9C1D800DBA583 /* Observer Pattern */,
 				AFCA100F17D5430F00ADF1C8 /* App */,
 				AF65186517F37AFC0001ECD5 /* Utilities */,
 				AFA9246417D53C600005E39B /* Supporting Files */,
@@ -662,6 +719,7 @@
 			children = (
 				AF56ECFF17D964C80020F9C4 /* Factory Patterns */,
 				AF14606B17EFD43D002B5A20 /* Singleton Pattern */,
+				AF73398117F9C1E100DBA583 /* Observer Pattern */,
 				AFADEB0B17E61ACE0080708D /* App */,
 				AF65186E17F3BF380001ECD5 /* Utilities */,
 				AFA9248817D53C610005E39B /* Supporting Files */,
@@ -1070,9 +1128,11 @@
 				AF0C4D4C17E5F5FD0038AF36 /* WhiskeySour.m in Sources */,
 				AF0C4D5617E5F6400038AF36 /* Bar.m in Sources */,
 				AF0C4D5817E5F6400038AF36 /* BeerBar.m in Sources */,
+				AF73398B17F9C53D00DBA583 /* BurritoReporter.m in Sources */,
 				AF0C4D5A17E5F6400038AF36 /* MixedDrinksBar.m in Sources */,
 				AF0C4D5C17E5F6400038AF36 /* WineBar.m in Sources */,
 				AF0C4D6417E5F67D0038AF36 /* CrunchyTacoStore.m in Sources */,
+				AF38B48017FB101600512EDF /* SuperBurritoGazette.m in Sources */,
 				AF0C4D6617E5F67D0038AF36 /* StreetTacoStore.m in Sources */,
 				AF0C4D6817E5F67D0038AF36 /* TacoStore.m in Sources */,
 				AF0C4D7017E5F6CC0038AF36 /* BeefTaco.m in Sources */,
@@ -1081,6 +1141,7 @@
 				AF0C4D7B17E5F6FF0038AF36 /* CrunchyTacoContentsFactory.m in Sources */,
 				AF0C4D7D17E5F6FF0038AF36 /* StreetTacoContentsFactory.m in Sources */,
 				AF0C4D8317E5F7250038AF36 /* Maiz.m in Sources */,
+				AF38B48717FB116200512EDF /* BurritoSupremeBee.m in Sources */,
 				AF0C4D8517E5F7250038AF36 /* Tortilla.m in Sources */,
 				AF0C4D8D17E5F7400038AF36 /* Asada.m in Sources */,
 				AF0C4D8F17E5F7400038AF36 /* Beef.m in Sources */,
@@ -1096,6 +1157,7 @@
 				AF0C4DB117E5F7AC0038AF36 /* Mild.m in Sources */,
 				AF0C4DB317E5F7AC0038AF36 /* Picante.m in Sources */,
 				AFBF95EB17F66B2B008054FC /* SingletonPatternViewController.m in Sources */,
+				AF4AED5A17FA827E000B5B61 /* ChimichangaTimes.m in Sources */,
 				AF0C4DB517E5F7AC0038AF36 /* Salsa.m in Sources */,
 				AFBF95E517F66B2B008054FC /* FactoryPatternsViewController.m in Sources */,
 				AF0C4DC117E5F80E0038AF36 /* Cebolla.m in Sources */,
@@ -1114,7 +1176,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF38B48117FB101600512EDF /* SuperBurritoGazette.m in Sources */,
 				AF0C4D2917E5F5A10038AF36 /* Beverage.m in Sources */,
+				AF4AED5B17FA827E000B5B61 /* ChimichangaTimes.m in Sources */,
 				AF0C4D3D17E5F5FD0038AF36 /* Ale.m in Sources */,
 				AF0C4D3F17E5F5FD0038AF36 /* CabernetSauvignon.m in Sources */,
 				AF0C4D4117E5F5FD0038AF36 /* Chardonnay.m in Sources */,
@@ -1138,6 +1202,8 @@
 				AF0C4D7C17E5F6FF0038AF36 /* CrunchyTacoContentsFactory.m in Sources */,
 				AF0C4D7E17E5F6FF0038AF36 /* StreetTacoContentsFactory.m in Sources */,
 				AF0C4D8417E5F7250038AF36 /* Maiz.m in Sources */,
+				AF4AED5717FA821F000B5B61 /* ChimichangaTimesSpec.m in Sources */,
+				AF73398C17F9C53D00DBA583 /* BurritoReporter.m in Sources */,
 				AF0C4D8617E5F7250038AF36 /* Tortilla.m in Sources */,
 				AF0C4D8E17E5F7400038AF36 /* Asada.m in Sources */,
 				AF0C4D9017E5F7400038AF36 /* Beef.m in Sources */,
@@ -1152,6 +1218,7 @@
 				AF0C4DAA17E5F7920038AF36 /* Queso.m in Sources */,
 				AF0C4DB217E5F7AC0038AF36 /* Mild.m in Sources */,
 				AF0C4DB417E5F7AC0038AF36 /* Picante.m in Sources */,
+				AF73398817F9C47E00DBA583 /* BurritoReporterSpec.m in Sources */,
 				AFBF95F317F66B99008054FC /* FactoryPatternsViewControllerSpec.m in Sources */,
 				AF0C4DB617E5F7AC0038AF36 /* Salsa.m in Sources */,
 				AF0C4DC217E5F80E0038AF36 /* Cebolla.m in Sources */,
@@ -1168,8 +1235,10 @@
 				AF65186B17F37B2C0001ECD5 /* AppWindow.m in Sources */,
 				AFADEABF17E612D20080708D /* BeverageSpec.m in Sources */,
 				AFADEAC017E612D20080708D /* CabernetSauvignonSpec.m in Sources */,
+				AF38B47D17FB0FA600512EDF /* SuperBurritoGazetteSpec.m in Sources */,
 				AF14606E17EFD4ED002B5A20 /* FancyLookupTableSpec.m in Sources */,
 				AFADEAC117E612D20080708D /* ChardonnaySpec.m in Sources */,
+				AF38B48417FB10C200512EDF /* BurritoSupremeBee.m in Sources */,
 				AFADEAC217E612D20080708D /* JagerBomb.m in Sources */,
 				AFADEAC317E612D20080708D /* LagerSpec.m in Sources */,
 				AFADEAC417E612D20080708D /* MerlotSpec.m in Sources */,
@@ -1187,6 +1256,7 @@
 				AFADEAD917E613700080708D /* BeefTacoSpec.m in Sources */,
 				AFADEADA17E613700080708D /* PorkTacoSpec.m in Sources */,
 				AFADEADB17E613700080708D /* TacoSpec.m in Sources */,
+				AF38B48817FB116200512EDF /* BurritoSupremeBee.m in Sources */,
 				AFADEADE17E613860080708D /* CrunchyTacoContentsFactorySpec.m in Sources */,
 				AFADEADF17E613860080708D /* StreetTacoContentsFactorySpec.m in Sources */,
 				AFADEAE317E613AD0080708D /* AsadaSpec.m in Sources */,
