@@ -2,6 +2,7 @@
 #import "BurritoSupremeBee.h"
 #import "NewsReporter.h"
 #import "Observer.h"
+#import "Newspaper.h"
 #import "Swizzlean.h"
 
 @interface BurritoSupremeBee ()
@@ -25,6 +26,10 @@ describe(@"BurritoSupremeBee", ^{
         [[burritoSupremeBee should] conformToProtocol:@protocol(Observer)];
     });
     
+    it(@"conforms to <Newspaper>", ^{
+        [[burritoSupremeBee should] conformToProtocol:@protocol(Newspaper)];
+    });
+    
     context(@"#initWithNewsReporter", ^{
         it(@"registers itself as an observer of the NewsReporter passed in", ^{
             id fakeNewsReporter = [KWMock nullMockForProtocol:@protocol(Observer)];
@@ -36,12 +41,26 @@ describe(@"BurritoSupremeBee", ^{
     });
     
     context(@"#update:", ^{
-        beforeEach(^{
+        it(@"sets the news header", ^{
             [burritoSupremeBee update:@"Supreme is the way to go!!!"];
+            [[burritoSupremeBee.newsHeader should] equal:@"Supreme is the way to go!!!"];
         });
         
-        it(@"sets the news header", ^{
-            [[burritoSupremeBee.newsHeader should] equal:@"Supreme is the way to go!!!"];
+        it(@"updates snippet", ^{
+            [[burritoSupremeBee should] receive:@selector(currentNewsSnippet)];
+            [burritoSupremeBee update:@"This doesn't matter"];
+        });
+    });
+    
+    context(@"#currentNewsSnippet", ^{
+        beforeEach(^{
+            burritoSupremeBee.newsHeader = @"Supremeeeemee!!!";
+            [burritoSupremeBee currentNewsSnippet];
+        });
+        
+        it(@"returns news snippet", ^{
+            NSString *newsSnippet = [NSString stringWithFormat:@"%@\n Super Burrito Gazette 2013\n", burritoSupremeBee.newsHeader];
+            [[burritoSupremeBee.snippet should] equal:newsSnippet];
         });
     });
 });

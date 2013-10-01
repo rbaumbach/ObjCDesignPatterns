@@ -100,7 +100,7 @@
 		AF38B47D17FB0FA600512EDF /* SuperBurritoGazetteSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF38B47C17FB0FA600512EDF /* SuperBurritoGazetteSpec.m */; };
 		AF38B48017FB101600512EDF /* SuperBurritoGazette.m in Sources */ = {isa = PBXBuildFile; fileRef = AF38B47F17FB101600512EDF /* SuperBurritoGazette.m */; };
 		AF38B48117FB101600512EDF /* SuperBurritoGazette.m in Sources */ = {isa = PBXBuildFile; fileRef = AF38B47F17FB101600512EDF /* SuperBurritoGazette.m */; };
-		AF38B48417FB10C200512EDF /* BurritoSupremeBee.m in Sources */ = {isa = PBXBuildFile; fileRef = AF38B48317FB10C200512EDF /* BurritoSupremeBee.m */; };
+		AF38B48417FB10C200512EDF /* BurritoSupremeBeeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF38B48317FB10C200512EDF /* BurritoSupremeBeeSpec.m */; };
 		AF38B48717FB116200512EDF /* BurritoSupremeBee.m in Sources */ = {isa = PBXBuildFile; fileRef = AF38B48617FB116200512EDF /* BurritoSupremeBee.m */; };
 		AF38B48817FB116200512EDF /* BurritoSupremeBee.m in Sources */ = {isa = PBXBuildFile; fileRef = AF38B48617FB116200512EDF /* BurritoSupremeBee.m */; };
 		AF4AED5717FA821F000B5B61 /* ChimichangaTimesSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4AED5617FA821F000B5B61 /* ChimichangaTimesSpec.m */; };
@@ -293,7 +293,7 @@
 		AF38B47C17FB0FA600512EDF /* SuperBurritoGazetteSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SuperBurritoGazetteSpec.m; path = ObserverPattern/SuperBurritoGazetteSpec.m; sourceTree = "<group>"; };
 		AF38B47E17FB101600512EDF /* SuperBurritoGazette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SuperBurritoGazette.h; path = ObserverPattern/SuperBurritoGazette.h; sourceTree = "<group>"; };
 		AF38B47F17FB101600512EDF /* SuperBurritoGazette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SuperBurritoGazette.m; path = ObserverPattern/SuperBurritoGazette.m; sourceTree = "<group>"; };
-		AF38B48317FB10C200512EDF /* BurritoSupremeBee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BurritoSupremeBee.m; path = ObserverPattern/BurritoSupremeBee.m; sourceTree = "<group>"; };
+		AF38B48317FB10C200512EDF /* BurritoSupremeBeeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BurritoSupremeBeeSpec.m; path = ObserverPattern/BurritoSupremeBeeSpec.m; sourceTree = "<group>"; };
 		AF38B48517FB116200512EDF /* BurritoSupremeBee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BurritoSupremeBee.h; path = ObserverPattern/BurritoSupremeBee.h; sourceTree = "<group>"; };
 		AF38B48617FB116200512EDF /* BurritoSupremeBee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BurritoSupremeBee.m; path = ObserverPattern/BurritoSupremeBee.m; sourceTree = "<group>"; };
 		AF4AED5617FA821F000B5B61 /* ChimichangaTimesSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChimichangaTimesSpec.m; path = ObserverPattern/ChimichangaTimesSpec.m; sourceTree = "<group>"; };
@@ -628,7 +628,7 @@
 				AF73398717F9C47E00DBA583 /* BurritoReporterSpec.m */,
 				AF4AED5617FA821F000B5B61 /* ChimichangaTimesSpec.m */,
 				AF38B47C17FB0FA600512EDF /* SuperBurritoGazetteSpec.m */,
-				AF38B48317FB10C200512EDF /* BurritoSupremeBee.m */,
+				AF38B48317FB10C200512EDF /* BurritoSupremeBeeSpec.m */,
 			);
 			name = "Observer Pattern";
 			sourceTree = "<group>";
@@ -1238,7 +1238,7 @@
 				AF38B47D17FB0FA600512EDF /* SuperBurritoGazetteSpec.m in Sources */,
 				AF14606E17EFD4ED002B5A20 /* FancyLookupTableSpec.m in Sources */,
 				AFADEAC117E612D20080708D /* ChardonnaySpec.m in Sources */,
-				AF38B48417FB10C200512EDF /* BurritoSupremeBee.m in Sources */,
+				AF38B48417FB10C200512EDF /* BurritoSupremeBeeSpec.m in Sources */,
 				AFADEAC217E612D20080708D /* JagerBomb.m in Sources */,
 				AFADEAC317E612D20080708D /* LagerSpec.m in Sources */,
 				AFADEAC417E612D20080708D /* MerlotSpec.m in Sources */,

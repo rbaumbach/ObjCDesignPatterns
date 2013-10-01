@@ -2,6 +2,6 @@
 
 @protocol Newspaper <NSObject>
 
-- (void)display;
+- (void)currentNewsSnippet;
 
 @end

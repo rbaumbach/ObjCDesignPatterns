@@ -1,8 +1,11 @@
 #import "Observer.h"
 #import "NewsReporter.h"
+#import "Newspaper.h"
 
 
-@interface ChimichangaTimes : NSObject <Observer>
+@interface ChimichangaTimes : NSObject <Observer, Newspaper>
+
+@property (strong, nonatomic) NSString *snippet;
 
 - (id)initWithNewsReporter:(id<NewsReporter>)newsReporter;
 
