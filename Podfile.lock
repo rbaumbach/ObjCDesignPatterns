@@ -1,17 +1,19 @@
 PODS:
-  - Kiwi (2.2.1):
+  - Kiwi (2.2.2):
+    - Kiwi/SenTestingKit
+  - Kiwi/ARC (2.2.2)
+  - Kiwi/NonARC (2.2.2)
+  - Kiwi/SenTestingKit (2.2.2):
     - Kiwi/ARC
     - Kiwi/NonARC
-  - Kiwi/ARC (2.2.1)
-  - Kiwi/NonARC (2.2.1)
   - Swizzlean (0.1.1)
 
 DEPENDENCIES:
-  - Kiwi
-  - Swizzlean (~> 0.1.1)
+  - Kiwi (= 2.2.2)
+  - Swizzlean (= 0.1.1)
 
 SPEC CHECKSUMS:
-  Kiwi: e6524ba0eaa1b28af7af146bdee5314b32aa3edb
+  Kiwi: 03539aeb004ccd42bdbc31253617b26364315df4
   Swizzlean: 364ac43b04c92f24e352cd701df495c4096674d0
 
-COCOAPODS: 0.24.0
+COCOAPODS: 0.25.0
