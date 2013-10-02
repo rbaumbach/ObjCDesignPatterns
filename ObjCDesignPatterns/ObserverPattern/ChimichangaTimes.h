@@ -1,9 +1,8 @@
 #import "Observer.h"
 #import "NewsReporter.h"
-#import "Newspaper.h"
 
 
-@interface ChimichangaTimes : NSObject <Observer, Newspaper>
+@interface ChimichangaTimes : NSObject <Observer>
 
 @property (strong, nonatomic) NSString *snippet;
 

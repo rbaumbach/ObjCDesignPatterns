@@ -1,7 +1,6 @@
 #import "Kiwi.h"
 #import "ChimichangaTimes.h"
 #import "NewsReporter.h"
-#import "Newspaper.h"
 #import "Observer.h"
 #import "Swizzlean.h"
 
@@ -9,6 +8,8 @@
 
 @property (strong, nonatomic) id<NewsReporter> newsReporter;
 @property (strong, nonatomic) NSString *newsHeader;
+
+- (NSString *)currentNewsSnippet;
 
 @end
 
@@ -25,10 +26,6 @@ describe(@"ChimichangaTimes", ^{
     
     it(@"conforms to <Observer>", ^{
         [[chimichangaTimes should] conformToProtocol:@protocol(Observer)];
-    });
-    
-    it(@"conforms to <Newspaper>", ^{
-        [[chimichangaTimes should] conformToProtocol:@protocol(Newspaper)];
     });
     
     it(@"has snippet property", ^{

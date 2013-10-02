@@ -31,7 +31,7 @@
     [self currentNewsSnippet];
 }
 
-#pragma mark - <Newspaper>
+#pragma mark - Private Methods
 
 - (void)currentNewsSnippet
 {

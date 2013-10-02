@@ -1,9 +1,8 @@
 #import "Observer.h"
 #import "NewsReporter.h"
-#import "Newspaper.h"
 
 
-@interface BurritoSupremeBee : NSObject <Observer, Newspaper>
+@interface BurritoSupremeBee : NSObject <Observer>
 
 @property (strong, nonatomic) NSString *snippet;
 

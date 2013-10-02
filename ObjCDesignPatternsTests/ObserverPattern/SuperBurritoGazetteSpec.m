@@ -2,13 +2,14 @@
 #import "SuperBurritoGazette.h"
 #import "NewsReporter.h"
 #import "Observer.h"
-#import "Newspaper.h"
 #import "Swizzlean.h"
 
 @interface SuperBurritoGazette ()
 
 @property (strong, nonatomic) id<NewsReporter> newsReporter;
 @property (strong, nonatomic) NSString *newsHeader;
+
+- (NSString *)currentNewsSnippet;
 
 @end
 
@@ -24,10 +25,6 @@ describe(@"SuperBurritoGazette", ^{
     
     it(@"conforms to <Observer>", ^{
         [[superBurritoGazette should] conformToProtocol:@protocol(Observer)];
-    });
-    
-    it(@"conforms to <Newspaper>", ^{
-        [[superBurritoGazette should] conformToProtocol:@protocol(Newspaper)];
     });
     
     context(@"#initWithNewsReporter", ^{

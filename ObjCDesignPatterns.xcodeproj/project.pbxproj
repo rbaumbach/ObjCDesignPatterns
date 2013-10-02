@@ -314,7 +314,6 @@
 		AF65186917F37B2C0001ECD5 /* NSLogWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSLogWrapper.m; path = Utilities/NSLogWrapper.m; sourceTree = "<group>"; };
 		AF73398317F9C2B100DBA583 /* NewsReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsReporter.h; path = ObserverPattern/NewsReporter.h; sourceTree = "<group>"; };
 		AF73398417F9C2E000DBA583 /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Observer.h; path = ObserverPattern/Observer.h; sourceTree = "<group>"; };
-		AF73398517F9C3D600DBA583 /* Newspaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Newspaper.h; path = ObserverPattern/Newspaper.h; sourceTree = "<group>"; };
 		AF73398717F9C47E00DBA583 /* BurritoReporterSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BurritoReporterSpec.m; path = ObserverPattern/BurritoReporterSpec.m; sourceTree = "<group>"; };
 		AF73398917F9C53D00DBA583 /* BurritoReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BurritoReporter.h; path = ObserverPattern/BurritoReporter.h; sourceTree = "<group>"; };
 		AF73398A17F9C53D00DBA583 /* BurritoReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BurritoReporter.m; path = ObserverPattern/BurritoReporter.m; sourceTree = "<group>"; };
@@ -618,7 +617,6 @@
 			children = (
 				AF73398317F9C2B100DBA583 /* NewsReporter.h */,
 				AF73398417F9C2E000DBA583 /* Observer.h */,
-				AF73398517F9C3D600DBA583 /* Newspaper.h */,
 				AF73398917F9C53D00DBA583 /* BurritoReporter.h */,
 				AF73398A17F9C53D00DBA583 /* BurritoReporter.m */,
 				AF4AED5817FA827E000B5B61 /* ChimichangaTimes.h */,
