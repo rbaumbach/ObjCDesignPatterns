@@ -35,7 +35,7 @@
 
 - (void)currentNewsSnippet
 {
-    self.snippet = [NSString stringWithFormat:@"%@\n Super Burrito Gazette 2013\n", self.newsHeader];
+    self.snippet = [NSString stringWithFormat:@"%@\n<-->Super Burrito Bee 2013<-->\n", self.newsHeader];
 }
 
 @end

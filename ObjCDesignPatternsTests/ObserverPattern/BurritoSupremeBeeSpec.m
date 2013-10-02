@@ -59,7 +59,7 @@ describe(@"BurritoSupremeBee", ^{
         });
         
         it(@"returns news snippet", ^{
-            NSString *newsSnippet = [NSString stringWithFormat:@"%@\n Super Burrito Gazette 2013\n", burritoSupremeBee.newsHeader];
+            NSString *newsSnippet = [NSString stringWithFormat:@"%@\n<-->Super Burrito Bee 2013<-->\n", burritoSupremeBee.newsHeader];
             [[burritoSupremeBee.snippet should] equal:newsSnippet];
         });
     });

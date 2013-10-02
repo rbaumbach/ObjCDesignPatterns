@@ -51,7 +51,7 @@
 - (void)notifyObservers
 {
     for (id<Observer> observer in self.observers) {
-        [observer update:@"Updated Text!"];
+        [observer update:self.headline];
     }
 }
 

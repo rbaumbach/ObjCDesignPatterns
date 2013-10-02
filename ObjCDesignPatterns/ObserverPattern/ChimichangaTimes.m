@@ -35,7 +35,7 @@
 
 - (void)currentNewsSnippet
 {
-    self.snippet = [NSString stringWithFormat:@"%@\n Chimichanga Times 2013\n", self.newsHeader];
+    self.snippet = [NSString stringWithFormat:@"%@\n~>Chimichanga Times 2013<~\n", self.newsHeader];
 }
 
 @end

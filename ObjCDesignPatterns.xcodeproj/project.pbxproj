@@ -117,6 +117,11 @@
 		AF73398817F9C47E00DBA583 /* BurritoReporterSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF73398717F9C47E00DBA583 /* BurritoReporterSpec.m */; };
 		AF73398B17F9C53D00DBA583 /* BurritoReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = AF73398A17F9C53D00DBA583 /* BurritoReporter.m */; };
 		AF73398C17F9C53D00DBA583 /* BurritoReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = AF73398A17F9C53D00DBA583 /* BurritoReporter.m */; };
+		AF91E05D17FB469700357554 /* ObserverPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF91E05B17FB469700357554 /* ObserverPatternViewController.m */; };
+		AF91E05E17FB469700357554 /* ObserverPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF91E05B17FB469700357554 /* ObserverPatternViewController.m */; };
+		AF91E05F17FB469700357554 /* ObserverPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF91E05C17FB469700357554 /* ObserverPatternViewController.xib */; };
+		AF91E06017FB469700357554 /* ObserverPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF91E05C17FB469700357554 /* ObserverPatternViewController.xib */; };
+		AF91E06317FB46D300357554 /* ObserverPatternViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF91E06217FB46D300357554 /* ObserverPatternViewControllerSpec.m */; };
 		AFA9245E17D53C600005E39B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9245D17D53C600005E39B /* UIKit.framework */; };
 		AFA9246017D53C600005E39B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9245F17D53C600005E39B /* Foundation.framework */; };
 		AFA9246217D53C600005E39B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9246117D53C600005E39B /* CoreGraphics.framework */; };
@@ -313,6 +318,10 @@
 		AF73398717F9C47E00DBA583 /* BurritoReporterSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BurritoReporterSpec.m; path = ObserverPattern/BurritoReporterSpec.m; sourceTree = "<group>"; };
 		AF73398917F9C53D00DBA583 /* BurritoReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BurritoReporter.h; path = ObserverPattern/BurritoReporter.h; sourceTree = "<group>"; };
 		AF73398A17F9C53D00DBA583 /* BurritoReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BurritoReporter.m; path = ObserverPattern/BurritoReporter.m; sourceTree = "<group>"; };
+		AF91E05A17FB469700357554 /* ObserverPatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObserverPatternViewController.h; path = App/ObserverPatternViewController.h; sourceTree = "<group>"; };
+		AF91E05B17FB469700357554 /* ObserverPatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObserverPatternViewController.m; path = App/ObserverPatternViewController.m; sourceTree = "<group>"; };
+		AF91E05C17FB469700357554 /* ObserverPatternViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ObserverPatternViewController.xib; path = App/ObserverPatternViewController.xib; sourceTree = "<group>"; };
+		AF91E06217FB46D300357554 /* ObserverPatternViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObserverPatternViewControllerSpec.m; path = App/ObserverPatternViewControllerSpec.m; sourceTree = "<group>"; };
 		AFA9245A17D53C600005E39B /* ObjCDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA9245D17D53C600005E39B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AFA9245F17D53C600005E39B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -742,6 +751,7 @@
 				AFBF95EF17F66B99008054FC /* AppDelegateSpec.m */,
 				AFBF95F017F66B99008054FC /* FactoryPatternsViewControllerSpec.m */,
 				AFBF95F117F66B99008054FC /* SingletonPatternViewControllerSpec.m */,
+				AF91E06217FB46D300357554 /* ObserverPatternViewControllerSpec.m */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -757,6 +767,9 @@
 				AFBF95E017F66B2B008054FC /* SingletonPatternViewController.h */,
 				AFBF95E117F66B2B008054FC /* SingletonPatternViewController.m */,
 				AFBF95E217F66B2B008054FC /* SingletonPatternViewController.xib */,
+				AF91E05A17FB469700357554 /* ObserverPatternViewController.h */,
+				AF91E05B17FB469700357554 /* ObserverPatternViewController.m */,
+				AF91E05C17FB469700357554 /* ObserverPatternViewController.xib */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -1042,6 +1055,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF91E05F17FB469700357554 /* ObserverPatternViewController.xib in Resources */,
 				AFA9246817D53C600005E39B /* InfoPlist.strings in Resources */,
 				AFBF95E717F66B2B008054FC /* FactoryPatternsViewController.xib in Resources */,
 				AFA9247017D53C600005E39B /* Default.png in Resources */,
@@ -1056,6 +1070,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFBF95E817F66B2B008054FC /* FactoryPatternsViewController.xib in Resources */,
+				AF91E06017FB469700357554 /* ObserverPatternViewController.xib in Resources */,
 				AFA9248C17D53C610005E39B /* InfoPlist.strings in Resources */,
 				AFBF95EE17F66B2B008054FC /* SingletonPatternViewController.xib in Resources */,
 			);
@@ -1145,6 +1160,7 @@
 				AF0C4D8517E5F7250038AF36 /* Tortilla.m in Sources */,
 				AF0C4D8D17E5F7400038AF36 /* Asada.m in Sources */,
 				AF0C4D8F17E5F7400038AF36 /* Beef.m in Sources */,
+				AF91E05D17FB469700357554 /* ObserverPatternViewController.m in Sources */,
 				AF0C4D9117E5F7400038AF36 /* Molida.m in Sources */,
 				AF65186C17F37B2C0001ECD5 /* NSLogWrapper.m in Sources */,
 				AF65186317F37AF20001ECD5 /* FancyLookupTable.m in Sources */,
@@ -1181,8 +1197,10 @@
 				AF4AED5B17FA827E000B5B61 /* ChimichangaTimes.m in Sources */,
 				AF0C4D3D17E5F5FD0038AF36 /* Ale.m in Sources */,
 				AF0C4D3F17E5F5FD0038AF36 /* CabernetSauvignon.m in Sources */,
+				AF91E06317FB46D300357554 /* ObserverPatternViewControllerSpec.m in Sources */,
 				AF0C4D4117E5F5FD0038AF36 /* Chardonnay.m in Sources */,
 				AF0C4D4317E5F5FD0038AF36 /* JagerBomb.m in Sources */,
+				AF91E05E17FB469700357554 /* ObserverPatternViewController.m in Sources */,
 				AF0C4D4517E5F5FD0038AF36 /* Lager.m in Sources */,
 				AF0C4D4717E5F5FD0038AF36 /* Merlot.m in Sources */,
 				AF0C4D4917E5F5FD0038AF36 /* RumAndCoke.m in Sources */,

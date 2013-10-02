@@ -82,9 +82,9 @@ describe(@"BurritoReporter", ^{
             
             burritoReporter.observers = [@[fakeObserverUno, fakeObserverDos, fakeObserverTres] mutableCopy];
             
-            [[(NSObject *)fakeObserverUno should] receive:@selector(update:) withArguments:@"Updated Text!"];
-            [[(NSObject *)fakeObserverDos should] receive:@selector(update:) withArguments:@"Updated Text!"];
-            [[(NSObject *)fakeObserverTres should] receive:@selector(update:) withArguments:@"Updated Text!"];
+            [[(NSObject *)fakeObserverUno should] receive:@selector(update:) withArguments:burritoReporter.headline];
+            [[(NSObject *)fakeObserverDos should] receive:@selector(update:) withArguments:burritoReporter.headline];
+            [[(NSObject *)fakeObserverTres should] receive:@selector(update:) withArguments:burritoReporter.headline];
             [burritoReporter notifyObservers];
         });
     });

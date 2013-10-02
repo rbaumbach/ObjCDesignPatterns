@@ -64,7 +64,7 @@ describe(@"ChimichangaTimes", ^{
         });
         
         it(@"returns news snippet", ^{
-            NSString *newsSnippet = [NSString stringWithFormat:@"%@\n Chimichanga Times 2013\n", chimichangaTimes.newsHeader];
+            NSString *newsSnippet = [NSString stringWithFormat:@"%@\n~>Chimichanga Times 2013<~\n", chimichangaTimes.newsHeader];
             [[chimichangaTimes.snippet should] equal:newsSnippet];
         });
     });
