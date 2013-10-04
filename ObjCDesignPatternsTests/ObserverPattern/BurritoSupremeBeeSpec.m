@@ -9,7 +9,7 @@
 @property (strong, nonatomic) id<NewsReporter> newsReporter;
 @property (strong, nonatomic) NSString *newsHeader;
 
-- (NSString *)currentNewsSnippet;
+- (void)currentNewsSnippet;
 
 @end
 

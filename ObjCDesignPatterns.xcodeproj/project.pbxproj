@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		70CA11F3E6194100B20D4630 /* libPods-ObjCDesignPatternsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BCF2278D19440D87CF93F9 /* libPods-ObjCDesignPatternsTests.a */; };
+		AF06DCA117FE4D7C009C5A18 /* GardenerPlantRosesJobSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06DCA017FE4D7C009C5A18 /* GardenerPlantRosesJobSpec.m */; };
+		AF06DCA417FE4DB3009C5A18 /* GardenerPlantRosesJob.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06DCA317FE4DB3009C5A18 /* GardenerPlantRosesJob.m */; };
+		AF06DCA517FE4DB3009C5A18 /* GardenerPlantRosesJob.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06DCA317FE4DB3009C5A18 /* GardenerPlantRosesJob.m */; };
+		AF06DCA817FE5007009C5A18 /* GardenerTrimBushesJobSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06DCA717FE5007009C5A18 /* GardenerTrimBushesJobSpec.m */; };
+		AF06DCAB17FE5023009C5A18 /* GardenerTrimBushesJob.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06DCAA17FE5023009C5A18 /* GardenerTrimBushesJob.m */; };
+		AF06DCAC17FE5023009C5A18 /* GardenerTrimBushesJob.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06DCAA17FE5023009C5A18 /* GardenerTrimBushesJob.m */; };
+		AF06DCAF17FE5148009C5A18 /* ExterminatorKillRoachesJobSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06DCAE17FE5148009C5A18 /* ExterminatorKillRoachesJobSpec.m */; };
+		AF06DCB217FE5160009C5A18 /* ExterminatorKillRoachesJob.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06DCB117FE5160009C5A18 /* ExterminatorKillRoachesJob.m */; };
+		AF06DCB317FE5160009C5A18 /* ExterminatorKillRoachesJob.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06DCB117FE5160009C5A18 /* ExterminatorKillRoachesJob.m */; };
+		AF06DCB617FE52A2009C5A18 /* ExterminatorCaptureRatsJobSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06DCB517FE52A2009C5A18 /* ExterminatorCaptureRatsJobSpec.m */; };
+		AF06DCB917FE52CF009C5A18 /* ExterminatorCaptureRatsJob.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06DCB817FE52CF009C5A18 /* ExterminatorCaptureRatsJob.m */; };
+		AF06DCBA17FE52CF009C5A18 /* ExterminatorCaptureRatsJob.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06DCB817FE52CF009C5A18 /* ExterminatorCaptureRatsJob.m */; };
 		AF0C4D2817E5F5A10038AF36 /* Beverage.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D2717E5F5A10038AF36 /* Beverage.m */; };
 		AF0C4D2917E5F5A10038AF36 /* Beverage.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D2717E5F5A10038AF36 /* Beverage.m */; };
 		AF0C4D3C17E5F5FD0038AF36 /* Ale.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D2B17E5F5FD0038AF36 /* Ale.m */; };
@@ -97,6 +109,9 @@
 		AF0C4DDD17E5F9F30038AF36 /* PorkTaco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DDC17E5F9F30038AF36 /* PorkTaco.m */; };
 		AF0C4DDE17E5F9F30038AF36 /* PorkTaco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DDC17E5F9F30038AF36 /* PorkTaco.m */; };
 		AF14606E17EFD4ED002B5A20 /* FancyLookupTableSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF14606D17EFD4ED002B5A20 /* FancyLookupTableSpec.m */; };
+		AF2E9A8317FD183F00979502 /* PlumberFixLeakJobSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2E9A8217FD183F00979502 /* PlumberFixLeakJobSpec.m */; };
+		AF2E9A8617FD186700979502 /* PlumberFixLeakJob.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2E9A8517FD186700979502 /* PlumberFixLeakJob.m */; };
+		AF2E9A8717FD186700979502 /* PlumberFixLeakJob.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2E9A8517FD186700979502 /* PlumberFixLeakJob.m */; };
 		AF38B47D17FB0FA600512EDF /* SuperBurritoGazetteSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF38B47C17FB0FA600512EDF /* SuperBurritoGazetteSpec.m */; };
 		AF38B48017FB101600512EDF /* SuperBurritoGazette.m in Sources */ = {isa = PBXBuildFile; fileRef = AF38B47F17FB101600512EDF /* SuperBurritoGazette.m */; };
 		AF38B48117FB101600512EDF /* SuperBurritoGazette.m in Sources */ = {isa = PBXBuildFile; fileRef = AF38B47F17FB101600512EDF /* SuperBurritoGazette.m */; };
@@ -122,6 +137,9 @@
 		AF91E05F17FB469700357554 /* ObserverPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF91E05C17FB469700357554 /* ObserverPatternViewController.xib */; };
 		AF91E06017FB469700357554 /* ObserverPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF91E05C17FB469700357554 /* ObserverPatternViewController.xib */; };
 		AF91E06317FB46D300357554 /* ObserverPatternViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF91E06217FB46D300357554 /* ObserverPatternViewControllerSpec.m */; };
+		AF9F8B7117FC670C00409B94 /* Plumber.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9F8B7017FC670C00409B94 /* Plumber.m */; };
+		AF9F8B7217FC670C00409B94 /* Plumber.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9F8B7017FC670C00409B94 /* Plumber.m */; };
+		AF9F8B7517FC672800409B94 /* PlumberSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9F8B7417FC672800409B94 /* PlumberSpec.m */; };
 		AFA9245E17D53C600005E39B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9245D17D53C600005E39B /* UIKit.framework */; };
 		AFA9246017D53C600005E39B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9245F17D53C600005E39B /* Foundation.framework */; };
 		AFA9246217D53C600005E39B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9246117D53C600005E39B /* CoreGraphics.framework */; };
@@ -177,6 +195,12 @@
 		AFADEB0817E614D20080708D /* CremaSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB0517E614D20080708D /* CremaSpec.m */; };
 		AFADEB0917E614D20080708D /* ExtraSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB0617E614D20080708D /* ExtraSpec.m */; };
 		AFADEB0A17E614D20080708D /* GuacamoleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB0717E614D20080708D /* GuacamoleSpec.m */; };
+		AFB7B53417FCF7F9004D442B /* GardenerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB7B53317FCF7F9004D442B /* GardenerSpec.m */; };
+		AFB7B53717FCF853004D442B /* Gardener.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB7B53617FCF853004D442B /* Gardener.m */; };
+		AFB7B53817FCF853004D442B /* Gardener.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB7B53617FCF853004D442B /* Gardener.m */; };
+		AFB7B53B17FD14B9004D442B /* ExterminatorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB7B53A17FD14B9004D442B /* ExterminatorSpec.m */; };
+		AFB7B53E17FD14D3004D442B /* Exterminator.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB7B53D17FD14D3004D442B /* Exterminator.m */; };
+		AFB7B53F17FD14D3004D442B /* Exterminator.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB7B53D17FD14D3004D442B /* Exterminator.m */; };
 		AFBF95E317F66B2B008054FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF95DB17F66B2B008054FC /* AppDelegate.m */; };
 		AFBF95E417F66B2B008054FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF95DB17F66B2B008054FC /* AppDelegate.m */; };
 		AFBF95E517F66B2B008054FC /* FactoryPatternsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF95DD17F66B2B008054FC /* FactoryPatternsViewController.m */; };
@@ -190,6 +214,9 @@
 		AFBF95F217F66B99008054FC /* AppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF95EF17F66B99008054FC /* AppDelegateSpec.m */; };
 		AFBF95F317F66B99008054FC /* FactoryPatternsViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF95F017F66B99008054FC /* FactoryPatternsViewControllerSpec.m */; };
 		AFBF95F417F66B99008054FC /* SingletonPatternViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF95F117F66B99008054FC /* SingletonPatternViewControllerSpec.m */; };
+		AFC747D217FD329800C20E5E /* PlumberUnclogDrainJobSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC747D117FD329800C20E5E /* PlumberUnclogDrainJobSpec.m */; };
+		AFC747D517FD32CA00C20E5E /* PlumberUnclogDrainJob.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC747D417FD32CA00C20E5E /* PlumberUnclogDrainJob.m */; };
+		AFC747D617FD32CA00C20E5E /* PlumberUnclogDrainJob.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC747D417FD32CA00C20E5E /* PlumberUnclogDrainJob.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -205,6 +232,18 @@
 /* Begin PBXFileReference section */
 		47BCF2278D19440D87CF93F9 /* libPods-ObjCDesignPatternsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjCDesignPatternsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68A4AF10CF194DE0A8C61994 /* Pods-ObjCDesignPatternsTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCDesignPatternsTests.xcconfig"; path = "Pods/Pods-ObjCDesignPatternsTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		AF06DCA017FE4D7C009C5A18 /* GardenerPlantRosesJobSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GardenerPlantRosesJobSpec.m; path = CommandPattern/GardenerPlantRosesJobSpec.m; sourceTree = "<group>"; };
+		AF06DCA217FE4DB3009C5A18 /* GardenerPlantRosesJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GardenerPlantRosesJob.h; path = CommandPattern/GardenerPlantRosesJob.h; sourceTree = "<group>"; };
+		AF06DCA317FE4DB3009C5A18 /* GardenerPlantRosesJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GardenerPlantRosesJob.m; path = CommandPattern/GardenerPlantRosesJob.m; sourceTree = "<group>"; };
+		AF06DCA717FE5007009C5A18 /* GardenerTrimBushesJobSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GardenerTrimBushesJobSpec.m; path = CommandPattern/GardenerTrimBushesJobSpec.m; sourceTree = "<group>"; };
+		AF06DCA917FE5023009C5A18 /* GardenerTrimBushesJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GardenerTrimBushesJob.h; path = CommandPattern/GardenerTrimBushesJob.h; sourceTree = "<group>"; };
+		AF06DCAA17FE5023009C5A18 /* GardenerTrimBushesJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GardenerTrimBushesJob.m; path = CommandPattern/GardenerTrimBushesJob.m; sourceTree = "<group>"; };
+		AF06DCAE17FE5148009C5A18 /* ExterminatorKillRoachesJobSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExterminatorKillRoachesJobSpec.m; path = CommandPattern/ExterminatorKillRoachesJobSpec.m; sourceTree = "<group>"; };
+		AF06DCB017FE5160009C5A18 /* ExterminatorKillRoachesJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExterminatorKillRoachesJob.h; path = CommandPattern/ExterminatorKillRoachesJob.h; sourceTree = "<group>"; };
+		AF06DCB117FE5160009C5A18 /* ExterminatorKillRoachesJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExterminatorKillRoachesJob.m; path = CommandPattern/ExterminatorKillRoachesJob.m; sourceTree = "<group>"; };
+		AF06DCB517FE52A2009C5A18 /* ExterminatorCaptureRatsJobSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExterminatorCaptureRatsJobSpec.m; path = CommandPattern/ExterminatorCaptureRatsJobSpec.m; sourceTree = "<group>"; };
+		AF06DCB717FE52CF009C5A18 /* ExterminatorCaptureRatsJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExterminatorCaptureRatsJob.h; path = CommandPattern/ExterminatorCaptureRatsJob.h; sourceTree = "<group>"; };
+		AF06DCB817FE52CF009C5A18 /* ExterminatorCaptureRatsJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExterminatorCaptureRatsJob.m; path = CommandPattern/ExterminatorCaptureRatsJob.m; sourceTree = "<group>"; };
 		AF0C4D2617E5F5A10038AF36 /* Beverage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Beverage.h; path = FactoryPatterns/FactoryMethod/Beverage.h; sourceTree = "<group>"; };
 		AF0C4D2717E5F5A10038AF36 /* Beverage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Beverage.m; path = FactoryPatterns/FactoryMethod/Beverage.m; sourceTree = "<group>"; };
 		AF0C4D2A17E5F5FD0038AF36 /* Ale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ale.h; path = FactoryPatterns/FactoryMethod/Ale.h; sourceTree = "<group>"; };
@@ -295,6 +334,9 @@
 		AF0C4DDB17E5F9F30038AF36 /* PorkTaco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PorkTaco.h; path = FactoryPatterns/AbstractFactory/PorkTaco.h; sourceTree = "<group>"; };
 		AF0C4DDC17E5F9F30038AF36 /* PorkTaco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PorkTaco.m; path = FactoryPatterns/AbstractFactory/PorkTaco.m; sourceTree = "<group>"; };
 		AF14606D17EFD4ED002B5A20 /* FancyLookupTableSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FancyLookupTableSpec.m; path = SingletonPattern/FancyLookupTableSpec.m; sourceTree = "<group>"; };
+		AF2E9A8217FD183F00979502 /* PlumberFixLeakJobSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlumberFixLeakJobSpec.m; path = CommandPattern/PlumberFixLeakJobSpec.m; sourceTree = "<group>"; };
+		AF2E9A8417FD186700979502 /* PlumberFixLeakJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlumberFixLeakJob.h; path = CommandPattern/PlumberFixLeakJob.h; sourceTree = "<group>"; };
+		AF2E9A8517FD186700979502 /* PlumberFixLeakJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlumberFixLeakJob.m; path = CommandPattern/PlumberFixLeakJob.m; sourceTree = "<group>"; };
 		AF38B47C17FB0FA600512EDF /* SuperBurritoGazetteSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SuperBurritoGazetteSpec.m; path = ObserverPattern/SuperBurritoGazetteSpec.m; sourceTree = "<group>"; };
 		AF38B47E17FB101600512EDF /* SuperBurritoGazette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SuperBurritoGazette.h; path = ObserverPattern/SuperBurritoGazette.h; sourceTree = "<group>"; };
 		AF38B47F17FB101600512EDF /* SuperBurritoGazette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SuperBurritoGazette.m; path = ObserverPattern/SuperBurritoGazette.m; sourceTree = "<group>"; };
@@ -321,6 +363,10 @@
 		AF91E05B17FB469700357554 /* ObserverPatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObserverPatternViewController.m; path = App/ObserverPatternViewController.m; sourceTree = "<group>"; };
 		AF91E05C17FB469700357554 /* ObserverPatternViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ObserverPatternViewController.xib; path = App/ObserverPatternViewController.xib; sourceTree = "<group>"; };
 		AF91E06217FB46D300357554 /* ObserverPatternViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObserverPatternViewControllerSpec.m; path = App/ObserverPatternViewControllerSpec.m; sourceTree = "<group>"; };
+		AF9F8B6E17FC667C00409B94 /* Job.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Job.h; path = CommandPattern/Job.h; sourceTree = "<group>"; };
+		AF9F8B6F17FC670C00409B94 /* Plumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Plumber.h; path = CommandPattern/Plumber.h; sourceTree = "<group>"; };
+		AF9F8B7017FC670C00409B94 /* Plumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Plumber.m; path = CommandPattern/Plumber.m; sourceTree = "<group>"; };
+		AF9F8B7417FC672800409B94 /* PlumberSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlumberSpec.m; path = CommandPattern/PlumberSpec.m; sourceTree = "<group>"; };
 		AFA9245A17D53C600005E39B /* ObjCDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA9245D17D53C600005E39B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AFA9245F17D53C600005E39B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -380,6 +426,12 @@
 		AFADEB0517E614D20080708D /* CremaSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CremaSpec.m; path = FactoryPatterns/AbstractFactory/CremaSpec.m; sourceTree = "<group>"; };
 		AFADEB0617E614D20080708D /* ExtraSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExtraSpec.m; path = FactoryPatterns/AbstractFactory/ExtraSpec.m; sourceTree = "<group>"; };
 		AFADEB0717E614D20080708D /* GuacamoleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GuacamoleSpec.m; path = FactoryPatterns/AbstractFactory/GuacamoleSpec.m; sourceTree = "<group>"; };
+		AFB7B53317FCF7F9004D442B /* GardenerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GardenerSpec.m; path = CommandPattern/GardenerSpec.m; sourceTree = "<group>"; };
+		AFB7B53517FCF853004D442B /* Gardener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gardener.h; path = CommandPattern/Gardener.h; sourceTree = "<group>"; };
+		AFB7B53617FCF853004D442B /* Gardener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gardener.m; path = CommandPattern/Gardener.m; sourceTree = "<group>"; };
+		AFB7B53A17FD14B9004D442B /* ExterminatorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExterminatorSpec.m; path = CommandPattern/ExterminatorSpec.m; sourceTree = "<group>"; };
+		AFB7B53C17FD14D3004D442B /* Exterminator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Exterminator.h; path = CommandPattern/Exterminator.h; sourceTree = "<group>"; };
+		AFB7B53D17FD14D3004D442B /* Exterminator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Exterminator.m; path = CommandPattern/Exterminator.m; sourceTree = "<group>"; };
 		AFBF95DA17F66B2B008054FC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = App/AppDelegate.h; sourceTree = "<group>"; };
 		AFBF95DB17F66B2B008054FC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = App/AppDelegate.m; sourceTree = "<group>"; };
 		AFBF95DC17F66B2B008054FC /* FactoryPatternsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FactoryPatternsViewController.h; path = App/FactoryPatternsViewController.h; sourceTree = "<group>"; };
@@ -391,6 +443,9 @@
 		AFBF95EF17F66B99008054FC /* AppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegateSpec.m; path = App/AppDelegateSpec.m; sourceTree = "<group>"; };
 		AFBF95F017F66B99008054FC /* FactoryPatternsViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FactoryPatternsViewControllerSpec.m; path = App/FactoryPatternsViewControllerSpec.m; sourceTree = "<group>"; };
 		AFBF95F117F66B99008054FC /* SingletonPatternViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SingletonPatternViewControllerSpec.m; path = App/SingletonPatternViewControllerSpec.m; sourceTree = "<group>"; };
+		AFC747D117FD329800C20E5E /* PlumberUnclogDrainJobSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlumberUnclogDrainJobSpec.m; path = CommandPattern/PlumberUnclogDrainJobSpec.m; sourceTree = "<group>"; };
+		AFC747D317FD32CA00C20E5E /* PlumberUnclogDrainJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlumberUnclogDrainJob.h; path = CommandPattern/PlumberUnclogDrainJob.h; sourceTree = "<group>"; };
+		AFC747D417FD32CA00C20E5E /* PlumberUnclogDrainJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlumberUnclogDrainJob.m; path = CommandPattern/PlumberUnclogDrainJob.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -640,6 +695,48 @@
 			name = "Observer Pattern";
 			sourceTree = "<group>";
 		};
+		AF9F8B6C17FC65EC00409B94 /* Command Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				AF9F8B7417FC672800409B94 /* PlumberSpec.m */,
+				AFB7B53317FCF7F9004D442B /* GardenerSpec.m */,
+				AFB7B53A17FD14B9004D442B /* ExterminatorSpec.m */,
+				AF2E9A8217FD183F00979502 /* PlumberFixLeakJobSpec.m */,
+				AFC747D117FD329800C20E5E /* PlumberUnclogDrainJobSpec.m */,
+				AF06DCA017FE4D7C009C5A18 /* GardenerPlantRosesJobSpec.m */,
+				AF06DCA717FE5007009C5A18 /* GardenerTrimBushesJobSpec.m */,
+				AF06DCAE17FE5148009C5A18 /* ExterminatorKillRoachesJobSpec.m */,
+				AF06DCB517FE52A2009C5A18 /* ExterminatorCaptureRatsJobSpec.m */,
+			);
+			name = "Command Pattern";
+			sourceTree = "<group>";
+		};
+		AF9F8B6D17FC65F900409B94 /* Command Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				AF9F8B6E17FC667C00409B94 /* Job.h */,
+				AF9F8B6F17FC670C00409B94 /* Plumber.h */,
+				AF9F8B7017FC670C00409B94 /* Plumber.m */,
+				AFB7B53517FCF853004D442B /* Gardener.h */,
+				AFB7B53617FCF853004D442B /* Gardener.m */,
+				AFB7B53C17FD14D3004D442B /* Exterminator.h */,
+				AFB7B53D17FD14D3004D442B /* Exterminator.m */,
+				AF2E9A8417FD186700979502 /* PlumberFixLeakJob.h */,
+				AF2E9A8517FD186700979502 /* PlumberFixLeakJob.m */,
+				AFC747D317FD32CA00C20E5E /* PlumberUnclogDrainJob.h */,
+				AFC747D417FD32CA00C20E5E /* PlumberUnclogDrainJob.m */,
+				AF06DCA217FE4DB3009C5A18 /* GardenerPlantRosesJob.h */,
+				AF06DCA317FE4DB3009C5A18 /* GardenerPlantRosesJob.m */,
+				AF06DCA917FE5023009C5A18 /* GardenerTrimBushesJob.h */,
+				AF06DCAA17FE5023009C5A18 /* GardenerTrimBushesJob.m */,
+				AF06DCB017FE5160009C5A18 /* ExterminatorKillRoachesJob.h */,
+				AF06DCB117FE5160009C5A18 /* ExterminatorKillRoachesJob.m */,
+				AF06DCB717FE52CF009C5A18 /* ExterminatorCaptureRatsJob.h */,
+				AF06DCB817FE52CF009C5A18 /* ExterminatorCaptureRatsJob.m */,
+			);
+			name = "Command Pattern";
+			sourceTree = "<group>";
+		};
 		AFA82EB817DA25A000180B58 /* Abstract Factory */ = {
 			isa = PBXGroup;
 			children = (
@@ -700,6 +797,7 @@
 				AFCA101617D5531600ADF1C8 /* Factory Patterns */,
 				AF14606F17EFD742002B5A20 /* Singleton Pattern */,
 				AF73398017F9C1D800DBA583 /* Observer Pattern */,
+				AF9F8B6D17FC65F900409B94 /* Command Pattern */,
 				AFCA100F17D5430F00ADF1C8 /* App */,
 				AF65186517F37AFC0001ECD5 /* Utilities */,
 				AFA9246417D53C600005E39B /* Supporting Files */,
@@ -727,6 +825,7 @@
 				AF56ECFF17D964C80020F9C4 /* Factory Patterns */,
 				AF14606B17EFD43D002B5A20 /* Singleton Pattern */,
 				AF73398117F9C1E100DBA583 /* Observer Pattern */,
+				AF9F8B6C17FC65EC00409B94 /* Command Pattern */,
 				AFADEB0B17E61ACE0080708D /* App */,
 				AF65186E17F3BF380001ECD5 /* Utilities */,
 				AFA9248817D53C610005E39B /* Supporting Files */,
@@ -1131,11 +1230,13 @@
 				AF0C4D2817E5F5A10038AF36 /* Beverage.m in Sources */,
 				AF0C4D3C17E5F5FD0038AF36 /* Ale.m in Sources */,
 				AF0C4D3E17E5F5FD0038AF36 /* CabernetSauvignon.m in Sources */,
+				AF06DCB917FE52CF009C5A18 /* ExterminatorCaptureRatsJob.m in Sources */,
 				AF0C4D4017E5F5FD0038AF36 /* Chardonnay.m in Sources */,
 				AF65186A17F37B2C0001ECD5 /* AppWindow.m in Sources */,
 				AF0C4D4217E5F5FD0038AF36 /* JagerBomb.m in Sources */,
 				AF0C4D4417E5F5FD0038AF36 /* Lager.m in Sources */,
 				AF0C4D4617E5F5FD0038AF36 /* Merlot.m in Sources */,
+				AFB7B53717FCF853004D442B /* Gardener.m in Sources */,
 				AF0C4D4817E5F5FD0038AF36 /* RumAndCoke.m in Sources */,
 				AF0C4D4A17E5F5FD0038AF36 /* Stout.m in Sources */,
 				AF0C4D4C17E5F5FD0038AF36 /* WhiskeySour.m in Sources */,
@@ -1148,22 +1249,28 @@
 				AF38B48017FB101600512EDF /* SuperBurritoGazette.m in Sources */,
 				AF0C4D6617E5F67D0038AF36 /* StreetTacoStore.m in Sources */,
 				AF0C4D6817E5F67D0038AF36 /* TacoStore.m in Sources */,
+				AF9F8B7117FC670C00409B94 /* Plumber.m in Sources */,
 				AF0C4D7017E5F6CC0038AF36 /* BeefTaco.m in Sources */,
 				AFBF95E317F66B2B008054FC /* AppDelegate.m in Sources */,
+				AF06DCAB17FE5023009C5A18 /* GardenerTrimBushesJob.m in Sources */,
 				AF0C4D7417E5F6CC0038AF36 /* Taco.m in Sources */,
 				AF0C4D7B17E5F6FF0038AF36 /* CrunchyTacoContentsFactory.m in Sources */,
 				AF0C4D7D17E5F6FF0038AF36 /* StreetTacoContentsFactory.m in Sources */,
 				AF0C4D8317E5F7250038AF36 /* Maiz.m in Sources */,
 				AF38B48717FB116200512EDF /* BurritoSupremeBee.m in Sources */,
+				AF06DCA417FE4DB3009C5A18 /* GardenerPlantRosesJob.m in Sources */,
 				AF0C4D8517E5F7250038AF36 /* Tortilla.m in Sources */,
 				AF0C4D8D17E5F7400038AF36 /* Asada.m in Sources */,
 				AF0C4D8F17E5F7400038AF36 /* Beef.m in Sources */,
 				AF91E05D17FB469700357554 /* ObserverPatternViewController.m in Sources */,
+				AFB7B53E17FD14D3004D442B /* Exterminator.m in Sources */,
+				AF06DCB217FE5160009C5A18 /* ExterminatorKillRoachesJob.m in Sources */,
 				AF0C4D9117E5F7400038AF36 /* Molida.m in Sources */,
 				AF65186C17F37B2C0001ECD5 /* NSLogWrapper.m in Sources */,
 				AF65186317F37AF20001ECD5 /* FancyLookupTable.m in Sources */,
 				AF0C4D9917E5F7620038AF36 /* Carnitas.m in Sources */,
 				AF0C4D9B17E5F7620038AF36 /* ChileVerde.m in Sources */,
+				AF2E9A8617FD186700979502 /* PlumberFixLeakJob.m in Sources */,
 				AF0C4D9D17E5F7620038AF36 /* Pork.m in Sources */,
 				AF0C4DA517E5F7920038AF36 /* Cheddar.m in Sources */,
 				AF0C4DA717E5F7920038AF36 /* Fresco.m in Sources */,
@@ -1173,6 +1280,7 @@
 				AFBF95EB17F66B2B008054FC /* SingletonPatternViewController.m in Sources */,
 				AF4AED5A17FA827E000B5B61 /* ChimichangaTimes.m in Sources */,
 				AF0C4DB517E5F7AC0038AF36 /* Salsa.m in Sources */,
+				AFC747D517FD32CA00C20E5E /* PlumberUnclogDrainJob.m in Sources */,
 				AFBF95E517F66B2B008054FC /* FactoryPatternsViewController.m in Sources */,
 				AF0C4DC117E5F80E0038AF36 /* Cebolla.m in Sources */,
 				AF0C4DC317E5F80E0038AF36 /* Cilantro.m in Sources */,
@@ -1200,9 +1308,12 @@
 				AF0C4D4317E5F5FD0038AF36 /* JagerBomb.m in Sources */,
 				AF91E05E17FB469700357554 /* ObserverPatternViewController.m in Sources */,
 				AF0C4D4517E5F5FD0038AF36 /* Lager.m in Sources */,
+				AF06DCA817FE5007009C5A18 /* GardenerTrimBushesJobSpec.m in Sources */,
 				AF0C4D4717E5F5FD0038AF36 /* Merlot.m in Sources */,
+				AF9F8B7517FC672800409B94 /* PlumberSpec.m in Sources */,
 				AF0C4D4917E5F5FD0038AF36 /* RumAndCoke.m in Sources */,
 				AF0C4D4B17E5F5FD0038AF36 /* Stout.m in Sources */,
+				AFC747D617FD32CA00C20E5E /* PlumberUnclogDrainJob.m in Sources */,
 				AF0C4D4D17E5F5FD0038AF36 /* WhiskeySour.m in Sources */,
 				AF0C4D5717E5F6400038AF36 /* Bar.m in Sources */,
 				AF0C4D5917E5F6400038AF36 /* BeerBar.m in Sources */,
@@ -1211,35 +1322,46 @@
 				AF0C4D5B17E5F6400038AF36 /* MixedDrinksBar.m in Sources */,
 				AF0C4D5D17E5F6400038AF36 /* WineBar.m in Sources */,
 				AF0C4D6517E5F67D0038AF36 /* CrunchyTacoStore.m in Sources */,
+				AFB7B53B17FD14B9004D442B /* ExterminatorSpec.m in Sources */,
 				AF0C4D6717E5F67D0038AF36 /* StreetTacoStore.m in Sources */,
 				AF0C4D6917E5F67D0038AF36 /* TacoStore.m in Sources */,
 				AF0C4D7117E5F6CC0038AF36 /* BeefTaco.m in Sources */,
 				AF0C4D7517E5F6CC0038AF36 /* Taco.m in Sources */,
 				AF0C4D7C17E5F6FF0038AF36 /* CrunchyTacoContentsFactory.m in Sources */,
+				AFB7B53F17FD14D3004D442B /* Exterminator.m in Sources */,
 				AF0C4D7E17E5F6FF0038AF36 /* StreetTacoContentsFactory.m in Sources */,
 				AF0C4D8417E5F7250038AF36 /* Maiz.m in Sources */,
 				AF4AED5717FA821F000B5B61 /* ChimichangaTimesSpec.m in Sources */,
+				AF06DCAC17FE5023009C5A18 /* GardenerTrimBushesJob.m in Sources */,
+				AF06DCBA17FE52CF009C5A18 /* ExterminatorCaptureRatsJob.m in Sources */,
 				AF73398C17F9C53D00DBA583 /* BurritoReporter.m in Sources */,
 				AF0C4D8617E5F7250038AF36 /* Tortilla.m in Sources */,
 				AF0C4D8E17E5F7400038AF36 /* Asada.m in Sources */,
 				AF0C4D9017E5F7400038AF36 /* Beef.m in Sources */,
 				AF0C4D9217E5F7400038AF36 /* Molida.m in Sources */,
 				AF0C4D9A17E5F7620038AF36 /* Carnitas.m in Sources */,
+				AFC747D217FD329800C20E5E /* PlumberUnclogDrainJobSpec.m in Sources */,
 				AF0C4D9C17E5F7620038AF36 /* ChileVerde.m in Sources */,
 				AFBF95EC17F66B2B008054FC /* SingletonPatternViewController.m in Sources */,
 				AF0C4D9E17E5F7620038AF36 /* Pork.m in Sources */,
 				AF0C4DA617E5F7920038AF36 /* Cheddar.m in Sources */,
+				AFB7B53817FCF853004D442B /* Gardener.m in Sources */,
+				AF2E9A8717FD186700979502 /* PlumberFixLeakJob.m in Sources */,
+				AF2E9A8317FD183F00979502 /* PlumberFixLeakJobSpec.m in Sources */,
 				AFBF95F417F66B99008054FC /* SingletonPatternViewControllerSpec.m in Sources */,
 				AF0C4DA817E5F7920038AF36 /* Fresco.m in Sources */,
 				AF0C4DAA17E5F7920038AF36 /* Queso.m in Sources */,
 				AF0C4DB217E5F7AC0038AF36 /* Mild.m in Sources */,
+				AFB7B53417FCF7F9004D442B /* GardenerSpec.m in Sources */,
 				AF0C4DB417E5F7AC0038AF36 /* Picante.m in Sources */,
 				AF73398817F9C47E00DBA583 /* BurritoReporterSpec.m in Sources */,
 				AFBF95F317F66B99008054FC /* FactoryPatternsViewControllerSpec.m in Sources */,
 				AF0C4DB617E5F7AC0038AF36 /* Salsa.m in Sources */,
 				AF0C4DC217E5F80E0038AF36 /* Cebolla.m in Sources */,
+				AF06DCB317FE5160009C5A18 /* ExterminatorKillRoachesJob.m in Sources */,
 				AF0C4DC417E5F80E0038AF36 /* Cilantro.m in Sources */,
 				AF0C4DC617E5F80E0038AF36 /* Lechuga.m in Sources */,
+				AF06DCB617FE52A2009C5A18 /* ExterminatorCaptureRatsJobSpec.m in Sources */,
 				AF0C4DC817E5F80E0038AF36 /* Tomate.m in Sources */,
 				AF0C4DCA17E5F80E0038AF36 /* Vedura.m in Sources */,
 				AF65186D17F37B2C0001ECD5 /* NSLogWrapper.m in Sources */,
@@ -1285,14 +1407,18 @@
 				AFADEAF217E6144B0080708D /* CheddarSpec.m in Sources */,
 				AFADEAF317E6144B0080708D /* FrescoSpec.m in Sources */,
 				AFADEAF417E6144B0080708D /* QuesoSpec.m in Sources */,
+				AF06DCA117FE4D7C009C5A18 /* GardenerPlantRosesJobSpec.m in Sources */,
 				AFADEAF817E614740080708D /* MildSpec.m in Sources */,
 				AFADEAF917E614740080708D /* PicanteSpec.m in Sources */,
+				AF06DCA517FE4DB3009C5A18 /* GardenerPlantRosesJob.m in Sources */,
 				AFADEAFA17E614740080708D /* SalsaSpec.m in Sources */,
 				AFBF95E617F66B2B008054FC /* FactoryPatternsViewController.m in Sources */,
 				AFADEB0017E614A60080708D /* CebollaSpec.m in Sources */,
 				AFADEB0117E614A60080708D /* CilantroSpec.m in Sources */,
 				AFBF95F217F66B99008054FC /* AppDelegateSpec.m in Sources */,
 				AFADEB0217E614A60080708D /* LechugaSpec.m in Sources */,
+				AF06DCAF17FE5148009C5A18 /* ExterminatorKillRoachesJobSpec.m in Sources */,
+				AF9F8B7217FC670C00409B94 /* Plumber.m in Sources */,
 				AFADEB0317E614A60080708D /* TomateSpec.m in Sources */,
 				AFADEB0417E614A60080708D /* VeduraSpec.m in Sources */,
 				AFADEB0817E614D20080708D /* CremaSpec.m in Sources */,
