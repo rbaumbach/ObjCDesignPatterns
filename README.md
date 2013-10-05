@@ -10,6 +10,8 @@ Design pattern samples in Objective-C.
 
 *Many more patterns to follow in the near future.
 
+All patterns are fully tested using the Kiwi BDD testing framework.
+
 ## Suggestions, requests and feedback
 
 Thanks for checking out ObjCDesignPatterns.  Any feedback can be can be sent to: rbaumbach.github@gmail.com.
