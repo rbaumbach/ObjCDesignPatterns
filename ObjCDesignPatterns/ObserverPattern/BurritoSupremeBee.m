@@ -28,7 +28,7 @@
 - (void)update:(NSString *)updateText
 {
     self.newsHeader = updateText;
-    [self currentNewsSnippet]; // UPDATE METHOD NAME TO A VERB - updateCurrentNewsSnippet
+    [self currentNewsSnippet];
 }
 
 #pragma mark - Private Methods
