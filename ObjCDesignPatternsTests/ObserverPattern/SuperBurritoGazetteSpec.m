@@ -9,7 +9,7 @@
 @property (strong, nonatomic) id<NewsReporter> newsReporter;
 @property (strong, nonatomic) NSString *newsHeader;
 
-- (void)currentNewsSnippet;
+- (void)updateCurrentNewsSnippet;
 
 @end
 
@@ -44,15 +44,15 @@ describe(@"SuperBurritoGazette", ^{
         });
         
         it(@"updates snippet", ^{
-            [[superBurritoGazette should] receive:@selector(currentNewsSnippet)];
+            [[superBurritoGazette should] receive:@selector(updateCurrentNewsSnippet)];
             [superBurritoGazette update:@"This doesn't matter"];
         });
     });
     
-    context(@"#currentNewsSnippet", ^{
+    context(@"#updateCurrentNewsSnippet", ^{
         beforeEach(^{
             superBurritoGazette.newsHeader = @"Super!!!";
-            [superBurritoGazette currentNewsSnippet];
+            [superBurritoGazette updateCurrentNewsSnippet];
         });
         
         it(@"returns news snippet", ^{

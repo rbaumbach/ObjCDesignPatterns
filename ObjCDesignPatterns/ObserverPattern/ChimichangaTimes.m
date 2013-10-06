@@ -28,12 +28,12 @@
 - (void)update:(NSString *)updateText
 {
     self.newsHeader = updateText;
-    [self currentNewsSnippet];
+    [self updateCurrentNewsSnippet];
 }
 
 #pragma mark - Private Methods
 
-- (void)currentNewsSnippet
+- (void)updateCurrentNewsSnippet
 {
     self.snippet = [NSString stringWithFormat:@"%@\n~>Chimichanga Times 2013<~\n", self.newsHeader];
 }
