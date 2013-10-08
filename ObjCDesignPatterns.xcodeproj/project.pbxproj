@@ -203,6 +203,9 @@
 		AFB5E176180393ED00FF4E36 /* CommandPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFB5E173180393ED00FF4E36 /* CommandPatternViewController.xib */; };
 		AFB5E177180393ED00FF4E36 /* CommandPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFB5E173180393ED00FF4E36 /* CommandPatternViewController.xib */; };
 		AFB5E17A1803944500FF4E36 /* CommandPatternViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB5E1791803944500FF4E36 /* CommandPatternViewControllerSpec.m */; };
+		AFB5E1831803D1B900FF4E36 /* FancyMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB5E1821803D1B900FF4E36 /* FancyMutableArray.m */; };
+		AFB5E1861803D1DC00FF4E36 /* FancyMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB5E1851803D1DC00FF4E36 /* FancyMutableArray.m */; };
+		AFB5E1871803D1DC00FF4E36 /* FancyMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB5E1851803D1DC00FF4E36 /* FancyMutableArray.m */; };
 		AFB7B53417FCF7F9004D442B /* GardenerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB7B53317FCF7F9004D442B /* GardenerSpec.m */; };
 		AFB7B53717FCF853004D442B /* Gardener.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB7B53617FCF853004D442B /* Gardener.m */; };
 		AFB7B53817FCF853004D442B /* Gardener.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB7B53617FCF853004D442B /* Gardener.m */; };
@@ -441,6 +444,9 @@
 		AFB5E172180393ED00FF4E36 /* CommandPatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandPatternViewController.m; path = CommandPattern/CommandPatternViewController.m; sourceTree = "<group>"; };
 		AFB5E173180393ED00FF4E36 /* CommandPatternViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CommandPatternViewController.xib; path = CommandPattern/CommandPatternViewController.xib; sourceTree = "<group>"; };
 		AFB5E1791803944500FF4E36 /* CommandPatternViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandPatternViewControllerSpec.m; path = App/CommandPatternViewControllerSpec.m; sourceTree = "<group>"; };
+		AFB5E1821803D1B900FF4E36 /* FancyMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FancyMutableArray.m; path = DelegatePattern/FancyMutableArray.m; sourceTree = "<group>"; };
+		AFB5E1841803D1DC00FF4E36 /* FancyMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FancyMutableArray.h; path = DelegatePattern/FancyMutableArray.h; sourceTree = "<group>"; };
+		AFB5E1851803D1DC00FF4E36 /* FancyMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FancyMutableArray.m; path = DelegatePattern/FancyMutableArray.m; sourceTree = "<group>"; };
 		AFB7B53317FCF7F9004D442B /* GardenerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GardenerSpec.m; path = CommandPattern/GardenerSpec.m; sourceTree = "<group>"; };
 		AFB7B53517FCF853004D442B /* Gardener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gardener.h; path = CommandPattern/Gardener.h; sourceTree = "<group>"; };
 		AFB7B53617FCF853004D442B /* Gardener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gardener.m; path = CommandPattern/Gardener.m; sourceTree = "<group>"; };
@@ -458,6 +464,7 @@
 		AFBF95EF17F66B99008054FC /* AppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegateSpec.m; path = App/AppDelegateSpec.m; sourceTree = "<group>"; };
 		AFBF95F017F66B99008054FC /* FactoryPatternsViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FactoryPatternsViewControllerSpec.m; path = App/FactoryPatternsViewControllerSpec.m; sourceTree = "<group>"; };
 		AFBF95F117F66B99008054FC /* SingletonPatternViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SingletonPatternViewControllerSpec.m; path = App/SingletonPatternViewControllerSpec.m; sourceTree = "<group>"; };
+		AFC3C4A418044A74000660FA /* FancyMutableArrayDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FancyMutableArrayDelegate.h; path = DelegatePattern/FancyMutableArrayDelegate.h; sourceTree = "<group>"; };
 		AFC747D117FD329800C20E5E /* PlumberUnclogDrainJobSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlumberUnclogDrainJobSpec.m; path = CommandPattern/PlumberUnclogDrainJobSpec.m; sourceTree = "<group>"; };
 		AFC747D317FD32CA00C20E5E /* PlumberUnclogDrainJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlumberUnclogDrainJob.h; path = CommandPattern/PlumberUnclogDrainJob.h; sourceTree = "<group>"; };
 		AFC747D417FD32CA00C20E5E /* PlumberUnclogDrainJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlumberUnclogDrainJob.m; path = CommandPattern/PlumberUnclogDrainJob.m; sourceTree = "<group>"; };
@@ -816,6 +823,7 @@
 				AF14606F17EFD742002B5A20 /* Singleton Pattern */,
 				AF73398017F9C1D800DBA583 /* Observer Pattern */,
 				AF9F8B6D17FC65F900409B94 /* Command Pattern */,
+				AFB5E1801803D18F00FF4E36 /* Delegate Pattern */,
 				AFCA100F17D5430F00ADF1C8 /* App */,
 				AF65186517F37AFC0001ECD5 /* Utilities */,
 				AFA9246417D53C600005E39B /* Supporting Files */,
@@ -844,6 +852,7 @@
 				AF14606B17EFD43D002B5A20 /* Singleton Pattern */,
 				AF73398117F9C1E100DBA583 /* Observer Pattern */,
 				AF9F8B6C17FC65EC00409B94 /* Command Pattern */,
+				AFB5E17F1803D17200FF4E36 /* Delegate Pattern */,
 				AFADEB0B17E61ACE0080708D /* App */,
 				AF65186E17F3BF380001ECD5 /* Utilities */,
 				AFA9248817D53C610005E39B /* Supporting Files */,
@@ -870,6 +879,24 @@
 				AFB5E1791803944500FF4E36 /* CommandPatternViewControllerSpec.m */,
 			);
 			name = App;
+			sourceTree = "<group>";
+		};
+		AFB5E17F1803D17200FF4E36 /* Delegate Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				AFB5E1821803D1B900FF4E36 /* FancyMutableArray.m */,
+			);
+			name = "Delegate Pattern";
+			sourceTree = "<group>";
+		};
+		AFB5E1801803D18F00FF4E36 /* Delegate Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				AFC3C4A418044A74000660FA /* FancyMutableArrayDelegate.h */,
+				AFB5E1841803D1DC00FF4E36 /* FancyMutableArray.h */,
+				AFB5E1851803D1DC00FF4E36 /* FancyMutableArray.m */,
+			);
+			name = "Delegate Pattern";
 			sourceTree = "<group>";
 		};
 		AFCA100F17D5430F00ADF1C8 /* App */ = {
@@ -1298,6 +1325,7 @@
 				AF0C4D9B17E5F7620038AF36 /* ChileVerde.m in Sources */,
 				AF2E9A8617FD186700979502 /* PlumberFixLeakJob.m in Sources */,
 				AF0C4D9D17E5F7620038AF36 /* Pork.m in Sources */,
+				AFB5E1861803D1DC00FF4E36 /* FancyMutableArray.m in Sources */,
 				AF0C4DA517E5F7920038AF36 /* Cheddar.m in Sources */,
 				AF0C4DA717E5F7920038AF36 /* Fresco.m in Sources */,
 				AF0C4DA917E5F7920038AF36 /* Queso.m in Sources */,
@@ -1387,6 +1415,7 @@
 				AF0C4DB617E5F7AC0038AF36 /* Salsa.m in Sources */,
 				AF0C4DC217E5F80E0038AF36 /* Cebolla.m in Sources */,
 				AF06DCB317FE5160009C5A18 /* ExterminatorKillRoachesJob.m in Sources */,
+				AFB5E1871803D1DC00FF4E36 /* FancyMutableArray.m in Sources */,
 				AF0C4DC417E5F80E0038AF36 /* Cilantro.m in Sources */,
 				AF0C4DC617E5F80E0038AF36 /* Lechuga.m in Sources */,
 				AF06DCB617FE52A2009C5A18 /* ExterminatorCaptureRatsJobSpec.m in Sources */,
@@ -1408,6 +1437,7 @@
 				AFADEAC217E612D20080708D /* JagerBomb.m in Sources */,
 				AFADEAC317E612D20080708D /* LagerSpec.m in Sources */,
 				AFADEAC417E612D20080708D /* MerlotSpec.m in Sources */,
+				AFB5E1831803D1B900FF4E36 /* FancyMutableArray.m in Sources */,
 				AFADEAC517E612D20080708D /* RumAndCokeSpec.m in Sources */,
 				AFADEAC617E612D20080708D /* StoutSpec.m in Sources */,
 				AF06DCBD17FE54A7009C5A18 /* JobArraySpec.m in Sources */,
