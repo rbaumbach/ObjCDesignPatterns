@@ -17,6 +17,8 @@
 
 @implementation CommandPatternViewController
 
+#pragma mark - Init Methods
+
 - (id)init
 {
     self = [super init];
@@ -30,12 +32,16 @@
     return self;
 }
 
+#pragma mark - View Lifecycle
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
     [self setupTextView];
 }
+
+#pragma mark - Private Methods
 
 - (void)setupTextView
 {

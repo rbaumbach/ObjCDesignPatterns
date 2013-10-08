@@ -11,6 +11,7 @@
 @implementation ExterminatorKillRoachesJob
 
 #pragma mark - Init Methods
+
 - (id)initWithExterminator:(Exterminator *)exterminator
 {
     self = [super init];
