@@ -20,9 +20,9 @@
 		AF06DCB617FE52A2009C5A18 /* ExterminatorCaptureRatsJobSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06DCB517FE52A2009C5A18 /* ExterminatorCaptureRatsJobSpec.m */; };
 		AF06DCB917FE52CF009C5A18 /* ExterminatorCaptureRatsJob.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06DCB817FE52CF009C5A18 /* ExterminatorCaptureRatsJob.m */; };
 		AF06DCBA17FE52CF009C5A18 /* ExterminatorCaptureRatsJob.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06DCB817FE52CF009C5A18 /* ExterminatorCaptureRatsJob.m */; };
-		AF06DCBD17FE54A7009C5A18 /* JobQueueSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06DCBC17FE54A7009C5A18 /* JobQueueSpec.m */; };
-		AF06DCC017FE5510009C5A18 /* JobQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06DCBF17FE5510009C5A18 /* JobQueue.m */; };
-		AF06DCC117FE5510009C5A18 /* JobQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06DCBF17FE5510009C5A18 /* JobQueue.m */; };
+		AF06DCBD17FE54A7009C5A18 /* JobArraySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06DCBC17FE54A7009C5A18 /* JobArraySpec.m */; };
+		AF06DCC017FE5510009C5A18 /* JobArray.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06DCBF17FE5510009C5A18 /* JobArray.m */; };
+		AF06DCC117FE5510009C5A18 /* JobArray.m in Sources */ = {isa = PBXBuildFile; fileRef = AF06DCBF17FE5510009C5A18 /* JobArray.m */; };
 		AF0C4D2817E5F5A10038AF36 /* Beverage.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D2717E5F5A10038AF36 /* Beverage.m */; };
 		AF0C4D2917E5F5A10038AF36 /* Beverage.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D2717E5F5A10038AF36 /* Beverage.m */; };
 		AF0C4D3C17E5F5FD0038AF36 /* Ale.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4D2B17E5F5FD0038AF36 /* Ale.m */; };
@@ -198,6 +198,11 @@
 		AFADEB0817E614D20080708D /* CremaSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB0517E614D20080708D /* CremaSpec.m */; };
 		AFADEB0917E614D20080708D /* ExtraSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB0617E614D20080708D /* ExtraSpec.m */; };
 		AFADEB0A17E614D20080708D /* GuacamoleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB0717E614D20080708D /* GuacamoleSpec.m */; };
+		AFB5E174180393ED00FF4E36 /* CommandPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB5E172180393ED00FF4E36 /* CommandPatternViewController.m */; };
+		AFB5E175180393ED00FF4E36 /* CommandPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB5E172180393ED00FF4E36 /* CommandPatternViewController.m */; };
+		AFB5E176180393ED00FF4E36 /* CommandPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFB5E173180393ED00FF4E36 /* CommandPatternViewController.xib */; };
+		AFB5E177180393ED00FF4E36 /* CommandPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFB5E173180393ED00FF4E36 /* CommandPatternViewController.xib */; };
+		AFB5E17A1803944500FF4E36 /* CommandPatternViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB5E1791803944500FF4E36 /* CommandPatternViewControllerSpec.m */; };
 		AFB7B53417FCF7F9004D442B /* GardenerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB7B53317FCF7F9004D442B /* GardenerSpec.m */; };
 		AFB7B53717FCF853004D442B /* Gardener.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB7B53617FCF853004D442B /* Gardener.m */; };
 		AFB7B53817FCF853004D442B /* Gardener.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB7B53617FCF853004D442B /* Gardener.m */; };
@@ -247,9 +252,9 @@
 		AF06DCB517FE52A2009C5A18 /* ExterminatorCaptureRatsJobSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExterminatorCaptureRatsJobSpec.m; path = CommandPattern/ExterminatorCaptureRatsJobSpec.m; sourceTree = "<group>"; };
 		AF06DCB717FE52CF009C5A18 /* ExterminatorCaptureRatsJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExterminatorCaptureRatsJob.h; path = CommandPattern/ExterminatorCaptureRatsJob.h; sourceTree = "<group>"; };
 		AF06DCB817FE52CF009C5A18 /* ExterminatorCaptureRatsJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExterminatorCaptureRatsJob.m; path = CommandPattern/ExterminatorCaptureRatsJob.m; sourceTree = "<group>"; };
-		AF06DCBC17FE54A7009C5A18 /* JobQueueSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JobQueueSpec.m; path = CommandPattern/JobQueueSpec.m; sourceTree = "<group>"; };
-		AF06DCBE17FE5510009C5A18 /* JobQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JobQueue.h; path = CommandPattern/JobQueue.h; sourceTree = "<group>"; };
-		AF06DCBF17FE5510009C5A18 /* JobQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JobQueue.m; path = CommandPattern/JobQueue.m; sourceTree = "<group>"; };
+		AF06DCBC17FE54A7009C5A18 /* JobArraySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JobArraySpec.m; path = CommandPattern/JobArraySpec.m; sourceTree = "<group>"; };
+		AF06DCBE17FE5510009C5A18 /* JobArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JobArray.h; path = CommandPattern/JobArray.h; sourceTree = "<group>"; };
+		AF06DCBF17FE5510009C5A18 /* JobArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JobArray.m; path = CommandPattern/JobArray.m; sourceTree = "<group>"; };
 		AF0C4D2617E5F5A10038AF36 /* Beverage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Beverage.h; path = FactoryPatterns/FactoryMethod/Beverage.h; sourceTree = "<group>"; };
 		AF0C4D2717E5F5A10038AF36 /* Beverage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Beverage.m; path = FactoryPatterns/FactoryMethod/Beverage.m; sourceTree = "<group>"; };
 		AF0C4D2A17E5F5FD0038AF36 /* Ale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ale.h; path = FactoryPatterns/FactoryMethod/Ale.h; sourceTree = "<group>"; };
@@ -432,6 +437,10 @@
 		AFADEB0517E614D20080708D /* CremaSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CremaSpec.m; path = FactoryPatterns/AbstractFactory/CremaSpec.m; sourceTree = "<group>"; };
 		AFADEB0617E614D20080708D /* ExtraSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExtraSpec.m; path = FactoryPatterns/AbstractFactory/ExtraSpec.m; sourceTree = "<group>"; };
 		AFADEB0717E614D20080708D /* GuacamoleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GuacamoleSpec.m; path = FactoryPatterns/AbstractFactory/GuacamoleSpec.m; sourceTree = "<group>"; };
+		AFB5E171180393ED00FF4E36 /* CommandPatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandPatternViewController.h; path = CommandPattern/CommandPatternViewController.h; sourceTree = "<group>"; };
+		AFB5E172180393ED00FF4E36 /* CommandPatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandPatternViewController.m; path = CommandPattern/CommandPatternViewController.m; sourceTree = "<group>"; };
+		AFB5E173180393ED00FF4E36 /* CommandPatternViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CommandPatternViewController.xib; path = CommandPattern/CommandPatternViewController.xib; sourceTree = "<group>"; };
+		AFB5E1791803944500FF4E36 /* CommandPatternViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandPatternViewControllerSpec.m; path = App/CommandPatternViewControllerSpec.m; sourceTree = "<group>"; };
 		AFB7B53317FCF7F9004D442B /* GardenerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GardenerSpec.m; path = CommandPattern/GardenerSpec.m; sourceTree = "<group>"; };
 		AFB7B53517FCF853004D442B /* Gardener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gardener.h; path = CommandPattern/Gardener.h; sourceTree = "<group>"; };
 		AFB7B53617FCF853004D442B /* Gardener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gardener.m; path = CommandPattern/Gardener.m; sourceTree = "<group>"; };
@@ -713,7 +722,7 @@
 				AF06DCA717FE5007009C5A18 /* GardenerTrimBushesJobSpec.m */,
 				AF06DCAE17FE5148009C5A18 /* ExterminatorKillRoachesJobSpec.m */,
 				AF06DCB517FE52A2009C5A18 /* ExterminatorCaptureRatsJobSpec.m */,
-				AF06DCBC17FE54A7009C5A18 /* JobQueueSpec.m */,
+				AF06DCBC17FE54A7009C5A18 /* JobArraySpec.m */,
 			);
 			name = "Command Pattern";
 			sourceTree = "<group>";
@@ -740,8 +749,8 @@
 				AF06DCB117FE5160009C5A18 /* ExterminatorKillRoachesJob.m */,
 				AF06DCB717FE52CF009C5A18 /* ExterminatorCaptureRatsJob.h */,
 				AF06DCB817FE52CF009C5A18 /* ExterminatorCaptureRatsJob.m */,
-				AF06DCBE17FE5510009C5A18 /* JobQueue.h */,
-				AF06DCBF17FE5510009C5A18 /* JobQueue.m */,
+				AF06DCBE17FE5510009C5A18 /* JobArray.h */,
+				AF06DCBF17FE5510009C5A18 /* JobArray.m */,
 			);
 			name = "Command Pattern";
 			sourceTree = "<group>";
@@ -858,6 +867,7 @@
 				AFBF95F017F66B99008054FC /* FactoryPatternsViewControllerSpec.m */,
 				AFBF95F117F66B99008054FC /* SingletonPatternViewControllerSpec.m */,
 				AF91E06217FB46D300357554 /* ObserverPatternViewControllerSpec.m */,
+				AFB5E1791803944500FF4E36 /* CommandPatternViewControllerSpec.m */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -876,6 +886,9 @@
 				AF91E05A17FB469700357554 /* ObserverPatternViewController.h */,
 				AF91E05B17FB469700357554 /* ObserverPatternViewController.m */,
 				AF91E05C17FB469700357554 /* ObserverPatternViewController.xib */,
+				AFB5E171180393ED00FF4E36 /* CommandPatternViewController.h */,
+				AFB5E172180393ED00FF4E36 /* CommandPatternViewController.m */,
+				AFB5E173180393ED00FF4E36 /* CommandPatternViewController.xib */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -1163,6 +1176,7 @@
 			files = (
 				AF91E05F17FB469700357554 /* ObserverPatternViewController.xib in Resources */,
 				AFA9246817D53C600005E39B /* InfoPlist.strings in Resources */,
+				AFB5E176180393ED00FF4E36 /* CommandPatternViewController.xib in Resources */,
 				AFBF95E717F66B2B008054FC /* FactoryPatternsViewController.xib in Resources */,
 				AFA9247017D53C600005E39B /* Default.png in Resources */,
 				AFBF95ED17F66B2B008054FC /* SingletonPatternViewController.xib in Resources */,
@@ -1177,6 +1191,7 @@
 			files = (
 				AFBF95E817F66B2B008054FC /* FactoryPatternsViewController.xib in Resources */,
 				AF91E06017FB469700357554 /* ObserverPatternViewController.xib in Resources */,
+				AFB5E177180393ED00FF4E36 /* CommandPatternViewController.xib in Resources */,
 				AFA9248C17D53C610005E39B /* InfoPlist.strings in Resources */,
 				AFBF95EE17F66B2B008054FC /* SingletonPatternViewController.xib in Resources */,
 			);
@@ -1260,6 +1275,7 @@
 				AF0C4D6817E5F67D0038AF36 /* TacoStore.m in Sources */,
 				AF9F8B7117FC670C00409B94 /* Plumber.m in Sources */,
 				AF0C4D7017E5F6CC0038AF36 /* BeefTaco.m in Sources */,
+				AFB5E174180393ED00FF4E36 /* CommandPatternViewController.m in Sources */,
 				AFBF95E317F66B2B008054FC /* AppDelegate.m in Sources */,
 				AF06DCAB17FE5023009C5A18 /* GardenerTrimBushesJob.m in Sources */,
 				AF0C4D7417E5F6CC0038AF36 /* Taco.m in Sources */,
@@ -1276,7 +1292,7 @@
 				AF06DCB217FE5160009C5A18 /* ExterminatorKillRoachesJob.m in Sources */,
 				AF0C4D9117E5F7400038AF36 /* Molida.m in Sources */,
 				AF65186C17F37B2C0001ECD5 /* NSLogWrapper.m in Sources */,
-				AF06DCC017FE5510009C5A18 /* JobQueue.m in Sources */,
+				AF06DCC017FE5510009C5A18 /* JobArray.m in Sources */,
 				AF65186317F37AF20001ECD5 /* FancyLookupTable.m in Sources */,
 				AF0C4D9917E5F7620038AF36 /* Carnitas.m in Sources */,
 				AF0C4D9B17E5F7620038AF36 /* ChileVerde.m in Sources */,
@@ -1325,7 +1341,7 @@
 				AF0C4D4B17E5F5FD0038AF36 /* Stout.m in Sources */,
 				AFC747D617FD32CA00C20E5E /* PlumberUnclogDrainJob.m in Sources */,
 				AF0C4D4D17E5F5FD0038AF36 /* WhiskeySour.m in Sources */,
-				AF06DCC117FE5510009C5A18 /* JobQueue.m in Sources */,
+				AF06DCC117FE5510009C5A18 /* JobArray.m in Sources */,
 				AF0C4D5717E5F6400038AF36 /* Bar.m in Sources */,
 				AF0C4D5917E5F6400038AF36 /* BeerBar.m in Sources */,
 				AFBF95E417F66B2B008054FC /* AppDelegate.m in Sources */,
@@ -1333,6 +1349,7 @@
 				AF0C4D5B17E5F6400038AF36 /* MixedDrinksBar.m in Sources */,
 				AF0C4D5D17E5F6400038AF36 /* WineBar.m in Sources */,
 				AF0C4D6517E5F67D0038AF36 /* CrunchyTacoStore.m in Sources */,
+				AFB5E175180393ED00FF4E36 /* CommandPatternViewController.m in Sources */,
 				AFB7B53B17FD14B9004D442B /* ExterminatorSpec.m in Sources */,
 				AF0C4D6717E5F67D0038AF36 /* StreetTacoStore.m in Sources */,
 				AF0C4D6917E5F67D0038AF36 /* TacoStore.m in Sources */,
@@ -1393,8 +1410,9 @@
 				AFADEAC417E612D20080708D /* MerlotSpec.m in Sources */,
 				AFADEAC517E612D20080708D /* RumAndCokeSpec.m in Sources */,
 				AFADEAC617E612D20080708D /* StoutSpec.m in Sources */,
-				AF06DCBD17FE54A7009C5A18 /* JobQueueSpec.m in Sources */,
+				AF06DCBD17FE54A7009C5A18 /* JobArraySpec.m in Sources */,
 				AFADEAC717E612D20080708D /* WhiskeySour.m in Sources */,
+				AFB5E17A1803944500FF4E36 /* CommandPatternViewControllerSpec.m in Sources */,
 				AFADEACC17E613080080708D /* BarSpec.m in Sources */,
 				AFADEACD17E613080080708D /* BeerBarSpec.m in Sources */,
 				AFADEACE17E613080080708D /* MixedDrinksBarSpec.m in Sources */,

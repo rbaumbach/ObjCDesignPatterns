@@ -1,9 +1,9 @@
 #import "Kiwi.h"
-#import "JobQueue.h"
+#import "JobArray.h"
 #import "Job.h"
 
 
-@interface JobQueue ()
+@interface JobArray ()
 
 @property (strong, nonatomic) NSMutableArray *jobs;
 
@@ -12,23 +12,23 @@
 @end
 
 
-SPEC_BEGIN(JobQueueSpec)
+SPEC_BEGIN(JobArraySpec)
 
-describe(@"JobQueue", ^{
-    __block JobQueue *jobQueue;
+describe(@"JobArray", ^{
+    __block JobArray *jobArray;
     
     beforeEach(^{
-        jobQueue = [[JobQueue alloc] init];
+        jobArray = [[JobArray alloc] init];
     });
     
     it(@"is not nil", ^{
-        [jobQueue shouldNotBeNil];
+        [jobArray shouldNotBeNil];
     });
     
     it(@"has a job queue 3 element array with null values", ^{
-        [[jobQueue.jobs[0] should] equal:[NSNull null]];
-        [[jobQueue.jobs[1] should] equal:[NSNull null]];
-        [[jobQueue.jobs[2] should] equal:[NSNull null]];
+        [[jobArray.jobs[0] should] equal:[NSNull null]];
+        [[jobArray.jobs[1] should] equal:[NSNull null]];
+        [[jobArray.jobs[2] should] equal:[NSNull null]];
     });
     
     context(@"#addJob:", ^{
@@ -36,11 +36,11 @@ describe(@"JobQueue", ^{
         
         beforeEach(^{
             fakeJob = [KWMock mockForProtocol:@protocol(Job)];
-            [jobQueue addJob:fakeJob atIndex:0];
+            [jobArray addJob:fakeJob atIndex:0];
         });
         
         it(@"adds the job to the job queue", ^{
-            [[jobQueue.jobs[0] should] equal:fakeJob];
+            [[jobArray.jobs[0] should] equal:fakeJob];
         });
     });
 
@@ -51,12 +51,12 @@ describe(@"JobQueue", ^{
         beforeEach(^{
             firstJob = [KWMock mockForProtocol:@protocol(Job)];
             id<Job> secondJob = [KWMock mockForProtocol:@protocol(Job)];
-            jobQueue.jobs = [@[firstJob, secondJob] mutableCopy];
+            jobArray.jobs = [@[firstJob, secondJob] mutableCopy];
         });
         
         it(@"executes job at index passed in", ^{
-            [[jobQueue.jobs[0] should] receive:@selector(execute) andReturn:@"First Job Run"];
-            jobResult = [jobQueue runJobAtIndex:0];
+            [[jobArray.jobs[0] should] receive:@selector(execute) andReturn:@"First Job Run"];
+            jobResult = [jobArray runJobAtIndex:0];
             [[jobResult should] equal:@"First Job Run"];
         });
     });

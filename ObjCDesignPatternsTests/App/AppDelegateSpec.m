@@ -4,6 +4,7 @@
 #import "FactoryPatternsViewController.h"
 #import "SingletonPatternViewController.h"
 #import "ObserverPatternViewController.h"
+#import "CommandPatternViewController.h"
 
 
 @interface AppDelegate ()
@@ -13,6 +14,7 @@
 @property (strong, nonatomic) FactoryPatternsViewController *factoryPatternsViewController;
 @property (strong, nonatomic) SingletonPatternViewController *singletonPatternViewController;
 @property (strong, nonatomic) ObserverPatternViewController *observerPatternViewController;
+@property (strong, nonatomic) CommandPatternViewController *commandPatternViewController;
 
 @end
 
@@ -54,6 +56,10 @@ describe(@"AppDelegate", ^{
         [appDelegate.observerPatternViewController shouldNotBeNil];
     });
     
+    it(@"has a CommandPatternViewController", ^{
+        [appDelegate.commandPatternViewController shouldNotBeNil];
+    });
+    
     context(@"#application:didFinishLaunchingWithOptions:", ^{
         __block BOOL isFinished;
         __block AppWindow *fakeAppWindow;
@@ -67,9 +73,8 @@ describe(@"AppDelegate", ^{
             fakeFactoryPatternsViewController = [FactoryPatternsViewController mock];
             appDelegate.appWindow = fakeAppWindow;
             appDelegate.tabBarController = fakeTabBarController;
-            appDelegate.factoryPatternsViewController = fakeFactoryPatternsViewController;
             
-            [[fakeTabBarController should] receive:@selector(setViewControllers:) withArguments:@[appDelegate.factoryPatternsViewController, appDelegate.singletonPatternViewController, appDelegate.observerPatternViewController]];
+            [[fakeTabBarController should] receive:@selector(setViewControllers:) withArguments:@[appDelegate.factoryPatternsViewController, appDelegate.singletonPatternViewController, appDelegate.observerPatternViewController, appDelegate.commandPatternViewController]];
             [[fakeAppWindow should] receive:@selector(initializeWithRootViewController:) withArguments:appDelegate.tabBarController];
             isFinished = [appDelegate application:nil didFinishLaunchingWithOptions:nil];
         });

@@ -1,7 +1,7 @@
 #import "Job.h"
 
 
-@interface JobQueue : NSObject
+@interface JobArray : NSObject
 
 - (void)addJob:(id<Job>)job
        atIndex:(NSInteger)index;

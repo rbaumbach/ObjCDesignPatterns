@@ -1,15 +1,14 @@
-#import "JobQueue.h"
+#import "JobArray.h"
 
 
-@interface JobQueue ()
+@interface JobArray ()
 
-@property (nonatomic) NSInteger queueSize;
 @property (strong, nonatomic) NSMutableArray *jobs;
 
 @end
 
 
-@implementation JobQueue
+@implementation JobArray
 
 #pragma mark - Init Methods
 
