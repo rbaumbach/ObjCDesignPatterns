@@ -37,7 +37,8 @@
 - (void)replaceItem:(NSString *)replacementItem
             atIndex:(int)index
 {
-    self.mutableArray[index] = replacementItem;
+    [self.mutableArray replaceObjectAtIndex:index
+                                 withObject:replacementItem];
     [self.delegate didReplaceItemWithtItem:replacementItem
                                    atIndex:index];
 }

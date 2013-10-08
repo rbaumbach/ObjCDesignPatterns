@@ -14,12 +14,16 @@ SPEC_BEGIN(FancyMutableArraySpec)
 describe(@"FancyMutableArray", ^{
     __block FancyMutableArray *array;
     __block id<FancyMutableArrayDelegate> fakeDelegate;
+    __block NSMutableArray *fakeMutableArray;
     
     beforeEach(^{
         array = [[FancyMutableArray alloc] init];
         
         fakeDelegate = [KWMock nullMockForProtocol:@protocol(FancyMutableArrayDelegate)];
         array.delegate = fakeDelegate;
+        
+        fakeMutableArray = [NSMutableArray nullMock];
+        array.mutableArray = fakeMutableArray;
     });
     
     it(@"is not nil", ^{
@@ -35,36 +39,33 @@ describe(@"FancyMutableArray", ^{
     });
     
     context(@"#getItemAtIndex:", ^{
-        beforeEach(^{
-            array.mutableArray = [@[@"stuff"] mutableCopy];
-        });
-        
         it(@"returns object at index", ^{
-            [[[array getItemAtIndex:0] should] equal:@"stuff"];
+            [[array.mutableArray should] receive:@selector(objectAtIndex:)
+                                       andReturn:@"fakeItem"
+                                   withArguments:theValue(0)];
+            [[[array getItemAtIndex:0] should] equal:@"fakeItem"];
         });
     });
     
     context(@"#addItem:", ^{
         it(@"adds item to internal mutable array", ^{
-            [array addItem:@"lameItem"];
-            [[array.mutableArray should] contain:@"lameItem"];
+            [[array.mutableArray should] receive:@selector(addObject:) withArguments:@"billyGoat"];
+            [array addItem:@"billyGoat"];
+            
         });
         
         it(@"calls #didAddItem: on delegate", ^{
             [[(NSObject *)array.delegate should] receive:@selector(didAddItem:)
-                                           withArguments:@"fancyItem"];
-            [array addItem:@"fancyItem"];
+                                           withArguments:@"billyGoat"];
+            [array addItem:@"billyGoat"];
         });
     });
     
     context(@"#replaceItem:atIndex:", ^{
-        beforeEach(^{
-            array.mutableArray = [@[@"iwillbereplaced"] mutableCopy];
-        });
-        
         it(@"replaces item to internal mutable array at given index", ^{
+            [[array.mutableArray should] receive:@selector(replaceObjectAtIndex:withObject:)
+                                   withArguments:theValue(0), @"replaced!"];
             [array replaceItem:@"replaced!" atIndex:0];
-            [[array.mutableArray[0] should] equal:@"replaced!"];
         });
         
         it(@"calls #didReplaceItemWithtItem:atIndex: on delegate", ^{
@@ -75,16 +76,16 @@ describe(@"FancyMutableArray", ^{
     });
     
     context(@"#removeItemAtIndex:", ^{
-        beforeEach(^{
-            array.mutableArray = [@[@"iwillberemoved"] mutableCopy];
-        });
-        
         it(@"removes the item from the array", ^{
+            [[array.mutableArray should] receive:@selector(removeObjectAtIndex:)
+                                   withArguments:theValue(0)];
             [array removeItemAtIndex:0];
-            [[array.mutableArray shouldNot] contain:@"iwillberemoved"];
         });
         
         it(@"calls #didRemoveItem:atIndex:", ^{
+            [[array.mutableArray should] receive:@selector(objectAtIndex:)
+                                       andReturn:@"iwillberemoved"
+                                   withArguments:theValue(0)];
             [[(NSObject *)array.delegate should] receive:@selector(didRemoveItem:atIndex:)
                                            withArguments:@"iwillberemoved", theValue(0)];
             [array removeItemAtIndex:0];
