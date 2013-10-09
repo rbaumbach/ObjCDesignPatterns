@@ -8,6 +8,7 @@ Design pattern samples in Objective-C.
 2.  Singleton Pattern
 3.  Observer Pattern
 4.  Command Pattern
+5.  Delegate Pattern
 
 *Many more patterns to follow in the near future.
 
