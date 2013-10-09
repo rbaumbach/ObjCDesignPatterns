@@ -63,7 +63,7 @@
     
     [self.jobArray addJob:unclogDrainJob atIndex:0];
     [self.jobArray addJob:killRoachesJob atIndex:1];
-    [self.jobArray addJob:trimBushesJob atIndex:2];
+    [self.jobArray addJob:trimBushesJob  atIndex:2];
     
     [textViewText appendString:@"Executing jobs...\n"];
     [textViewText appendString:[NSString stringWithFormat:@"%@\n", [self.jobArray runJobAtIndex:0]]];

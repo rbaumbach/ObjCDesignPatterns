@@ -2,9 +2,9 @@
 #import "Swizzlean.h"
 #import "CommandPatternViewController.h"
 #import "JobArray.h"
-#import "Plumber.h"
-#import "Exterminator.h"
-#import "Gardener.h"
+#import "PlumberUnclogDrainJob.h"
+#import "ExterminatorKillRoachesJob.h"
+#import "GardenerTrimBushesJob.h"
 
 @interface CommandPatternViewController ()
 
@@ -98,7 +98,50 @@ describe(@"CommandPatternViewController", ^{
     });
     
     context(@"setupTextView", ^{
+        __block Swizzlean *unclogDrainJobSwizz;
+        __block Swizzlean *killRoachesJobSwizz;
+        __block Swizzlean *trimBushesJobSwizz;
+        
+        __block Plumber *retPlumber;
+        __block Exterminator *retExterminator;
+        __block Gardener *retGardener;
+        
+        __block PlumberUnclogDrainJob *fakeUnclogDrainJob;
+        __block ExterminatorKillRoachesJob *fakeKillRoachesJob;
+        __block GardenerTrimBushesJob *fakeTrimBushesJob;
+        
         beforeEach(^{
+            fakeUnclogDrainJob = [PlumberUnclogDrainJob mock];
+            unclogDrainJobSwizz = [[Swizzlean alloc] initWithClassToSwizzle:[PlumberUnclogDrainJob class]];
+            [unclogDrainJobSwizz swizzleInstanceMethod:@selector(initWithPlumber:)
+                         withReplacementImplementation:^(id _self, Plumber *plumberParam) {
+                             retPlumber = plumberParam;
+                             return fakeUnclogDrainJob;
+            }];
+            
+            fakeKillRoachesJob = [ExterminatorKillRoachesJob mock];
+            killRoachesJobSwizz = [[Swizzlean alloc] initWithClassToSwizzle:[ExterminatorKillRoachesJob class]];
+            [killRoachesJobSwizz swizzleInstanceMethod:@selector(initWithExterminator:)
+                         withReplacementImplementation:^(id _self, Exterminator *exterminatorParam) {
+                             retExterminator = exterminatorParam;
+                             return fakeKillRoachesJob;
+                         }];
+            
+            fakeTrimBushesJob = [GardenerTrimBushesJob mock];
+            trimBushesJobSwizz = [[Swizzlean alloc] initWithClassToSwizzle:[GardenerTrimBushesJob class]];
+            [trimBushesJobSwizz swizzleInstanceMethod:@selector(initWithGardener:)
+                        withReplacementImplementation:^(id _self, Gardener *gardenerParam) {
+                             retGardener = gardenerParam;
+                             return fakeTrimBushesJob;
+                         }];
+            
+            [[controller.jobArray should] receive:@selector(addJob:atIndex:)
+                                    withArguments:fakeUnclogDrainJob, theValue(0)];
+            [[controller.jobArray should] receive:@selector(addJob:atIndex:)
+                                    withArguments:fakeKillRoachesJob, theValue(1)];
+            [[controller.jobArray should] receive:@selector(addJob:atIndex:)
+                                    withArguments:fakeTrimBushesJob, theValue(2)];
+            
             [[controller.jobArray should] receive:@selector(runJobAtIndex:)
                                         andReturn:@"job1"
                                     withArguments:theValue(0)];
@@ -111,9 +154,19 @@ describe(@"CommandPatternViewController", ^{
             [controller setupTextView];
         });
         
+        afterEach(^{
+            [unclogDrainJobSwizz resetSwizzledInstanceMethod];
+            [killRoachesJobSwizz resetSwizzledInstanceMethod];
+            [trimBushesJobSwizz resetSwizzledInstanceMethod];
+        });
+        
         it(@"sets up the textView", ^{
             NSString *expectedText = @"Creating plumber unclog drain job...\nCreating exterminator kill roaches job...\nCreating gardener trim bushes job...\nAdding jobs to job array...\nExecuting jobs...\njob1\njob2\njob3\n";
             [[controller.textView.text should] equal:expectedText];
+            
+            [[retPlumber should] equal:controller.plumber];
+            [[retExterminator should] equal:controller.exterminator];
+            [[retGardener should] equal:controller.gardener];
         });
     });
 });
