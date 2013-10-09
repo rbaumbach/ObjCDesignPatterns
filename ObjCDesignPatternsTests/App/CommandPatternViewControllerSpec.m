@@ -37,7 +37,7 @@ describe(@"CommandPatternViewController", ^{
     });
     
     it(@"has the correct tabBarItem title", ^{
-        [[controller.tabBarItem.title should] equal:@"Command Pattern"];
+        [[controller.tabBarItem.title should] equal:@"Command"];
     });
     
     it(@"has a job array", ^{
@@ -97,7 +97,7 @@ describe(@"CommandPatternViewController", ^{
         });
     });
     
-    context(@"setupTextView", ^{
+    context(@"#setupTextView", ^{
         __block Swizzlean *unclogDrainJobSwizz;
         __block Swizzlean *killRoachesJobSwizz;
         __block Swizzlean *trimBushesJobSwizz;

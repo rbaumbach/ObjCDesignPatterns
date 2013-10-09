@@ -40,7 +40,7 @@ describe(@"ObserverPatternViewController", ^{
     });
     
     it(@"has the correct tabBarItem title", ^{
-        [[controller.tabBarItem.title should] equal:@"Observer Pattern"];
+        [[controller.tabBarItem.title should] equal:@"Observer"];
     });
     
     it(@"has a tabBarItem", ^{

@@ -5,6 +5,7 @@
 #import "SingletonPatternViewController.h"
 #import "ObserverPatternViewController.h"
 #import "CommandPatternViewController.h"
+#import "DelegatePatternViewController.h"
 
 
 @interface AppDelegate ()
@@ -15,6 +16,7 @@
 @property (strong, nonatomic) SingletonPatternViewController *singletonPatternViewController;
 @property (strong, nonatomic) ObserverPatternViewController *observerPatternViewController;
 @property (strong, nonatomic) CommandPatternViewController *commandPatternViewController;
+@property (strong, nonatomic) DelegatePatternViewController *delegatePatternViewController;
 
 @end
 
@@ -60,6 +62,10 @@ describe(@"AppDelegate", ^{
         [appDelegate.commandPatternViewController shouldNotBeNil];
     });
     
+    it(@"has a DelegatePatternViewController", ^{
+        [appDelegate.delegatePatternViewController shouldNotBeNil];
+    });
+    
     context(@"#application:didFinishLaunchingWithOptions:", ^{
         __block BOOL isFinished;
         __block AppWindow *fakeAppWindow;
@@ -74,7 +80,7 @@ describe(@"AppDelegate", ^{
             appDelegate.appWindow = fakeAppWindow;
             appDelegate.tabBarController = fakeTabBarController;
             
-            [[fakeTabBarController should] receive:@selector(setViewControllers:) withArguments:@[appDelegate.factoryPatternsViewController, appDelegate.singletonPatternViewController, appDelegate.observerPatternViewController, appDelegate.commandPatternViewController]];
+            [[fakeTabBarController should] receive:@selector(setViewControllers:) withArguments:@[appDelegate.factoryPatternsViewController, appDelegate.singletonPatternViewController, appDelegate.observerPatternViewController, appDelegate.commandPatternViewController, appDelegate.delegatePatternViewController]];
             [[fakeAppWindow should] receive:@selector(initializeWithRootViewController:) withArguments:appDelegate.tabBarController];
             isFinished = [appDelegate application:nil didFinishLaunchingWithOptions:nil];
         });

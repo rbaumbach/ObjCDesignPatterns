@@ -17,7 +17,7 @@
 {
     self = [super init];
     if (self) {
-        self.tabBarItem.title = @"Singleton Pattern";
+        self.tabBarItem.title = @"Singleton";
         self.fancyLookupTable = [FancyLookupTable sharedInstance];
     }
     return self;

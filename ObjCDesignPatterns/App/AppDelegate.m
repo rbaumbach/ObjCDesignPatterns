@@ -4,6 +4,7 @@
 #import "SingletonPatternViewController.h"
 #import "ObserverPatternViewController.h"
 #import "CommandPatternViewController.h"
+#import "DelegatePatternViewController.h"
 
 
 @interface AppDelegate ()
@@ -14,6 +15,7 @@
 @property (strong, nonatomic) SingletonPatternViewController *singletonPatternViewController;
 @property (strong, nonatomic) ObserverPatternViewController *observerPatternViewController;
 @property (strong, nonatomic) CommandPatternViewController *commandPatternViewController;
+@property (strong, nonatomic) DelegatePatternViewController *delegatePatternViewController;
 
 @end
 
@@ -29,6 +31,7 @@
         self.singletonPatternViewController = [[SingletonPatternViewController alloc] init];
         self.observerPatternViewController = [[ObserverPatternViewController alloc] init];
         self.commandPatternViewController = [[CommandPatternViewController alloc] init];
+        self.delegatePatternViewController = [[DelegatePatternViewController alloc] init];
         self.tabBarController = [[UITabBarController alloc] init];
     }
     return self;
@@ -36,7 +39,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.tabBarController.viewControllers = @[self.factoryPatternsViewController, self.singletonPatternViewController, self.observerPatternViewController, self.commandPatternViewController];
+    self.tabBarController.viewControllers = @[self.factoryPatternsViewController, self.singletonPatternViewController, self.observerPatternViewController, self.commandPatternViewController, self.delegatePatternViewController];
     [self.appWindow initializeWithRootViewController:self.tabBarController];
     return YES;
 }

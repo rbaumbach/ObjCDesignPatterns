@@ -32,7 +32,7 @@ describe(@"SingletonPatternViewController", ^{
     });
     
     it(@"has the correct tabBarItem title", ^{
-        [[controller.tabBarItem.title should] equal:@"Singleton Pattern"];
+        [[controller.tabBarItem.title should] equal:@"Singleton"];
     });
     
     it(@"has a tabBarItem", ^{

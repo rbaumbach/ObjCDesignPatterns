@@ -37,7 +37,7 @@ describe(@"FactoryPatternsViewController", ^{
     });
     
     it(@"has the correct tabBarItem title", ^{
-        [[controller.tabBarItem.title should] equal:@"Factory Patterns"];
+        [[controller.tabBarItem.title should] equal:@"Factory"];
     });
     
     it(@"has a tabBarItem", ^{

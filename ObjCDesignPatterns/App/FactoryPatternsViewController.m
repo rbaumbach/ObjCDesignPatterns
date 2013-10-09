@@ -32,7 +32,7 @@
 {
     self = [super init];
     if (self) {
-        self.tabBarItem.title = @"Factory Patterns";
+        self.tabBarItem.title = @"Factory";
         self.beerBar = [[BeerBar alloc] init];
     }
     return self;

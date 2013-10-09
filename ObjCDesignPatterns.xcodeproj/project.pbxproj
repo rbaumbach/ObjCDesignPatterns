@@ -132,6 +132,11 @@
 		AF65186B17F37B2C0001ECD5 /* AppWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186717F37B2C0001ECD5 /* AppWindow.m */; };
 		AF65186C17F37B2C0001ECD5 /* NSLogWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186917F37B2C0001ECD5 /* NSLogWrapper.m */; };
 		AF65186D17F37B2C0001ECD5 /* NSLogWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186917F37B2C0001ECD5 /* NSLogWrapper.m */; };
+		AF7145861804E6F000462C1B /* DelegatePatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7145841804E6F000462C1B /* DelegatePatternViewController.m */; };
+		AF7145871804E6F000462C1B /* DelegatePatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7145841804E6F000462C1B /* DelegatePatternViewController.m */; };
+		AF7145881804E6F000462C1B /* DelegatePatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF7145851804E6F000462C1B /* DelegatePatternViewController.xib */; };
+		AF7145891804E6F000462C1B /* DelegatePatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF7145851804E6F000462C1B /* DelegatePatternViewController.xib */; };
+		AF71458D1804E73000462C1B /* DelegatePatternViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF71458B1804E73000462C1B /* DelegatePatternViewControllerSpec.m */; };
 		AF73398817F9C47E00DBA583 /* BurritoReporterSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF73398717F9C47E00DBA583 /* BurritoReporterSpec.m */; };
 		AF73398B17F9C53D00DBA583 /* BurritoReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = AF73398A17F9C53D00DBA583 /* BurritoReporter.m */; };
 		AF73398C17F9C53D00DBA583 /* BurritoReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = AF73398A17F9C53D00DBA583 /* BurritoReporter.m */; };
@@ -368,6 +373,10 @@
 		AF65186717F37B2C0001ECD5 /* AppWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppWindow.m; path = Utilities/AppWindow.m; sourceTree = "<group>"; };
 		AF65186817F37B2C0001ECD5 /* NSLogWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSLogWrapper.h; path = Utilities/NSLogWrapper.h; sourceTree = "<group>"; };
 		AF65186917F37B2C0001ECD5 /* NSLogWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSLogWrapper.m; path = Utilities/NSLogWrapper.m; sourceTree = "<group>"; };
+		AF7145831804E6F000462C1B /* DelegatePatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DelegatePatternViewController.h; path = App/DelegatePatternViewController.h; sourceTree = "<group>"; };
+		AF7145841804E6F000462C1B /* DelegatePatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DelegatePatternViewController.m; path = App/DelegatePatternViewController.m; sourceTree = "<group>"; };
+		AF7145851804E6F000462C1B /* DelegatePatternViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DelegatePatternViewController.xib; path = App/DelegatePatternViewController.xib; sourceTree = "<group>"; };
+		AF71458B1804E73000462C1B /* DelegatePatternViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DelegatePatternViewControllerSpec.m; path = App/DelegatePatternViewControllerSpec.m; sourceTree = "<group>"; };
 		AF73398317F9C2B100DBA583 /* NewsReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsReporter.h; path = ObserverPattern/NewsReporter.h; sourceTree = "<group>"; };
 		AF73398417F9C2E000DBA583 /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Observer.h; path = ObserverPattern/Observer.h; sourceTree = "<group>"; };
 		AF73398717F9C47E00DBA583 /* BurritoReporterSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BurritoReporterSpec.m; path = ObserverPattern/BurritoReporterSpec.m; sourceTree = "<group>"; };
@@ -877,6 +886,7 @@
 				AFBF95F117F66B99008054FC /* SingletonPatternViewControllerSpec.m */,
 				AF91E06217FB46D300357554 /* ObserverPatternViewControllerSpec.m */,
 				AFB5E1791803944500FF4E36 /* CommandPatternViewControllerSpec.m */,
+				AF71458B1804E73000462C1B /* DelegatePatternViewControllerSpec.m */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -916,6 +926,9 @@
 				AFB5E171180393ED00FF4E36 /* CommandPatternViewController.h */,
 				AFB5E172180393ED00FF4E36 /* CommandPatternViewController.m */,
 				AFB5E173180393ED00FF4E36 /* CommandPatternViewController.xib */,
+				AF7145831804E6F000462C1B /* DelegatePatternViewController.h */,
+				AF7145841804E6F000462C1B /* DelegatePatternViewController.m */,
+				AF7145851804E6F000462C1B /* DelegatePatternViewController.xib */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -1204,6 +1217,7 @@
 				AF91E05F17FB469700357554 /* ObserverPatternViewController.xib in Resources */,
 				AFA9246817D53C600005E39B /* InfoPlist.strings in Resources */,
 				AFB5E176180393ED00FF4E36 /* CommandPatternViewController.xib in Resources */,
+				AF7145881804E6F000462C1B /* DelegatePatternViewController.xib in Resources */,
 				AFBF95E717F66B2B008054FC /* FactoryPatternsViewController.xib in Resources */,
 				AFA9247017D53C600005E39B /* Default.png in Resources */,
 				AFBF95ED17F66B2B008054FC /* SingletonPatternViewController.xib in Resources */,
@@ -1216,6 +1230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF7145891804E6F000462C1B /* DelegatePatternViewController.xib in Resources */,
 				AFBF95E817F66B2B008054FC /* FactoryPatternsViewController.xib in Resources */,
 				AF91E06017FB469700357554 /* ObserverPatternViewController.xib in Resources */,
 				AFB5E177180393ED00FF4E36 /* CommandPatternViewController.xib in Resources */,
@@ -1339,6 +1354,7 @@
 				AF0C4DC117E5F80E0038AF36 /* Cebolla.m in Sources */,
 				AF0C4DC317E5F80E0038AF36 /* Cilantro.m in Sources */,
 				AF0C4DC517E5F80E0038AF36 /* Lechuga.m in Sources */,
+				AF7145861804E6F000462C1B /* DelegatePatternViewController.m in Sources */,
 				AF0C4DC717E5F80E0038AF36 /* Tomate.m in Sources */,
 				AF0C4DC917E5F80E0038AF36 /* Vedura.m in Sources */,
 				AF0C4DD117E5F8310038AF36 /* Crema.m in Sources */,
@@ -1436,6 +1452,7 @@
 				AF38B48417FB10C200512EDF /* BurritoSupremeBeeSpec.m in Sources */,
 				AFADEAC217E612D20080708D /* JagerBomb.m in Sources */,
 				AFADEAC317E612D20080708D /* LagerSpec.m in Sources */,
+				AF7145871804E6F000462C1B /* DelegatePatternViewController.m in Sources */,
 				AFADEAC417E612D20080708D /* MerlotSpec.m in Sources */,
 				AFB5E1831803D1B900FF4E36 /* FancyMutableArray.m in Sources */,
 				AFADEAC517E612D20080708D /* RumAndCokeSpec.m in Sources */,
@@ -1481,6 +1498,7 @@
 				AF9F8B7217FC670C00409B94 /* Plumber.m in Sources */,
 				AFADEB0317E614A60080708D /* TomateSpec.m in Sources */,
 				AFADEB0417E614A60080708D /* VeduraSpec.m in Sources */,
+				AF71458D1804E73000462C1B /* DelegatePatternViewControllerSpec.m in Sources */,
 				AFADEB0817E614D20080708D /* CremaSpec.m in Sources */,
 				AFADEB0917E614D20080708D /* ExtraSpec.m in Sources */,
 				AFADEB0A17E614D20080708D /* GuacamoleSpec.m in Sources */,
