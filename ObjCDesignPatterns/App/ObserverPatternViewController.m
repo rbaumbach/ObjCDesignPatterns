@@ -22,7 +22,7 @@
 {
     self = [super init];
     if (self) {
-        self.tabBarItem.title = @"Observer";
+        self.title = @"Observer Pattern";
     }
     return self;
 }

@@ -22,7 +22,7 @@
 {
     self = [super init];
     if (self) {
-        self.tabBarItem.title = @"Delegate";
+        self.title = @"Delegate Pattern";
         self.fancyMutableArray = [[FancyMutableArray alloc]init];
         self.fancyMutableArray.delegate = self;
     }

@@ -23,7 +23,7 @@
 {
     self = [super init];
     if (self) {
-        self.tabBarItem.title = @"Command";
+        self.title = @"Command Pattern";
         self.jobArray = [[JobArray alloc] init];
         self.plumber = [[Plumber alloc] init];
         self.exterminator = [[Exterminator alloc] init];

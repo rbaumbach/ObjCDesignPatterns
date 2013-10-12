@@ -39,14 +39,10 @@ describe(@"ObserverPatternViewController", ^{
         [[controller should] beKindOfClass:[UIViewController class]];
     });
     
-    it(@"has the correct tabBarItem title", ^{
-        [[controller.tabBarItem.title should] equal:@"Observer"];
+    it(@"has correct title", ^{
+        [[controller.title should] equal:@"Observer Pattern"];
     });
-    
-    it(@"has a tabBarItem", ^{
-        [controller.tabBarItem shouldNotBeNil];
-    });
-    
+
     context(@"textView", ^{
         it(@"has a textView", ^{
             [controller.textView shouldNotBeNil];

@@ -30,15 +30,11 @@ describe(@"SingletonPatternViewController", ^{
     it(@"is a subclass of UIViewController", ^{
         [[controller should] beKindOfClass:[UIViewController class]];
     });
-    
-    it(@"has the correct tabBarItem title", ^{
-        [[controller.tabBarItem.title should] equal:@"Singleton"];
+
+    it(@"has correct title", ^{
+        [[controller.title should] equal:@"Singleton Pattern"];
     });
-    
-    it(@"has a tabBarItem", ^{
-        [controller.tabBarItem shouldNotBeNil];
-    });
-    
+
     it(@"has instance of FancyLookpTable", ^{
         [controller.fancyLookupTable shouldNotBeNil];
     });

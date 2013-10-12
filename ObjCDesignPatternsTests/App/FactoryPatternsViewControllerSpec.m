@@ -36,14 +36,10 @@ describe(@"FactoryPatternsViewController", ^{
         [[controller should] beKindOfClass:[UIViewController class]];
     });
     
-    it(@"has the correct tabBarItem title", ^{
-        [[controller.tabBarItem.title should] equal:@"Factory"];
+    it(@"has correct title", ^{
+        [[controller.title should] equal:@"Factory Patterns"];
     });
-    
-    it(@"has a tabBarItem", ^{
-        [controller.tabBarItem shouldNotBeNil];
-    });
-    
+
     it(@"has a beer bar", ^{
         [controller.beerBar shouldNotBeNil];
     });

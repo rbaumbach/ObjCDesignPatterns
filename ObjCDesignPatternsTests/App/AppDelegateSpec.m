@@ -1,22 +1,14 @@
 #import "Kiwi.h"
 #import "AppDelegate.h"
 #import "AppWindow.h"
-#import "FactoryPatternsViewController.h"
-#import "SingletonPatternViewController.h"
-#import "ObserverPatternViewController.h"
-#import "CommandPatternViewController.h"
-#import "DelegatePatternViewController.h"
+#import "MainViewController.h"
 
 
 @interface AppDelegate ()
 
 @property (strong, nonatomic) AppWindow *appWindow;
-@property (strong, nonatomic) UITabBarController *tabBarController;
-@property (strong, nonatomic) FactoryPatternsViewController *factoryPatternsViewController;
-@property (strong, nonatomic) SingletonPatternViewController *singletonPatternViewController;
-@property (strong, nonatomic) ObserverPatternViewController *observerPatternViewController;
-@property (strong, nonatomic) CommandPatternViewController *commandPatternViewController;
-@property (strong, nonatomic) DelegatePatternViewController *delegatePatternViewController;
+@property (strong, nonatomic) UINavigationController *navController;
+@property (strong, nonatomic) MainViewController *mainViewController;
 
 @end
 
@@ -42,46 +34,28 @@ describe(@"AppDelegate", ^{
         [appDelegate.appWindow shouldNotBeNil];
     });
     
-    it(@"has a tabBarController", ^{
-        [appDelegate.tabBarController shouldNotBeNil];
+    it(@"has a navigation controller", ^{
+        [appDelegate.navController shouldNotBeNil];
     });
     
-    it(@"has a FactoryPatternsViewController", ^{
-        [appDelegate.factoryPatternsViewController shouldNotBeNil];
-    });
-    
-    it(@"has a SingletonPatternViewController", ^{
-        [appDelegate.singletonPatternViewController shouldNotBeNil];
-    });
-    
-    it(@"has a ObserverPatternViewController", ^{
-        [appDelegate.observerPatternViewController shouldNotBeNil];
-    });
-    
-    it(@"has a CommandPatternViewController", ^{
-        [appDelegate.commandPatternViewController shouldNotBeNil];
-    });
-    
-    it(@"has a DelegatePatternViewController", ^{
-        [appDelegate.delegatePatternViewController shouldNotBeNil];
+    it(@"has a mainViewController", ^{
+        [appDelegate.mainViewController shouldNotBeNil];
     });
     
     context(@"#application:didFinishLaunchingWithOptions:", ^{
         __block BOOL isFinished;
         __block AppWindow *fakeAppWindow;
-        __block UITabBarController *fakeTabBarController;
-        __block FactoryPatternsViewController *fakeFactoryPatternsViewController;
         
         beforeEach(^{
             isFinished = NO;
             fakeAppWindow = [AppWindow mock];
-            fakeTabBarController = [UITabBarController mock];
-            fakeFactoryPatternsViewController = [FactoryPatternsViewController mock];
             appDelegate.appWindow = fakeAppWindow;
-            appDelegate.tabBarController = fakeTabBarController;
             
-            [[fakeTabBarController should] receive:@selector(setViewControllers:) withArguments:@[appDelegate.factoryPatternsViewController, appDelegate.singletonPatternViewController, appDelegate.observerPatternViewController, appDelegate.commandPatternViewController, appDelegate.delegatePatternViewController]];
-            [[fakeAppWindow should] receive:@selector(initializeWithRootViewController:) withArguments:appDelegate.tabBarController];
+            [[appDelegate.navController should] receive:@selector(setViewControllers:)
+                                          withArguments:@[appDelegate.mainViewController]];
+            [[fakeAppWindow should] receive:@selector(initializeWithRootViewController:)
+                              withArguments:appDelegate.navController];
+            
             isFinished = [appDelegate application:nil didFinishLaunchingWithOptions:nil];
         });
         

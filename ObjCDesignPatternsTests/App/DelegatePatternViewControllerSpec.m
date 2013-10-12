@@ -40,14 +40,10 @@ describe(@"DelegatePatternViewController", ^{
         [[(NSObject *)controller should] conformToProtocol:@protocol(FancyMutableArrayDelegate)];
     });
     
-    it(@"has the correct tabBarItem title", ^{
-        [[controller.tabBarItem.title should] equal:@"Delegate"];
+    it(@"has correct title", ^{
+        [[controller.title should] equal:@"Delegate Pattern"];
     });
-    
-    it(@"has a tabBarItem", ^{
-        [controller.tabBarItem shouldNotBeNil];
-    });
-    
+
     it(@"has a FancyMutableArray", ^{
         [controller.fancyMutableArray shouldNotBeNil];
     });

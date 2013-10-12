@@ -36,8 +36,8 @@ describe(@"CommandPatternViewController", ^{
         [[controller should] beKindOfClass:[UIViewController class]];
     });
     
-    it(@"has the correct tabBarItem title", ^{
-        [[controller.tabBarItem.title should] equal:@"Command"];
+    it(@"has correct title", ^{
+        [[controller.title should] equal:@"Command Pattern"];
     });
     
     it(@"has a job array", ^{
@@ -55,11 +55,7 @@ describe(@"CommandPatternViewController", ^{
     it(@"has a gardener", ^{
         [controller.gardener shouldNotBeNil];
     });
-    
-    it(@"has a tabBarItem", ^{
-        [controller.tabBarItem shouldNotBeNil];
-    });
-    
+
     context(@"textView", ^{
         it(@"has a textView", ^{
             [controller.textView shouldNotBeNil];
