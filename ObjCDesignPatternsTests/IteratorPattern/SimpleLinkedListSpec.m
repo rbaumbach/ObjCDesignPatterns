@@ -94,14 +94,13 @@ describe(@"SimpleLinkedList", ^{
                 __block id item;
                 
                 it(@"returns nil", ^{
-                    [[theBlock(^{ item = [simpleLinkedList getItemAtIndex:12345]; }) should] raiseWithName:@"Linked List Out of Bounds"
-                                                                                                    reason:@"Attempted to get an item out of bounds"];
+                    [[theBlock(^{ item = [simpleLinkedList getItemAtIndex:3]; }) should] raiseWithName:@"Linked List Out of Bounds"
+                                                                                                reason:@"Attempted to get an item out of bounds"];
                 });
             });
             
             context(@"non-out of bounds", ^{
                 it(@"returns the correct item", ^{
-                    NSLog(@"================> %d", [simpleLinkedList count]);
                     id item = [simpleLinkedList getItemAtIndex:2];
                     [[item should] equal:@"2"];
                 });
