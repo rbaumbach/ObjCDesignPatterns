@@ -112,6 +112,11 @@
 		AF0C4DDD17E5F9F30038AF36 /* PorkTaco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DDC17E5F9F30038AF36 /* PorkTaco.m */; };
 		AF0C4DDE17E5F9F30038AF36 /* PorkTaco.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C4DDC17E5F9F30038AF36 /* PorkTaco.m */; };
 		AF14606E17EFD4ED002B5A20 /* FancyLookupTableSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF14606D17EFD4ED002B5A20 /* FancyLookupTableSpec.m */; };
+		AF1D2E181809D00400FD8A32 /* SimpleLinkedListSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1D2E171809D00400FD8A32 /* SimpleLinkedListSpec.m */; };
+		AF1D2E1B1809D0BF00FD8A32 /* SimpleLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1D2E1A1809D0BF00FD8A32 /* SimpleLinkedList.m */; };
+		AF1D2E1F1809D19400FD8A32 /* SimpleNodeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1D2E1E1809D19400FD8A32 /* SimpleNodeSpec.m */; };
+		AF1D2E221809D1D200FD8A32 /* SimpleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1D2E211809D1D200FD8A32 /* SimpleNode.m */; };
+		AF1D2E231809D1D200FD8A32 /* SimpleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1D2E211809D1D200FD8A32 /* SimpleNode.m */; };
 		AF2E9A8317FD183F00979502 /* PlumberFixLeakJobSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2E9A8217FD183F00979502 /* PlumberFixLeakJobSpec.m */; };
 		AF2E9A8617FD186700979502 /* PlumberFixLeakJob.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2E9A8517FD186700979502 /* PlumberFixLeakJob.m */; };
 		AF2E9A8717FD186700979502 /* PlumberFixLeakJob.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2E9A8517FD186700979502 /* PlumberFixLeakJob.m */; };
@@ -131,6 +136,7 @@
 		AF51C28018062B00007AE456 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF51C27D18062B00007AE456 /* MainViewController.xib */; };
 		AF51C28118062B00007AE456 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF51C27D18062B00007AE456 /* MainViewController.xib */; };
 		AF51C28418062B8D007AE456 /* MainViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF51C28318062B8D007AE456 /* MainViewControllerSpec.m */; };
+		AF6474A7180B07F100444DAE /* SimpleLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1D2E1A1809D0BF00FD8A32 /* SimpleLinkedList.m */; };
 		AF65186317F37AF20001ECD5 /* FancyLookupTable.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186217F37AF20001ECD5 /* FancyLookupTable.m */; };
 		AF65186417F37AF20001ECD5 /* FancyLookupTable.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186217F37AF20001ECD5 /* FancyLookupTable.m */; };
 		AF65186A17F37B2C0001ECD5 /* AppWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186717F37B2C0001ECD5 /* AppWindow.m */; };
@@ -358,6 +364,12 @@
 		AF0C4DDB17E5F9F30038AF36 /* PorkTaco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PorkTaco.h; path = FactoryPatterns/AbstractFactory/PorkTaco.h; sourceTree = "<group>"; };
 		AF0C4DDC17E5F9F30038AF36 /* PorkTaco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PorkTaco.m; path = FactoryPatterns/AbstractFactory/PorkTaco.m; sourceTree = "<group>"; };
 		AF14606D17EFD4ED002B5A20 /* FancyLookupTableSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FancyLookupTableSpec.m; path = SingletonPattern/FancyLookupTableSpec.m; sourceTree = "<group>"; };
+		AF1D2E171809D00400FD8A32 /* SimpleLinkedListSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleLinkedListSpec.m; path = IteratorPattern/SimpleLinkedListSpec.m; sourceTree = "<group>"; };
+		AF1D2E191809D0BF00FD8A32 /* SimpleLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleLinkedList.h; path = IteratorPattern/SimpleLinkedList.h; sourceTree = "<group>"; };
+		AF1D2E1A1809D0BF00FD8A32 /* SimpleLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleLinkedList.m; path = IteratorPattern/SimpleLinkedList.m; sourceTree = "<group>"; };
+		AF1D2E1E1809D19400FD8A32 /* SimpleNodeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleNodeSpec.m; path = IteratorPattern/SimpleNodeSpec.m; sourceTree = "<group>"; };
+		AF1D2E201809D1D200FD8A32 /* SimpleNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleNode.h; path = IteratorPattern/SimpleNode.h; sourceTree = "<group>"; };
+		AF1D2E211809D1D200FD8A32 /* SimpleNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleNode.m; path = IteratorPattern/SimpleNode.m; sourceTree = "<group>"; };
 		AF2E9A8217FD183F00979502 /* PlumberFixLeakJobSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlumberFixLeakJobSpec.m; path = CommandPattern/PlumberFixLeakJobSpec.m; sourceTree = "<group>"; };
 		AF2E9A8417FD186700979502 /* PlumberFixLeakJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlumberFixLeakJob.h; path = CommandPattern/PlumberFixLeakJob.h; sourceTree = "<group>"; };
 		AF2E9A8517FD186700979502 /* PlumberFixLeakJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlumberFixLeakJob.m; path = CommandPattern/PlumberFixLeakJob.m; sourceTree = "<group>"; };
@@ -574,6 +586,26 @@
 				AF65186217F37AF20001ECD5 /* FancyLookupTable.m */,
 			);
 			name = "Singleton Pattern";
+			sourceTree = "<group>";
+		};
+		AF1D2E141809CFBB00FD8A32 /* Iterator Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				AF1D2E201809D1D200FD8A32 /* SimpleNode.h */,
+				AF1D2E211809D1D200FD8A32 /* SimpleNode.m */,
+				AF1D2E191809D0BF00FD8A32 /* SimpleLinkedList.h */,
+				AF1D2E1A1809D0BF00FD8A32 /* SimpleLinkedList.m */,
+			);
+			name = "Iterator Pattern";
+			sourceTree = "<group>";
+		};
+		AF1D2E151809CFC500FD8A32 /* Iterator Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				AF1D2E1E1809D19400FD8A32 /* SimpleNodeSpec.m */,
+				AF1D2E171809D00400FD8A32 /* SimpleLinkedListSpec.m */,
+			);
+			name = "Iterator Pattern";
 			sourceTree = "<group>";
 		};
 		AF56ECFF17D964C80020F9C4 /* Factory Patterns */ = {
@@ -842,6 +874,7 @@
 				AF73398017F9C1D800DBA583 /* Observer Pattern */,
 				AF9F8B6D17FC65F900409B94 /* Command Pattern */,
 				AFB5E1801803D18F00FF4E36 /* Delegate Pattern */,
+				AF1D2E141809CFBB00FD8A32 /* Iterator Pattern */,
 				AFCA100F17D5430F00ADF1C8 /* App */,
 				AF65186517F37AFC0001ECD5 /* Utilities */,
 				AFA9246417D53C600005E39B /* Supporting Files */,
@@ -871,6 +904,7 @@
 				AF73398117F9C1E100DBA583 /* Observer Pattern */,
 				AF9F8B6C17FC65EC00409B94 /* Command Pattern */,
 				AFB5E17F1803D17200FF4E36 /* Delegate Pattern */,
+				AF1D2E151809CFC500FD8A32 /* Iterator Pattern */,
 				AFADEB0B17E61ACE0080708D /* App */,
 				AF65186E17F3BF380001ECD5 /* Utilities */,
 				AFA9248817D53C610005E39B /* Supporting Files */,
@@ -1326,6 +1360,7 @@
 				AF73398B17F9C53D00DBA583 /* BurritoReporter.m in Sources */,
 				AF0C4D5A17E5F6400038AF36 /* MixedDrinksBar.m in Sources */,
 				AF0C4D5C17E5F6400038AF36 /* WineBar.m in Sources */,
+				AF1D2E1B1809D0BF00FD8A32 /* SimpleLinkedList.m in Sources */,
 				AF0C4D6417E5F67D0038AF36 /* CrunchyTacoStore.m in Sources */,
 				AF38B48017FB101600512EDF /* SuperBurritoGazette.m in Sources */,
 				AF0C4D6617E5F67D0038AF36 /* StreetTacoStore.m in Sources */,
@@ -1337,6 +1372,7 @@
 				AF06DCAB17FE5023009C5A18 /* GardenerTrimBushesJob.m in Sources */,
 				AF0C4D7417E5F6CC0038AF36 /* Taco.m in Sources */,
 				AF0C4D7B17E5F6FF0038AF36 /* CrunchyTacoContentsFactory.m in Sources */,
+				AF1D2E221809D1D200FD8A32 /* SimpleNode.m in Sources */,
 				AF0C4D7D17E5F6FF0038AF36 /* StreetTacoContentsFactory.m in Sources */,
 				AF0C4D8317E5F7250038AF36 /* Maiz.m in Sources */,
 				AF38B48717FB116200512EDF /* BurritoSupremeBee.m in Sources */,
@@ -1394,6 +1430,7 @@
 				AF0C4D4317E5F5FD0038AF36 /* JagerBomb.m in Sources */,
 				AF91E05E17FB469700357554 /* ObserverPatternViewController.m in Sources */,
 				AF0C4D4517E5F5FD0038AF36 /* Lager.m in Sources */,
+				AF1D2E231809D1D200FD8A32 /* SimpleNode.m in Sources */,
 				AF06DCA817FE5007009C5A18 /* GardenerTrimBushesJobSpec.m in Sources */,
 				AF0C4D4717E5F5FD0038AF36 /* Merlot.m in Sources */,
 				AF9F8B7517FC672800409B94 /* PlumberSpec.m in Sources */,
@@ -1414,6 +1451,7 @@
 				AF0C4D6717E5F67D0038AF36 /* StreetTacoStore.m in Sources */,
 				AF0C4D6917E5F67D0038AF36 /* TacoStore.m in Sources */,
 				AF0C4D7117E5F6CC0038AF36 /* BeefTaco.m in Sources */,
+				AF1D2E1F1809D19400FD8A32 /* SimpleNodeSpec.m in Sources */,
 				AF0C4D7517E5F6CC0038AF36 /* Taco.m in Sources */,
 				AF0C4D7C17E5F6FF0038AF36 /* CrunchyTacoContentsFactory.m in Sources */,
 				AFB7B53F17FD14D3004D442B /* Exterminator.m in Sources */,
@@ -1429,11 +1467,13 @@
 				AF0C4D9217E5F7400038AF36 /* Molida.m in Sources */,
 				AF0C4D9A17E5F7620038AF36 /* Carnitas.m in Sources */,
 				AFC747D217FD329800C20E5E /* PlumberUnclogDrainJobSpec.m in Sources */,
+				AF6474A7180B07F100444DAE /* SimpleLinkedList.m in Sources */,
 				AF0C4D9C17E5F7620038AF36 /* ChileVerde.m in Sources */,
 				AFBF95EC17F66B2B008054FC /* SingletonPatternViewController.m in Sources */,
 				AF0C4D9E17E5F7620038AF36 /* Pork.m in Sources */,
 				AF0C4DA617E5F7920038AF36 /* Cheddar.m in Sources */,
 				AFB7B53817FCF853004D442B /* Gardener.m in Sources */,
+				AF1D2E181809D00400FD8A32 /* SimpleLinkedListSpec.m in Sources */,
 				AF2E9A8717FD186700979502 /* PlumberFixLeakJob.m in Sources */,
 				AF2E9A8317FD183F00979502 /* PlumberFixLeakJobSpec.m in Sources */,
 				AFBF95F417F66B99008054FC /* SingletonPatternViewControllerSpec.m in Sources */,
