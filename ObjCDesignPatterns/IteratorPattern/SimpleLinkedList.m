@@ -1,6 +1,6 @@
 #import "SimpleLinkedList.h"
 #import "SimpleNode.h"
-
+#import "SimpleLinkedListIterator.h"
 
 @interface SimpleLinkedList ()
 
@@ -58,6 +58,11 @@
     }
     
     return node.item;
+}
+
+- (id<Iterator>)createIterator
+{
+    return [[SimpleLinkedListIterator alloc] initWithSimpleLinkedList:self];
 }
 
 #pragma mark - Private Methods

@@ -1,7 +1,9 @@
 #import "Kiwi.h"
 #import "SimpleLinkedList.h"
 #import "SimpleNode.h"
-
+#import "Iterator.h"
+#import "SimpleLinkedListIterator.h"
+#import "Swizzlean.h"
 
 @interface SimpleLinkedList ()
 
@@ -22,7 +24,7 @@ describe(@"SimpleLinkedList", ^{
     beforeEach(^{
         simpleLinkedList = [[SimpleLinkedList alloc] init];
     });
-    
+
     it(@"has a headNode", ^{
         SimpleNode *node = [[SimpleNode alloc] init];
         simpleLinkedList.headNode = node;
@@ -120,11 +122,35 @@ describe(@"SimpleLinkedList", ^{
         });
         
         it(@"adds node to the end of the list", ^{
-            
             [simpleLinkedList addItem:@"third"
                                  node:simpleLinkedList.headNode];
             
             [[secondNode.nextNode.item should] equal:@"third"];
+        });
+    });
+    
+    context(@"#createIterator", ^{
+        __block id<Iterator> iterator;
+        __block id<Iterator> fakeIterator;
+        __block Swizzlean *createIteratorSwizz;
+        __block SimpleLinkedList *retSimpleLinkedList;
+        
+        beforeEach(^{
+            fakeIterator = [KWMock mockForProtocol:@protocol(Iterator)];
+            
+            createIteratorSwizz = [[Swizzlean alloc] initWithClassToSwizzle:[SimpleLinkedListIterator class]];
+            [createIteratorSwizz swizzleInstanceMethod:@selector(initWithSimpleLinkedList:)
+                         withReplacementImplementation:^(id _self, SimpleLinkedList *linkedList) {
+                             retSimpleLinkedList = linkedList;
+                             return fakeIterator;
+                }];
+            
+            iterator = [simpleLinkedList createIterator];
+        });
+        
+        it(@"creates iterator", ^{
+            [[retSimpleLinkedList should] equal:simpleLinkedList];
+            [[(NSObject *)iterator should] equal:fakeIterator];
         });
     });
 });

@@ -136,6 +136,9 @@
 		AF51C28018062B00007AE456 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF51C27D18062B00007AE456 /* MainViewController.xib */; };
 		AF51C28118062B00007AE456 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF51C27D18062B00007AE456 /* MainViewController.xib */; };
 		AF51C28418062B8D007AE456 /* MainViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF51C28318062B8D007AE456 /* MainViewControllerSpec.m */; };
+		AF5AD73A180CCEB700AC6975 /* SimpleLinkedListIteratorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5AD739180CCEB700AC6975 /* SimpleLinkedListIteratorSpec.m */; };
+		AF5AD73D180CCED500AC6975 /* SimpleLinkedListIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5AD73C180CCED500AC6975 /* SimpleLinkedListIterator.m */; };
+		AF5AD73E180CCED500AC6975 /* SimpleLinkedListIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5AD73C180CCED500AC6975 /* SimpleLinkedListIterator.m */; };
 		AF6474A7180B07F100444DAE /* SimpleLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1D2E1A1809D0BF00FD8A32 /* SimpleLinkedList.m */; };
 		AF65186317F37AF20001ECD5 /* FancyLookupTable.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186217F37AF20001ECD5 /* FancyLookupTable.m */; };
 		AF65186417F37AF20001ECD5 /* FancyLookupTable.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186217F37AF20001ECD5 /* FancyLookupTable.m */; };
@@ -388,6 +391,9 @@
 		AF51C27C18062B00007AE456 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = App/MainViewController.m; sourceTree = "<group>"; };
 		AF51C27D18062B00007AE456 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = App/MainViewController.xib; sourceTree = "<group>"; };
 		AF51C28318062B8D007AE456 /* MainViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewControllerSpec.m; path = App/MainViewControllerSpec.m; sourceTree = "<group>"; };
+		AF5AD739180CCEB700AC6975 /* SimpleLinkedListIteratorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleLinkedListIteratorSpec.m; path = IteratorPattern/SimpleLinkedListIteratorSpec.m; sourceTree = "<group>"; };
+		AF5AD73B180CCED500AC6975 /* SimpleLinkedListIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleLinkedListIterator.h; path = IteratorPattern/SimpleLinkedListIterator.h; sourceTree = "<group>"; };
+		AF5AD73C180CCED500AC6975 /* SimpleLinkedListIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleLinkedListIterator.m; path = IteratorPattern/SimpleLinkedListIterator.m; sourceTree = "<group>"; };
 		AF65186117F37AF20001ECD5 /* FancyLookupTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FancyLookupTable.h; path = SingletonPattern/FancyLookupTable.h; sourceTree = "<group>"; };
 		AF65186217F37AF20001ECD5 /* FancyLookupTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FancyLookupTable.m; path = SingletonPattern/FancyLookupTable.m; sourceTree = "<group>"; };
 		AF65186617F37B2C0001ECD5 /* AppWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppWindow.h; path = Utilities/AppWindow.h; sourceTree = "<group>"; };
@@ -498,6 +504,7 @@
 		AFC747D117FD329800C20E5E /* PlumberUnclogDrainJobSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlumberUnclogDrainJobSpec.m; path = CommandPattern/PlumberUnclogDrainJobSpec.m; sourceTree = "<group>"; };
 		AFC747D317FD32CA00C20E5E /* PlumberUnclogDrainJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlumberUnclogDrainJob.h; path = CommandPattern/PlumberUnclogDrainJob.h; sourceTree = "<group>"; };
 		AFC747D417FD32CA00C20E5E /* PlumberUnclogDrainJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlumberUnclogDrainJob.m; path = CommandPattern/PlumberUnclogDrainJob.m; sourceTree = "<group>"; };
+		AFE12395180BAC4A00179451 /* Iterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Iterator.h; path = IteratorPattern/Iterator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -591,10 +598,13 @@
 		AF1D2E141809CFBB00FD8A32 /* Iterator Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				AFE12395180BAC4A00179451 /* Iterator.h */,
 				AF1D2E201809D1D200FD8A32 /* SimpleNode.h */,
 				AF1D2E211809D1D200FD8A32 /* SimpleNode.m */,
 				AF1D2E191809D0BF00FD8A32 /* SimpleLinkedList.h */,
 				AF1D2E1A1809D0BF00FD8A32 /* SimpleLinkedList.m */,
+				AF5AD73B180CCED500AC6975 /* SimpleLinkedListIterator.h */,
+				AF5AD73C180CCED500AC6975 /* SimpleLinkedListIterator.m */,
 			);
 			name = "Iterator Pattern";
 			sourceTree = "<group>";
@@ -604,6 +614,7 @@
 			children = (
 				AF1D2E1E1809D19400FD8A32 /* SimpleNodeSpec.m */,
 				AF1D2E171809D00400FD8A32 /* SimpleLinkedListSpec.m */,
+				AF5AD739180CCEB700AC6975 /* SimpleLinkedListIteratorSpec.m */,
 			);
 			name = "Iterator Pattern";
 			sourceTree = "<group>";
@@ -1402,6 +1413,7 @@
 				AF4AED5A17FA827E000B5B61 /* ChimichangaTimes.m in Sources */,
 				AF0C4DB517E5F7AC0038AF36 /* Salsa.m in Sources */,
 				AFC747D517FD32CA00C20E5E /* PlumberUnclogDrainJob.m in Sources */,
+				AF5AD73D180CCED500AC6975 /* SimpleLinkedListIterator.m in Sources */,
 				AFBF95E517F66B2B008054FC /* FactoryPatternsViewController.m in Sources */,
 				AF0C4DC117E5F80E0038AF36 /* Cebolla.m in Sources */,
 				AF0C4DC317E5F80E0038AF36 /* Cilantro.m in Sources */,
@@ -1429,6 +1441,7 @@
 				AF0C4D4117E5F5FD0038AF36 /* Chardonnay.m in Sources */,
 				AF0C4D4317E5F5FD0038AF36 /* JagerBomb.m in Sources */,
 				AF91E05E17FB469700357554 /* ObserverPatternViewController.m in Sources */,
+				AF5AD73E180CCED500AC6975 /* SimpleLinkedListIterator.m in Sources */,
 				AF0C4D4517E5F5FD0038AF36 /* Lager.m in Sources */,
 				AF1D2E231809D1D200FD8A32 /* SimpleNode.m in Sources */,
 				AF06DCA817FE5007009C5A18 /* GardenerTrimBushesJobSpec.m in Sources */,
@@ -1439,6 +1452,7 @@
 				AFC747D617FD32CA00C20E5E /* PlumberUnclogDrainJob.m in Sources */,
 				AF0C4D4D17E5F5FD0038AF36 /* WhiskeySour.m in Sources */,
 				AF06DCC117FE5510009C5A18 /* JobArray.m in Sources */,
+				AF5AD73A180CCEB700AC6975 /* SimpleLinkedListIteratorSpec.m in Sources */,
 				AF0C4D5717E5F6400038AF36 /* Bar.m in Sources */,
 				AF0C4D5917E5F6400038AF36 /* BeerBar.m in Sources */,
 				AFBF95E417F66B2B008054FC /* AppDelegate.m in Sources */,
