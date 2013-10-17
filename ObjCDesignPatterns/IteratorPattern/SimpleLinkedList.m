@@ -2,9 +2,10 @@
 #import "SimpleNode.h"
 #import "SimpleLinkedListIterator.h"
 
+
 @interface SimpleLinkedList ()
 
-@property (strong, nonatomic) SimpleNode *headNode;
+@property (strong, nonatomic, readwrite) SimpleNode *headNode;
 @property (nonatomic) NSInteger numberOfNodes;
 
 @end

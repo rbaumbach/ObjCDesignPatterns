@@ -1,12 +1,13 @@
 #import "Kiwi.h"
 #import "SimpleLinkedListIterator.h"
 #import "SimpleLinkedList.h"
+#import "SimpleNode.h"
 
 
 @interface SimpleLinkedListIterator ()
 
 @property (strong, nonatomic) SimpleLinkedList *simpleLinkedList;
-@property (nonatomic) NSInteger position;
+@property (strong, nonatomic) SimpleNode *currentNode;
 
 @end
 
@@ -16,9 +17,14 @@ SPEC_BEGIN(SimpleLinkedListIteratorSpec)
 describe(@"SimpleLinkedListIterator", ^{
     __block SimpleLinkedListIterator *iterator;
     __block SimpleLinkedList *fakeSimpleLinkedList;
+    __block SimpleNode *fakeHeadNode;
     
     beforeEach(^{
         fakeSimpleLinkedList = [SimpleLinkedList mock];
+        fakeHeadNode = [SimpleNode mock];
+        [[fakeSimpleLinkedList should] receive:@selector(headNode)
+                                     andReturn:fakeHeadNode];
+        
         iterator = [[SimpleLinkedListIterator alloc] initWithSimpleLinkedList:fakeSimpleLinkedList];
     });
     
@@ -30,55 +36,65 @@ describe(@"SimpleLinkedListIterator", ^{
         [iterator.simpleLinkedList shouldNotBeNil];
     });
     
-    it(@"has a position of 0", ^{
-        [[theValue(iterator.position) should] equal:theValue(0)];
+    it(@"current node is the simpleLinkedLists headNode", ^{
+        [[iterator.currentNode should] equal:fakeHeadNode];
     });
     
     context(@"<Iterator>", ^{
         context(@"#next", ^{
             __block id item;
+            __block SimpleNode *fakeNextNode;
             
             beforeEach(^{
-                [[iterator.simpleLinkedList should] receive:@selector(getItemAtIndex:) andReturn:@"hotLink0"
-                                              withArguments:theValue(iterator.position)];
+                [[iterator.currentNode should] receive:@selector(item)
+                                             andReturn:@"Daffy Duck"];
                 
+                fakeNextNode = [SimpleNode mock];
+                [[iterator.currentNode should] receive:@selector(nextNode)
+                                             andReturn:fakeNextNode];
+
                 item = [iterator next];
             });
             
-            it(@"returns the correct item", ^{
-                [[item should] equal:@"hotLink0"];
+            it(@"returns the correct item and increments current node", ^{
+                [[item should] equal:@"Daffy Duck"];
             });
             
-            it(@"increments the position", ^{
-                [[theValue(iterator.position) should] equal:theValue(1)];
+            it(@"increments the current node", ^{
+                [[iterator.currentNode should] equal: fakeNextNode];
             });
         });
-        
+    
         context(@"#hasNext", ^{
-            beforeEach(^{
-                iterator.position = 3;
-            });
+            __block SimpleNode *fakeHasNextNode;
+            __block BOOL hasNext;
             
-            context(@"position is out of bounds", ^{
+            context(@"iterator has next node", ^{
                 beforeEach(^{
-                    [[iterator.simpleLinkedList should] receive:@selector(count) andReturn:theValue(2)];
+                    fakeHasNextNode = [SimpleNode mock];
+                    [[iterator.currentNode should] receive:@selector(nextNode)
+                                                 andReturn:fakeHasNextNode];
+                    
+                    hasNext = [iterator hasNext];
                 });
                 
-                it(@"returns NO", ^{
-                    BOOL isOutOfBounds = [iterator hasNext];
-                    [[theValue(isOutOfBounds) should] beNo];
+                it(@"returns YES", ^{
+                    [[theValue(hasNext) should] beYes];
                 });
             });
             
-            context(@"position is in bounds", ^{
+            context(@"iterator does not have next node", ^{
                 beforeEach(^{
                     beforeEach(^{
-                        [[iterator.simpleLinkedList should] receive:@selector(count) andReturn:theValue(2)];
+                        fakeHasNextNode = nil;
+                        [[iterator.currentNode should] receive:@selector(nextNode)
+                                                     andReturn:fakeHasNextNode];
+                        
+                        hasNext = [iterator hasNext];
                     });
                     
-                    it(@"returns YES", ^{
-                        BOOL isInBounds = [iterator hasNext];
-                        [[theValue(isInBounds) should] beYes];
+                    it(@"returns NO", ^{
+                        [[theValue(hasNext) should] beNo];
                     });
                 });
             });

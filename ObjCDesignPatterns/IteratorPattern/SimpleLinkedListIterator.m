@@ -1,10 +1,11 @@
 #import "SimpleLinkedListIterator.h"
+#import "SimpleNode.h"
 
 
 @interface SimpleLinkedListIterator ()
 
 @property (strong, nonatomic) SimpleLinkedList *simpleLinkedList;
-@property (nonatomic) NSInteger position;
+@property (strong, nonatomic) SimpleNode *currentNode;
 
 @end
 
@@ -19,7 +20,7 @@
     self = [super init];
     if (self) {
         self.simpleLinkedList = simpleLinkedList;
-        self.position = 0;
+        self.currentNode = simpleLinkedList.headNode;
     }
     return self;
 }
@@ -28,15 +29,15 @@
 
 - (id)next
 {
-    id item = [self.simpleLinkedList getItemAtIndex:self.position];
-    self.position++;
+    id item = self.currentNode.item;
+    self.currentNode = self.currentNode.nextNode;
     
     return item;
 }
 
 - (BOOL)hasNext
 {
-    if (self.position >= [self.simpleLinkedList count]) {
+    if (!self.currentNode.nextNode) {
         return NO;
     } else {
         return YES;
