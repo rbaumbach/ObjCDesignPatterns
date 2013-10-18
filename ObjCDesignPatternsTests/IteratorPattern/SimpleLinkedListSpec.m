@@ -75,41 +75,6 @@ describe(@"SimpleLinkedList", ^{
         });
     });
     
-    context(@"#getItemAtIndex:", ^{
-        context(@"empty linked list", ^{
-            it(@"returns nil", ^{
-                id item = [simpleLinkedList getItemAtIndex:12345];
-                [item shouldBeNil];
-            });
-        });
-        
-        context(@"non-empty linked list", ^{
-            beforeEach(^{
-                simpleLinkedList.headNode = [[SimpleNode alloc] initWithItem:@"0"];
-                simpleLinkedList.headNode.nextNode = [[SimpleNode alloc] initWithItem:@"1"];
-                simpleLinkedList.headNode.nextNode.nextNode = [[SimpleNode alloc] initWithItem:@"2"];
-                simpleLinkedList.numberOfNodes = 3;
-                
-            });
-            
-            context(@"out of bounds", ^{
-                __block id item;
-                
-                it(@"returns nil", ^{
-                    [[theBlock(^{ item = [simpleLinkedList getItemAtIndex:3]; }) should] raiseWithName:@"Linked List Out of Bounds"
-                                                                                                reason:@"Attempted to get an item out of bounds"];
-                });
-            });
-            
-            context(@"non-out of bounds", ^{
-                it(@"returns the correct item", ^{
-                    id item = [simpleLinkedList getItemAtIndex:2];
-                    [[item should] equal:@"2"];
-                });
-            });
-        });
-    });
-    
     context(@"#addLastNode:withItem:", ^{
         __block SimpleNode *secondNode;
         

@@ -41,26 +41,6 @@
     return self.numberOfNodes;
 }
 
-- (id)getItemAtIndex:(NSInteger)index
-{
-    if (!self.headNode) {
-        return nil;
-    }
-    
-    if (index > self.numberOfNodes - 1) {
-        [NSException raise:@"Linked List Out of Bounds"
-                    format:@"Attempted to get an item out of bounds"];
-        return nil;
-    }
-    
-    SimpleNode *node = self.headNode;
-    for (int i = 0; i < index; i++) {
-        node = node.nextNode;
-    }
-    
-    return node.item;
-}
-
 - (id<Iterator>)createIterator
 {
     return [[SimpleLinkedListIterator alloc] initWithSimpleLinkedList:self];

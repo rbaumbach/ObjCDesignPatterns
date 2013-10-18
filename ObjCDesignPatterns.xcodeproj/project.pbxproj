@@ -599,12 +599,12 @@
 			isa = PBXGroup;
 			children = (
 				AFE12395180BAC4A00179451 /* Iterator.h */,
-				AF1D2E201809D1D200FD8A32 /* SimpleNode.h */,
-				AF1D2E211809D1D200FD8A32 /* SimpleNode.m */,
 				AF1D2E191809D0BF00FD8A32 /* SimpleLinkedList.h */,
 				AF1D2E1A1809D0BF00FD8A32 /* SimpleLinkedList.m */,
 				AF5AD73B180CCED500AC6975 /* SimpleLinkedListIterator.h */,
 				AF5AD73C180CCED500AC6975 /* SimpleLinkedListIterator.m */,
+				AF1D2E201809D1D200FD8A32 /* SimpleNode.h */,
+				AF1D2E211809D1D200FD8A32 /* SimpleNode.m */,
 			);
 			name = "Iterator Pattern";
 			sourceTree = "<group>";
@@ -612,9 +612,9 @@
 		AF1D2E151809CFC500FD8A32 /* Iterator Pattern */ = {
 			isa = PBXGroup;
 			children = (
-				AF1D2E1E1809D19400FD8A32 /* SimpleNodeSpec.m */,
-				AF1D2E171809D00400FD8A32 /* SimpleLinkedListSpec.m */,
 				AF5AD739180CCEB700AC6975 /* SimpleLinkedListIteratorSpec.m */,
+				AF1D2E171809D00400FD8A32 /* SimpleLinkedListSpec.m */,
+				AF1D2E1E1809D19400FD8A32 /* SimpleNodeSpec.m */,
 			);
 			name = "Iterator Pattern";
 			sourceTree = "<group>";
