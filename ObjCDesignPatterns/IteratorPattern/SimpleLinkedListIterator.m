@@ -37,7 +37,7 @@
 
 - (BOOL)hasNext
 {
-    if (!self.currentNode.nextNode) {
+    if (!self.currentNode) {
         return NO;
     } else {
         return YES;

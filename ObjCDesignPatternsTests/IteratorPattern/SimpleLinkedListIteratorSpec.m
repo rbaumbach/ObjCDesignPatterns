@@ -66,15 +66,10 @@ describe(@"SimpleLinkedListIterator", ^{
         });
     
         context(@"#hasNext", ^{
-            __block SimpleNode *fakeHasNextNode;
             __block BOOL hasNext;
             
             context(@"iterator has next node", ^{
                 beforeEach(^{
-                    fakeHasNextNode = [SimpleNode mock];
-                    [[iterator.currentNode should] receive:@selector(nextNode)
-                                                 andReturn:fakeHasNextNode];
-                    
                     hasNext = [iterator hasNext];
                 });
                 
@@ -86,10 +81,7 @@ describe(@"SimpleLinkedListIterator", ^{
             context(@"iterator does not have next node", ^{
                 beforeEach(^{
                     beforeEach(^{
-                        fakeHasNextNode = nil;
-                        [[iterator.currentNode should] receive:@selector(nextNode)
-                                                     andReturn:fakeHasNextNode];
-                        
+                        iterator.currentNode = nil;
                         hasNext = [iterator hasNext];
                     });
                     

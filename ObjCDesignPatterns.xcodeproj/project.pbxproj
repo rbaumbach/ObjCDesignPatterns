@@ -154,6 +154,11 @@
 		AF73398817F9C47E00DBA583 /* BurritoReporterSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF73398717F9C47E00DBA583 /* BurritoReporterSpec.m */; };
 		AF73398B17F9C53D00DBA583 /* BurritoReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = AF73398A17F9C53D00DBA583 /* BurritoReporter.m */; };
 		AF73398C17F9C53D00DBA583 /* BurritoReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = AF73398A17F9C53D00DBA583 /* BurritoReporter.m */; };
+		AF89E7DA1810C428008C37C7 /* IteratorPatternViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF89E7D91810C428008C37C7 /* IteratorPatternViewControllerSpec.m */; };
+		AF89E7DE1810C457008C37C7 /* IteratorPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF89E7DC1810C457008C37C7 /* IteratorPatternViewController.m */; };
+		AF89E7DF1810C457008C37C7 /* IteratorPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF89E7DC1810C457008C37C7 /* IteratorPatternViewController.m */; };
+		AF89E7E01810C457008C37C7 /* IteratorPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF89E7DD1810C457008C37C7 /* IteratorPatternViewController.xib */; };
+		AF89E7E11810C457008C37C7 /* IteratorPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF89E7DD1810C457008C37C7 /* IteratorPatternViewController.xib */; };
 		AF91E05D17FB469700357554 /* ObserverPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF91E05B17FB469700357554 /* ObserverPatternViewController.m */; };
 		AF91E05E17FB469700357554 /* ObserverPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF91E05B17FB469700357554 /* ObserverPatternViewController.m */; };
 		AF91E05F17FB469700357554 /* ObserverPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF91E05C17FB469700357554 /* ObserverPatternViewController.xib */; };
@@ -409,6 +414,10 @@
 		AF73398717F9C47E00DBA583 /* BurritoReporterSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BurritoReporterSpec.m; path = ObserverPattern/BurritoReporterSpec.m; sourceTree = "<group>"; };
 		AF73398917F9C53D00DBA583 /* BurritoReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BurritoReporter.h; path = ObserverPattern/BurritoReporter.h; sourceTree = "<group>"; };
 		AF73398A17F9C53D00DBA583 /* BurritoReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BurritoReporter.m; path = ObserverPattern/BurritoReporter.m; sourceTree = "<group>"; };
+		AF89E7D91810C428008C37C7 /* IteratorPatternViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IteratorPatternViewControllerSpec.m; path = App/IteratorPatternViewControllerSpec.m; sourceTree = "<group>"; };
+		AF89E7DB1810C457008C37C7 /* IteratorPatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IteratorPatternViewController.h; path = App/IteratorPatternViewController.h; sourceTree = "<group>"; };
+		AF89E7DC1810C457008C37C7 /* IteratorPatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IteratorPatternViewController.m; path = App/IteratorPatternViewController.m; sourceTree = "<group>"; };
+		AF89E7DD1810C457008C37C7 /* IteratorPatternViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IteratorPatternViewController.xib; path = App/IteratorPatternViewController.xib; sourceTree = "<group>"; };
 		AF91E05A17FB469700357554 /* ObserverPatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObserverPatternViewController.h; path = App/ObserverPatternViewController.h; sourceTree = "<group>"; };
 		AF91E05B17FB469700357554 /* ObserverPatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObserverPatternViewController.m; path = App/ObserverPatternViewController.m; sourceTree = "<group>"; };
 		AF91E05C17FB469700357554 /* ObserverPatternViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ObserverPatternViewController.xib; path = App/ObserverPatternViewController.xib; sourceTree = "<group>"; };
@@ -942,6 +951,7 @@
 				AF91E06217FB46D300357554 /* ObserverPatternViewControllerSpec.m */,
 				AFB5E1791803944500FF4E36 /* CommandPatternViewControllerSpec.m */,
 				AF71458B1804E73000462C1B /* DelegatePatternViewControllerSpec.m */,
+				AF89E7D91810C428008C37C7 /* IteratorPatternViewControllerSpec.m */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -987,6 +997,9 @@
 				AF7145831804E6F000462C1B /* DelegatePatternViewController.h */,
 				AF7145841804E6F000462C1B /* DelegatePatternViewController.m */,
 				AF7145851804E6F000462C1B /* DelegatePatternViewController.xib */,
+				AF89E7DB1810C457008C37C7 /* IteratorPatternViewController.h */,
+				AF89E7DC1810C457008C37C7 /* IteratorPatternViewController.m */,
+				AF89E7DD1810C457008C37C7 /* IteratorPatternViewController.xib */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -1280,6 +1293,7 @@
 				AFA9247017D53C600005E39B /* Default.png in Resources */,
 				AFBF95ED17F66B2B008054FC /* SingletonPatternViewController.xib in Resources */,
 				AF51C28018062B00007AE456 /* MainViewController.xib in Resources */,
+				AF89E7E01810C457008C37C7 /* IteratorPatternViewController.xib in Resources */,
 				AFA9247217D53C600005E39B /* Default@2x.png in Resources */,
 				AFA9247417D53C600005E39B /* Default-568h@2x.png in Resources */,
 			);
@@ -1292,6 +1306,7 @@
 				AF7145891804E6F000462C1B /* DelegatePatternViewController.xib in Resources */,
 				AFBF95E817F66B2B008054FC /* FactoryPatternsViewController.xib in Resources */,
 				AF91E06017FB469700357554 /* ObserverPatternViewController.xib in Resources */,
+				AF89E7E11810C457008C37C7 /* IteratorPatternViewController.xib in Resources */,
 				AFB5E177180393ED00FF4E36 /* CommandPatternViewController.xib in Resources */,
 				AFA9248C17D53C610005E39B /* InfoPlist.strings in Resources */,
 				AF51C28118062B00007AE456 /* MainViewController.xib in Resources */,
@@ -1385,6 +1400,7 @@
 				AF0C4D7B17E5F6FF0038AF36 /* CrunchyTacoContentsFactory.m in Sources */,
 				AF1D2E221809D1D200FD8A32 /* SimpleNode.m in Sources */,
 				AF0C4D7D17E5F6FF0038AF36 /* StreetTacoContentsFactory.m in Sources */,
+				AF89E7DE1810C457008C37C7 /* IteratorPatternViewController.m in Sources */,
 				AF0C4D8317E5F7250038AF36 /* Maiz.m in Sources */,
 				AF38B48717FB116200512EDF /* BurritoSupremeBee.m in Sources */,
 				AF06DCA417FE4DB3009C5A18 /* GardenerPlantRosesJob.m in Sources */,
@@ -1480,6 +1496,7 @@
 				AF0C4D9017E5F7400038AF36 /* Beef.m in Sources */,
 				AF0C4D9217E5F7400038AF36 /* Molida.m in Sources */,
 				AF0C4D9A17E5F7620038AF36 /* Carnitas.m in Sources */,
+				AF89E7DA1810C428008C37C7 /* IteratorPatternViewControllerSpec.m in Sources */,
 				AFC747D217FD329800C20E5E /* PlumberUnclogDrainJobSpec.m in Sources */,
 				AF6474A7180B07F100444DAE /* SimpleLinkedList.m in Sources */,
 				AF0C4D9C17E5F7620038AF36 /* ChileVerde.m in Sources */,
@@ -1546,6 +1563,7 @@
 				AFADEADE17E613860080708D /* CrunchyTacoContentsFactorySpec.m in Sources */,
 				AFADEADF17E613860080708D /* StreetTacoContentsFactorySpec.m in Sources */,
 				AFADEAE317E613AD0080708D /* AsadaSpec.m in Sources */,
+				AF89E7DF1810C457008C37C7 /* IteratorPatternViewController.m in Sources */,
 				AFADEAE417E613AD0080708D /* BeefSpec.m in Sources */,
 				AFADEAE517E613AD0080708D /* MolidaSpec.m in Sources */,
 				AFADEAE917E613CD0080708D /* CarnitasSpec.m in Sources */,

@@ -4,6 +4,7 @@
 #import "FancyMutableArray.h"
 #import "FancyMutableArrayDelegate.h"
 
+
 @interface DelegatePatternViewController ()
 
 @property (strong, nonatomic) FancyMutableArray *fancyMutableArray;
@@ -139,7 +140,6 @@ describe(@"DelegatePatternViewController", ^{
             [controller setupTextView];
 
             [[controller.textView.text should] equal:expectedText];
-
         });
     });
 });

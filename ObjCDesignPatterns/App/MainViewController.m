@@ -4,6 +4,7 @@
 #import "ObserverPatternViewController.h"
 #import "CommandPatternViewController.h"
 #import "DelegatePatternViewController.h"
+#import "IteratorPatternViewController.h"
 
 
 @interface MainViewController ()
@@ -14,6 +15,7 @@
 @property (strong, nonatomic) ObserverPatternViewController *observerPatternViewController;
 @property (strong, nonatomic) CommandPatternViewController *commandPatternViewController;
 @property (strong, nonatomic) DelegatePatternViewController *delegatePatternViewController;
+@property (strong, nonatomic) IteratorPatternViewController *iteratorPatternViewController;
 
 @end
 
@@ -31,18 +33,12 @@
         self.observerPatternViewController = [[ObserverPatternViewController alloc] init];
         self.commandPatternViewController = [[CommandPatternViewController alloc] init];
         self.delegatePatternViewController = [[DelegatePatternViewController alloc] init];
+        self.iteratorPatternViewController = [[IteratorPatternViewController alloc] init];
         
-        self.tableViewDataSource = @[self.factoryPatternsViewController, self.singletonPatternViewController, self.observerPatternViewController, self.commandPatternViewController, self.delegatePatternViewController];
+        self.tableViewDataSource = @[self.factoryPatternsViewController, self.singletonPatternViewController, self.observerPatternViewController, self.commandPatternViewController, self.delegatePatternViewController, self.iteratorPatternViewController];
     }
     return self;
 }
-
-#pragma mark - View Lifecycle
-
-//- (void)viewDidLoad
-//{
-//    [super viewDidLoad];
-//}
 
 #pragma mark - <UITableViewDataSource>
 
