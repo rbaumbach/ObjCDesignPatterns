@@ -120,6 +120,8 @@
 		AF2E9A8317FD183F00979502 /* PlumberFixLeakJobSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2E9A8217FD183F00979502 /* PlumberFixLeakJobSpec.m */; };
 		AF2E9A8617FD186700979502 /* PlumberFixLeakJob.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2E9A8517FD186700979502 /* PlumberFixLeakJob.m */; };
 		AF2E9A8717FD186700979502 /* PlumberFixLeakJob.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2E9A8517FD186700979502 /* PlumberFixLeakJob.m */; };
+		AF34B7A318132DFC0088D0BA /* CommandPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF34B7A218132DFC0088D0BA /* CommandPatternViewController.xib */; };
+		AF34B7A418132DFC0088D0BA /* CommandPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF34B7A218132DFC0088D0BA /* CommandPatternViewController.xib */; };
 		AF38B47D17FB0FA600512EDF /* SuperBurritoGazetteSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF38B47C17FB0FA600512EDF /* SuperBurritoGazetteSpec.m */; };
 		AF38B48017FB101600512EDF /* SuperBurritoGazette.m in Sources */ = {isa = PBXBuildFile; fileRef = AF38B47F17FB101600512EDF /* SuperBurritoGazette.m */; };
 		AF38B48117FB101600512EDF /* SuperBurritoGazette.m in Sources */ = {isa = PBXBuildFile; fileRef = AF38B47F17FB101600512EDF /* SuperBurritoGazette.m */; };
@@ -224,8 +226,6 @@
 		AFADEB0A17E614D20080708D /* GuacamoleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFADEB0717E614D20080708D /* GuacamoleSpec.m */; };
 		AFB5E174180393ED00FF4E36 /* CommandPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB5E172180393ED00FF4E36 /* CommandPatternViewController.m */; };
 		AFB5E175180393ED00FF4E36 /* CommandPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB5E172180393ED00FF4E36 /* CommandPatternViewController.m */; };
-		AFB5E176180393ED00FF4E36 /* CommandPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFB5E173180393ED00FF4E36 /* CommandPatternViewController.xib */; };
-		AFB5E177180393ED00FF4E36 /* CommandPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFB5E173180393ED00FF4E36 /* CommandPatternViewController.xib */; };
 		AFB5E17A1803944500FF4E36 /* CommandPatternViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB5E1791803944500FF4E36 /* CommandPatternViewControllerSpec.m */; };
 		AFB5E1831803D1B900FF4E36 /* FancyMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB5E1821803D1B900FF4E36 /* FancyMutableArray.m */; };
 		AFB5E1861803D1DC00FF4E36 /* FancyMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB5E1851803D1DC00FF4E36 /* FancyMutableArray.m */; };
@@ -381,6 +381,7 @@
 		AF2E9A8217FD183F00979502 /* PlumberFixLeakJobSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlumberFixLeakJobSpec.m; path = CommandPattern/PlumberFixLeakJobSpec.m; sourceTree = "<group>"; };
 		AF2E9A8417FD186700979502 /* PlumberFixLeakJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlumberFixLeakJob.h; path = CommandPattern/PlumberFixLeakJob.h; sourceTree = "<group>"; };
 		AF2E9A8517FD186700979502 /* PlumberFixLeakJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlumberFixLeakJob.m; path = CommandPattern/PlumberFixLeakJob.m; sourceTree = "<group>"; };
+		AF34B7A218132DFC0088D0BA /* CommandPatternViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CommandPatternViewController.xib; path = App/CommandPatternViewController.xib; sourceTree = "<group>"; };
 		AF38B47C17FB0FA600512EDF /* SuperBurritoGazetteSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SuperBurritoGazetteSpec.m; path = ObserverPattern/SuperBurritoGazetteSpec.m; sourceTree = "<group>"; };
 		AF38B47E17FB101600512EDF /* SuperBurritoGazette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SuperBurritoGazette.h; path = ObserverPattern/SuperBurritoGazette.h; sourceTree = "<group>"; };
 		AF38B47F17FB101600512EDF /* SuperBurritoGazette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SuperBurritoGazette.m; path = ObserverPattern/SuperBurritoGazette.m; sourceTree = "<group>"; };
@@ -487,7 +488,6 @@
 		AFADEB0717E614D20080708D /* GuacamoleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GuacamoleSpec.m; path = FactoryPatterns/AbstractFactory/GuacamoleSpec.m; sourceTree = "<group>"; };
 		AFB5E171180393ED00FF4E36 /* CommandPatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandPatternViewController.h; path = CommandPattern/CommandPatternViewController.h; sourceTree = "<group>"; };
 		AFB5E172180393ED00FF4E36 /* CommandPatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandPatternViewController.m; path = CommandPattern/CommandPatternViewController.m; sourceTree = "<group>"; };
-		AFB5E173180393ED00FF4E36 /* CommandPatternViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CommandPatternViewController.xib; path = CommandPattern/CommandPatternViewController.xib; sourceTree = "<group>"; };
 		AFB5E1791803944500FF4E36 /* CommandPatternViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandPatternViewControllerSpec.m; path = App/CommandPatternViewControllerSpec.m; sourceTree = "<group>"; };
 		AFB5E1821803D1B900FF4E36 /* FancyMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FancyMutableArray.m; path = DelegatePattern/FancyMutableArray.m; sourceTree = "<group>"; };
 		AFB5E1841803D1DC00FF4E36 /* FancyMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FancyMutableArray.h; path = DelegatePattern/FancyMutableArray.h; sourceTree = "<group>"; };
@@ -993,7 +993,7 @@
 				AF91E05C17FB469700357554 /* ObserverPatternViewController.xib */,
 				AFB5E171180393ED00FF4E36 /* CommandPatternViewController.h */,
 				AFB5E172180393ED00FF4E36 /* CommandPatternViewController.m */,
-				AFB5E173180393ED00FF4E36 /* CommandPatternViewController.xib */,
+				AF34B7A218132DFC0088D0BA /* CommandPatternViewController.xib */,
 				AF7145831804E6F000462C1B /* DelegatePatternViewController.h */,
 				AF7145841804E6F000462C1B /* DelegatePatternViewController.m */,
 				AF7145851804E6F000462C1B /* DelegatePatternViewController.xib */,
@@ -1285,9 +1285,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF34B7A318132DFC0088D0BA /* CommandPatternViewController.xib in Resources */,
 				AF91E05F17FB469700357554 /* ObserverPatternViewController.xib in Resources */,
 				AFA9246817D53C600005E39B /* InfoPlist.strings in Resources */,
-				AFB5E176180393ED00FF4E36 /* CommandPatternViewController.xib in Resources */,
 				AF7145881804E6F000462C1B /* DelegatePatternViewController.xib in Resources */,
 				AFBF95E717F66B2B008054FC /* FactoryPatternsViewController.xib in Resources */,
 				AFA9247017D53C600005E39B /* Default.png in Resources */,
@@ -1305,9 +1305,9 @@
 			files = (
 				AF7145891804E6F000462C1B /* DelegatePatternViewController.xib in Resources */,
 				AFBF95E817F66B2B008054FC /* FactoryPatternsViewController.xib in Resources */,
+				AF34B7A418132DFC0088D0BA /* CommandPatternViewController.xib in Resources */,
 				AF91E06017FB469700357554 /* ObserverPatternViewController.xib in Resources */,
 				AF89E7E11810C457008C37C7 /* IteratorPatternViewController.xib in Resources */,
-				AFB5E177180393ED00FF4E36 /* CommandPatternViewController.xib in Resources */,
 				AFA9248C17D53C610005E39B /* InfoPlist.strings in Resources */,
 				AF51C28118062B00007AE456 /* MainViewController.xib in Resources */,
 				AFBF95EE17F66B2B008054FC /* SingletonPatternViewController.xib in Resources */,
