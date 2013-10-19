@@ -57,6 +57,10 @@ describe(@"MainViewController", ^{
         [[controller should] conformToProtocol:@protocol(UITableViewDelegate)];
     });
     
+    it(@"has correct title", ^{
+        [[controller.title should] equal:@"Design Patterns in Obj-C"];
+    });
+    
     it(@"has a tableView", ^{
         [controller.tableView shouldNotBeNil];
     });

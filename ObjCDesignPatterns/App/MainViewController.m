@@ -28,6 +28,8 @@
 {
     self = [super init];
     if (self) {
+        self.title = @"Design Patterns in Obj-C";
+        
         self.factoryPatternsViewController = [[FactoryPatternsViewController alloc] init];
         self.singletonPatternViewController = [[SingletonPatternViewController alloc] init];
         self.observerPatternViewController = [[ObserverPatternViewController alloc] init];
