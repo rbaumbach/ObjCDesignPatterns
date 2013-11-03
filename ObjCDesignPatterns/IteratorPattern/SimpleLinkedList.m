@@ -46,6 +46,22 @@
     return [[SimpleLinkedListIterator alloc] initWithSimpleLinkedList:self];
 }
 
+- (void)enumerateObjectsUsingBlock:(void (^)(id obj, BOOL *stop))block
+{
+    SimpleNode *node = self.headNode;
+    BOOL stop = NO;
+    
+    while (node) {
+        block(node.item, &stop);
+        
+        if (stop) {
+            break;
+        }
+        
+        node = node.nextNode;
+    }
+}
+
 #pragma mark - Private Methods
 
 - (void)addItem:(id)item

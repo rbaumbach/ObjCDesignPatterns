@@ -117,6 +117,56 @@ describe(@"SimpleLinkedList", ^{
             
         });
     });
+    
+    context(@"#enumerateObjectsUsingBlock:", ^{
+        __block NSMutableArray *arrayOfNodes;
+        
+        beforeEach(^{
+            SimpleNode *first = [[SimpleNode alloc] initWithItem:@1];
+            SimpleNode *second = [[SimpleNode alloc] initWithItem:@2];
+            SimpleNode *third = [[SimpleNode alloc] initWithItem:@3];
+            
+            second.nextNode = third;
+            first.nextNode = second;
+            
+            simpleLinkedList.headNode = first;
+            
+            arrayOfNodes = [@[] mutableCopy];
+        });
+        
+        context(@"enumerating through all linked list items", ^{
+            beforeEach(^{
+                [simpleLinkedList enumerateObjectsUsingBlock:^(id obj, BOOL *stop) {
+                    [arrayOfNodes addObject:obj];
+                }];
+            });
+            
+            it(@"executes the block passed in", ^{
+                [[theValue(arrayOfNodes.count) should] equal:theValue(3)];
+                [[arrayOfNodes[0] should] equal:@1];
+                [[arrayOfNodes[1] should] equal:@2];
+                [[arrayOfNodes[2] should] equal:@3];
+            });
+        });
+        
+        context(@"stoping enumeration", ^{
+            beforeEach(^{
+                [simpleLinkedList enumerateObjectsUsingBlock:^(id obj, BOOL *stop) {
+                    [arrayOfNodes addObject:obj];
+                    
+                    if ([(NSNumber *)obj intValue] == 2) {
+                        *stop = YES;
+                    }
+                }];
+            });
+            
+            it(@"stops the enumeration", ^{
+                [[theValue(arrayOfNodes.count) should] equal:theValue(2)];
+                [[arrayOfNodes[0] should] equal:@1];
+                [[arrayOfNodes[1] should] equal:@2];
+            });
+        });
+    });
 });
 
 SPEC_END

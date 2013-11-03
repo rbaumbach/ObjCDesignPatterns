@@ -11,4 +11,6 @@
 
 - (id<Iterator>)createIterator;
 
+- (void)enumerateObjectsUsingBlock:(void (^)(id obj, BOOL *stop))block;
+
 @end
