@@ -17,12 +17,9 @@ SPEC_BEGIN(StatePatternViewControllerSpec)
 
 describe(@"StatePatternViewController", ^{
     __block StatePatternViewController *controller;
-    __block DonkeyKongArcade *fakeDonkeyKongArcade;
     
     beforeEach(^{
-        fakeDonkeyKongArcade = [DonkeyKongArcade mock];
         controller = [[StatePatternViewController alloc] init];
-//        controller.donkeyKongArcade = fakeDonkeyKongArcade;
         
         [controller view];
     });
@@ -30,7 +27,7 @@ describe(@"StatePatternViewController", ^{
     it(@"should not be nil", ^{
         [controller shouldNotBeNil];
     });
-    
+
     it(@"is a subclass of UIViewController", ^{
         [[controller should] beKindOfClass:[UIViewController class]];
     });
