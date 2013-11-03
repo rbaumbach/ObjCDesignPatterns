@@ -114,7 +114,7 @@ describe(@"SimpleLinkedList", ^{
         });
         
         it(@"creates iterator", ^{
-            
+            [[(NSObject *)iterator should] equal:fakeIterator];
         });
     });
     
