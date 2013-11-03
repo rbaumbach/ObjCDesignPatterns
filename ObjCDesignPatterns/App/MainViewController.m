@@ -5,6 +5,7 @@
 #import "CommandPatternViewController.h"
 #import "DelegatePatternViewController.h"
 #import "IteratorPatternViewController.h"
+#import "StatePatternViewController.h"
 
 
 @interface MainViewController ()
@@ -16,6 +17,7 @@
 @property (strong, nonatomic) CommandPatternViewController *commandPatternViewController;
 @property (strong, nonatomic) DelegatePatternViewController *delegatePatternViewController;
 @property (strong, nonatomic) IteratorPatternViewController *iteratorPatternViewController;
+@property (strong, nonatomic) StatePatternViewController *statePatternViewController;
 
 @end
 
@@ -36,8 +38,12 @@
         self.commandPatternViewController = [[CommandPatternViewController alloc] init];
         self.delegatePatternViewController = [[DelegatePatternViewController alloc] init];
         self.iteratorPatternViewController = [[IteratorPatternViewController alloc] init];
+        self.statePatternViewController = [[StatePatternViewController alloc] init];
         
-        self.tableViewDataSource = @[self.factoryPatternsViewController, self.singletonPatternViewController, self.observerPatternViewController, self.commandPatternViewController, self.delegatePatternViewController, self.iteratorPatternViewController];
+        self.tableViewDataSource = @[self.factoryPatternsViewController, self.singletonPatternViewController,
+                                     self.observerPatternViewController, self.commandPatternViewController,
+                                     self.delegatePatternViewController, self.iteratorPatternViewController,
+                                     self.statePatternViewController];
     }
     return self;
 }
@@ -58,7 +64,7 @@
 {
     UITableViewCell *cell = [self getTableViewCellWithTableView:tableView];
     
-    UIViewController *viewController = [self.tableViewDataSource  objectAtIndex:indexPath.row];
+    UIViewController *viewController = [self.tableViewDataSource objectAtIndex:indexPath.row];
     NSString *viewControllerTitle = viewController.title;
 
     cell.textLabel.text = viewControllerTitle;

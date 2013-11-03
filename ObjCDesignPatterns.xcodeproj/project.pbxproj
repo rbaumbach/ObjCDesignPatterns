@@ -122,6 +122,8 @@
 		AF2E9A8717FD186700979502 /* PlumberFixLeakJob.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2E9A8517FD186700979502 /* PlumberFixLeakJob.m */; };
 		AF34B7A318132DFC0088D0BA /* CommandPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF34B7A218132DFC0088D0BA /* CommandPatternViewController.xib */; };
 		AF34B7A418132DFC0088D0BA /* CommandPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF34B7A218132DFC0088D0BA /* CommandPatternViewController.xib */; };
+		AF34B7B6181474B60088D0BA /* DonkeyKongArcade.m in Sources */ = {isa = PBXBuildFile; fileRef = AF34B7B5181474B60088D0BA /* DonkeyKongArcade.m */; };
+		AF34B7B7181474B60088D0BA /* DonkeyKongArcade.m in Sources */ = {isa = PBXBuildFile; fileRef = AF34B7B5181474B60088D0BA /* DonkeyKongArcade.m */; };
 		AF38B47D17FB0FA600512EDF /* SuperBurritoGazetteSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF38B47C17FB0FA600512EDF /* SuperBurritoGazetteSpec.m */; };
 		AF38B48017FB101600512EDF /* SuperBurritoGazette.m in Sources */ = {isa = PBXBuildFile; fileRef = AF38B47F17FB101600512EDF /* SuperBurritoGazette.m */; };
 		AF38B48117FB101600512EDF /* SuperBurritoGazette.m in Sources */ = {isa = PBXBuildFile; fileRef = AF38B47F17FB101600512EDF /* SuperBurritoGazette.m */; };
@@ -138,6 +140,16 @@
 		AF51C28018062B00007AE456 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF51C27D18062B00007AE456 /* MainViewController.xib */; };
 		AF51C28118062B00007AE456 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF51C27D18062B00007AE456 /* MainViewController.xib */; };
 		AF51C28418062B8D007AE456 /* MainViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF51C28318062B8D007AE456 /* MainViewControllerSpec.m */; };
+		AF5AADF4181DB47E00BAFD79 /* InsertCoinState.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5AADF3181DB47E00BAFD79 /* InsertCoinState.m */; };
+		AF5AADF5181DB47E00BAFD79 /* InsertCoinState.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5AADF3181DB47E00BAFD79 /* InsertCoinState.m */; };
+		AF5AADF8181DB57100BAFD79 /* GameReadyState.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5AADF7181DB57100BAFD79 /* GameReadyState.m */; };
+		AF5AADF9181DB57100BAFD79 /* GameReadyState.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5AADF7181DB57100BAFD79 /* GameReadyState.m */; };
+		AF5AAE00181DB93E00BAFD79 /* GameInProgressState.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5AADFF181DB93E00BAFD79 /* GameInProgressState.m */; };
+		AF5AAE01181DB93E00BAFD79 /* GameInProgressState.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5AADFF181DB93E00BAFD79 /* GameInProgressState.m */; };
+		AF5AAE05181E08A500BAFD79 /* InsertCoinStateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5AAE04181E08A500BAFD79 /* InsertCoinStateSpec.m */; };
+		AF5AAE07181E08EF00BAFD79 /* StatePatternViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5AAE06181E08EF00BAFD79 /* StatePatternViewControllerSpec.m */; };
+		AF5AAE0A181E171600BAFD79 /* GameReadyStateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5AAE09181E171600BAFD79 /* GameReadyStateSpec.m */; };
+		AF5AAE0D181E1AA400BAFD79 /* GameInProgressStateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5AAE0C181E1AA400BAFD79 /* GameInProgressStateSpec.m */; };
 		AF5AD73A180CCEB700AC6975 /* SimpleLinkedListIteratorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5AD739180CCEB700AC6975 /* SimpleLinkedListIteratorSpec.m */; };
 		AF5AD73D180CCED500AC6975 /* SimpleLinkedListIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5AD73C180CCED500AC6975 /* SimpleLinkedListIterator.m */; };
 		AF5AD73E180CCED500AC6975 /* SimpleLinkedListIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5AD73C180CCED500AC6975 /* SimpleLinkedListIterator.m */; };
@@ -161,6 +173,10 @@
 		AF89E7DF1810C457008C37C7 /* IteratorPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF89E7DC1810C457008C37C7 /* IteratorPatternViewController.m */; };
 		AF89E7E01810C457008C37C7 /* IteratorPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF89E7DD1810C457008C37C7 /* IteratorPatternViewController.xib */; };
 		AF89E7E11810C457008C37C7 /* IteratorPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF89E7DD1810C457008C37C7 /* IteratorPatternViewController.xib */; };
+		AF8CF01818162A6B00B64766 /* StatePatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8CF01618162A6B00B64766 /* StatePatternViewController.m */; };
+		AF8CF01918162A6B00B64766 /* StatePatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8CF01618162A6B00B64766 /* StatePatternViewController.m */; };
+		AF8CF01A18162A6B00B64766 /* StatePatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF8CF01718162A6B00B64766 /* StatePatternViewController.xib */; };
+		AF8CF01B18162A6B00B64766 /* StatePatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF8CF01718162A6B00B64766 /* StatePatternViewController.xib */; };
 		AF91E05D17FB469700357554 /* ObserverPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF91E05B17FB469700357554 /* ObserverPatternViewController.m */; };
 		AF91E05E17FB469700357554 /* ObserverPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF91E05B17FB469700357554 /* ObserverPatternViewController.m */; };
 		AF91E05F17FB469700357554 /* ObserverPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF91E05C17FB469700357554 /* ObserverPatternViewController.xib */; };
@@ -252,6 +268,7 @@
 		AFC747D217FD329800C20E5E /* PlumberUnclogDrainJobSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC747D117FD329800C20E5E /* PlumberUnclogDrainJobSpec.m */; };
 		AFC747D517FD32CA00C20E5E /* PlumberUnclogDrainJob.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC747D417FD32CA00C20E5E /* PlumberUnclogDrainJob.m */; };
 		AFC747D617FD32CA00C20E5E /* PlumberUnclogDrainJob.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC747D417FD32CA00C20E5E /* PlumberUnclogDrainJob.m */; };
+		AFD58F14181FFD6200EEDAB0 /* DonkeyKongArcadeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD58F13181FFD6200EEDAB0 /* DonkeyKongArcadeSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -382,6 +399,9 @@
 		AF2E9A8417FD186700979502 /* PlumberFixLeakJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlumberFixLeakJob.h; path = CommandPattern/PlumberFixLeakJob.h; sourceTree = "<group>"; };
 		AF2E9A8517FD186700979502 /* PlumberFixLeakJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlumberFixLeakJob.m; path = CommandPattern/PlumberFixLeakJob.m; sourceTree = "<group>"; };
 		AF34B7A218132DFC0088D0BA /* CommandPatternViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CommandPatternViewController.xib; path = App/CommandPatternViewController.xib; sourceTree = "<group>"; };
+		AF34B7A718133C4E0088D0BA /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = State.h; path = StatePattern/State.h; sourceTree = "<group>"; };
+		AF34B7B4181474B60088D0BA /* DonkeyKongArcade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DonkeyKongArcade.h; path = StatePattern/DonkeyKongArcade.h; sourceTree = "<group>"; };
+		AF34B7B5181474B60088D0BA /* DonkeyKongArcade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DonkeyKongArcade.m; path = StatePattern/DonkeyKongArcade.m; sourceTree = "<group>"; };
 		AF38B47C17FB0FA600512EDF /* SuperBurritoGazetteSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SuperBurritoGazetteSpec.m; path = ObserverPattern/SuperBurritoGazetteSpec.m; sourceTree = "<group>"; };
 		AF38B47E17FB101600512EDF /* SuperBurritoGazette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SuperBurritoGazette.h; path = ObserverPattern/SuperBurritoGazette.h; sourceTree = "<group>"; };
 		AF38B47F17FB101600512EDF /* SuperBurritoGazette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SuperBurritoGazette.m; path = ObserverPattern/SuperBurritoGazette.m; sourceTree = "<group>"; };
@@ -397,6 +417,16 @@
 		AF51C27C18062B00007AE456 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = App/MainViewController.m; sourceTree = "<group>"; };
 		AF51C27D18062B00007AE456 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = App/MainViewController.xib; sourceTree = "<group>"; };
 		AF51C28318062B8D007AE456 /* MainViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewControllerSpec.m; path = App/MainViewControllerSpec.m; sourceTree = "<group>"; };
+		AF5AADF2181DB47E00BAFD79 /* InsertCoinState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InsertCoinState.h; path = StatePattern/InsertCoinState.h; sourceTree = "<group>"; };
+		AF5AADF3181DB47E00BAFD79 /* InsertCoinState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InsertCoinState.m; path = StatePattern/InsertCoinState.m; sourceTree = "<group>"; };
+		AF5AADF6181DB57100BAFD79 /* GameReadyState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameReadyState.h; path = StatePattern/GameReadyState.h; sourceTree = "<group>"; };
+		AF5AADF7181DB57100BAFD79 /* GameReadyState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameReadyState.m; path = StatePattern/GameReadyState.m; sourceTree = "<group>"; };
+		AF5AADFE181DB93E00BAFD79 /* GameInProgressState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameInProgressState.h; path = StatePattern/GameInProgressState.h; sourceTree = "<group>"; };
+		AF5AADFF181DB93E00BAFD79 /* GameInProgressState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameInProgressState.m; path = StatePattern/GameInProgressState.m; sourceTree = "<group>"; };
+		AF5AAE04181E08A500BAFD79 /* InsertCoinStateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InsertCoinStateSpec.m; path = StatePattern/InsertCoinStateSpec.m; sourceTree = "<group>"; };
+		AF5AAE06181E08EF00BAFD79 /* StatePatternViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatePatternViewControllerSpec.m; path = App/StatePatternViewControllerSpec.m; sourceTree = "<group>"; };
+		AF5AAE09181E171600BAFD79 /* GameReadyStateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameReadyStateSpec.m; path = StatePattern/GameReadyStateSpec.m; sourceTree = "<group>"; };
+		AF5AAE0C181E1AA400BAFD79 /* GameInProgressStateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameInProgressStateSpec.m; path = StatePattern/GameInProgressStateSpec.m; sourceTree = "<group>"; };
 		AF5AD739180CCEB700AC6975 /* SimpleLinkedListIteratorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleLinkedListIteratorSpec.m; path = IteratorPattern/SimpleLinkedListIteratorSpec.m; sourceTree = "<group>"; };
 		AF5AD73B180CCED500AC6975 /* SimpleLinkedListIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleLinkedListIterator.h; path = IteratorPattern/SimpleLinkedListIterator.h; sourceTree = "<group>"; };
 		AF5AD73C180CCED500AC6975 /* SimpleLinkedListIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleLinkedListIterator.m; path = IteratorPattern/SimpleLinkedListIterator.m; sourceTree = "<group>"; };
@@ -419,6 +449,9 @@
 		AF89E7DB1810C457008C37C7 /* IteratorPatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IteratorPatternViewController.h; path = App/IteratorPatternViewController.h; sourceTree = "<group>"; };
 		AF89E7DC1810C457008C37C7 /* IteratorPatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IteratorPatternViewController.m; path = App/IteratorPatternViewController.m; sourceTree = "<group>"; };
 		AF89E7DD1810C457008C37C7 /* IteratorPatternViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IteratorPatternViewController.xib; path = App/IteratorPatternViewController.xib; sourceTree = "<group>"; };
+		AF8CF01518162A6B00B64766 /* StatePatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatePatternViewController.h; path = App/StatePatternViewController.h; sourceTree = "<group>"; };
+		AF8CF01618162A6B00B64766 /* StatePatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatePatternViewController.m; path = App/StatePatternViewController.m; sourceTree = "<group>"; };
+		AF8CF01718162A6B00B64766 /* StatePatternViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StatePatternViewController.xib; path = App/StatePatternViewController.xib; sourceTree = "<group>"; };
 		AF91E05A17FB469700357554 /* ObserverPatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObserverPatternViewController.h; path = App/ObserverPatternViewController.h; sourceTree = "<group>"; };
 		AF91E05B17FB469700357554 /* ObserverPatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObserverPatternViewController.m; path = App/ObserverPatternViewController.m; sourceTree = "<group>"; };
 		AF91E05C17FB469700357554 /* ObserverPatternViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ObserverPatternViewController.xib; path = App/ObserverPatternViewController.xib; sourceTree = "<group>"; };
@@ -513,6 +546,7 @@
 		AFC747D117FD329800C20E5E /* PlumberUnclogDrainJobSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlumberUnclogDrainJobSpec.m; path = CommandPattern/PlumberUnclogDrainJobSpec.m; sourceTree = "<group>"; };
 		AFC747D317FD32CA00C20E5E /* PlumberUnclogDrainJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlumberUnclogDrainJob.h; path = CommandPattern/PlumberUnclogDrainJob.h; sourceTree = "<group>"; };
 		AFC747D417FD32CA00C20E5E /* PlumberUnclogDrainJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlumberUnclogDrainJob.m; path = CommandPattern/PlumberUnclogDrainJob.m; sourceTree = "<group>"; };
+		AFD58F13181FFD6200EEDAB0 /* DonkeyKongArcadeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DonkeyKongArcadeSpec.m; path = StatePattern/DonkeyKongArcadeSpec.m; sourceTree = "<group>"; };
 		AFE12395180BAC4A00179451 /* Iterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Iterator.h; path = IteratorPattern/Iterator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -626,6 +660,33 @@
 				AF1D2E1E1809D19400FD8A32 /* SimpleNodeSpec.m */,
 			);
 			name = "Iterator Pattern";
+			sourceTree = "<group>";
+		};
+		AF34B7A51813305E0088D0BA /* State Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				AF5AAE04181E08A500BAFD79 /* InsertCoinStateSpec.m */,
+				AF5AAE09181E171600BAFD79 /* GameReadyStateSpec.m */,
+				AF5AAE0C181E1AA400BAFD79 /* GameInProgressStateSpec.m */,
+				AFD58F13181FFD6200EEDAB0 /* DonkeyKongArcadeSpec.m */,
+			);
+			name = "State Pattern";
+			sourceTree = "<group>";
+		};
+		AF34B7A618133BE30088D0BA /* State Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				AF34B7A718133C4E0088D0BA /* State.h */,
+				AF34B7B4181474B60088D0BA /* DonkeyKongArcade.h */,
+				AF34B7B5181474B60088D0BA /* DonkeyKongArcade.m */,
+				AF5AADF2181DB47E00BAFD79 /* InsertCoinState.h */,
+				AF5AADF3181DB47E00BAFD79 /* InsertCoinState.m */,
+				AF5AADF6181DB57100BAFD79 /* GameReadyState.h */,
+				AF5AADF7181DB57100BAFD79 /* GameReadyState.m */,
+				AF5AADFE181DB93E00BAFD79 /* GameInProgressState.h */,
+				AF5AADFF181DB93E00BAFD79 /* GameInProgressState.m */,
+			);
+			name = "State Pattern";
 			sourceTree = "<group>";
 		};
 		AF56ECFF17D964C80020F9C4 /* Factory Patterns */ = {
@@ -895,6 +956,7 @@
 				AF9F8B6D17FC65F900409B94 /* Command Pattern */,
 				AFB5E1801803D18F00FF4E36 /* Delegate Pattern */,
 				AF1D2E141809CFBB00FD8A32 /* Iterator Pattern */,
+				AF34B7A618133BE30088D0BA /* State Pattern */,
 				AFCA100F17D5430F00ADF1C8 /* App */,
 				AF65186517F37AFC0001ECD5 /* Utilities */,
 				AFA9246417D53C600005E39B /* Supporting Files */,
@@ -925,6 +987,7 @@
 				AF9F8B6C17FC65EC00409B94 /* Command Pattern */,
 				AFB5E17F1803D17200FF4E36 /* Delegate Pattern */,
 				AF1D2E151809CFC500FD8A32 /* Iterator Pattern */,
+				AF34B7A51813305E0088D0BA /* State Pattern */,
 				AFADEB0B17E61ACE0080708D /* App */,
 				AF65186E17F3BF380001ECD5 /* Utilities */,
 				AFA9248817D53C610005E39B /* Supporting Files */,
@@ -945,13 +1008,14 @@
 			isa = PBXGroup;
 			children = (
 				AFBF95EF17F66B99008054FC /* AppDelegateSpec.m */,
-				AF51C28318062B8D007AE456 /* MainViewControllerSpec.m */,
-				AFBF95F017F66B99008054FC /* FactoryPatternsViewControllerSpec.m */,
-				AFBF95F117F66B99008054FC /* SingletonPatternViewControllerSpec.m */,
-				AF91E06217FB46D300357554 /* ObserverPatternViewControllerSpec.m */,
 				AFB5E1791803944500FF4E36 /* CommandPatternViewControllerSpec.m */,
 				AF71458B1804E73000462C1B /* DelegatePatternViewControllerSpec.m */,
+				AFBF95F017F66B99008054FC /* FactoryPatternsViewControllerSpec.m */,
 				AF89E7D91810C428008C37C7 /* IteratorPatternViewControllerSpec.m */,
+				AF51C28318062B8D007AE456 /* MainViewControllerSpec.m */,
+				AF91E06217FB46D300357554 /* ObserverPatternViewControllerSpec.m */,
+				AFBF95F117F66B99008054FC /* SingletonPatternViewControllerSpec.m */,
+				AF5AAE06181E08EF00BAFD79 /* StatePatternViewControllerSpec.m */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -1000,6 +1064,9 @@
 				AF89E7DB1810C457008C37C7 /* IteratorPatternViewController.h */,
 				AF89E7DC1810C457008C37C7 /* IteratorPatternViewController.m */,
 				AF89E7DD1810C457008C37C7 /* IteratorPatternViewController.xib */,
+				AF8CF01518162A6B00B64766 /* StatePatternViewController.h */,
+				AF8CF01618162A6B00B64766 /* StatePatternViewController.m */,
+				AF8CF01718162A6B00B64766 /* StatePatternViewController.xib */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -1286,6 +1353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF34B7A318132DFC0088D0BA /* CommandPatternViewController.xib in Resources */,
+				AF8CF01A18162A6B00B64766 /* StatePatternViewController.xib in Resources */,
 				AF91E05F17FB469700357554 /* ObserverPatternViewController.xib in Resources */,
 				AFA9246817D53C600005E39B /* InfoPlist.strings in Resources */,
 				AF7145881804E6F000462C1B /* DelegatePatternViewController.xib in Resources */,
@@ -1304,6 +1372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF7145891804E6F000462C1B /* DelegatePatternViewController.xib in Resources */,
+				AF8CF01B18162A6B00B64766 /* StatePatternViewController.xib in Resources */,
 				AFBF95E817F66B2B008054FC /* FactoryPatternsViewController.xib in Resources */,
 				AF34B7A418132DFC0088D0BA /* CommandPatternViewController.xib in Resources */,
 				AF91E06017FB469700357554 /* ObserverPatternViewController.xib in Resources */,
@@ -1393,6 +1462,8 @@
 				AF0C4D6817E5F67D0038AF36 /* TacoStore.m in Sources */,
 				AF9F8B7117FC670C00409B94 /* Plumber.m in Sources */,
 				AF0C4D7017E5F6CC0038AF36 /* BeefTaco.m in Sources */,
+				AF5AADF8181DB57100BAFD79 /* GameReadyState.m in Sources */,
+				AF5AADF4181DB47E00BAFD79 /* InsertCoinState.m in Sources */,
 				AFB5E174180393ED00FF4E36 /* CommandPatternViewController.m in Sources */,
 				AFBF95E317F66B2B008054FC /* AppDelegate.m in Sources */,
 				AF06DCAB17FE5023009C5A18 /* GardenerTrimBushesJob.m in Sources */,
@@ -1422,17 +1493,20 @@
 				AF0C4DA517E5F7920038AF36 /* Cheddar.m in Sources */,
 				AF0C4DA717E5F7920038AF36 /* Fresco.m in Sources */,
 				AF0C4DA917E5F7920038AF36 /* Queso.m in Sources */,
+				AF8CF01818162A6B00B64766 /* StatePatternViewController.m in Sources */,
 				AF0C4DB117E5F7AC0038AF36 /* Mild.m in Sources */,
 				AF51C27E18062B00007AE456 /* MainViewController.m in Sources */,
 				AF0C4DB317E5F7AC0038AF36 /* Picante.m in Sources */,
 				AFBF95EB17F66B2B008054FC /* SingletonPatternViewController.m in Sources */,
 				AF4AED5A17FA827E000B5B61 /* ChimichangaTimes.m in Sources */,
+				AF5AAE00181DB93E00BAFD79 /* GameInProgressState.m in Sources */,
 				AF0C4DB517E5F7AC0038AF36 /* Salsa.m in Sources */,
 				AFC747D517FD32CA00C20E5E /* PlumberUnclogDrainJob.m in Sources */,
 				AF5AD73D180CCED500AC6975 /* SimpleLinkedListIterator.m in Sources */,
 				AFBF95E517F66B2B008054FC /* FactoryPatternsViewController.m in Sources */,
 				AF0C4DC117E5F80E0038AF36 /* Cebolla.m in Sources */,
 				AF0C4DC317E5F80E0038AF36 /* Cilantro.m in Sources */,
+				AF34B7B6181474B60088D0BA /* DonkeyKongArcade.m in Sources */,
 				AF0C4DC517E5F80E0038AF36 /* Lechuga.m in Sources */,
 				AF7145861804E6F000462C1B /* DelegatePatternViewController.m in Sources */,
 				AF0C4DC717E5F80E0038AF36 /* Tomate.m in Sources */,
@@ -1458,20 +1532,24 @@
 				AF0C4D4317E5F5FD0038AF36 /* JagerBomb.m in Sources */,
 				AF91E05E17FB469700357554 /* ObserverPatternViewController.m in Sources */,
 				AF5AD73E180CCED500AC6975 /* SimpleLinkedListIterator.m in Sources */,
+				AF8CF01918162A6B00B64766 /* StatePatternViewController.m in Sources */,
 				AF0C4D4517E5F5FD0038AF36 /* Lager.m in Sources */,
 				AF1D2E231809D1D200FD8A32 /* SimpleNode.m in Sources */,
 				AF06DCA817FE5007009C5A18 /* GardenerTrimBushesJobSpec.m in Sources */,
+				AF5AAE0D181E1AA400BAFD79 /* GameInProgressStateSpec.m in Sources */,
 				AF0C4D4717E5F5FD0038AF36 /* Merlot.m in Sources */,
 				AF9F8B7517FC672800409B94 /* PlumberSpec.m in Sources */,
 				AF0C4D4917E5F5FD0038AF36 /* RumAndCoke.m in Sources */,
 				AF0C4D4B17E5F5FD0038AF36 /* Stout.m in Sources */,
 				AFC747D617FD32CA00C20E5E /* PlumberUnclogDrainJob.m in Sources */,
 				AF0C4D4D17E5F5FD0038AF36 /* WhiskeySour.m in Sources */,
+				AF5AAE01181DB93E00BAFD79 /* GameInProgressState.m in Sources */,
 				AF06DCC117FE5510009C5A18 /* JobArray.m in Sources */,
 				AF5AD73A180CCEB700AC6975 /* SimpleLinkedListIteratorSpec.m in Sources */,
 				AF0C4D5717E5F6400038AF36 /* Bar.m in Sources */,
 				AF0C4D5917E5F6400038AF36 /* BeerBar.m in Sources */,
 				AFBF95E417F66B2B008054FC /* AppDelegate.m in Sources */,
+				AFD58F14181FFD6200EEDAB0 /* DonkeyKongArcadeSpec.m in Sources */,
 				AF4FCAD117F3DB1200EF0A47 /* AppWindowSpec.m in Sources */,
 				AF0C4D5B17E5F6400038AF36 /* MixedDrinksBar.m in Sources */,
 				AF0C4D5D17E5F6400038AF36 /* WineBar.m in Sources */,
@@ -1494,9 +1572,12 @@
 				AF0C4D8617E5F7250038AF36 /* Tortilla.m in Sources */,
 				AF0C4D8E17E5F7400038AF36 /* Asada.m in Sources */,
 				AF0C4D9017E5F7400038AF36 /* Beef.m in Sources */,
+				AF5AAE07181E08EF00BAFD79 /* StatePatternViewControllerSpec.m in Sources */,
 				AF0C4D9217E5F7400038AF36 /* Molida.m in Sources */,
 				AF0C4D9A17E5F7620038AF36 /* Carnitas.m in Sources */,
+				AF5AAE05181E08A500BAFD79 /* InsertCoinStateSpec.m in Sources */,
 				AF89E7DA1810C428008C37C7 /* IteratorPatternViewControllerSpec.m in Sources */,
+				AF5AAE0A181E171600BAFD79 /* GameReadyStateSpec.m in Sources */,
 				AFC747D217FD329800C20E5E /* PlumberUnclogDrainJobSpec.m in Sources */,
 				AF6474A7180B07F100444DAE /* SimpleLinkedList.m in Sources */,
 				AF0C4D9C17E5F7620038AF36 /* ChileVerde.m in Sources */,
@@ -1520,6 +1601,7 @@
 				AF06DCB317FE5160009C5A18 /* ExterminatorKillRoachesJob.m in Sources */,
 				AFB5E1871803D1DC00FF4E36 /* FancyMutableArray.m in Sources */,
 				AF0C4DC417E5F80E0038AF36 /* Cilantro.m in Sources */,
+				AF5AADF5181DB47E00BAFD79 /* InsertCoinState.m in Sources */,
 				AF0C4DC617E5F80E0038AF36 /* Lechuga.m in Sources */,
 				AF06DCB617FE52A2009C5A18 /* ExterminatorCaptureRatsJobSpec.m in Sources */,
 				AF0C4DC817E5F80E0038AF36 /* Tomate.m in Sources */,
@@ -1533,6 +1615,7 @@
 				AF51C27F18062B00007AE456 /* MainViewController.m in Sources */,
 				AF65186B17F37B2C0001ECD5 /* AppWindow.m in Sources */,
 				AFADEABF17E612D20080708D /* BeverageSpec.m in Sources */,
+				AF5AADF9181DB57100BAFD79 /* GameReadyState.m in Sources */,
 				AFADEAC017E612D20080708D /* CabernetSauvignonSpec.m in Sources */,
 				AF38B47D17FB0FA600512EDF /* SuperBurritoGazetteSpec.m in Sources */,
 				AF14606E17EFD4ED002B5A20 /* FancyLookupTableSpec.m in Sources */,
@@ -1585,6 +1668,7 @@
 				AFADEB0217E614A60080708D /* LechugaSpec.m in Sources */,
 				AF06DCAF17FE5148009C5A18 /* ExterminatorKillRoachesJobSpec.m in Sources */,
 				AF9F8B7217FC670C00409B94 /* Plumber.m in Sources */,
+				AF34B7B7181474B60088D0BA /* DonkeyKongArcade.m in Sources */,
 				AFADEB0317E614A60080708D /* TomateSpec.m in Sources */,
 				AFADEB0417E614A60080708D /* VeduraSpec.m in Sources */,
 				AF71458D1804E73000462C1B /* DelegatePatternViewControllerSpec.m in Sources */,
