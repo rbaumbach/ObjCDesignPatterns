@@ -10,6 +10,7 @@ Design pattern samples in Objective-C.
 4.  Command Pattern
 5.  Delegate Pattern
 6.  Iterator Pattern
+7.  State Pattern
 
 *Many more patterns to follow in the near future.
 
