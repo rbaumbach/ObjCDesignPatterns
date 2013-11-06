@@ -269,6 +269,9 @@
 		AFC747D517FD32CA00C20E5E /* PlumberUnclogDrainJob.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC747D417FD32CA00C20E5E /* PlumberUnclogDrainJob.m */; };
 		AFC747D617FD32CA00C20E5E /* PlumberUnclogDrainJob.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC747D417FD32CA00C20E5E /* PlumberUnclogDrainJob.m */; };
 		AFD58F14181FFD6200EEDAB0 /* DonkeyKongArcadeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD58F13181FFD6200EEDAB0 /* DonkeyKongArcadeSpec.m */; };
+		AFFBDBE3182A94EE00BFD73C /* CrestedDuckSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFBDBE2182A94EE00BFD73C /* CrestedDuckSpec.m */; };
+		AFFBDBE6182A95D300BFD73C /* CrestedDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFBDBE5182A95D300BFD73C /* CrestedDuck.m */; };
+		AFFBDBE7182A95D300BFD73C /* CrestedDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFBDBE5182A95D300BFD73C /* CrestedDuck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -548,6 +551,10 @@
 		AFC747D417FD32CA00C20E5E /* PlumberUnclogDrainJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlumberUnclogDrainJob.m; path = CommandPattern/PlumberUnclogDrainJob.m; sourceTree = "<group>"; };
 		AFD58F13181FFD6200EEDAB0 /* DonkeyKongArcadeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DonkeyKongArcadeSpec.m; path = StatePattern/DonkeyKongArcadeSpec.m; sourceTree = "<group>"; };
 		AFE12395180BAC4A00179451 /* Iterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Iterator.h; path = IteratorPattern/Iterator.h; sourceTree = "<group>"; };
+		AFFBDBE0182A946A00BFD73C /* Duck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Duck.h; path = AdapterPattern/Duck.h; sourceTree = "<group>"; };
+		AFFBDBE2182A94EE00BFD73C /* CrestedDuckSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CrestedDuckSpec.m; path = AdapterPattern/CrestedDuckSpec.m; sourceTree = "<group>"; };
+		AFFBDBE4182A95D300BFD73C /* CrestedDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CrestedDuck.h; path = AdapterPattern/CrestedDuck.h; sourceTree = "<group>"; };
+		AFFBDBE5182A95D300BFD73C /* CrestedDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CrestedDuck.m; path = AdapterPattern/CrestedDuck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -957,6 +964,7 @@
 				AFB5E1801803D18F00FF4E36 /* Delegate Pattern */,
 				AF1D2E141809CFBB00FD8A32 /* Iterator Pattern */,
 				AF34B7A618133BE30088D0BA /* State Pattern */,
+				AFFBDBDE182A942B00BFD73C /* Adapter Pattern */,
 				AFCA100F17D5430F00ADF1C8 /* App */,
 				AF65186517F37AFC0001ECD5 /* Utilities */,
 				AFA9246417D53C600005E39B /* Supporting Files */,
@@ -988,6 +996,7 @@
 				AFB5E17F1803D17200FF4E36 /* Delegate Pattern */,
 				AF1D2E151809CFC500FD8A32 /* Iterator Pattern */,
 				AF34B7A51813305E0088D0BA /* State Pattern */,
+				AFFBDBDF182A943B00BFD73C /* Adapter Pattern */,
 				AFADEB0B17E61ACE0080708D /* App */,
 				AF65186E17F3BF380001ECD5 /* Utilities */,
 				AFA9248817D53C610005E39B /* Supporting Files */,
@@ -1265,6 +1274,24 @@
 			name = Tacos;
 			sourceTree = "<group>";
 		};
+		AFFBDBDE182A942B00BFD73C /* Adapter Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				AFFBDBE0182A946A00BFD73C /* Duck.h */,
+				AFFBDBE4182A95D300BFD73C /* CrestedDuck.h */,
+				AFFBDBE5182A95D300BFD73C /* CrestedDuck.m */,
+			);
+			name = "Adapter Pattern";
+			sourceTree = "<group>";
+		};
+		AFFBDBDF182A943B00BFD73C /* Adapter Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				AFFBDBE2182A94EE00BFD73C /* CrestedDuckSpec.m */,
+			);
+			name = "Adapter Pattern";
+			sourceTree = "<group>";
+		};
 		AFFD5D6F17DBC98F0015FC0A /* Taco Contents */ = {
 			isa = PBXGroup;
 			children = (
@@ -1509,6 +1536,7 @@
 				AF34B7B6181474B60088D0BA /* DonkeyKongArcade.m in Sources */,
 				AF0C4DC517E5F80E0038AF36 /* Lechuga.m in Sources */,
 				AF7145861804E6F000462C1B /* DelegatePatternViewController.m in Sources */,
+				AFFBDBE6182A95D300BFD73C /* CrestedDuck.m in Sources */,
 				AF0C4DC717E5F80E0038AF36 /* Tomate.m in Sources */,
 				AF0C4DC917E5F80E0038AF36 /* Vedura.m in Sources */,
 				AF0C4DD117E5F8310038AF36 /* Crema.m in Sources */,
@@ -1542,6 +1570,7 @@
 				AF0C4D4917E5F5FD0038AF36 /* RumAndCoke.m in Sources */,
 				AF0C4D4B17E5F5FD0038AF36 /* Stout.m in Sources */,
 				AFC747D617FD32CA00C20E5E /* PlumberUnclogDrainJob.m in Sources */,
+				AFFBDBE3182A94EE00BFD73C /* CrestedDuckSpec.m in Sources */,
 				AF0C4D4D17E5F5FD0038AF36 /* WhiskeySour.m in Sources */,
 				AF5AAE01181DB93E00BAFD79 /* GameInProgressState.m in Sources */,
 				AF06DCC117FE5510009C5A18 /* JobArray.m in Sources */,
@@ -1592,6 +1621,7 @@
 				AF0C4DA817E5F7920038AF36 /* Fresco.m in Sources */,
 				AF0C4DAA17E5F7920038AF36 /* Queso.m in Sources */,
 				AF0C4DB217E5F7AC0038AF36 /* Mild.m in Sources */,
+				AFFBDBE7182A95D300BFD73C /* CrestedDuck.m in Sources */,
 				AFB7B53417FCF7F9004D442B /* GardenerSpec.m in Sources */,
 				AF0C4DB417E5F7AC0038AF36 /* Picante.m in Sources */,
 				AF73398817F9C47E00DBA583 /* BurritoReporterSpec.m in Sources */,
