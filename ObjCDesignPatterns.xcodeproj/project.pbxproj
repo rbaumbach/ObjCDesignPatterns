@@ -160,6 +160,9 @@
 		AF65186B17F37B2C0001ECD5 /* AppWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186717F37B2C0001ECD5 /* AppWindow.m */; };
 		AF65186C17F37B2C0001ECD5 /* NSLogWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186917F37B2C0001ECD5 /* NSLogWrapper.m */; };
 		AF65186D17F37B2C0001ECD5 /* NSLogWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65186917F37B2C0001ECD5 /* NSLogWrapper.m */; };
+		AF66A954182B304F00C26F60 /* RatAdapterSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AF66A953182B304F00C26F60 /* RatAdapterSpec.m */; };
+		AF66A957182B30A600C26F60 /* RatAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = AF66A956182B30A600C26F60 /* RatAdapter.m */; };
+		AF66A958182B30A600C26F60 /* RatAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = AF66A956182B30A600C26F60 /* RatAdapter.m */; };
 		AF7145861804E6F000462C1B /* DelegatePatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7145841804E6F000462C1B /* DelegatePatternViewController.m */; };
 		AF7145871804E6F000462C1B /* DelegatePatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7145841804E6F000462C1B /* DelegatePatternViewController.m */; };
 		AF7145881804E6F000462C1B /* DelegatePatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF7145851804E6F000462C1B /* DelegatePatternViewController.xib */; };
@@ -443,6 +446,9 @@
 		AF65186817F37B2C0001ECD5 /* NSLogWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSLogWrapper.h; path = Utilities/NSLogWrapper.h; sourceTree = "<group>"; };
 		AF65186917F37B2C0001ECD5 /* NSLogWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSLogWrapper.m; path = Utilities/NSLogWrapper.m; sourceTree = "<group>"; };
 		AF66A951182B2D6000C26F60 /* Rat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rat.h; path = AdapterPattern/Rat.h; sourceTree = "<group>"; };
+		AF66A953182B304F00C26F60 /* RatAdapterSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RatAdapterSpec.m; path = AdapterPattern/RatAdapterSpec.m; sourceTree = "<group>"; };
+		AF66A955182B30A600C26F60 /* RatAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RatAdapter.h; path = AdapterPattern/RatAdapter.h; sourceTree = "<group>"; };
+		AF66A956182B30A600C26F60 /* RatAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RatAdapter.m; path = AdapterPattern/RatAdapter.m; sourceTree = "<group>"; };
 		AF7145831804E6F000462C1B /* DelegatePatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DelegatePatternViewController.h; path = App/DelegatePatternViewController.h; sourceTree = "<group>"; };
 		AF7145841804E6F000462C1B /* DelegatePatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DelegatePatternViewController.m; path = App/DelegatePatternViewController.m; sourceTree = "<group>"; };
 		AF7145851804E6F000462C1B /* DelegatePatternViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DelegatePatternViewController.xib; path = App/DelegatePatternViewController.xib; sourceTree = "<group>"; };
@@ -1290,6 +1296,8 @@
 				AFFBDBE5182A95D300BFD73C /* CrestedDuck.m */,
 				AFA2A43B182A9B2F00451487 /* SneakyRat.h */,
 				AFA2A43C182A9B2F00451487 /* SneakyRat.m */,
+				AF66A955182B30A600C26F60 /* RatAdapter.h */,
+				AF66A956182B30A600C26F60 /* RatAdapter.m */,
 			);
 			name = "Adapter Pattern";
 			sourceTree = "<group>";
@@ -1299,6 +1307,7 @@
 			children = (
 				AFFBDBE2182A94EE00BFD73C /* CrestedDuckSpec.m */,
 				AFA2A440182A9B4900451487 /* SneakyRatSpec.m */,
+				AF66A953182B304F00C26F60 /* RatAdapterSpec.m */,
 			);
 			name = "Adapter Pattern";
 			sourceTree = "<group>";
@@ -1519,6 +1528,7 @@
 				AF91E05D17FB469700357554 /* ObserverPatternViewController.m in Sources */,
 				AFB7B53E17FD14D3004D442B /* Exterminator.m in Sources */,
 				AF06DCB217FE5160009C5A18 /* ExterminatorKillRoachesJob.m in Sources */,
+				AF66A957182B30A600C26F60 /* RatAdapter.m in Sources */,
 				AF0C4D9117E5F7400038AF36 /* Molida.m in Sources */,
 				AF65186C17F37B2C0001ECD5 /* NSLogWrapper.m in Sources */,
 				AFA2A43D182A9B2F00451487 /* SneakyRat.m in Sources */,
@@ -1602,6 +1612,7 @@
 				AF0C4D7117E5F6CC0038AF36 /* BeefTaco.m in Sources */,
 				AF1D2E1F1809D19400FD8A32 /* SimpleNodeSpec.m in Sources */,
 				AF0C4D7517E5F6CC0038AF36 /* Taco.m in Sources */,
+				AF66A958182B30A600C26F60 /* RatAdapter.m in Sources */,
 				AF0C4D7C17E5F6FF0038AF36 /* CrunchyTacoContentsFactory.m in Sources */,
 				AFB7B53F17FD14D3004D442B /* Exterminator.m in Sources */,
 				AF0C4D7E17E5F6FF0038AF36 /* StreetTacoContentsFactory.m in Sources */,
@@ -1673,6 +1684,7 @@
 				AFADEAC517E612D20080708D /* RumAndCokeSpec.m in Sources */,
 				AFADEAC617E612D20080708D /* StoutSpec.m in Sources */,
 				AF06DCBD17FE54A7009C5A18 /* JobArraySpec.m in Sources */,
+				AF66A954182B304F00C26F60 /* RatAdapterSpec.m in Sources */,
 				AFADEAC717E612D20080708D /* WhiskeySour.m in Sources */,
 				AFB5E17A1803944500FF4E36 /* CommandPatternViewControllerSpec.m in Sources */,
 				AFADEACC17E613080080708D /* BarSpec.m in Sources */,
