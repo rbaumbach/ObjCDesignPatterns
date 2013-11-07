@@ -1,6 +1,6 @@
-#import "Duck.h"
+#import "Rat.h"
 
 
-@interface SneakyRat : NSObject <Duck>
+@interface SneakyRat : NSObject <Rat>
 
 @end

@@ -3,26 +3,26 @@
 
 @implementation SneakyRat
 
-#pragma mark - <Duck>
+#pragma mark - <Rat>
 
-- (NSString *)quack
+- (NSString *)squeak
 {
-    return @"Quack Quack!!! (Uses duck call)";
+    return @"Squeak Squeak!!!";
 }
 
-- (NSString *)walk
+- (NSString *)runAround
 {
-    return @"Waddle...Waddle...(Uses swim flippers)";
+    return @"Run around really fast...";
 }
 
 - (NSString *)swim
 {
-    return @"Float, splash, paddle with webbed feet...(Uses waterproof duck suit and swim flippers)";
+    return @"Splash, rat paddle...";
 }
 
-- (NSString *)fly
+- (NSString *)flyWithSuperFlightSuit
 {
-    return @"Flying high gracefully...(Uses high powered super technological advanced wings)";
+    return @"Equips high powered super technological advanced wings and soars through the sky...";
 }
 
 @end

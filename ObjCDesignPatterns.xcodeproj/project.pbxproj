@@ -442,6 +442,7 @@
 		AF65186717F37B2C0001ECD5 /* AppWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppWindow.m; path = Utilities/AppWindow.m; sourceTree = "<group>"; };
 		AF65186817F37B2C0001ECD5 /* NSLogWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSLogWrapper.h; path = Utilities/NSLogWrapper.h; sourceTree = "<group>"; };
 		AF65186917F37B2C0001ECD5 /* NSLogWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSLogWrapper.m; path = Utilities/NSLogWrapper.m; sourceTree = "<group>"; };
+		AF66A951182B2D6000C26F60 /* Rat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rat.h; path = AdapterPattern/Rat.h; sourceTree = "<group>"; };
 		AF7145831804E6F000462C1B /* DelegatePatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DelegatePatternViewController.h; path = App/DelegatePatternViewController.h; sourceTree = "<group>"; };
 		AF7145841804E6F000462C1B /* DelegatePatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DelegatePatternViewController.m; path = App/DelegatePatternViewController.m; sourceTree = "<group>"; };
 		AF7145851804E6F000462C1B /* DelegatePatternViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DelegatePatternViewController.xib; path = App/DelegatePatternViewController.xib; sourceTree = "<group>"; };
@@ -1284,6 +1285,7 @@
 			isa = PBXGroup;
 			children = (
 				AFFBDBE0182A946A00BFD73C /* Duck.h */,
+				AF66A951182B2D6000C26F60 /* Rat.h */,
 				AFFBDBE4182A95D300BFD73C /* CrestedDuck.h */,
 				AFFBDBE5182A95D300BFD73C /* CrestedDuck.m */,
 				AFA2A43B182A9B2F00451487 /* SneakyRat.h */,

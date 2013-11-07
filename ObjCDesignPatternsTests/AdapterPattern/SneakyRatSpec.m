@@ -1,5 +1,5 @@
 #import "Kiwi.h"
-#import "Duck.h"
+#import "Rat.h"
 #import "SneakyRat.h"
 
 
@@ -13,36 +13,36 @@ describe(@"SneakyRat", ^{
     });
     
     it(@"conforms to <Duck>", ^{
-        BOOL conformsToProtocol = [SneakyRat conformsToProtocol:@protocol(Duck)];
+        BOOL conformsToProtocol = [SneakyRat conformsToProtocol:@protocol(Rat)];
         [[theValue(conformsToProtocol) should] beYes];
     });
     
-    context(@"<Duck>", ^{
-        context(@"quack", ^{
-            it(@"returns 'Quack Quack!!! (Uses duck call)'", ^{
-                NSString *quack = [sneakyRat quack];
-                [[quack should] equal:@"Quack Quack!!! (Uses duck call)"];
+    context(@"<Rat>", ^{
+        context(@"squeak", ^{
+            it(@"returns 'Squeak Squeak!!!'", ^{
+                NSString *squeak = [sneakyRat squeak];
+                [[squeak should] equal:@"Squeak Squeak!!!"];
             });
         });
         
-        context(@"walk", ^{
-            it(@"returns 'Waddle...Waddle...(Uses swim flippers)'", ^{
-                NSString *walk = [sneakyRat walk];
-                [[walk should] equal:@"Waddle...Waddle...(Uses swim flippers)"];
+        context(@"runAround", ^{
+            it(@"returns 'Run around really fast...'", ^{
+                NSString *runAround = [sneakyRat runAround];
+                [[runAround should] equal:@"Run around really fast..."];
             });
         });
         
         context(@"swim", ^{
-            it(@"returns 'Float, splash, paddle with webbed feet...(Uses waterproof duck suit and swim flippers)'", ^{
+            it(@"returns 'Splash, rat paddle...'", ^{
                 NSString *swim = [sneakyRat swim];
-                [[swim should] equal:@"Float, splash, paddle with webbed feet...(Uses waterproof duck suit and swim flippers)"];
+                [[swim should] equal:@"Splash, rat paddle..."];
             });
         });
         
         context(@"fly", ^{
-            it(@"returns 'Flying high gracefully...(Uses high powered super technological advanced wings)'", ^{
-                NSString *fly = [sneakyRat fly];
-                [[fly should] equal:@"Flying high gracefully...(Uses high powered super technological advanced wings)"];
+            it(@"returns 'Equips high powered super technological advanced wings and soars through the sky...'", ^{
+                NSString *fly = [sneakyRat flyWithSuperFlightSuit];
+                [[fly should] equal:@"Equips high powered super technological advanced wings and soars through the sky..."];
             });
         });
     });
