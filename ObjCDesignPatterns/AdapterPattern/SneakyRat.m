@@ -7,22 +7,22 @@
 
 - (NSString *)squeak
 {
-    return @"Squeak Squeak!!!";
+    return @"Squeak Squeak!!!\n";
 }
 
 - (NSString *)runAround
 {
-    return @"Run around really fast...";
+    return @"Run around really fast...\n";
 }
 
 - (NSString *)swim
 {
-    return @"Splash, rat paddle...";
+    return @"Splash, rat paddle...\n";
 }
 
 - (NSString *)flyWithSuperFlightSuit
 {
-    return @"Equips high powered super technological advanced wings and soars through the sky...";
+    return @"Equips high powered super technological advanced wings and soars through the sky...\n";
 }
 
 @end

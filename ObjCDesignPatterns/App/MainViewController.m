@@ -6,6 +6,7 @@
 #import "DelegatePatternViewController.h"
 #import "IteratorPatternViewController.h"
 #import "StatePatternViewController.h"
+#import "AdapterPatternViewController.h"
 
 
 @interface MainViewController ()
@@ -18,6 +19,7 @@
 @property (strong, nonatomic) DelegatePatternViewController *delegatePatternViewController;
 @property (strong, nonatomic) IteratorPatternViewController *iteratorPatternViewController;
 @property (strong, nonatomic) StatePatternViewController *statePatternViewController;
+@property (strong, nonatomic) AdapterPatternViewController *adapterPatternViewController;
 
 @end
 
@@ -39,11 +41,12 @@
         self.delegatePatternViewController = [[DelegatePatternViewController alloc] init];
         self.iteratorPatternViewController = [[IteratorPatternViewController alloc] init];
         self.statePatternViewController = [[StatePatternViewController alloc] init];
+        self.adapterPatternViewController = [[AdapterPatternViewController alloc] init];
         
         self.tableViewDataSource = @[self.factoryPatternsViewController, self.singletonPatternViewController,
                                      self.observerPatternViewController, self.commandPatternViewController,
                                      self.delegatePatternViewController, self.iteratorPatternViewController,
-                                     self.statePatternViewController];
+                                     self.statePatternViewController,    self.adapterPatternViewController];
     }
     return self;
 }

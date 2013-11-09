@@ -7,22 +7,22 @@
 
 - (NSString *)quack
 {
-    return @"Quack Quack!!!";
+    return @"Quack Quack!!!\n";
 }
 
 - (NSString *)walk
 {
-    return @"Waddle...Waddle...";
+    return @"Waddle...Waddle...\n";
 }
 
 - (NSString *)swim
 {
-    return @"Float, splash, paddle with webbed feet...";
+    return @"Float, splash, paddle with webbed feet...\n";
 }
 
 - (NSString *)fly
 {
-    return @"Flying high gracefully...";
+    return @"Flying high gracefully...\n";
 }
 
 @end

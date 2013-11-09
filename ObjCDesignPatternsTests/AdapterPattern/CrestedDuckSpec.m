@@ -19,30 +19,30 @@ describe(@"CrestedDuck", ^{
     
     context(@"<Duck>", ^{
         context(@"quack", ^{
-            it(@"returns 'Quack Quack!!!'", ^{
+            it(@"returns 'Quack Quack!!!\n'", ^{
                 NSString *quack = [crestedDuck quack];
-                [[quack should] equal:@"Quack Quack!!!"];
+                [[quack should] equal:@"Quack Quack!!!\n"];
             });
         });
         
         context(@"walk", ^{
-            it(@"returns 'Waddle...Waddle...'", ^{
+            it(@"returns 'Waddle...Waddle...\n'", ^{
                 NSString *walk = [crestedDuck walk];
-                [[walk should] equal:@"Waddle...Waddle..."];
+                [[walk should] equal:@"Waddle...Waddle...\n"];
             });
         });
         
         context(@"swim", ^{
-            it(@"returns 'Float, splash, paddle with webbed feet...'", ^{
+            it(@"returns 'Float, splash, paddle with webbed feet...\n'", ^{
                 NSString *swim = [crestedDuck swim];
-                [[swim should] equal:@"Float, splash, paddle with webbed feet..."];
+                [[swim should] equal:@"Float, splash, paddle with webbed feet...\n"];
             });
         });
         
         context(@"fly", ^{
-            it(@"returns 'Flying high gracefully...'", ^{
+            it(@"returns 'Flying high gracefully...\n'", ^{
                 NSString *fly = [crestedDuck fly];
-                [[fly should] equal:@"Flying high gracefully..."];
+                [[fly should] equal:@"Flying high gracefully...\n"];
             });
         });
     });

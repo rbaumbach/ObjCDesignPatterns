@@ -8,6 +8,7 @@
 #import "DelegatePatternViewController.h"
 #import "IteratorPatternViewController.h"
 #import "StatePatternViewController.h"
+#import "AdapterPatternViewController.h"
 
 
 @interface MainViewController ()
@@ -20,6 +21,7 @@
 @property (strong, nonatomic) DelegatePatternViewController *delegatePatternViewController;
 @property (strong, nonatomic) IteratorPatternViewController *iteratorPatternViewController;
 @property (strong, nonatomic) StatePatternViewController *statePatternViewController;
+@property (strong, nonatomic) AdapterPatternViewController *adapterPatternViewController;
 
 - (UITableViewCell *)getTableViewCellWithTableView:(UITableView *)tableView;
 
@@ -103,8 +105,12 @@ describe(@"MainViewController", ^{
         [controller.statePatternViewController shouldNotBeNil];
     });
     
+    it(@"has an adapterPatternViewController", ^{
+        [controller.adapterPatternViewController shouldNotBeNil];
+    });
+    
     it(@"has correct tableView data source", ^{
-        NSArray *expectedDataSource = @[controller.factoryPatternsViewController, controller.singletonPatternViewController, controller.observerPatternViewController, controller.commandPatternViewController, controller.delegatePatternViewController, controller.iteratorPatternViewController, controller.statePatternViewController];
+        NSArray *expectedDataSource = @[controller.factoryPatternsViewController, controller.singletonPatternViewController, controller.observerPatternViewController, controller.commandPatternViewController, controller.delegatePatternViewController, controller.iteratorPatternViewController, controller.statePatternViewController, controller.adapterPatternViewController];
         [[controller.tableViewDataSource should] equal:expectedDataSource];
     });
 
