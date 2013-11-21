@@ -2,7 +2,7 @@
 
 Design pattern samples in Objective-C.
 
-## Current Design Pattern Samples
+## Current Design Pattern Samples*
 
 1.  Factory Patterns - Factory Method and Abstract Factory
 2.  Singleton Pattern
@@ -13,7 +13,7 @@ Design pattern samples in Objective-C.
 7.  State Pattern
 8.  Adapter Pattern
 
-*Many more patterns to follow in the near future.
+*More patterns to follow in the near future.
 
 All patterns are fully tested using the Kiwi BDD testing framework.
 
